@@ -62,6 +62,9 @@ const config: Config = {
   //themes: ["@docusaurus/theme-search-algolia"],
 
   themeConfig: {
+    metadata: [
+      { name: "algolia-site-verification", content: "16A356319FCCF42D" },
+    ],
     image: "img/docusaurus-social-card.jpg",
     navbar: {
       title: "Satisfic",
