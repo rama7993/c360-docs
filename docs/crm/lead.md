@@ -1,7 +1,8 @@
 ---
-id: crm/lead
+id: lead
 title: Lead Management
 sidebar_label: Lead
+slug: /crm/lead
 ---
 
 # Lead Management
