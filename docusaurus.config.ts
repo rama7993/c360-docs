@@ -145,10 +145,10 @@ const config: Config = {
       indexName: "satisfic-docs",
       contextualSearch: true,
       externalUrlRegex: "external\\.com|domain\\.com",
-      replaceSearchResultPathname: {
-        from: "/docs/",
-        to: "/",
-      },
+      // replaceSearchResultPathname: {
+      //   from: "/docs/",
+      //   to: "/",
+      // },
       searchParameters: {},
       // 👉 If you want only navbar search:
       searchPagePath: false,
