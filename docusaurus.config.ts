@@ -142,7 +142,7 @@ const config: Config = {
     algolia: {
       appId: "9J52VS5PU4",
       apiKey: "809e9ff25d0a566ab473749a0be5dae2",
-      indexName: "dev_satisfic",
+      indexName: "satisfic-docs",
       contextualSearch: true,
       externalUrlRegex: "external\\.com|domain\\.com",
       replaceSearchResultPathname: {
