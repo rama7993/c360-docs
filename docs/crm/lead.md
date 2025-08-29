@@ -204,7 +204,7 @@ flowchart LR
 - To **change owner** → Select lead → Click **Change Owner** → Choose a user → Click **Change Owner**.
 
 :::info
-For advanced allocation strategies, see [Shark Tank & Round Robin](./shark-tank-round-robin).
+For advanced allocation strategies, see [Shark Tank & Round Robin](../miscellaneous/shark-tank-round-robin).
 :::
 
 <figure>

@@ -191,6 +191,12 @@ const sidebars: SidebarsConfig = {
           id: "miscellaneous/user-profile",
           label: "User Profile",
         },
+
+        {
+          type: "doc",
+          id: "miscellaneous/shark-tank-round-robin",
+          label: "Shark Tank & Round Robin",
+        },
       ],
     },
   ],
