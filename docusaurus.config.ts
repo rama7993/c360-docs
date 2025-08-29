@@ -58,9 +58,10 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
-
-  //themes: ["@docusaurus/theme-search-algolia"],
-
+  markdown: {
+    mermaid: true,
+  },
+  themes: ["@docusaurus/theme-mermaid"],
   themeConfig: {
     metadata: [
       { name: "algolia-site-verification", content: "16A356319FCCF42D" },
@@ -72,6 +73,7 @@ const config: Config = {
         alt: "Satisfic Logo",
         src: "img/logo.svg",
       },
+
       items: [
         {
           type: "docSidebar",
@@ -83,12 +85,17 @@ const config: Config = {
           type: "search", // Algolia search bar
           position: "right",
         },
-        {
-          href: "https://github.com/facebook/docusaurus",
-          label: "GitHub",
-          position: "right",
-        },
+        // {
+        //   href: "https://github.com/facebook/docusaurus",
+        //   label: "GitHub",
+        //   position: "right",
+        // },
       ],
+    },
+    sidebar: {
+      hideable: true,
+      sidebarCollapsed: false,
+      autoCollapseCategories: false,
     },
     footer: {
       style: "dark",
@@ -97,7 +104,7 @@ const config: Config = {
           title: "Docs",
           items: [
             {
-              label: "Tutorial",
+              label: "Get Started",
               to: "/docs/intro",
             },
           ],
@@ -133,7 +140,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Satisfic, Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
@@ -155,6 +162,12 @@ const config: Config = {
       // 👉 If you want a dedicated /search page instead:
       // searchPagePath: "search",
       insights: false,
+    },
+    mermaid: {
+      theme: { light: "neutral", dark: "forest" },
+      // options: {
+      //   maxTextSize: 50,
+      // },
     },
   } satisfies Preset.ThemeConfig,
 };

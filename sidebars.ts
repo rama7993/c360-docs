@@ -21,9 +21,11 @@ const sidebars: SidebarsConfig = {
   // But you can create a sidebar manually
   tutorialSidebar: [
     { type: "doc", id: "intro", label: "Introduction" },
+
     {
       type: "category",
       label: "Sales",
+      collapsed: true,
       items: [
         { type: "doc", id: "crm/lead", label: "Lead" },
         { type: "doc", id: "crm/account", label: "Account" },
@@ -31,38 +33,65 @@ const sidebars: SidebarsConfig = {
         { type: "doc", id: "crm/opportunity", label: "Opportunity" },
       ],
     },
+
     {
       type: "category",
       label: "Marketing",
+      collapsed: true,
       items: [
         {
           type: "doc",
           id: "marketing/campaign-audience",
-          label: "Campaign Audience",
+          label: "Audience",
+        },
+        { type: "doc", id: "marketing/campaign", label: "Campaign" },
+        {
+          type: "category",
+          label: "Social",
+          collapsed: true,
+          items: [
+            {
+              type: "doc",
+              id: "marketing/social/social-monitoring",
+              label: "Social Monitoring",
+            },
+            {
+              type: "doc",
+              id: "marketing/social/media-library",
+              label: "Media Library",
+            },
+          ],
         },
         {
-          type: "doc",
-          id: "marketing/campaign",
-          label: "Campaign Management",
-        },
-        { type: "doc", id: "marketing/asset", label: "Asset" },
-        { type: "doc", id: "marketing/landing-page", label: "Landing Page" },
-        { type: "doc", id: "marketing/form-builder", label: "Form Builder" },
-        { type: "doc", id: "marketing/media-library", label: "Media Library" },
-        {
-          type: "doc",
-          id: "marketing/social-monitoring",
-          label: "Social Monitoring",
+          type: "category",
+          label: "Components",
+          collapsed: true,
+          items: [
+            { type: "doc", id: "marketing/components/asset", label: "Asset" },
+            {
+              type: "doc",
+              id: "marketing/components/landing-page",
+              label: "Landing Page",
+            },
+            {
+              type: "doc",
+              id: "marketing/components/form-builder",
+              label: "Form Builder",
+            },
+          ],
         },
       ],
     },
+
     {
       type: "category",
       label: "Analytics",
+      collapsed: true,
       items: [
         {
           type: "category",
           label: "Insights",
+          collapsed: true,
           items: [
             {
               type: "doc",
@@ -84,6 +113,7 @@ const sidebars: SidebarsConfig = {
         {
           type: "category",
           label: "Reports",
+          collapsed: true,
           items: [
             {
               type: "doc",
@@ -103,27 +133,64 @@ const sidebars: SidebarsConfig = {
     {
       type: "category",
       label: "Account Management",
+      collapsed: true,
       items: [
-        { type: "doc", id: "account/user", label: "User" },
-        { type: "doc", id: "account/group", label: "Group" },
+        { type: "doc", id: "account-management/user", label: "User" },
+        { type: "doc", id: "account-management/group", label: "Group" },
       ],
     },
+
     {
       type: "category",
       label: "System Configure",
+      collapsed: true,
       items: [
-        { type: "doc", id: "account/system-config", label: "System Config" },
+        {
+          type: "doc",
+          id: "system-config/notification-content",
+          label: "Notification Content",
+        },
+
+        { type: "doc", id: "system-config/lead", label: "Lead" },
+        {
+          type: "doc",
+          id: "system-config/opportunities",
+          label: "Opportunities",
+        },
+        {
+          type: "doc",
+          id: "system-config/account-type",
+          label: "Account Type",
+        },
+        { type: "doc", id: "system-config/category", label: "Category" },
+        {
+          type: "doc",
+          id: "system-config/campaign-attributes",
+          label: "Campaign Attributes",
+        },
+        { type: "doc", id: "system-config/asset-type", label: "Asset Type" },
       ],
     },
+
     {
       type: "category",
       label: "Miscellaneous",
+      collapsed: true,
       items: [
-        { type: "doc", id: "account/tasks", label: "Tasks" },
-        { type: "doc", id: "account/notes", label: "Notes" },
-        { type: "doc", id: "account/lead-alerts", label: "Lead Alerts" },
-        { type: "doc", id: "account/launch-guide", label: "Launch Guide" },
-        { type: "doc", id: "account/videos", label: "Videos" },
+        { type: "doc", id: "miscellaneous/tasks", label: "Tasks" },
+        { type: "doc", id: "miscellaneous/notes", label: "Notes" },
+        { type: "doc", id: "miscellaneous/lead-alerts", label: "Lead Alerts" },
+        {
+          type: "doc",
+          id: "miscellaneous/launch-guide",
+          label: "Launch Guide",
+        },
+        { type: "doc", id: "miscellaneous/videos", label: "Videos" },
+        {
+          type: "doc",
+          id: "miscellaneous/user-profile",
+          label: "User Profile",
+        },
       ],
     },
   ],
