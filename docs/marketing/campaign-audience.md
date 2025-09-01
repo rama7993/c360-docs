@@ -1,24 +1,20 @@
 # 👥 Campaign Audience Management
 
-The **Campaign Audience** module in C360 lets you manage **Segment Lists** and **Campaign Lists**, making it easy to organize, import, and target your audience.
+The **Campaign Audience** module in C360 enables you to efficiently organize, manage, and target your audiences through **Segment Lists** and **Campaign Lists**.  
+It provides the flexibility to build precise audience groups, import data seamlessly, and prepare campaign-ready lists.
 
-👉 Navigate to **Marketing → Audience** from the left-hand menu.
-
-<figure>
-  <img src="/media/audience/open-campaign-audience.png" alt="Open Campaign Audience module" />
-  <figcaption>Open Campaign Audience module</figcaption>
-</figure>
+👉 Access this module via **Marketing → Audience** from the left-hand menu.
 
 ---
 
 ## 📋 Segment Lists
 
-Segment Lists are groups of leads or contacts filtered based on specific conditions.  
-They help target audiences effectively in campaigns.
+**Segment Lists** are dynamic groups of leads or contacts, created by applying filters and conditions.  
+They are essential for building targeted audiences and ensuring campaigns reach the right people.
 
-### List View
+### 📑 List View
 
-The **List View** displays all segments in a table.
+The **List View** displays all available segments in a structured table.
 
 | Field                    | Description                        |
 | ------------------------ | ---------------------------------- |
@@ -29,108 +25,109 @@ The **List View** displays all segments in a table.
 
 <figure>
   <img src="/media/audience/segment-list-view.png" alt="Segment List view" />
-  <figcaption>Segment List - Table view</figcaption>
+  <figcaption>Segment List – Table view</figcaption>
 </figure>
 
-### 🔍 Search Segment Lists
+### 🔍 Searching Segments
 
 - Enter a **segment name** or keyword in the search bar.
-- Press **Enter** to filter results.
+- Press **Enter** to display matching results.
 
 <figure>
   <img src="/media/audience/search-segment.png" alt="Search Segment List" />
-  <figcaption>Search Segment List</figcaption>
+  <figcaption>Searching for segments</figcaption>
 </figure>
 
-### ➕ Add / Edit / Clone Segment
+### ➕ Adding, Editing, or Cloning a Segment
 
 1. Click **Add Segment**.
-2. Enter a **unique name**.
+2. Enter a **unique name** for the segment.
 3. Define **conditions**:
-   - Toggle **All / Any** to match conditions.
-   - Add multiple **groups** for complex filters.
-4. Click **Preview** to view leads.
+   - Toggle **All / Any** to define matching logic.
+   - Add multiple **groups** to build advanced filters.
+4. Click **Preview** to view the matching leads.
 5. Click **Save** to store the segment.
 
 <figure>
   <img src="/media/audience/add-segment.png" alt="Add Segment" />
-  <figcaption>Add a new segment</figcaption>
+  <figcaption>Creating a new segment</figcaption>
 </figure>
 
-- **Edit:** Click **✏️ Pencil icon**.
-- **Clone:** Click **📑 Clone icon** (name prefixed with “Clone of -”).
+- **Edit:** Click the **✏️ Pencil icon**.
+- **Clone:** Click the **📑 Clone icon**. The system automatically prefixes the new segment with _“Clone of –”_.
 
 ---
 
 ## 📑 Campaign Lists
 
-Campaign Lists are audiences linked to campaigns. You can import, create, and manage leads for campaign execution.
+**Campaign Lists** are audiences directly associated with campaigns.  
+They can be created manually, imported from files, or customized from existing leads.
 
-### List View
+### 📑 List View
 
-| Field                    | Description                     |
-| ------------------------ | ------------------------------- |
-| **Campaign Name**        | Name of the campaign list       |
-| **Lead Count**           | Number of leads (click to view) |
-| **Created By / On**      | Creator and date                |
-| **Last Updated By / On** | Last modified by user and date  |
-| **Actions**              | Upload, Edit, Delete            |
+| Field                    | Description                 |
+| ------------------------ | --------------------------- |
+| **Campaign Name**        | Name of the campaign list   |
+| **Lead Count**           | Total leads (click to view) |
+| **Created By / On**      | Creator and date            |
+| **Last Updated By / On** | Last modified user and date |
+| **Actions**              | Upload, Edit, Delete        |
 
 <figure>
   <img src="/media/audience/campaign-list-view.png" alt="Campaign List view" />
-  <figcaption>Campaign List - Table view</figcaption>
+  <figcaption>Campaign List – Table view</figcaption>
 </figure>
 
-### 🔍 Search Campaign Lists
+### 🔍 Searching Campaign Lists
 
 - Enter a **campaign list name** or keyword in the search bar.
-- Press **Enter** to filter results.
+- Press **Enter** to display results.
 
 <figure>
   <img src="/media/audience/search-campaign.png" alt="Search Campaign List" />
-  <figcaption>Search Campaign List</figcaption>
+  <figcaption>Searching for campaign lists</figcaption>
 </figure>
 
 ---
 
-## 📤 Upload / Import Campaign Lists
+## 📤 Uploading / Importing Campaign Lists
 
 1. Click **Add Campaign → Upload**.
-2. Attach a **CSV / Excel file**. Use **Sample File** for reference.
-3. Map file columns to required fields.
-4. Optionally run **Email Validation**.
-5. Preview imported leads.
-6. Click **Next** → select leads to save.
-7. Review summary → click **Import**.
+2. Attach a **CSV or Excel file** (use the **Sample File** for reference).
+3. Map the file columns to system fields.
+4. Preview imported leads for accuracy.
+5. Click **Next** → select the leads to save.
+6. Review the summary and click **Import**.
 
 <figure>
   <img src="/media/audience/upload-campaign-list.png" alt="Upload Campaign List" />
-  <figcaption>Upload campaign list from file</figcaption>
+  <figcaption>Uploading a campaign list from file</figcaption>
 </figure>
 
 ---
 
-## ➕ Create a Custom Campaign List
+## ➕ Creating a Custom Campaign List
 
 1. Click **Add Campaign → Custom**.
-2. Enter a **name**.
+2. Enter a **list name**.
 3. Select leads from **existing campaign lists**.
-4. Preview and optionally remove leads.
-5. Click **Save** → a new campaign list is created.
+4. Preview and refine the list (remove leads if necessary).
+5. Click **Save** → your new campaign list is ready.
 
 <figure>
   <img src="/media/audience/custom-campaign-list.png" alt="Create Custom Campaign List" />
-  <figcaption>Create a campaign list from existing leads</figcaption>
+  <figcaption>Creating a custom campaign list</figcaption>
 </figure>
 
 ---
 
-## 💡 Tips
+## 💡 Best Practices
 
-- Use meaningful segment names for clarity.
-- Clone segments to create variations without starting from scratch.
-- Apply filters to quickly locate segments or campaigns.
+- Use **descriptive names** for segments and lists for easy reference.
+- **Clone segments** to quickly create variations without starting from scratch.
+- Apply filters to locate and refine segments or lists efficiently.
 
 :::warning
-Deleting a segment or campaign list **cannot be undone**. Confirm before deleting.
+Deleting a segment or campaign list is **permanent** and cannot be undone.  
+Be sure before confirming deletion.  
 :::

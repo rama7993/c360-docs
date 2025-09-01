@@ -13,8 +13,6 @@ To access it:
 The **Opportunity List** provides a complete overview of all opportunities in the system.  
 You can switch between **List View** and **Grid View** depending on your preference.
 
----
-
 <Tabs>
   <TabItem value="list" label="📋 List View" default>
 
@@ -124,17 +122,24 @@ flowchart LR
 
 ### Filter
 
-You can filter by:
+# Opportunity Filters
 
-- Lead Source
-- Opportunity Type
-- Opportunity Stage
-- Account Name
+You can filter opportunities by:
+
+<details>
+<summary>Click to view available opportunity filters</summary>
+
+- **Lead Source** – Opportunities based on where the lead originated (e.g., Website, Referral, Campaign).
+- **Opportunity Type** – Categorize opportunities by type (e.g., New Business, Renewal, Upsell).
+- **Opportunity Stage** – Filter opportunities according to the sales stage (e.g., Prospecting, Negotiation, Closed Won).
+- **Account Name** – View opportunities linked to a specific account or client.
+
+</details>
 
 :::tip
 
 - Toggle between **Active** and **Archived** opportunities.
-- Tabs let you switch between **Opportunities Owned by You** vs **Assigned to You**.  
+- Use tabs to switch between **Opportunities Owned by You** vs **Assigned to You**.  
   :::
 
 <figure>
@@ -144,6 +149,15 @@ You can filter by:
   />
   <figcaption>Filter opportunities by multiple criteria</figcaption>
 </figure>
+
+---
+
+## 📋 Filters Summary
+
+- **Lead Source** → Origin of the opportunity (Website, Referral, Campaign, etc.)
+- **Opportunity Type** → Business type (New, Renewal, Upsell)
+- **Opportunity Stage** → Current sales stage (Prospecting → Negotiation → Closed)
+- **Account Name** → Specific account or organization
 
 ---
 
@@ -164,20 +178,25 @@ You can filter by:
 
 ## 📝 Viewing & Managing Opportunity Details
 
-- **Opportunity Owner**
-- **Opportunity Name**
-- **Account Name**
-- **Type, Probability, Amount**
-- **Assigned User**
+Each opportunity contains a **detailed view** where you can review and update key information.
 
-You can also manage:
+### Core Details
 
-- Notes
-- Tasks
-- Activities
+- **Opportunity Owner** — who manages the opportunity.
+- **Opportunity Name** — unique identifier/title of the deal.
+- **Account Name** — the customer or account linked to the opportunity.
+- **Type, Probability, Amount** — classification (e.g., New Business), closure likelihood, and deal value.
+- **Assigned User** — the team member responsible.
+
+### Actions You Can Perform
+
+- **Edit Opportunity**: Update details, change the owner, or adjust the stage.
+- **Reassign**: Allocate the opportunity to another user.
+- **Add Notes & Tasks**: Log important updates or schedule follow-up actions.
+- **Track Activities**: Review past engagements and interactions.
 
 :::note  
-Click **Add Note** or **Add Task** to log new interactions.  
+Use the **Add Note** or **Add Task** buttons in the top-right corner to capture new updates and ensure smooth follow-ups.  
 :::
 
 <figure>
@@ -185,7 +204,7 @@ Click **Add Note** or **Add Task** to log new interactions.
     src="/static/media/crm/opportunity/opportunity-detail.png"
     alt="Opportunity Details"
   />
-  <figcaption>Detailed view of an opportunity</figcaption>
+  <figcaption>Opportunity detail view with editable fields and related activities</figcaption>
 </figure>
 
 ---

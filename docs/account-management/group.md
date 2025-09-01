@@ -3,83 +3,116 @@ import TabItem from '@theme/TabItem';
 
 # 🗂 Groups
 
-Groups help organize users based on roles, departments, or shared attributes.  
-They simplify management of access, permissions, and reporting.
+Groups are collections of users organized by **roles, departments, or shared attributes**.  
+They simplify **access management, permissions control, and reporting**.
 
----
-
-## ⚙️ Access Groups
+To access Groups:
 
 1. Click **Settings** in the header.
-2. Navigate to **Account Settings → Groups**.
+2. Navigate to **Account Settings → Groups**.  
+   _(The Groups tab is selected by default)._
 
 ---
 
 ## 🖥️ Group Views
 
+Groups can be displayed in **List View** or **Tree View** for better organization.
+
 <Tabs defaultValue="list">
 
-<TabItem value="list" label="List View">
+<TabItem value="list" label="📋 List View">
 
-- **Columns**: Group Name, Description, User Count, Actions (Edit/Delete)
+- **Columns**:
+  - Group Name
+  - Description
+  - User Count
+  - Actions (Edit / Delete)
 - **Top Features**:
-  - **Search bar** → Find groups quickly
+  - **Search bar** → Quickly find groups
   - **Add button** → Create a new group
-  - **Toggle button** → Switch between List / Tree views
+  - **Toggle button** → Switch to Tree View
 
 </TabItem>
 
-<TabItem value="tree" label="Tree View">
+<TabItem value="tree" label="🌳 Tree View">
 
-- Groups are displayed hierarchically (Parent → Child)
-- **Delete group** → Trash icon
-- **Edit group** → Pencil icon or click group name
+- Displays groups in a **hierarchical structure** (Parent → Child).
+- **Edit** → Click pencil icon or group name.
+- **Delete** → Click trash icon under Actions.
+
+<figure>
+  <img src="media/image2.png" alt="Group Tree View" />
+  <figcaption>Groups displayed in Tree View</figcaption>
+</figure>
 
 </TabItem>
 </Tabs>
 
 ---
 
-## ➕ Add / Edit Group
+## ➕ Add / Edit a Group
 
 <details>
 <summary>Steps to Add a Group</summary>
 
-1. Click **Add Group**
+1. Click **Add Group**.
 2. Enter the following:
    - **Group Name**
    - **Description**
-3. Configure permissions for modules and features.
-4. Click **Save**
+3. Configure **permissions** for modules or features.
+4. Click **Save** to create the group.
+
+<figure>
+  <img src="media/image4.png" alt="Add Group" />
+  <figcaption>Adding a new group</figcaption>
+</figure>
 </details>
 
-**To Edit a Group:**  
-Click the **pencil icon** or the group name in the table.
+**To Edit a Group:**
+
+- Click the **pencil icon** in the Actions column, or
+- Click the **Group Name** to open and update details.
+
+<figure>
+  <img src="media/image5.png" alt="Edit Group" />
+  <figcaption>Editing group details</figcaption>
+</figure>
 
 ---
 
 ## 🔍 Search Groups
 
-- Enter a group name or keyword in the search bar.
+- Type a **group name** or keyword in the search bar.
 - Press **Enter** to filter results.
+
+<figure>
+  <img src="media/image3.png" alt="Search Groups" />
+  <figcaption>Search for groups</figcaption>
+</figure>
 
 ---
 
 ## 📄 View Group Details
 
-- Click the group name to open the details page.
-- Review:
-  - User list in the group
-  - Permissions assigned to the group
+Click a **Group Name** in List View or Tree View to open its details page.  
+Here you can review:
+
+- **User List** (Name, Email, Email Verified)
+- **Assigned Permissions**
+
+<figure>
+  <img src="media/image6.png" alt="Group Details" />
+  <figcaption>Group details with user list</figcaption>
+</figure>
 
 ---
 
 ## 💡 Tips
 
 :::tip
-Use descriptive group names to simplify user management.
+Use descriptive group names to simplify management.  
 :::
 
 :::warning
-Deleting a group **cannot be undone**. Ensure no users depend solely on this group.
+Deleting a group **cannot be undone**. Ensure users have alternate access paths before removal.  
 :::

@@ -3,15 +3,14 @@ import TabItem from '@theme/TabItem';
 
 # 👤 Users
 
-Users are individual accounts in **C360**.  
-Each user belongs to a group, which determine permissions and access levels.
+**Users** are individual accounts in **C360**.  
+Each user is associated with a **Group**, which defines their access rights, permissions, and responsibilities within the system.
 
----
-
-## ⚙️ Access Users
+To access Users:
 
 1. Click **Settings** in the header.
 2. Navigate to **Account Settings → Users**.
+   _(The Groups tab is selected by default)._
 
 ---
 
@@ -19,71 +18,75 @@ Each user belongs to a group, which determine permissions and access levels.
 
 <Tabs defaultValue="list">
 
-<TabItem value="list" label="List View">
+<TabItem value="list" label="📋 List View">
 
-- **Columns**: First Name, Last Name, Email, Email Verified, User Group, Actions (Edit/Delete)
-- **Sorting**: Click column headers to sort by any field
+- **Columns**: First Name, Last Name, Email, Email Verified, Assigned Group, Actions (Edit/Delete)
+- **Sorting**: Click any column header to sort users
 - **Top Features**:
-  - **Search bar** → Find users quickly
+  - **Search bar** → Quickly locate users
   - **Add button** → Create a new user
   - **Toggle button** → Switch between List / Tree views
 
 </TabItem>
 
-<TabItem value="tree" label="Tree View">
+<TabItem value="tree" label="🌳 Tree View">
 
-- Displays users hierarchically, showing parent-child relationships if applicable.
-- **Delete user** → Trash icon
-- **Edit user** → Pencil icon or Edit button in the sidebar
+- Displays users in a **hierarchical structure** (Parent → Child, if applicable).
+- **Edit** → Pencil icon or Edit button in the sidebar
+- **Delete** → Trash icon under Actions
 
 </TabItem>
 </Tabs>
 
 ---
 
-## ➕ Add / Edit User
+## ➕ Add / Edit a User
 
 <details>
 <summary>Steps to Add a User</summary>
 
-1. Click **Add**
-2. Fill in the required fields:
-   - First Name
-   - Last Name
-   - Phone
-   - Email
-   - Group assignment
-3. Click **Save**
+1. Click **Add User**
+2. Enter the following details:
+   - **First Name**
+   - **Last Name**
+   - **Phone**
+   - **Email**
+   - **Group Assignment**
+3. Click **Save** to complete user creation.
+
 </details>
 
-**To Edit a User:**  
-Use the **pencil icon** in the table or the **Edit button** on the user details page.
+**To Edit a User:**
+
+- Click the **pencil icon** in the user list, or
+- Use the **Edit button** on the user’s details page.
 
 ---
 
 ## 🔍 Search Users
 
-- Enter a name or keyword in the search bar.
-- Press **Enter** to filter results instantly.
+- Enter a **name or keyword** in the search bar.
+- Press **Enter** to instantly filter results.
 
 ---
 
 ## 📄 View User Details
 
-- Click a user’s name to open the details sidebar.
-- Review:
-  - Group assignment
-  - Email verification status
-  - Access permissions
+Click a user’s name to open the details sidebar.  
+Here you can review:
+
+- **Assigned Group**
+- **Email Verification Status**
+- **Access Permissions**
 
 ---
 
-## 💡 Tips
+## 💡 Best Practices
 
 :::tip
-Always assign users to appropriate groups to ensure correct permissions and access.
+Always assign users to the **appropriate group** to ensure correct access levels and permissions.  
 :::
 
 :::warning
-Deleting a user **cannot be undone**. Confirm before removing.
+Deleting a user **is permanent**. Confirm before proceeding to avoid accidental data loss.  
 :::

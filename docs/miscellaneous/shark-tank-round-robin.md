@@ -1,134 +1,116 @@
-# Shark Tank & Round Robin Management
+---
+title: Shark Tank & Round Robin Lead Distribution
+---
 
-The **C360 Partner Leads Management** module provides two flexible ways of distributing leads:
+The **C360 Partner Leads Management** module empowers you to distribute leads intelligently, ensuring **speed, fairness, and accountability**.  
+You can choose between two flexible strategies:
 
-- **Shark Tank** → Multiple users can claim leads, with admins reviewing claim requests.
-- **Round Robin** → Leads are distributed fairly among partners in rotation.
+- **Shark Tank** → Partners compete to claim available leads, with admins approving requests.
+- **Round Robin** → Leads are assigned automatically and fairly in a rotation.
 
-Both methods help ensure **efficient, transparent, and fair lead allocation**.
+Both methods help you maximize efficiency while maintaining **full transparency in lead ownership**.
 
 ---
 
 ## 🦈 Shark Tank Management
 
-The **Shark Tank** strategy distributes leads to a group of partners or users, who can then **claim ownership** of available leads. Admins control approvals to maintain accountability.
+With the **Shark Tank** model, leads are placed in a shared pool.  
+Eligible users or partners can **claim leads**, while admins maintain oversight and control.
 
-### Assign Leads in Shark Tank
+### 🔹 Assign Leads in Shark Tank
 
-1. Navigate to the **Leads List** in the **C360 Sales** module.
-2. Select the leads you want to assign.
-3. Click **Assign To**.
-4. In the dropdown, choose **Shark Tank**.
-5. Select the users or partners who should be eligible to claim leads.
+1. Open the **Leads List** in the **C360 Sales** module.
+2. Select the leads you want to distribute.
+3. Click **Assign To → Shark Tank**.
+4. Select which users or partners are eligible to claim leads.
 
 <figure>
   <img src="/media/shark-tank/assign-leads.png" alt="Assign leads in Shark Tank" />
-  <figcaption>Assigning leads to Shark Tank</figcaption>
+  <figcaption>Assigning leads into the Shark Tank pool</figcaption>
 </figure>
 
-Once leads are assigned:
+### 🔹 User Experience
 
-- **For users:**
-  - A **Claim Lead** option appears in **Lead Alerts**.
-  - Clicking **View** opens the **Claim Leads** table.
-  - Users can select leads and click **Claim** to request ownership.
-  - A notification is sent once the admin approves or rejects the claim.
+- Eligible users see a **Claim Lead** option in their alerts.
+- They can review available leads, select the ones they want, and submit a claim.
+- Once approved, the lead is assigned and visible in their pipeline.
 
 <figure>
   <img src="/media/shark-tank/claim-leads-table.png" alt="Claim Leads Table" />
-  <figcaption>Claim Leads data table for users</figcaption>
+  <figcaption>Claim Leads table for users</figcaption>
 </figure>
 
-<figure>
-  <img src="/media/shark-tank/claim-lead-action.png" alt="User claiming a lead" />
-  <figcaption>User claiming a lead</figcaption>
-</figure>
+### 🔹 Admin Control
 
-- **For admins:**
-  - A **Claim Review Request** notification appears in **Lead Alerts**.
-  - Clicking **View** shows all pending claim requests.
-  - Admin can **Approve** (grant ownership) or **Reject** (deny request).
-  - Claiming users are notified of the outcome via email.
-
-:::tip
-Use the **Claim Review Request** table to efficiently manage and process multiple claims at once.
-:::
+- Admins receive a **Claim Review Request** notification.
+- They can review all pending requests, then **Approve** or **Reject** claims.
+- Claiming users are automatically notified of the outcome via email.
 
 <figure>
   <img src="/media/shark-tank/claim-review-requests.png" alt="Claim Review Request Table" />
-  <figcaption>Admin reviewing pending lead claim requests</figcaption>
+  <figcaption>Admin reviewing pending lead claims</figcaption>
 </figure>
 
-<figure>
-  <img src="/media/shark-tank/claim-review-actions.png" alt="Admin claim approval/rejection" />
-  <figcaption>Admin approving or rejecting lead claim requests</figcaption>
-</figure>
+💡 **Business Value:** Shark Tank fosters a **competitive yet controlled environment** — encouraging proactive partners while ensuring admins retain final authority.
 
 ---
 
 ## 🔄 Round Robin Management
 
-The **Round Robin** strategy distributes leads **equally and fairly** across selected users or partners in a rotational order.
+The **Round Robin** strategy ensures every partner receives leads in an **equal, fair, and automated rotation**.
 
-This ensures:
+This approach guarantees:  
+✔ Balanced workloads  
+✔ No favoritism or bias  
+✔ Transparent tracking of lead allocation
 
-- Balanced workloads
-- Fair opportunity for every partner
-- Transparent tracking of lead allocation
+### 🔹 Assign Leads in Round Robin
 
-### Assign Leads in Round Robin
-
-1. Open the **Leads List** in the **C360 Partner Leads Management** module.
-2. Select the leads to assign.
-3. Click **Assign To**.
-4. In the dropdown, select **Round Robin**.
-5. Choose the users or partners to assign.
-   - Drag and reorder them to set the distribution sequence.
-   - If the Round Robin duration expires, leads move to the **next user in rotation**.
+1. Go to the **Leads List** in the **C360 Partner Leads Management** module.
+2. Select the leads you want to assign.
+3. Click **Assign To → Round Robin**.
+4. Choose eligible users/partners and drag to set the rotation order.
 
 <figure>
   <img src="/media/round-robin/assign-leads.png" alt="Assign leads in Round Robin" />
-  <figcaption>Assigning leads using Round Robin</figcaption>
+  <figcaption>Assigning leads automatically with Round Robin</figcaption>
 </figure>
 
-6. Once assigned:
-   - The lead status updates to **Round Robin in Progress**.
-   - After a user accepts the lead, it changes to **Assigned**.
+### 🔹 What Happens Next
 
-<figure>
-  <img src="/media/round-robin/round-robin-status.png" alt="Round Robin lead status" />
-  <figcaption>Status updates after Round Robin assignment</figcaption>
-</figure>
-
-- **For users:**
-  - They receive an **email notification**.
-  - Leads appear in **Lead Alerts**.
-  - Users can either **Accept** or **Reject** leads.
+- The system sets status to **Round Robin in Progress**.
+- Users are notified and can either **Accept** or **Reject** leads.
+- If rejected, the lead instantly moves to the next person in rotation.
 
 <figure>
   <img src="/media/round-robin/lead-alerts.png" alt="Round Robin Lead Alerts" />
-  <figcaption>Lead alerts for Round Robin users</figcaption>
+  <figcaption>Round Robin alerts for users</figcaption>
 </figure>
 
-- **Accept** → Lead is assigned to the user.
-- **Reject** → System reassigns the lead and updates notifications accordingly.
+💡 **Business Value:** Round Robin eliminates manual lead juggling — ensuring **speed, fairness, and consistency** in distribution.
 
 ---
 
-## ⚙️ Additional Configuration
+## ⚙️ Configurable Options
 
-Both **Shark Tank** and **Round Robin** strategies support:
+Both strategies offer smart automation controls:
 
-- **Duration**: Time limit before reassignment occurs.
-- **Remaining Time**: Monitor pending time for lead claims.
+- **Duration** → Define how long a user has before a lead is reassigned.
+- **Remaining Time** → Track pending time for each claim or acceptance.
 
-These settings are managed in:  
+Admins can configure these in:  
 **System Configuration → Lead Assign**.
 
 ---
 
-:::info Summary
+## 📌 Summary
 
-- **Shark Tank** → Competitive claim-based allocation (admin approval required).
-- **Round Robin** → Equal rotation-based allocation (automatic assignment).  
-  :::
+- **Shark Tank** → Competitive, claim-based allocation (with admin approval).
+- **Round Robin** → Automatic, equal distribution in rotation.
+
+With C360’s **dual lead management strategies**, you get the **flexibility to adapt to your sales style**:
+
+- Encourage **proactivity** with Shark Tank, or
+- Ensure **fairness and automation** with Round Robin.
+
+👉 Either way, your leads are always handled efficiently, transparently, and fairly.
