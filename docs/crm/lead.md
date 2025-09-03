@@ -1,7 +1,14 @@
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
 # Lead Management
 
-The **Lead Management** module in C360 helps you track and manage potential customers from their **first interaction** until **conversion**.  
-To access it, go to **Sales → Leads** in the sidebar.
+The **Lead Management** module in C360 helps you track and manage potential customers from their **first interaction** until **conversion**.
+
+To access it:  
+➡️ Go to **Sales** → **Contact** from the left-hand menu.
+
+---
 
 ## 📊 Leads Overview
 
@@ -34,6 +41,8 @@ You can **sort** columns (ascending/descending) and click the **maximize icon** 
   <figcaption>Lead list view</figcaption>
 </figure>
 
+---
+
 ## 🔄 Lead Lifecycle
 
 Below is the typical journey of a lead in the system:
@@ -49,6 +58,8 @@ flowchart TD
     F --> H[Closed Won / Lost]
 ```
 
+---
+
 ## 🔍 Searching for Leads
 
 - Enter keywords in fields such as **Name, Title, Email, Phone, Company Phone**.
@@ -58,6 +69,8 @@ flowchart TD
   <img src="/media/crm/lead/lead-search.png" alt="Search bar and filters for leads" />
   <figcaption>Search leads</figcaption>
 </figure>
+
+---
 
 ## 🎯 Filtering Leads
 
@@ -94,6 +107,8 @@ Leads move through **two parallel journeys**:
 - **Marketing Statuses** → Engagement-driven states (emails, forms, assets, events)
 - **Sales Statuses** → Qualification and conversion pipeline
 
+---
+
 ### 📈 Marketing Flow
 
 ```mermaid
@@ -112,6 +127,8 @@ stateDiagram-v2
     Dynamic_Form_Submitted --> Qualified_MQL
     Qualified_MQL --> [*]
 ```
+
+---
 
 ### 🏷️ Sales Flow
 
@@ -137,6 +154,8 @@ stateDiagram-v2
     classDef archived stroke-dasharray: 5 5,stroke:#999,fill:#f9f9f9;
     class Converted,Not_Interested,Unqualified archived;
 ```
+
+---
 
 ## ⬇️ Downloading Leads
 
@@ -198,26 +217,47 @@ flowchart LR
 
 ---
 
-## 👤 Assigning or Changing Owner
+## 👥 Assigning / Changing Lead Owner
 
-- To **assign a lead** → Select lead → Click **Assign To** → Choose a user → Click **Assign**.
-- To **change owner** → Select lead → Click **Change Owner** → Choose a user → Click **Change Owner**.
+<Tabs>
+<TabItem value="Assign" label="Assign Lead">
 
-:::info
-For advanced allocation strategies, see [Shark Tank & Round Robin](../miscellaneous/shark-tank-round-robin).
-:::
+1. Select leads from the list.
+2. Click **Assign To** → choose a user → click **Assign**.
 
 <figure>
-  <img src="/media/crm/lead/lead-assign.png" alt="Assign lead to user or change owner" />
-  <figcaption>Assign / Change Owner</figcaption>
+  <img src="/media/crm/lead/lead-assign.png" alt="Assign lead to user" />
+  <figcaption>Assign </figcaption>
 </figure>
+
+</TabItem>
+
+<TabItem value="Change" label="Change Owner">
+
+1. Select leads from the list.
+2. Click **Change Owner** → select user → click **Confirm**.
+
+<figure>
+  <img src="/media/crm/lead/lead-change owner.png" alt="change owner" />
+  <figcaption>Change Owner</figcaption>
+</figure>
+
+</TabItem>
+</Tabs>
 
 ---
 
-## ✏️ Adding / Editing Leads
+## ✏️ Add / Edit Leads
 
 - **Add** → Click **Add Lead** → Fill mandatory fields (marked with `*`) → **Save**.
 - **Edit** → Use the **pencil icon** (inline) or open detail page → **Edit** → **Save**.
+
+:::info
+  Lead can be created or added using three ways:
+  1. Normal Addition from list Page.
+  2. Via Import Lead.
+  3. While adding audience Campaign(If lead not exist in the list).
+    :::
 
 <figure>
   <img src="/media/crm/lead/lead-add-edit.png" alt="Add or edit lead form" />
