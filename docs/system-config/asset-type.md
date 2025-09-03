@@ -1,40 +1,50 @@
-### **Asset Type**
+# 🏷️ **Account Type**
 
-To access **Asset Type**:  
-➡️ Go to **Setting** → **System Configuration** → **Asset Type** from the Top Bar.
+To access **Account Type**:  
+➡️ Go to **Setting** → **System Configuration** → **Account Type** from the Top Bar.
 
 :::note
-An **Asset Type** categorizes the kind of content or resource used in marketing, such as **Whitepapers, eBooks, Videos, or Infographics**. It helps in efficiently organizing and managing marketing materials.
+An **Account Type** categorizes a business relationship, such as **Customer, Prospect, Partner, or Vendor**, helping teams manage interactions and strategies effectively.
 :::
 
 ---
 
-### **Fields**
+## 📋 **Fields**
+
 <details>
-  <summary><strong>**Name**</strong></summary>
-  <p>
-- **Name** – Represents the title or label of the asset type. 
-</p> 
+<summary><strong>Name</strong></summary>
+<p>  
+  Defines the title or label of the account type.
+</p>
 </details>
+
+<details>
+<summary><strong>Active / Archive (Toggle)</strong></summary>
+<p>
+  A switch to mark an account type as:  
+  - **Active** → currently in use  
+  - **Archived** → inactive or no longer needed  
+</p>
+</details>
+
 ---
 
-### **Actions**
+## ⚡ **Actions**
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <Tabs>
   <TabItem value="save" label="💾Save" default>
-    <p><strong>Save</strong> – Click <strong>Save</strong> to store the entry after filling in all details.</p>
+    <p><strong>Save</strong> – Click **Save** to store the entry after completing the details.</p>
   </TabItem>
 
   <TabItem value="delete" label="🗑️Delete">
-    <p><strong>Delete</strong> – Click <strong>Delete</strong> under the action column to remove a saved entry.</p>
+    <p><strong>Delete</strong> – Click the **Delete** icon in the action column to remove a saved entry.</p>
   </TabItem>
 </Tabs>
 
-
 <figure>
-  <img src="/media/image41.png" alt="Asset Type Configuration" />
-  <figcaption>Asset Type Configuration</figcaption>
+  <img src="/media/image31.png" alt="Account Type Configuration" />
+  <figcaption>Managing Account Type Configuration</figcaption>
 </figure>

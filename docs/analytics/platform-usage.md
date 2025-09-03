@@ -1,7 +1,7 @@
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Platform Usage Dashboard
+# 🖥️Platform Usage Dashboard
 
 :::info
 The **Dashboards** module in **C360 Analytics** provides key insights and visual reports to track platform performance.
@@ -19,7 +19,7 @@ To access **Platform Usage Dashboard**:
 
 ---
 
-# Date Filters and Graph Options
+## 🎛️Filters
 
 The dashboard provides multiple filter options for fiscal periods, months, and days, along with additional customization and graph actions.
 
@@ -98,6 +98,12 @@ You can choose from the following options:
 In addition to the predefined options, there is also a **Custom** option where you can manually specify the start and end dates for a custom date range.
 :::
 </TabItem>
+</Tabs>
+
+---
+
+## **📈Graph Options**
+<Tabs>
 
 <TabItem value="report-link" label="Report Link">
 :::tip
@@ -124,7 +130,7 @@ Each graph includes common actions:
 
 ---
 
-## Platform usage dashboard graphs blocks:
+## 🖥️Platform usage dashboard graph blocks:
 
 <details>
 <summary><strong>Users Logged In</strong></summary>

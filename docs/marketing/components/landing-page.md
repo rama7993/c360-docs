@@ -1,4 +1,4 @@
-# **Landing Page**
+# **📄Landing Page** 
 
 The **Landing Page** module in **C360 CRM** helps you create, manage, and track campaign-specific pages that drive engagement and capture leads.  
 
@@ -7,12 +7,12 @@ To access it:
 
 <figure>
   <img src="/media/image28.png" alt="Landing Page navigation" style={{width:"100%", maxWidth:"800px"}} />
-  <figcaption>Navigation to Landing Page module</figcaption>
+  <figcaption>📍 Navigation to Landing Page module</figcaption>
 </figure>
 
 ---
 
-## **List & Grid View**
+## **🗂️List & Grid View** 
 
 The **Landing Page List** offers multiple options to search, filter, and manage landing pages:  
 
@@ -25,7 +25,7 @@ The **Landing Page List** offers multiple options to search, filter, and manage 
 
 <figure>
   <img src="/media/image29.png" alt="Landing Page grid view" style={{width:"100%", maxWidth:"800px"}} />
-  <figcaption>Grid View of Landing Pages</figcaption>
+  <figcaption> Grid View of Landing Pages</figcaption>
 </figure>
 
 - **List View** → Displays **thumbnail, status, created date, created by**, with action icons for **Preview, Copy, Clone, Edit**.  
@@ -37,7 +37,7 @@ The **Landing Page List** offers multiple options to search, filter, and manage 
 
 ---
 
-## **Searching for Landing Pages**
+## **🔍Searching for Landing Pages** 
 
 Enter the landing page name in the **Search bar** and click the **Search icon** to view results.  
 
@@ -48,7 +48,7 @@ Enter the landing page name in the **Search bar** and click the **Search icon** 
 
 ---
 
-## **Filtering Landing Pages**
+## **🎛️Filtering Landing Pages** 
 
 - Filter by **Status, Created At,** and **Modified At**.  
 - You can also filter pages **owned by you** or **assigned to you** using tabs.  
@@ -61,7 +61,7 @@ Enter the landing page name in the **Search bar** and click the **Search icon** 
 
 ---
 
-## **Assigning Landing Pages**
+## **👥Assigning Landing Pages** 
 
 Select landing pages using checkboxes and click **Assign To** to allocate them to groups.  
 
@@ -70,7 +70,7 @@ Select landing pages using checkboxes and click **Assign To** to allocate them t
   <figcaption>Assigning Landing Pages</figcaption>
 </figure>
 
-### **Available Actions**  
+### **⚡Available Actions**   
 
 - **Edit** → Opens the landing page editor.  
 - **Clone** → Duplicates the landing page in editable mode.  
@@ -84,7 +84,7 @@ Select landing pages using checkboxes and click **Assign To** to allocate them t
 
 ---
 
-## **Add / Edit Landing Pages**
+## **➕Add / Edit Landing Pages** 
 
 You can create a new landing page in **three ways**:  
 
@@ -99,17 +99,17 @@ You can create a new landing page in **three ways**:
   <figcaption>Options to Add a Landing Page</figcaption>
 </figure>
 
-After selecting your option, you will be redirected to the editor:  
+After selecting your option, you will be redirected to the **Editor**:  
 
 <figure>
   <img src="media/image17.png" alt="Landing page editor" style={{width:"100%", maxWidth:"800px"}} />
   <figcaption>Landing Page Editor</figcaption>
 </figure>
 
-### **Steps to Create/Edit**  
-1. Provide a name, select status, assign a user group → Click **Next**.  
-2. Customize your page using the editor (images, dimensions, design).  
-3. Use the menu options for advanced customization.  
+### **📝Steps to Create/Edit**   
+1.  Provide a name, select status, assign a user group → Click **Next**.  
+2.  Customize your page using the editor (images, dimensions, design).  
+3.  Use the menu options for advanced customization.  
 4. From the **Action menu**, choose:  
    - **Save** – Save and return to library.  
    - **Edit** – Reopen the template editor.  
@@ -122,7 +122,7 @@ After selecting your option, you will be redirected to the editor:
 
 ---
 
-## **Managing Landing Pages**
+## **📊Managing Landing Pages** 
 
 Landing pages can be linked and tracked within campaigns.  
 
@@ -139,7 +139,7 @@ Landing pages can be linked and tracked within campaigns.
 
 <figure>
   <img src="media/image20.png" alt="Dynamic landing page selection" style={{width:"100%", maxWidth:"800px"}} />
-  <figcaption>Selecting Dynamic Landing Page</figcaption>
+  <figcaption> Selecting Dynamic Landing Page</figcaption>
 </figure>
 
-✅ By linking landing pages with campaigns, you can track visitor activity and generate valuable leads.  
+✅ By linking landing pages with campaigns, you can **track visitor activity**  and generate **valuable leads** .  

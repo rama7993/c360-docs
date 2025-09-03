@@ -1,4 +1,4 @@
-### **Account Type**
+# 🏷️ **Account Type**
 
 To access **Account Type**:  
 ➡️ Go to **Setting** → **System Configuration** → **Account Type** from the Top Bar.
@@ -9,7 +9,7 @@ An **Account Type** categorizes a business relationship, such as **Customer, Pro
 
 ---
 
-#### **Fields**
+## 📋 **Fields**
 
 <details>
 <summary><strong>Name</strong></summary>
@@ -19,27 +19,28 @@ An **Account Type** categorizes a business relationship, such as **Customer, Pro
 </details>
 
 <details>
-- <summary><strong>**Active / Archive (Toggle)**</strong></summary>
+<summary><strong>Active / Archive (Toggle)</strong></summary>
 <p>
   A switch to mark an account type as:  
   - **Active** → currently in use  
   - **Archived** → inactive or no longer needed  
-  </p>
-  </details>
+</p>
+</details>
+
 ---
 
-#### **Actions**
+## ⚡ **Actions**
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <Tabs>
   <TabItem value="save" label="💾Save" default>
-    <p><strong>Save</strong> – Click <strong>Save</strong> Click **Save** to store the entry after completing the details.</p>
+    <p><strong>Save</strong> – Click **Save** to store the entry after completing the details.</p>
   </TabItem>
 
   <TabItem value="delete" label="🗑️Delete">
-    <p><strong>Delete</strong> – Click <strong>Delete</strong> Click the **Delete** icon in the action column to remove a saved entry.</p>
+    <p><strong>Delete</strong> – Click the **Delete** icon in the action column to remove a saved entry.</p>
   </TabItem>
 </Tabs>
 
@@ -47,3 +48,4 @@ import TabItem from '@theme/TabItem';
   <img src="/media/image31.png" alt="Account Type Configuration" />
   <figcaption>Managing Account Type Configuration</figcaption>
 </figure>
+

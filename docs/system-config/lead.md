@@ -1,14 +1,14 @@
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# **Lead**
+# 🧲 **Lead**
 
 To access **Lead**:  
 ➡️ Go to **Setting** → **System Configuration** → **Lead** from the Top Bar.
 
 ---
 
-## **Lead Score**
+## 📊 **Lead Score**
 :::note
 Lead scoring ranks potential customers based on their engagement and interest, helping sales teams prioritize the most promising leads.  
 :::
@@ -32,7 +32,7 @@ Where:
 </details>
 ---
 
-#### **1. Lead Status**
+#### 🟢 **1. Lead Status**
 
 Represents the current state of a lead in the sales process. Each status reflects how engaged or interested a lead is.  
 
@@ -45,7 +45,7 @@ Represents the current state of a lead in the sales process. Each status reflect
 
 ---
 
-#### **2. Lead Stage**
+#### 🟣 **2. Lead Stage**
 
 Shows where a lead is in the buyer journey — from acquisition by marketing to qualification and handoff to sales.  
 
@@ -59,7 +59,7 @@ Shows where a lead is in the buyer journey — from acquisition by marketing to 
 
 ---
 
-#### **3. Marketing Response**
+#### 📧 **3. Marketing Response**
 
 Measures how engaged a lead is with marketing activities.  
 You can manage and update scores for activities such as:  
@@ -84,7 +84,7 @@ You can manage and update scores for activities such as:
 
 ---
 
-#### **4. Weight Allocation**
+#### ⚖️ **4. Weight Allocation**
 
 Adjust the weightage of each scoring factor as required. Update the percentage values and save changes.  
 
@@ -99,22 +99,14 @@ Adjust the weightage of each scoring factor as required. Update the percentage v
 
 ---
 
-#### **5. Lead Score**
+#### 🧮 **5. Lead Score**
 
 View the **Total Lead Score (TLS)** dynamically based on selected Lead Status, Lead Stage, and Marketing Response.  
 
-Formula:  
-TLS = (MRS × MRW) + (LSS × LSW) + (LStS × LStW)
+$$
+TLS = (MRS \times MRW) + (LSS \times LSW) + (LStS \times LStW)
+$$
 
-markdown
-Copy code
-
-<figure>
-  <img src="/media/image19.png" alt="Lead Score Calculation" />
-  <figcaption>Total Lead Score (TLS) Calculation</figcaption>
-</figure>
-
----
 
 <figure>
   <img src="/media/image19.png" alt="Lead Score Calculation" />
@@ -123,7 +115,7 @@ Copy code
 
 ---
 
-## **Lead Assign**
+## 👥 **Lead Assign**
 
 The **Lead Assign** section contains two modes:  
 
@@ -158,7 +150,7 @@ The **Lead Assign** section contains two modes:
 :::
 ---
 
-## **Lead Status**
+## 🟢 **Lead Status**
 :::note
 Defines the current state of a lead or customer interaction in the sales process.  
 :::
@@ -193,7 +185,7 @@ Defines the current state of a lead or customer interaction in the sales process
 
 ---
 
-## **Lead Industry**
+## 🏭 **Lead Industry**
 
 :::note
 Represents the industry in which the lead’s company operates.  
@@ -225,7 +217,7 @@ Represents the industry in which the lead’s company operates.
 
 ---
 
-## **Lead Source**
+## 🌐 **Lead Source**
 
 :::note
 Identifies how a lead was acquired (e.g., marketing campaign, referral, online inquiry).  
@@ -257,7 +249,7 @@ Identifies how a lead was acquired (e.g., marketing campaign, referral, online i
 
 ---
 
-## **Lead Call Outcome**
+## 📞 **Lead Call Outcome**
 :::note
 Represents the result of a call made during sales or customer interactions.  
 :::

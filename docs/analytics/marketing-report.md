@@ -1,52 +1,48 @@
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Marketing Report
+# 📢 Marketing Report
 
 The **Marketing** section in C360 provides access to detailed marketing reports and campaign insights.
 
 To access it:  
-➡️ Go to **Analytics** → **Reports** → **Maeketing Reort** from the left-hand menu.
+➡️ Go to **Analytics** → **Reports** → **Marketing Report** from the left-hand menu.
 
 <figure>
   <img src="/media/image22.png" alt="Reports Navigation in Analytics Menu" />
   <figcaption>Accessing Reports from the Analytics Menu</figcaption>
 </figure>
+
 :::info
-
 - By default, reports are displayed with a date range of **one year back from today**.
-
 :::
 
 ---
 
-## **🧰Filter**
+## 🧰 Filters
 
-   <Tabs>
-
-  <TabItem value="date-range" label="Date Range Filter" default>
+<Tabs>
+  <TabItem value="date-range" label="📅 Date Range Filter" default>
 
 **Date Range Filter** – Selects a specific time period for analysis.
 
   </TabItem>
 
-  <TabItem value="respective-filters" label="Respective Filters">
+  <TabItem value="respective-filters" label="🎛️ Respective Filters">
 
-**Respective Filters** – Filters data by **Campaign,Country, Company, and Users**.
+**Respective Filters** – Filters data by **Campaign, Country, Company, and Users**.
 
 :::tip
+1. The **Users filter** works only when either **Country** or **Company** is selected.  
+2. **Company** is disabled if **Country** is selected, and vice versa.
+:::
 
-1. The **Users filter** works only when either **Country** or **Company** is selected.
-2. **Company** is disabled if **Country** is selected, and vice versa.  
-    :::
+  </TabItem>
+</Tabs>
 
-   </TabItem>
+---
 
-   </Tabs>
-
-   ***
-
-### Parent Campaign (Outgoing Campaigns)
+## 🗂️ Parent Campaign (Outgoing Campaigns)
 
 A **Parent Campaign** is a collection of outgoing marketing activities grouped under one umbrella. It includes efforts such as **emails, telemarketing, and webinars**, enabling better tracking and performance analysis.
 
@@ -59,37 +55,33 @@ A typical **Parent Campaign Table** includes:
 
 <details>
   <summary><strong>Campaign Activities</strong></summary>
-   <p>List of executed marketing efforts </p>
-  </details>
-  
-<details> 
+  <p>List of executed marketing efforts</p>
+</details>
+
+<details>
   <summary><strong>Reports</strong></summary>
-   <p>Performance metrics and analysis. </p>
-  </details>
+  <p>Performance metrics and analysis.</p>
+</details>
 
-<details> 
+<details>
   <summary><strong>Lead Profiled</strong></summary>
+  <p>Leads identified and categorized during the campaign.</p>
 
-   <p>Leads identified and categorized during the campaign.</p>
+  <figure>
+    <img src="/media/image16.png" alt="Parent Campaign Lead Profiled" />
+    <figcaption>Lead Profiling Report</figcaption>
+  </figure>
+</details>
 
-<figure>
-  <img src="/media/image16.png" alt="Parent Campaign Lead Profiled" />
-  <figcaption>Lead Profiling Report</figcaption>
-</figure>
+<details>
+  <summary><strong>Opportunity Converted</strong></summary>
+  <p>Number of leads successfully converted into opportunities.</p>
 
-  </details>
-
-<details> 
-   <summary><strong>Opportunity Converted</strong></summary>
-
-   <p>Number of leads successfully converted into opportunities.</p>
-
-   <figure>
-  <img src="/media/image17.png" alt="Opportunity Conversion Report" />
-  <figcaption>Opportunity Conversion Report</figcaption>
-</figure>
-
-  </details>
+  <figure>
+    <img src="/media/image17.png" alt="Opportunity Conversion Report" />
+    <figcaption>Opportunity Conversion Report</figcaption>
+  </figure>
+</details>
 
 Clicking a **campaign name** opens the **Campaign Performance Report**, which includes **emails sent, opened, and clicked**.
 
@@ -99,25 +91,23 @@ Clicking a **campaign name** opens the **Campaign Performance Report**, which in
 </figure>
 
 <details>
- <summary><strong>Click to see filter options for outgoing campaign </strong></summary>
- <p> 
- - **Country**
-- **Company**
-- **Users** (required for Country and Company filters to work)
-- **Campaign**
-- **Date Range**
- </p>
+  <summary><strong>Click to see filter options for outgoing campaign</strong></summary>
+  <p>
+  - <strong>Country</strong><br/>
+  - <strong>Company</strong><br/>
+  - <strong>Users</strong> (required for Country and Company filters to work)<br/>
+  - <strong>Campaign</strong><br/>
+  - <strong>Date Range</strong>
+  </p>
 
- :::note
+  :::note
   Country and Company filters only work if a User is selected.
   :::
 </details>
 
-
-
 ---
 
-### View Outgoing Activities
+## 📤 View Outgoing Activities
 
 Click **List Report** under **Campaign Activities** to view the **Campaign Emails** page.
 
@@ -131,11 +121,11 @@ Click **List Report** under **Campaign Activities** to view the **Campaign Email
 
 ---
 
-### View Outgoing Campaign Email Details
+## ✉️ View Outgoing Campaign Email Details
 
 Selecting an email campaign opens a **detailed performance overview**, which includes:
 
-| **Report TSummary**    | **Description** |
+| **Report Summary**     | **Description** |
 |------------------------|-----------------|
 | **Overall Dashboard**  | Summary of campaign performance. |
 | **Opened**             | Recipients who opened the email. |
@@ -148,15 +138,16 @@ Selecting an email campaign opens a **detailed performance overview**, which inc
 | **Landing Pages**      | Engagement on landing pages. |
 | **Countries**          | Geographic distribution of recipients. |
 
-
 <figure>
   <img src="/media/image1c.png" alt="Email Campaign Detailed Report" />
   <figcaption>Email Campaign Detailed Performance Report</figcaption>
 </figure>
+
 :::tip
 - Reports can be downloaded from each table if data is available.
 - Country-wise data can be viewed in both **graph** and **table formats**.
 :::
+
 <figure>
   <img src="/media/image27.png" alt="Country-Wise Email Campaign Data" />
   <figcaption>Country-Wise Campaign Report</figcaption>
@@ -164,27 +155,26 @@ Selecting an email campaign opens a **detailed performance overview**, which inc
 
 ---
 
-### Email Reports (Outgoing Emails)
+## 📬 Email Reports (Outgoing Emails)
 
 The **Email Reports** section provides insights into all outgoing email campaigns, tracking:
 
 - **Emails Sent, Opened, Clicked, Bounced, and Unsubscribed**
 
 It includes a table with the following columns:
+
 <details>
- <summary><strong>Click to see columns contain by email report data table</strong></summary>
- <p>
- - **Email Name**
-- **Subject**
-- **Recipients**
-- **Unique Opens**
-- **Unique Clicks**
-- **Unsubscribed**
-- **Email Bounced**
-</p>
+  <summary><strong>Click to see columns contained by the email report data table</strong></summary>
+  <p>
+  - <strong>Email Name</strong><br/>
+  - <strong>Subject</strong><br/>
+  - <strong>Recipients</strong><br/>
+  - <strong>Unique Opens</strong><br/>
+  - <strong>Unique Clicks</strong><br/>
+  - <strong>Unsubscribed</strong><br/>
+  - <strong>Email Bounced</strong>
+  </p>
 </details>
-
-
 
 <figure>
   <img src="/media/image28.png" alt="Outgoing Email Reports" />
@@ -192,37 +182,35 @@ It includes a table with the following columns:
 </figure>
 
 <details>
- <summary><strong>Click to see filter options for outgoing campaign </strong></summary>
- <p> 
- - **Country**
-- **Company**
-- **Users** (required for Country and Company filters to work)
-- **Campaign**
-- **Date Range**
- </p>
+  <summary><strong>Click to see filter options for outgoing campaign</strong></summary>
+  <p>
+  - <strong>Country</strong><br/>
+  - <strong>Company</strong><br/>
+  - <strong>Users</strong> (required for Country and Company filters to work)<br/>
+  - <strong>Campaign</strong><br/>
+  - <strong>Date Range</strong>
+  </p>
 
- :::note
+  :::note
   Country and Company filters only work if a User is selected.
   :::
 </details>
 
-
 ---
 
-### Click Performance (Outgoing Assets)
+## 🖱️ Click Performance (Outgoing Assets)
 
 The **Click Performance** report tracks engagement with outbound assets such as links and documents.
 
 <details>
-<summary><strong>Click to see Metrics include </strong></summary>
-<p>
-- **Action** – Download/preview options
-- **Name** – Asset name
-- **Visits** – Total visits
-- **Unique Visits** – Unique users
-- **Last Activity** – Most recent interaction
-
-</p>
+  <summary><strong>Click to see metrics included</strong></summary>
+  <p>
+  - <strong>Action</strong> – Download/preview options<br/>
+  - <strong>Name</strong> – Asset name<br/>
+  - <strong>Visits</strong> – Total visits<br/>
+  - <strong>Unique Visits</strong> – Unique users<br/>
+  - <strong>Last Activity</strong> – Most recent interaction
+  </p>
 </details>
 
 <figure>
@@ -232,24 +220,23 @@ The **Click Performance** report tracks engagement with outbound assets such as 
 
 ---
 
-### Outgoing Landing Pages
+## 🌐 Outgoing Landing Pages
 
 The **Landing Pages** section shows visitor engagement with landing pages linked to campaigns.
 
 <details>
-<summary><strong>It includes</strong></summary>
-
-<p>
-- **Action** – Download/preview options
-- **Name** – Landing page name
-- **Unique Count** – Unique visitors
-- **Total Count** – Total visits
-</p>
-
+  <summary><strong>It includes</strong></summary>
+  <p>
+  - <strong>Action</strong> – Download/preview options<br/>
+  - <strong>Name</strong> – Landing page name<br/>
+  - <strong>Unique Count</strong> – Unique visitors<br/>
+  - <strong>Total Count</strong> – Total visits
+  </p>
 </details>
+
 ---
 
-### Campaign Dashboards Reports
+## 📈 Campaign Dashboards Reports
 
 This section provides a high-level overview of campaign performance with the following reports:
 
@@ -265,7 +252,7 @@ This section provides a high-level overview of campaign performance with the fol
 
 ---
 
-### Lead and Opportunity Dashboards Reports
+## 🤝 Lead and Opportunity Dashboards Reports
 
 The **Lead & Opportunity Dashboards Reports** track lead progression and sales opportunities within campaigns. Reports include:
 
@@ -278,4 +265,3 @@ The **Lead & Opportunity Dashboards Reports** track lead progression and sales o
   <img src="/media/image2b.png" alt="Lead and Opportunity Dashboard Reports" />
   <figcaption>Lead & Opportunity Dashboard Reports</figcaption>
 </figure>
----
