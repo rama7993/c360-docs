@@ -1,37 +1,37 @@
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# **Categories**
+# 🗂️ **Categories**
 
 To access **Category**:  
 ➡️ Go to **Setting** → **System Configuration** → **Category** from the Top Bar.
 
 ---
 
-## **Campaign Category**
+## 🎯 **Campaign Category**
 
 :::note
 Planned marketing efforts designed to generate and nurture leads through targeted strategies.  
 Examples: email campaigns, social media promotions, and other outreach activities.  
 :::
 
-**Fields:**
+### 📝 **Fields:**
 
 <details>
- <summary><strong>**Name**</strong></summary>
+ <summary><strong>🏷️ Name</strong></summary>
  <p>
 - **Name** → Title or label of the campaign.  
 </p>
 </details>
 
 <details>
- <summary><strong>**Descriptions**</strong></summary>
+ <summary><strong>📝 Description</strong></summary>
  <p>
 - **Description** → Explains the purpose and content of the campaign.  
 </p>
 </details>
 
-**Actions:**
+### ⚡ **Actions:**
 
 <Tabs>
   <TabItem value="save" label="💾 Save" default>
@@ -50,30 +50,30 @@ Examples: email campaigns, social media promotions, and other outreach activitie
 
 ---
 
-## **Asset Category**
+## 📦 **Asset Category**
 
 :::note
 Content and resources used to engage, inform, and persuade prospects.  
 Examples: brochures, videos, infographics, and other marketing materials.  
 :::
 
-**Fields:**
+### 📝 **Fields:**
 
 <details>
- <summary><strong>**Name**</strong></summary>
+ <summary><strong>🏷️ Name</strong></summary>
  <p>
 - **Name** → Title or label of the asset.  
 </p>
 </details>
 
 <details>
- <summary><strong>**Deriptions**</strong></summary>
+ <summary><strong>📝 Description</strong></summary>
  <p>
 - **Description** → Explains the purpose and content of the asset.   
 </p>
 </details>
 
-**Actions:**
+### ⚡ **Actions:**
 
 <Tabs>
   <TabItem value="save" label="💾 Save" default>
@@ -92,30 +92,29 @@ Examples: brochures, videos, infographics, and other marketing materials.
 
 ---
 
-## **Form Category**
+## 📑 **Form Category**
 
 :::note
 Online tools used to collect user information such as contact details, preferences, and feedback, supporting lead generation and customer engagement.  
 :::
 
-**Fields:**
+### 📝 **Fields:**
 
 <details>
- <summary><strong>**Name**</strong></summary>
- 
-  <p>
-   - **Name** → Title or label of the form. 
-  </p>
+ <summary><strong>🏷️ Name</strong></summary>
+ <p>
+- **Name** → Title or label of the form.  
+</p>
 </details>
 
 <details>
-<summary><strong>**Name**</strong></summary>
-<p>
+ <summary><strong>📝 Description</strong></summary>
+ <p>
 - **Description** → Explains the purpose and content of the form. 
 </p>
 </details>
 
-**Actions:**
+### ⚡ **Actions:**
 
 <Tabs>
   <TabItem value="save" label="💾 Save" default>

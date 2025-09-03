@@ -1,7 +1,7 @@
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Sales Dashboard
+# 📊Sales Dashboard
 
 The **Sales Dashboard** in C360 provides visibility into **Leads** and **Opportunities**, helping sales teams monitor performance and identify growth opportunities.  
 
@@ -16,11 +16,10 @@ To access **Sales Dashboard**:
 
 ---
 
-# Filters 
+## 🎛️Filters 
 
-:::info
+
 Both sections include a **dropdown menu** for filtering by **Company, Country, and Users**. and The dashboard provides multiple filter options for fiscal periods, months, and days, along with additional customization and graph actions.
-:::
 
 :::tip
 💡 You can switch between **Date Range** and **Respective Filters** tabs to refine your analysis based on time period or specific criteria.  
@@ -111,6 +110,8 @@ In addition to the predefined options, there is also a **Custom** option where y
   <TabItem value="respective-filters" label="Respective Filters">
 
   - **Respective Filters** – Filters data by **Country, Company, and Users**.  
+
+
      :::tip 
       1.The **Users filter** works only when either **Country** or **Company** is selected.  
       2.**Company** is disabled if **Country** is selected, and vice versa.  
@@ -120,7 +121,7 @@ In addition to the predefined options, there is also a **Custom** option where y
 
 ---
 
-# Graph Options
+## 📈Graph Options
 
 <Tabs>
  <TabItem value="report-link" label="Report Link">
@@ -148,7 +149,7 @@ Each graph includes common actions:
 
 ---
 
-### Leads Analytics
+## 🧲Leads Analytics
 
 <div className="grid grid-cols-2 gap-4">
 
@@ -189,7 +190,7 @@ Each graph includes common actions:
 
 ---
 
-### Opportunities Analytics
+## 💼Opportunities Analytics
 
 The Opportunities dashboard provides detailed insights into **revenue, pipeline, and win rates**.
 

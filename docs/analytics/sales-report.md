@@ -60,17 +60,13 @@ To see detailed information about a specific report:
 You can also **open reports directly from dashboard graphs**.
 Clicking a graph link acts as a shortcut to the related report, giving you instant access to the corresponding data. -->
 
-
-
 ## 📊 Sales Reports
 
-<Tabs>
-  <TabItem value="view-list" label="📑 View Report List" default>
-
-The **Sales Report List** contains Different Report Sections in the left side bar along with its individual categories  where you can select to view the details of the reports. 
+The **Sales Report List** contains Different Report Sections in the left side bar along with its individual categories where you can select to view the details of the reports.
 :::info
- Each report blocks contains a **data table** with multiple actions and by defualt live data.
+Each report blocks contains a **data table** with multiple actions and by defualt live data.
 :::
+
   <details>
    <summary><strong>Adoption Dashboards Reports</strong></summary>
 - **Number of Accounts** : Displays the total count of all accounts available in the system.
@@ -179,40 +175,44 @@ The **Sales Report List** contains Different Report Sections in the left side ba
     <figcaption>Report List with Dropdown and Data Table</figcaption>
   </figure>
 
-  </TabItem>
+---
 
-  <TabItem value="search-reports" label="🔎 Search Reports">
+## 🔍Search report
 
-   Use the **search bar** to quickly locate a report.  
-   :::tip
-   As you type a keyword, the system displays matching results based on **report name** or **report category**.
-   :::
+Use the **search bar** to quickly locate a report.  
+ :::tip
+As you type a keyword, the system displays matching results based on **report name** or **report category**.
+:::
+
   <figure>
     <img src="/media/image24.png" alt="Search Reports in C360" />
     <figcaption>Searching Reports by Name or Category</figcaption>
   </figure>
-</TabItem>
 
-  <TabItem value="report-details" label="📂 View Report Details">
+---
+
+## 📂 View Report Details"
 
     To see detailed information about a specific report:
 
-  - 📌 Click **Report Name** – Opens the data table
-  - 🔍 Search - Can search the needed data from respected reports.
-  - ⬇️ Download – Export reports easily
-  - 📊 Summary details for quick insights  
-    📊 _Example: Detailed Report View_ 
+- 📌 Click **Report Name** – Opens the data table
+- 🔍 Search - Can search the needed data from respected reports.
+- ⬇️ Download – Export reports easily
+- 📊 Summary details for quick insights  
+  📊 _Example: Detailed Report View_
 
-  -  **🧰Filter**
-   
-   <Tabs>
-  <TabItem value="date-range" label="Date Range Filter" default>
+---
+
+- ## **🧰Filter**
+
+<Tabs>
+  <TabItem value="date-range" label="📅 Date Range Filter" default>
 
 **Date Range Filter** – Selects a specific time period for analysis.
 
   </TabItem>
 
-  <TabItem value="respective-filters" label="Respective Filters">
+  <TabItem value="respective-filters" label="🎛️ Respective Filters">
 
 **Respective Filters** – Filters data by **Country, Company, and Users**.
 
@@ -220,20 +220,19 @@ The **Sales Report List** contains Different Report Sections in the left side ba
 
 1. The **Users filter** works only when either **Country** or **Company** is selected.
 2. **Company** is disabled if **Country** is selected, and vice versa.  
-    :::
-   </TabItem>
-   </Tabs>
+   :::
+
+  </TabItem>
+</Tabs>
 
   <figure>
     <img src="/media/image25.png" alt="Detailed Report View in C360" />
     <figcaption>Detailed Report View with Filters and Download Option</figcaption>
   </figure>
-</TabItem>
 
-  <TabItem value="access-graphs" label="📈 Access via Dashboard Graphs">
+---
 
+:::tip
 You can also open reports directly from **dashboard graphs**.  
  Clicking a graph link acts as a shortcut to the related report, giving you instant access to the corresponding data.
-
-  </TabItem>
-</Tabs>
+:::

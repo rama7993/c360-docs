@@ -1,23 +1,23 @@
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# **Campaign Attributes**
+# 🗂️ **Campaign Attributes**
 
 To access **Campaign Attributes**:  
 ➡️ Go to **Setting** → **System Configuration** → **Campaign Attributes** from the Top Bar.
 
 ---
 
-## **Industry Focus**
+## 🏭 **Industry Focus**
 
 :::note
 Vertical industries represent specific sectors in which businesses operate, such as **healthcare, finance, retail, manufacturing, technology, hospitality, and education**. Each industry has unique characteristics, audiences, and requirements.
 :::
 
-### **Actions for industry focus:**
+### ⚡ **Actions for Industry Focus:**
 
 <Tabs>
-  <TabItem value="add" label="➕Add" default>
+  <TabItem value="add" label="➕ Add" default>
     <p><strong>To Add a New Vertical Industry Type:</strong></p>
     <ol>
       <li>Click the <strong>Add</strong> button at the top.</li>
@@ -31,7 +31,7 @@ Vertical industries represent specific sectors in which businesses operate, such
     </figure>
   </TabItem>
 
-  <TabItem value="edit" label="✏️Edit">
+  <TabItem value="edit" label="✏️ Edit">
     <p><strong>To Edit a Vertical Industry Type:</strong></p>
     <ol>
       <li>Select the type you want to edit.</li>
@@ -45,7 +45,7 @@ Vertical industries represent specific sectors in which businesses operate, such
     </figure>
   </TabItem>
 
-  <TabItem value="delete" label="🗑️Delete">
+  <TabItem value="delete" label="🗑️ Delete">
     <p><strong>To Delete a Vertical Industry Type:</strong></p>
     <ol>
       <li>Locate the <strong>Delete</strong> icon next to the industry type.</li>
@@ -54,17 +54,15 @@ Vertical industries represent specific sectors in which businesses operate, such
   </TabItem>
 </Tabs>
 
-
 ---
 
-## **Product Focus**
+## 📦 **Product Focus**
 
 :::note
 Product types categorize the various products or services a business offers, depending on industry, market, and objectives.
 :::
 
-### **Actions for Product Focus:**
-
+### ⚡ **Actions for Product Focus:**
 
 <Tabs>
   <TabItem value="add" label="➕ Add" default>
@@ -105,16 +103,18 @@ Product types categorize the various products or services a business offers, dep
 </Tabs>
 
 :::note
-ℹ️  Both **Products** and **Vertical Industries** will appear in the **Categories dropdown** when adding or editing a campaign.
+ℹ️ Both **Products** and **Vertical Industries** will appear in the **Categories dropdown** when adding or editing a campaign.
 :::
 
 ---
 
-## **Audience**
+## 🎯 **Audience**
 
 :::note
 A **Campaign Audience** defines the group of individuals or businesses targeted by a marketing campaign. Audiences are selected based on predefined criteria to maximize engagement and campaign effectiveness.
 :::
+
+### ⚡ **Actions for Audience:**
 
 <Tabs>
   <TabItem value="add" label="➕ Add" default>

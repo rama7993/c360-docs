@@ -1,25 +1,26 @@
-# System Configuration
+# ⚙️ **System Configuration**
 
 :::note
 The **System Configuration** settings in **C360** allow administrators to manage and customize email notifications.  
 :::
 
-To access **Opportunities**:  
+To access **System Configuration**:  
 ➡️ Go to **Setting** → **System Configuration** from the Top Bar.
 
 ---
 
-## Notification Content
+## 📨 **Notification Content**
 :::note
 The **Notification Content** section lets you configure the subject lines and email templates used for system notifications.  
 :::
+
 To access:  
 ➡️ Go to **System Configuration** → **Notification Content**  
 
 The data table includes the following columns:
  
 <details>
-<summary><strong>Click to see columns contain available in data table</strong></summary>
+<summary><strong>Click to see columns available in data table</strong></summary>
 <p>
 - **Notification** → Displays the event or activity triggering the notification.  
 - **Subject Line** → Defines the subject of the email that will be sent.  
@@ -34,7 +35,7 @@ The data table includes the following columns:
 
 ---
 
-### Update Subject Line
+## ✏️ **Update Subject Line**
 
 <details>
 <summary><strong>Steps to modify subject line of a notification</strong></summary>
@@ -52,7 +53,7 @@ The data table includes the following columns:
 
 ---
 
-### Edit Email Content
+## 🖋️ **Edit Email Content**
 <details>
 <summary><strong>Steps to update the email content</strong></summary>
 <p>
@@ -62,4 +63,3 @@ The data table includes the following columns:
 4. Click **Save** to apply changes, or **Cancel** to discard them.  
 </p>
 </details>
----

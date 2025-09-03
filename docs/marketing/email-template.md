@@ -1,9 +1,9 @@
-# **Manage Email Templates**
+# **📧 Manage Email Templates**
 
 The **Email Templates** feature in **C360 CRM** allows you to create, manage, and customize professional email templates for your marketing campaigns.  
 
-To access it:  
-➡️ Go to **Marketing** → **Templates** → **Email Template**.  
+To access **Asset Type**:  
+➡️ Go to **Marketing** → **Template** → **Email Template** from the Top Bar.
 
 <figure>
   <img src="/media/image1.png" alt="Email Templates Navigation" />
@@ -12,25 +12,25 @@ To access it:
 
 ---
 
-## **Email Template Views**
+## **🖼️ Email Template Views**
 
 The **Email Templates** section provides two types of views: **Grid View** and **List View**.
 
-### **Available Actions**
+### **⚙️ Available Actions**
 
-1. Use the **Search Bar** to find specific emails.  
-2. Apply **Filters** to view templates based on preferences (status, created date, modified date, owner).  
-3. Use **Assign To** to assign email(s) to groups.  
-4. **Delete** an email by selecting the checkbox and clicking Delete.  
-5. Add new templates using the **Add Email** button.  
-6. In **Grid View**, use the **three-dot menu** on each template to **Clone/Edit**.  
+-  **Search Bar** – Find specific emails.  
+-  **Filters** – Filter by status, created date, modified date, or owner.  
+-  **Assign To** – Assign email(s) to groups.  
+-  **Delete** – Select checkbox → click Delete.  
+-  **Add Email** – Create new templates.  
+-  **Clone / Edit** – Available in Grid View (via three-dot menu).  
 
 <figure>
   <img src="/media/image2.png" alt="Grid View of Email Templates" />
   <figcaption>Grid View of Email Templates</figcaption>
 </figure>
 
-Switch to **List View** by clicking the **View as List** toggle:  
+🔄 Switch to **List View**:  
 
 <figure>
   <img src="/media/image3.png" alt="List View of Email Templates" />
@@ -39,10 +39,9 @@ Switch to **List View** by clicking the **View as List** toggle:
 
 ---
 
-## **Searching for Emails**
+## **🔍 Searching for Emails**
 
-To search for an email template:  
-➡️ Enter the template name in the **Search Bar** → Click the **Search Icon**.  
+➡️ Enter template name in **Search Bar** → Click the **Search Icon**.  
 
 <figure>
   <img src="/media/image4.png" alt="Search Email Templates" />
@@ -51,11 +50,11 @@ To search for an email template:
 
 ---
 
-## **Filtering Emails**
+## **🧩 Filtering Emails**
 
-- Filter by **Status**, **Created At**, and **Modified At** dates.  
-- View applied filters beside the filter section (with option to clear).  
-- Filter templates owned by you or assigned to you using the respective tabs.  
+-  Filter by **Status**, **Created At**, and **Modified At**.  
+-  View applied filters beside filter section (with option to clear).  
+-  Filter by ownership → **Owned by Me / Assigned to Me**.  
 
 <figure>
   <img src="/media/image5.png" alt="Filtering Email Templates" />
@@ -64,10 +63,10 @@ To search for an email template:
 
 ---
 
-## **Assigning Emails**
+## **👥 Assigning Emails**
 
-Emails in the **Published** state can be assigned to user groups:  
-➡️ Select template checkboxes → Click **Assign To**.  
+Emails in **Published** state can be assigned to groups:  
+➡️ Select template(s) → Click **Assign To**.  
 
 <figure>
   <img src="/media/image6.png" alt="Assign Email Templates" />
@@ -76,13 +75,12 @@ Emails in the **Published** state can be assigned to user groups:
 
 ---
 
-## **Email Actions in Grid View**
+## **🛠️ Email Actions in Grid View**
 
 For each email, you can perform:  
-
-1. **Edit** – Opens the template in edit mode (pencil icon).  
-2. **Copy** – Creates a duplicate in edit mode (folder icon).  
-3. **Delete** – Deletes the selected template (trash icon).  
+-  **Edit** – Open in edit mode.  
+-  **Copy** – Duplicate into edit mode.  
+-  **Delete** – Remove template.  
 
 <figure>
   <img src="/media/image7.png" alt="Email Template Actions" />
@@ -91,22 +89,21 @@ For each email, you can perform:
 
 ---
 
-## **Create New Email**
+## **➕ Create New Email**
 
 You can create an email in three ways:  
-
-1. Click **Add Email** (top right).  
+1.  **Add Email** (top right).  
 2. Choose one option:  
-   - **Default Theme** – Select from preloaded themes.  
-   - **Upload HTML** – Import your custom HTML file.  
-   - **Create from Scratch** – Start with a blank template.  
+   -  **Default Theme** – Pick from preloaded themes.  
+   -  **Upload HTML** – Import custom HTML file.  
+   -  **Create from Scratch** – Start blank.  
 
 <figure>
   <img src="/media/image8.png" alt="Create Email Options" />
   <figcaption>Options to Create a New Email</figcaption>
 </figure>
 
-After choosing an option, you’ll be redirected to the email editor:  
+➡️ After choosing, you’ll be redirected to **Email Editor**:  
 
 <figure>
   <img src="/media/image9.png" alt="Email Editor Page" />
@@ -115,16 +112,15 @@ After choosing an option, you’ll be redirected to the email editor:
 
 ---
 
-### **Steps to Create an Email**
-
-1. Provide a **Template Name** → Click **Next**.  
-2. Customize using the editor (add images, adjust layout, use menu tools).  
-3. Use the **Action Dropdown** to manage progress:  
-   - **Save & Test** – Save and send test mail.  
-   - **Save & Close** – Save and return to library.  
-   - **Save & Draft** – Save as draft.  
-   - **Save & Next** – Move to next step.  
-   - **Edit** – Reopen template for full customization.  
+### **📝 Steps to Create an Email**
+1.  Provide a **Template Name** → Click **Next**.  
+2.  Customize via editor (images, layout, menu tools).  
+3.  Use **Action Dropdown**:  
+   -  **Save & Test** – Save + test mail.  
+   -  **Save & Close** – Save and return.  
+   -  **Save & Draft** – Save as draft.  
+   -  **Save & Next** – Proceed next.  
+   -  **Edit** – Reopen for edits.  
 
 <figure>
   <img src="/media/image10.png" alt="Email Editor Customization" />
@@ -133,19 +129,18 @@ After choosing an option, you’ll be redirected to the email editor:
 
 ---
 
-### **Email Configuration**
+### **⚙️ Email Configuration**
 
-After clicking **Save & Next**, you’ll reach the **Email Configuration** page:  
-
-- Fill mandatory fields.  
-- Click **Next**.  
+➡️ After **Save & Next**, configure details:  
+-  Fill mandatory fields.  
+-  Click **Next**.  
 
 <figure>
   <img src="/media/image12.png" alt="Email Configuration Page" />
   <figcaption>Email Configuration</figcaption>
 </figure>
 
-If no campaign is available, click **Add Campaign**:  
+If no campaign exists → ➕ **Add Campaign**:  
 
 <figure>
   <img src="/media/image13.png" alt="Add Campaign from Email" />
@@ -154,11 +149,10 @@ If no campaign is available, click **Add Campaign**:
 
 ---
 
-### **Preview & Testing**
-
-1. Preview the email before sending.  
-2. Use **Test Mail** to send a trial to specific users.  
-3. Add recipient email in popup → Click **Add Recipient** → Send test.  
+### **👀 Preview & Testing**
+1.  Preview email.  
+2.  **Test Mail** → Send to users.  
+3.  Add recipient → Send test.  
 
 <figure>
   <img src="/media/image14.png" alt="Email Preview" />
@@ -170,7 +164,7 @@ If no campaign is available, click **Add Campaign**:
   <figcaption>Sending Test Emails</figcaption>
 </figure>
 
-Click **Next** once test mail is successful:  
+➡️ Proceed after test success:  
 
 <figure>
   <img src="/media/image16.png" alt="Proceed After Test Mail" />
@@ -179,12 +173,11 @@ Click **Next** once test mail is successful:
 
 ---
 
-### **Select Audience**
+### **👥 Select Audience**
 
-Choose audience list:  
-
-- **Segment List** – Leads grouped by conditions.  
-- **Campaign List** – Upload a lead list.  
+Pick audience list:  
+-  **Segment List** – Leads by conditions.  
+-  **Campaign List** – Upload lead list.  
 
 <figure>
   <img src="/media/image17.png" alt="Segment List for Email" />
@@ -198,12 +191,12 @@ Choose audience list:
 
 ---
 
-### **Send Email**
+### **📤 Send Email**
 
-1. After selecting the desired list, click **Send**.  
-2. Choose:  
-   - **Schedule a Time** – Schedule future delivery.  
-   - **Send Now** – Deliver immediately.  
+➡️ After selecting list, click **Send**.  
+Choose:  
+-  **Schedule a Time** – Future delivery.  
+-  **Send Now** – Immediate delivery.  
 
 <figure>
   <img src="/media/image19.png" alt="Send or Schedule Email" />
@@ -211,3 +204,4 @@ Choose audience list:
 </figure>
 
 ✅ Your email will now be successfully delivered to the selected audience.
+
