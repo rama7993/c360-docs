@@ -13,6 +13,8 @@ To access it:
 The **Opportunity List** provides a complete overview of all opportunities in the system.  
 You can switch between **List View** and **Grid View** depending on your preference.
 
+---
+
 <Tabs>
   <TabItem value="list" label="📋 List View" default>
 
@@ -57,7 +59,7 @@ In **Grid View**, opportunities appear as **cards** arranged by their **stage**.
 
   </TabItem>
 </Tabs>
-
+---
 ## 🔄 Opportunity Lifecycle
 
 ```mermaid
@@ -119,6 +121,8 @@ flowchart LR
   />
   <figcaption>Search opportunities instantly</figcaption>
 </figure>
+
+---
 
 ### Filter
 
@@ -214,7 +218,7 @@ Use the **Add Note** or **Add Task** buttons in the top-right corner to capture 
 <Tabs>
 <TabItem value="Assign" label="Assign Opportunity">
 
-1. Select opportunities in the list.
+1. Select opportunities from the list.
 2. Click **Assign To** → choose a user → click **Assign**.
 
 <figure>
@@ -229,7 +233,7 @@ Use the **Add Note** or **Add Task** buttons in the top-right corner to capture 
 
 <TabItem value="Change" label="Change Owner">
 
-1. Select the opportunity.
+1. Select opportunity from the list.
 2. Click **Change Owner** → select user → click **Confirm**.
 
 <figure>
@@ -245,13 +249,18 @@ Use the **Add Note** or **Add Task** buttons in the top-right corner to capture 
 
 ---
 
-## ➕ Adding & Editing Opportunities
+## ➕ Add & Edit Opportunities
 
 - **Add**:
 
   1. Click **Add Opportunity**
   2. Fill required fields
   3. Click **Save**
+     :::info
+     Opportunity can be generated or created using two ways:
+  4. Normal Addition from list Page.
+  5. From Lead Convertion.
+     :::
 
 - **Edit**:
   - Use the **inline edit icon** in the list, OR

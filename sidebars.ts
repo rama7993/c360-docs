@@ -45,6 +45,7 @@ const sidebars: SidebarsConfig = {
           label: "Audience",
         },
         { type: "doc", id: "marketing/campaign", label: "Campaign" },
+        { type: "doc", id: "marketing/email-template", label: "Email Template" },
         {
           type: "category",
           label: "Social",
