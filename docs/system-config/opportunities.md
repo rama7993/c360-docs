@@ -8,14 +8,14 @@ To access **Opportunities**:
 
 ---
 
-## 🏷️ **Opportunity Type**
+## 🏷️ Opportunity Type
 
 :::note
 Opportunity type is a label assigned to sales prospects, such as _New Business_ or _Renewal_.  
 It helps organize and prioritize sales efforts for accurate forecasting and targeted strategies.
 :::
 
-### ⚡ **Actions:**
+### ⚡ Actions
 
 <Tabs>
   <TabItem value="add" label="➕ Add" default>
@@ -42,14 +42,14 @@ It helps organize and prioritize sales efforts for accurate forecasting and targ
 
 ---
 
-## 📊 **Opportunity Stage**
+## 📊 Opportunity Stage
 
 :::note
 The **Opportunity Stage** represents the phase of a potential sale, tracking its progress from first contact to deal closure.  
 It helps sales teams monitor progress, prioritize efforts, and forecast revenue.
 :::
 
-### ⚡ **Actions:**
+### ⚡ Actions
 
 <Tabs>
   <TabItem value="add" label="➕ Add Stage" default>
@@ -95,13 +95,13 @@ It helps sales teams monitor progress, prioritize efforts, and forecast revenue.
 
 ---
 
-## ❌ **Opportunity Loss Reason**
+## ❌ Opportunity Loss Reason
 
 :::note
 Opportunity Loss Reasons explain why opportunities are marked as **Closed Lost**, helping identify trends and improve sales processes.
 :::
 
-### ⚡ **Actions:**
+### ⚡ Actions
 
 <Tabs>
   <TabItem value="add" label="➕ Add" default>

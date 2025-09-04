@@ -9,7 +9,7 @@ To access **System Configuration**:
 
 ---
 
-## 📨 **Notification Content**
+## 📨 Notification Content
 :::note
 The **Notification Content** section lets you configure the subject lines and email templates used for system notifications.  
 :::
@@ -35,7 +35,7 @@ The data table includes the following columns:
 
 ---
 
-## ✏️ **Update Subject Line**
+## ✏️ Update Subject Line
 
 <details>
 <summary><strong>Steps to modify subject line of a notification</strong></summary>
@@ -53,7 +53,7 @@ The data table includes the following columns:
 
 ---
 
-## 🖋️ **Edit Email Content**
+## 🖋️ Edit Email Content
 <details>
 <summary><strong>Steps to update the email content</strong></summary>
 <p>

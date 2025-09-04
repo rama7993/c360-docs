@@ -1,3 +1,6 @@
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # **📂Assets** 
 
 The **Assets** module in **C360 CRM** helps you organize, manage, and track marketing resources like documents, videos, and infographics.
@@ -12,26 +15,40 @@ To access it:
 
 ---
 
-## **🗂️List & Grid View** 
+ ## 🗂️ Asset Views
 
-Assets can be viewed in **Grid View** or **List View**:  
+ Assets can be viewed in **Grid View** or **List View**:
 
-- **Grid View**  – Shows each asset as a card with quick actions (copy link,download,edit,delete).  
-- **List View**  – Shows assets in a table with columns like **Name, Type, Created By, and Actions**.  
+<Tabs>
 
-<figure>
-  <img src="media/image2.png" style={{width:"100%", maxWidth:"650px"}} />
-  <figcaption>Grid View of Assets</figcaption>
-</figure>
+  <TabItem value="grid" label="🔲 Grid View" default>
 
-<figure>
-  <img src="media/image2b.png" style={{width:"100%", maxWidth:"650px"}} />
-  <figcaption>List View of Assets</figcaption>
-</figure>
+  - **Grid View** – Shows each asset as a card with quick actions (**copy link, download, edit, delete**).
+
+  <figure>
+    <img src="media/image2.png" style={{width:"100%", maxWidth:"650px"}} />
+    <figcaption> Grid View of Assets</figcaption>
+  </figure>
+
+  </TabItem>
+
+  <TabItem value="list" label="📜 List View">
+
+  - **List View** – Shows assets in a table with columns like **Name, Type, Created By, and Actions**.
+
+  <figure>
+    <img src="media/image2b.png" style={{width:"100%", maxWidth:"650px"}} />
+    <figcaption> List View of Assets</figcaption>
+  </figure>
+
+  </TabItem>
+  
+</Tabs>
+
 
 ---
 
-## **🔍Searching Assets** 
+## 🔍Searching  Assets 
 
 To search for assets:  
 ➡️ Enter the title or details in the **search bar** and press **Enter**.  
@@ -43,7 +60,7 @@ To search for assets:
 
 ---
 
-## **🎛️Filtering Assets** 
+## 🎛️Filtering Assets
 
 You can filter assets by:  
 - **Category**   
@@ -58,7 +75,7 @@ You can filter assets by:
 
 ---
 
-## **✏️Add or Edit Asset** 
+## ✏️Add or Edit Asset
 
 **To add an asset:**  
 ➡️ Click ** Add Asset**, enter details (**Type, Category, Assigned To, Description, Title, File/Link**), and click ** Save**.  
@@ -78,7 +95,7 @@ You can filter assets by:
 
 ---
 
-## **👥Assign Asset to Group** 
+## 👥Assign Asset to Group 
 
 ➡️ Select one or more assets → Click **Assign To** → Choose a group.  
 
@@ -89,7 +106,7 @@ You can filter assets by:
 
 ---
 
-## **⚙️Managing Assets** 
+## ⚙️Managing Assets 
 
 - Assets are **shared**  with contacts (e.g., after form submissions).  
 - You can **track downloads** , **assign point values** , and review **history** .  

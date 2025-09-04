@@ -8,14 +8,14 @@ To access **Category**:
 
 ---
 
-## 🎯 **Campaign Category**
+## 🎯 Campaign Category
 
 :::note
 Planned marketing efforts designed to generate and nurture leads through targeted strategies.  
 Examples: email campaigns, social media promotions, and other outreach activities.  
 :::
 
-### 📝 **Fields:**
+### 📝 Fields
 
 <details>
  <summary><strong>🏷️ Name</strong></summary>
@@ -31,7 +31,7 @@ Examples: email campaigns, social media promotions, and other outreach activitie
 </p>
 </details>
 
-### ⚡ **Actions:**
+### ⚡ Actions
 
 <Tabs>
   <TabItem value="save" label="💾 Save" default>
@@ -50,14 +50,14 @@ Examples: email campaigns, social media promotions, and other outreach activitie
 
 ---
 
-## 📦 **Asset Category**
+## 📦 Asset Category
 
 :::note
 Content and resources used to engage, inform, and persuade prospects.  
 Examples: brochures, videos, infographics, and other marketing materials.  
 :::
 
-### 📝 **Fields:**
+### 📝 Fields
 
 <details>
  <summary><strong>🏷️ Name</strong></summary>
@@ -73,7 +73,7 @@ Examples: brochures, videos, infographics, and other marketing materials.
 </p>
 </details>
 
-### ⚡ **Actions:**
+### ⚡ Actions
 
 <Tabs>
   <TabItem value="save" label="💾 Save" default>
@@ -92,13 +92,13 @@ Examples: brochures, videos, infographics, and other marketing materials.
 
 ---
 
-## 📑 **Form Category**
+## 📑 Form Category
 
 :::note
 Online tools used to collect user information such as contact details, preferences, and feedback, supporting lead generation and customer engagement.  
 :::
 
-### 📝 **Fields:**
+### 📝 Fields
 
 <details>
  <summary><strong>🏷️ Name</strong></summary>
@@ -114,7 +114,7 @@ Online tools used to collect user information such as contact details, preferenc
 </p>
 </details>
 
-### ⚡ **Actions:**
+### ⚡ Actions
 
 <Tabs>
   <TabItem value="save" label="💾 Save" default>

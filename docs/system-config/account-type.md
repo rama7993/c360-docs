@@ -9,7 +9,7 @@ An **Account Type** categorizes a business relationship, such as **Customer, Pro
 
 ---
 
-## 📋 **Fields**
+## 📋 Fields
 
 <details>
 <summary><strong>Name</strong></summary>
@@ -29,7 +29,7 @@ An **Account Type** categorizes a business relationship, such as **Customer, Pro
 
 ---
 
-## ⚡ **Actions**
+## ⚡ Actions
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';

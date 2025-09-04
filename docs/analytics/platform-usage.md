@@ -102,7 +102,7 @@ In addition to the predefined options, there is also a **Custom** option where y
 
 ---
 
-## **📈Graph Options**
+## 📈Graph Options
 <Tabs>
 
 <TabItem value="report-link" label="Report Link">

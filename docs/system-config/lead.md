@@ -8,7 +8,7 @@ To access **Lead**:
 
 ---
 
-## 📊 **Lead Score**
+## 📊 Lead Score
 :::note
 Lead scoring ranks potential customers based on their engagement and interest, helping sales teams prioritize the most promising leads.  
 :::
@@ -84,7 +84,7 @@ You can manage and update scores for activities such as:
 
 ---
 
-#### ⚖️ **4. Weight Allocation**
+#### ⚖️ 4. Weight Allocation
 
 Adjust the weightage of each scoring factor as required. Update the percentage values and save changes.  
 
@@ -99,7 +99,7 @@ Adjust the weightage of each scoring factor as required. Update the percentage v
 
 ---
 
-#### 🧮 **5. Lead Score**
+#### 🧮 5. Lead Score
 
 View the **Total Lead Score (TLS)** dynamically based on selected Lead Status, Lead Stage, and Marketing Response.  
 
@@ -115,7 +115,7 @@ $$
 
 ---
 
-## 👥 **Lead Assign**
+## 👥 Lead Assign
 
 The **Lead Assign** section contains two modes:  
 
@@ -150,7 +150,7 @@ The **Lead Assign** section contains two modes:
 :::
 ---
 
-## 🟢 **Lead Status**
+## 🟢 Lead Status
 :::note
 Defines the current state of a lead or customer interaction in the sales process.  
 :::
@@ -185,7 +185,7 @@ Defines the current state of a lead or customer interaction in the sales process
 
 ---
 
-## 🏭 **Lead Industry**
+## 🏭 Lead Industry
 
 :::note
 Represents the industry in which the lead’s company operates.  
@@ -217,7 +217,7 @@ Represents the industry in which the lead’s company operates.
 
 ---
 
-## 🌐 **Lead Source**
+## 🌐 Lead Source
 
 :::note
 Identifies how a lead was acquired (e.g., marketing campaign, referral, online inquiry).  
@@ -249,7 +249,7 @@ Identifies how a lead was acquired (e.g., marketing campaign, referral, online i
 
 ---
 
-## 📞 **Lead Call Outcome**
+## 📞 Lead Call Outcome
 :::note
 Represents the result of a call made during sales or customer interactions.  
 :::
