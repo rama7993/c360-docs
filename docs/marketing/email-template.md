@@ -12,34 +12,51 @@ To access **Asset Type**:
 
 ---
 
-## **🖼️ Email Template Views**
+## 🖼️ Email Template Views
 
 The **Email Templates** section provides two types of views: **Grid View** and **List View**.
 
-### **⚙️ Available Actions**
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
--  **Search Bar** – Find specific emails.  
--  **Filters** – Filter by status, created date, modified date, or owner.  
--  **Assign To** – Assign email(s) to groups.  
--  **Delete** – Select checkbox → click Delete.  
--  **Add Email** – Create new templates.  
--  **Clone / Edit** – Available in Grid View (via three-dot menu).  
 
-<figure>
-  <img src="/media/image2.png" alt="Grid View of Email Templates" />
-  <figcaption>Grid View of Email Templates</figcaption>
-</figure>
+<Tabs>
+  <TabItem value="grid" label="🔲 Grid View" default>
+  The Grid View presents Email Templates as visual cards with thumbnails and quick actions.
+    
+  ### ⚙️ Available Actions
 
-🔄 Switch to **List View**:  
+  | 🛠️ Action          | 📌 Description                                                                 |
+  |--------------------|-------------------------------------------------------------------------------|
+  | 🔍 **Search Bar**   | Find specific emails.                                                        |
+  | 🎛️ **Filters**      | Filter by **status**, **created date**, **modified date**, or **owner**.      |
+  | 👥 **Assign To**    | Assign email(s) to groups.                                                    |
+  | 🗑️ **Delete**       | Select checkbox → click **Delete**.                                           |
+  | ➕ **Add Email**    | Create new templates.                                                         |
+  | ✏️ **Clone / Edit** | Available in **Grid View** (via three-dot menu).                             |
 
-<figure>
-  <img src="/media/image3.png" alt="List View of Email Templates" />
-  <figcaption>List View of Email Templates</figcaption>
-</figure>
+  <figure>
+    <img src="/media/image2.png" alt="Grid View of Email Templates" />
+    <figcaption>📧 Grid View of Email Templates</figcaption>
+  </figure>
+
+  </TabItem>
+
+  <TabItem value="list" label="📜 List View">
+
+  The **List View** displays Email Templates in a structured table format for quick scanning and comparison. And you will find same actions as **grid view**.
+    
+  <figure>
+    <img src="/media/image3.png" alt="List View of Email Templates" />
+    <figcaption>📜 List View of Email Templates</figcaption>
+  </figure>
+
+  </TabItem>
+</Tabs>
 
 ---
 
-## **🔍 Searching for Emails**
+## 🔍 Searching for Emails
 
 ➡️ Enter template name in **Search Bar** → Click the **Search Icon**.  
 
@@ -50,7 +67,7 @@ The **Email Templates** section provides two types of views: **Grid View** and *
 
 ---
 
-## **🧩 Filtering Emails**
+## 🧩 Filtering Emails
 
 -  Filter by **Status**, **Created At**, and **Modified At**.  
 -  View applied filters beside filter section (with option to clear).  
@@ -63,7 +80,7 @@ The **Email Templates** section provides two types of views: **Grid View** and *
 
 ---
 
-## **👥 Assigning Emails**
+## 👥 Assigning Emails
 
 Emails in **Published** state can be assigned to groups:  
 ➡️ Select template(s) → Click **Assign To**.  
@@ -75,7 +92,7 @@ Emails in **Published** state can be assigned to groups:
 
 ---
 
-## **🛠️ Email Actions in Grid View**
+## 🛠️ Email Actions in Grid View
 
 For each email, you can perform:  
 -  **Edit** – Open in edit mode.  
@@ -89,7 +106,7 @@ For each email, you can perform:
 
 ---
 
-## **➕ Create New Email**
+## ➕ Create New Email
 
 You can create an email in three ways:  
 1.  **Add Email** (top right).  
@@ -112,7 +129,7 @@ You can create an email in three ways:
 
 ---
 
-### **📝 Steps to Create an Email**
+### 📝 Steps to Create an Email
 1.  Provide a **Template Name** → Click **Next**.  
 2.  Customize via editor (images, layout, menu tools).  
 3.  Use **Action Dropdown**:  
@@ -129,7 +146,7 @@ You can create an email in three ways:
 
 ---
 
-### **⚙️ Email Configuration**
+### ⚙️ Email Configuration
 
 ➡️ After **Save & Next**, configure details:  
 -  Fill mandatory fields.  
@@ -149,7 +166,7 @@ If no campaign exists → ➕ **Add Campaign**:
 
 ---
 
-### **👀 Preview & Testing**
+### 👀 Preview & Testing
 1.  Preview email.  
 2.  **Test Mail** → Send to users.  
 3.  Add recipient → Send test.  
@@ -173,7 +190,7 @@ If no campaign exists → ➕ **Add Campaign**:
 
 ---
 
-### **👥 Select Audience**
+### 👥 Select Audience
 
 Pick audience list:  
 -  **Segment List** – Leads by conditions.  
@@ -191,7 +208,7 @@ Pick audience list:
 
 ---
 
-### **📤 Send Email**
+### 📤 Send Email
 
 ➡️ After selecting list, click **Send**.  
 Choose:  

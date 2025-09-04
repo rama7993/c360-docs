@@ -7,12 +7,12 @@ To access it:
 
 <figure>
   <img src="/media/image28.png" alt="Landing Page navigation" style={{width:"100%", maxWidth:"800px"}} />
-  <figcaption>📍 Navigation to Landing Page module</figcaption>
+  <figcaption>Navigation to Landing Page module</figcaption>
 </figure>
 
 ---
 
-## **🗂️List & Grid View** 
+## 📑 Landing Page Views 
 
 The **Landing Page List** offers multiple options to search, filter, and manage landing pages:  
 
@@ -21,23 +21,36 @@ The **Landing Page List** offers multiple options to search, filter, and manage 
 3. Assign landing pages to groups using the **Assign To** button.  
 4. Add a new landing page using the **Add Landing Page** button.  
 
-- **Grid View** → Displays action dropdowns for **Clone, Edit, Copy**, and shows a **Preview** option on hover.  
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-<figure>
-  <img src="/media/image29.png" alt="Landing Page grid view" style={{width:"100%", maxWidth:"800px"}} />
-  <figcaption> Grid View of Landing Pages</figcaption>
-</figure>
+<Tabs>
+  <TabItem value="grid" label="🔲 Grid View" default>
 
-- **List View** → Displays **thumbnail, status, created date, created by**, with action icons for **Preview, Copy, Clone, Edit**.  
+  - **Grid View** → Displays action dropdowns for **Clone, Edit, Copy**, and shows a **Preview** option on hover.  
 
-<figure>
-  <img src="/media/image2a.png" alt="Landing Page list view" style={{width:"100%", maxWidth:"800px"}} />
-  <figcaption>List View of Landing Pages</figcaption>
-</figure>
+  <figure>
+    <img src="/media/image29.png" alt="Landing Page grid view" style={{width:"100%", maxWidth:"800px"}} />
+    <figcaption>🔲 Grid View of Landing Pages</figcaption>
+  </figure>
+
+  </TabItem>
+
+  <TabItem value="list" label="📜 List View">
+
+  - **List View** → Displays **thumbnail, status, created date, created by**, with action icons for **Preview, Copy, Clone, Edit**.  
+
+  <figure>
+    <img src="/media/image2a.png" alt="Landing Page list view" style={{width:"100%", maxWidth:"800px"}} />
+    <figcaption>📜 List View of Landing Pages</figcaption>
+  </figure>
+
+  </TabItem>
+</Tabs>
 
 ---
 
-## **🔍Searching for Landing Pages** 
+## 🔍Searching for Landing Pages
 
 Enter the landing page name in the **Search bar** and click the **Search icon** to view results.  
 
@@ -48,7 +61,7 @@ Enter the landing page name in the **Search bar** and click the **Search icon** 
 
 ---
 
-## **🎛️Filtering Landing Pages** 
+## 🎛️Filtering Landing Pages
 
 - Filter by **Status, Created At,** and **Modified At**.  
 - You can also filter pages **owned by you** or **assigned to you** using tabs.  
@@ -61,7 +74,7 @@ Enter the landing page name in the **Search bar** and click the **Search icon** 
 
 ---
 
-## **👥Assigning Landing Pages** 
+## 👥Assigning Landing Pages 
 
 Select landing pages using checkboxes and click **Assign To** to allocate them to groups.  
 
@@ -70,7 +83,7 @@ Select landing pages using checkboxes and click **Assign To** to allocate them t
   <figcaption>Assigning Landing Pages</figcaption>
 </figure>
 
-### **⚡Available Actions**   
+### ⚡Available Actions   
 
 - **Edit** → Opens the landing page editor.  
 - **Clone** → Duplicates the landing page in editable mode.  
@@ -84,7 +97,7 @@ Select landing pages using checkboxes and click **Assign To** to allocate them t
 
 ---
 
-## **➕Add / Edit Landing Pages** 
+## ➕Add / Edit Landing Pages
 
 You can create a new landing page in **three ways**:  
 
@@ -106,7 +119,7 @@ After selecting your option, you will be redirected to the **Editor**:
   <figcaption>Landing Page Editor</figcaption>
 </figure>
 
-### **📝Steps to Create/Edit**   
+### 📝Steps to Create/Edit   
 1.  Provide a name, select status, assign a user group → Click **Next**.  
 2.  Customize your page using the editor (images, dimensions, design).  
 3.  Use the menu options for advanced customization.  
@@ -122,7 +135,7 @@ After selecting your option, you will be redirected to the **Editor**:
 
 ---
 
-## **📊Managing Landing Pages** 
+## 📊Managing Landing Pages
 
 Landing pages can be linked and tracked within campaigns.  
 

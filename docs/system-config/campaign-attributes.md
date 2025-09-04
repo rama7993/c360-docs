@@ -8,13 +8,13 @@ To access **Campaign Attributes**:
 
 ---
 
-## 🏭 **Industry Focus**
+## 🏭 Industry Focus
 
 :::note
 Vertical industries represent specific sectors in which businesses operate, such as **healthcare, finance, retail, manufacturing, technology, hospitality, and education**. Each industry has unique characteristics, audiences, and requirements.
 :::
 
-### ⚡ **Actions for Industry Focus:**
+### ⚡ Actions for Industry Focus
 
 <Tabs>
   <TabItem value="add" label="➕ Add" default>
@@ -56,13 +56,13 @@ Vertical industries represent specific sectors in which businesses operate, such
 
 ---
 
-## 📦 **Product Focus**
+## 📦 Product Focus
 
 :::note
 Product types categorize the various products or services a business offers, depending on industry, market, and objectives.
 :::
 
-### ⚡ **Actions for Product Focus:**
+### ⚡ Actions for Product Focus
 
 <Tabs>
   <TabItem value="add" label="➕ Add" default>
@@ -108,13 +108,13 @@ Product types categorize the various products or services a business offers, dep
 
 ---
 
-## 🎯 **Audience**
+## 🎯 Audience
 
 :::note
 A **Campaign Audience** defines the group of individuals or businesses targeted by a marketing campaign. Audiences are selected based on predefined criteria to maximize engagement and campaign effectiveness.
 :::
 
-### ⚡ **Actions for Audience:**
+### ⚡ Actions for Audience
 
 <Tabs>
   <TabItem value="add" label="➕ Add" default>

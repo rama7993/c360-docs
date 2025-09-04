@@ -12,7 +12,7 @@ To access it:
 
 ---
 
-## **📋Viewing the Existing Forms List** 
+## 📋Viewing the Existing Forms List
 
 The Forms list provides a complete overview of all created forms.  
 
@@ -30,7 +30,7 @@ The Forms list provides a complete overview of all created forms.
 
 ---
 
-## **🔍Searching for a Form** 
+## 🔍Searching for a Form 
 
 -  Enter a keyword or form name in the **Search bar**.  
 -  Matching results will appear instantly.  
@@ -42,9 +42,9 @@ The Forms list provides a complete overview of all created forms.
 
 ---
 
-## **✏️Add / Edit a Form** 
+## ✏️Add / Edit a Form
 
-### **⚙️Details Tab** 
+### ⚙️Details Tab 
 -  **Name** – Enter the form title.  
 -  **Successful Submit Action** – Define what happens after submission.  
 -  **Redirect URL** – Page where users are redirected post-submission.  
@@ -60,7 +60,7 @@ The Forms list provides a complete overview of all created forms.
 
 ---
 
-### **🧩Fields Tab** 
+### 🧩Fields Tab
 -  Add and manage different field types: **Text, Select, Date**.  
 -  Fields are categorized as **General Fields** and **Lead Fields with Validation**.  
 -  Options include:  
@@ -97,7 +97,7 @@ The Forms list provides a complete overview of all created forms.
 
 ---
 
-### **⚡Actions Tab** 
+### ⚡Actions Tab
 Define automated actions that trigger after form submission.  
 
 1. 📊 **Modify Campaign Segments** – Add or remove contacts from segments.  
@@ -145,7 +145,7 @@ Define automated actions that trigger after form submission.
 
 ---
 
-## **👥Assigning a Form to a Group** 
+## 👥Assigning a Form to a Group
 
 -  On the Forms list page, select one or more forms.  
 -  Click **Assign To** at the top.  
@@ -159,7 +159,7 @@ Define automated actions that trigger after form submission.
 
 ---
 
-## **🌐Form Integration with Landing Page** 
+## 🌐Form Integration with Landing Page
 
 -  Go to **Landing Page** under Campaign Components.  
 -  Edit the landing page and click on a text element.  
