@@ -3,7 +3,7 @@
 The **Landing Page** module in **C360 CRM** helps you create, manage, and track campaign-specific pages that drive engagement and capture leads.  
 
 To access it:  
-➡️ Go to **Co Marketing** → **Campaign Component** → **Landing Page** from the left-hand menu.  
+➡️ Go to **Marketing** → **Campaign Component** → **Landing Page** from the left-hand menu.  
 
 <figure>
   <img src="/media/image28.png" alt="Landing Page navigation" style={{width:"100%", maxWidth:"800px"}} />

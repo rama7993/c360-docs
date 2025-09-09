@@ -6,7 +6,7 @@ import TabItem from '@theme/TabItem';
 The **Assets** module in **C360 CRM** helps you organize, manage, and track marketing resources like documents, videos, and infographics.
 
 To access it:  
-➡️ Go to **Co-marketing** → **Campaign Components** → **Assets** from the left-hand menu.
+➡️ Go to **Marketing** → **Campaign Components** → **Assets** from the left-hand menu.
 
 <figure>
   <img src="media/image1.png" style={{width:"100%", maxWidth:"650px"}} />

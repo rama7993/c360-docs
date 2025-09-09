@@ -4,7 +4,7 @@ import TabItem from '@theme/TabItem';
 # 💼 **Opportunities**
 
 To access **Opportunities**:  
-➡️ Go to **Setting** → **System Configuration** → **Opportunities** from the Top Bar.
+➡️ Go to **Settings** → **System Configuration** → **Opportunities** from the Top Bar.
 
 ---
 

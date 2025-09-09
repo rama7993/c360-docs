@@ -1,7 +1,7 @@
 # 🏷️ **Account Type**
 
 To access **Account Type**:  
-➡️ Go to **Setting** → **System Configuration** → **Account Type** from the Top Bar.
+➡️ Go to **Settings** → **System Configuration** → **Account Type** from the Top Bar.
 
 :::note
 An **Account Type** categorizes a business relationship, such as **Customer, Prospect, Partner, or Vendor**, helping teams manage interactions and strategies effectively.

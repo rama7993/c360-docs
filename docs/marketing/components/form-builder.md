@@ -3,7 +3,7 @@
 The **Form Builder** in **C360** allows you to design, manage, and assign forms that can be integrated with campaigns, landing pages, and lead management.  
 
 To access it:  
-➡️ Go to **Co-Marketing** → **Campaign Components** → **Form Builder** from the left-hand menu.  
+➡️ Go to **Marketing** → **Campaign Components** → **Form Builder** from the left-hand menu.  
 
 <figure>
   <img src="/media/image35.png" alt="Form Builder Navigation" />

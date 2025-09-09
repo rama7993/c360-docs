@@ -6,7 +6,7 @@ import TabItem from "@theme/TabItem";
 The **Lead Management** module in C360 helps you track and manage potential customers from their **first interaction** until **conversion**.
 
 To access it:  
-➡️ Go to **Sales** → **Contact** from the left-hand menu.
+➡️ Go to **Sales** → **Lead** from the left-hand menu.
 
 ---
 
@@ -253,11 +253,12 @@ flowchart LR
 - **Edit** → Use the **pencil icon** (inline) or open detail page → **Edit** → **Save**.
 
 :::info
-  Lead can be created or added using three ways:
-  1. Normal Addition from list Page.
-  2. Via Import Lead.
-  3. While adding audience Campaign(If lead not exist in the list).
-    :::
+Lead can be created or added using three ways:
+
+1. Normal Addition from list Page.
+2. Via Import Lead.
+3. While adding audience Campaign(If lead not exist in the list).
+   :::
 
 <figure>
   <img src="/media/crm/lead/lead-add-edit.png" alt="Add or edit lead form" />
