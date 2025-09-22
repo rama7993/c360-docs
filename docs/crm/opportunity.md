@@ -273,7 +273,6 @@ Use the **Add Note** or **Add Task** buttons in the top-right corner to capture 
      Opportunity can be generated or created using two ways:
   4. Normal Addition from list Page.
   5. From Lead Convertion.
-     :::
 
 - **Edit**:
   - Use the **inline edit icon** in the list, OR
@@ -290,5 +289,3 @@ The **Update button** activates once you make changes.
   />
   <figcaption>Create a new opportunity</figcaption>
 </figure>
-
-
