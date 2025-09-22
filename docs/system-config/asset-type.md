@@ -1,12 +1,7 @@
 # 🏷️ **Asset Type**
 
-<<<<<<< HEAD
 To access **Asset Type**:  
 ➡️ Go to **Setting** → **System Configuration** → **Asset Type** from the Top Bar.
-=======
-To access **Account Type**:  
-➡️ Go to **Settings** → **System Configuration** → **Account Type** from the Top Bar.
->>>>>>> b1e31045437c7d4fd90202c499437c3ecff17df6
 
 :::note
 An **Asset Type** categorizes the kind of content or resource used in
