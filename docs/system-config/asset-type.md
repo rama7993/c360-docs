@@ -1,10 +1,12 @@
-# 🏷️ **Account Type**
+# 🏷️ **Asset Type**
 
-To access **Account Type**:  
-➡️ Go to **Settings** → **System Configuration** → **Account Type** from the Top Bar.
+To access **Asset Type**:  
+➡️ Go to **Setting** → **System Configuration** → **Asset Type** from the Top Bar.
 
 :::note
-An **Account Type** categorizes a business relationship, such as **Customer, Prospect, Partner, or Vendor**, helping teams manage interactions and strategies effectively.
+An **Asset Type** categorizes the kind of content or resource used in
+marketing, such as **Whitepapers, eBooks, Videos, or Infographics**, to
+help organize and manage marketing materials efficiently.
 :::
 
 ---
@@ -14,16 +16,7 @@ An **Account Type** categorizes a business relationship, such as **Customer, Pro
 <details>
 <summary><strong>Name</strong></summary>
 <p>  
-  Defines the title or label of the account type.
-</p>
-</details>
-
-<details>
-<summary><strong>Active / Archive (Toggle)</strong></summary>
-<p>
-  A switch to mark an account type as:  
-  - **Active** → currently in use  
-  - **Archived** → inactive or no longer needed  
+  Defines the title or label of the asset type.
 </p>
 </details>
 
@@ -45,6 +38,6 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 
 <figure>
-  <img src="/media/image31.png" alt="Account Type Configuration" />
-  <figcaption>Managing Account Type Configuration</figcaption>
+  <img src="/media/system-configuration/asset-type/asset-type.png" alt="Asset Type Configuration" />
+  <figcaption>Managing Asset Type Configuration</figcaption>
 </figure>

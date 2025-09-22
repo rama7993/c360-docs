@@ -36,7 +36,7 @@ It helps organize and prioritize sales efforts for accurate forecasting and targ
 :::
 
 <figure>
-  <img src="/media/image26.png" alt="Opportunity Type Configuration" />
+  <img src="/media/system-configuration/opportunity/opportunity-type.png" alt="Opportunity Type Configuration" />
   <figcaption>Configuring Opportunity Types</figcaption>
 </figure>
 
@@ -61,10 +61,7 @@ It helps sales teams monitor progress, prioritize efforts, and forecast revenue.
       <li>Set the <strong>probability value</strong> 📊.</li>
       <li>Click <strong>Save</strong> 💾 to store the stage.</li>
     </ol>
-    <figure>
-      <img src="/media/image27.png" alt="Add Opportunity Stage" />
-      <figcaption>Adding a New Opportunity Stage</figcaption>
-    </figure>
+  
   </TabItem>
 
   <TabItem value="edit" label="✏️ Edit Stage">
@@ -74,10 +71,7 @@ It helps sales teams monitor progress, prioritize efforts, and forecast revenue.
       <li>Save by pressing <strong>Enter</strong> ⏎ or clicking outside the field.</li>
       <li>To update the colour, pick a new one 🎨 and confirm.</li>
     </ol>
-    <figure>
-      <img src="/media/image28.png" alt="Edit Opportunity Stage" />
-      <figcaption>Editing Opportunity Stage Details</figcaption>
-    </figure>
+
   </TabItem>
 
   <TabItem value="delete" label="🗑️ Delete Stage">
@@ -88,6 +82,11 @@ It helps sales teams monitor progress, prioritize efforts, and forecast revenue.
     </ol>
   </TabItem>
 </Tabs>
+
+<figure>
+      <img src="/media/system-configuration/opportunity/opportunity-stage.png" alt="Edit Opportunity Stage" />
+      <figcaption>Editing Opportunity Stage Details</figcaption>
+    </figure>
 
 :::tip
 ✅ Stage colours are shown in the **Opportunity List table**, making it easy to visually track stages.
@@ -111,10 +110,6 @@ Opportunity Loss Reasons explain why opportunities are marked as **Closed Lost**
       <li>Enter the loss reason ✍️.</li>
       <li>Click <strong>Save</strong> 💾.</li>
     </ol>
-    <figure>
-      <img src="/media/image29.png" alt="Add Opportunity Loss Reason" />
-      <figcaption>Adding an Opportunity Loss Reason</figcaption>
-    </figure>
   </TabItem>
 
   <TabItem value="edit" label="✏️ Edit">
@@ -123,10 +118,7 @@ Opportunity Loss Reasons explain why opportunities are marked as **Closed Lost**
       <li>Click on the reason to update it inline ✍️.</li>
       <li>Save by pressing <strong>Enter</strong> ⏎ or clicking outside the field.</li>
     </ol>
-    <figure>
-      <img src="/media/image30.png" alt="Edit Opportunity Loss Reason" />
-      <figcaption>Editing an Opportunity Loss Reason</figcaption>
-    </figure>
+    
   </TabItem>
 
   <TabItem value="delete" label="🗑️ Delete">
@@ -137,6 +129,11 @@ Opportunity Loss Reasons explain why opportunities are marked as **Closed Lost**
     </ol>
   </TabItem>
 </Tabs>
+
+<figure>
+      <img src="/media/system-configuration/opportunity/opportunity-loss-reason.png" alt="Edit Opportunity Loss Reason" />
+      <figcaption>Editing an Opportunity Loss Reason</figcaption>
+    </figure>
 
 :::tip
 ✅ These reasons appear in the **Opportunity Loss Reason dropdown** when setting an opportunity stage to _Closed Lost_.

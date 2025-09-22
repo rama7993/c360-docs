@@ -29,7 +29,7 @@ The data table includes the following columns:
 </details>
 
 <figure>
-  <img src="/media/image13.png" alt="Notification Content Table" />
+  <img src="/media/system-configuration/notification-content/notification-content.png" alt="Notification Content Table" />
   <figcaption>Notification Content Table</figcaption>
 </figure>
 
@@ -47,7 +47,7 @@ The data table includes the following columns:
 </details>
 
 <figure>
-  <img src="/media/image14.png" alt="Edit Subject Line" />
+  <img src="/media/system-configuration/notification-content/modify-notification-email-template.png" alt="Edit Subject Line" />
   <figcaption>Edit Notification Subject Line</figcaption>
 </figure>
 

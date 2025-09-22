@@ -6,7 +6,7 @@ To access Videos:
 Click the **“+” icon** in the bottom-right corner and select **Videos** from the menu.
 
 <figure>
-  <img src="/media/videos/videos-dashboard.png" alt="Accessing videos in C360" />
+  <img src="/media/shortcut/video/video-navigation.png" alt="Accessing videos in C360" />
   <figcaption>Accessing Videos from the right-hand menu</figcaption>
 </figure>
 
@@ -24,12 +24,13 @@ Each video provides the following actions:
 
 - **✏️ Edit** → Modify video details.
 - **🔗 Copy Link** → Copy the video URL for sharing.
+- **⬇️  Download** → Download the attached video file.
 - **👥 Assign to Users** → Share the video with specific users.
 - **🗑️ Delete** → Permanently remove the video.
 - **☑️ Checkbox** → Select multiple videos for bulk actions.
 
 <figure>
-  <img src="/media/videos/videos-list.png" alt="Video list with available actions" />
+  <img src="/media/shortcut/video/video-list.png" alt="Video list with available actions" />
   <figcaption>Video library with action controls</figcaption>
 </figure>
 
@@ -40,18 +41,12 @@ Each video provides the following actions:
 To upload a new video:
 
 1. Click **Add Video** (top-right).
-
-<figure>
-  <img src="/media/videos/add-video-button.png" alt="Add video button" />
-  <figcaption>Adding a new video to the library</figcaption>
-</figure>
-
 2. Fill in the required fields (e.g., title, description, category).
 3. Upload your video file from your system.
 4. Click **Save** to complete the upload.
 
 <figure>
-  <img src="/media/videos/video-form.png" alt="Video upload form" />
+  <img src="/media/shortcut/video/video-add.png" alt="Video upload form" />
   <figcaption>Video upload form with required fields</figcaption>
 </figure>
 
@@ -67,7 +62,7 @@ At the top of the Video List, you’ll find additional tools to help organize co
 - **Search bar** → Quickly locate videos by name.
 
 <figure>
-  <img src="/media/videos/video-filters.png" alt="Filtering and searching videos" />
+  <img src="/media/shortcut/video/video-filter.png" alt="Filtering and searching videos" />
   <figcaption>Filter and search options for managing videos</figcaption>
 </figure>
 

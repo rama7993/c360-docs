@@ -8,11 +8,6 @@ The **Marketing** section in C360 provides access to detailed marketing reports 
 To access it:  
 ➡️ Go to **Analytics** → **Reports** → **Marketing Report** from the left-hand menu.
 
-<figure>
-  <img src="/media/image22.png" alt="Reports Navigation in Analytics Menu" />
-  <figcaption>Accessing Reports from the Analytics Menu</figcaption>
-</figure>
-
 :::info
 - By default, reports are displayed with a date range of **one year back from today**.
 :::
@@ -47,7 +42,7 @@ To access it:
 A **Parent Campaign** is a collection of outgoing marketing activities grouped under one umbrella. It includes efforts such as **emails, telemarketing, and webinars**, enabling better tracking and performance analysis.
 
 <figure>
-  <img src="/media/image26.png" alt="Parent Campaign Overview" />
+  <img src="/media/analytics/report/marketing/outgoing-campaign-list.png" alt="Parent Campaign Overview" />
   <figcaption>Parent Campaign Dashboard Overview</figcaption>
 </figure>
 
@@ -68,9 +63,9 @@ A typical **Parent Campaign Table** includes:
   <p>Leads identified and categorized during the campaign.</p>
 
   <figure>
-    <img src="/media/image16.png" alt="Parent Campaign Lead Profiled" />
-    <figcaption>Lead Profiling Report</figcaption>
-  </figure>
+  <img src="/media/analytics/report/marketing/lead-profiled.png" alt="lead-profiled" />
+  <figcaption>lead-profiled</figcaption>
+</figure>
 </details>
 
 <details>
@@ -78,15 +73,15 @@ A typical **Parent Campaign Table** includes:
   <p>Number of leads successfully converted into opportunities.</p>
 
   <figure>
-    <img src="/media/image17.png" alt="Opportunity Conversion Report" />
-    <figcaption>Opportunity Conversion Report</figcaption>
-  </figure>
+  <img src="/media/analytics/report/marketing/opportunity-generated.png" alt="opportunity-generated" />
+  <figcaption>leads successfully converted into opportunity </figcaption>
+</figure>
 </details>
 
 Clicking a **campaign name** opens the **Campaign Performance Report**, which includes **emails sent, opened, and clicked**.
 
 <figure>
-  <img src="/media/image18.png" alt="Campaign Performance Report" />
+  <img src="/media/analytics/report/marketing/campaign-performance-report.png" alt="Campaign Performance Report" />
   <figcaption>Campaign Performance Report</figcaption>
 </figure>
 
@@ -115,7 +110,7 @@ Click **List Report** under **Campaign Activities** to view the **Campaign Email
 - The **right panel** shows a table with details such as **Email Name, Subject, Unique Clicks, Unique Opens, and Recipients**.
 
 <figure>
-  <img src="/media/image1b.png" alt="Outgoing Campaign Activities" />
+  <img src="/media/analytics/report/marketing/outgoing-activities.png" alt="Outgoing Campaign Activities" />
   <figcaption>Outgoing Campaign Activities Report</figcaption>
 </figure>
 
@@ -139,7 +134,7 @@ Selecting an email campaign opens a **detailed performance overview**, which inc
 | **Countries**          | Geographic distribution of recipients. |
 
 <figure>
-  <img src="/media/image1c.png" alt="Email Campaign Detailed Report" />
+  <img src="/media/analytics/report/marketing/email-details.png" alt="Email Campaign Detailed Report" />
   <figcaption>Email Campaign Detailed Performance Report</figcaption>
 </figure>
 
@@ -149,7 +144,7 @@ Selecting an email campaign opens a **detailed performance overview**, which inc
 :::
 
 <figure>
-  <img src="/media/image27.png" alt="Country-Wise Email Campaign Data" />
+  <img src="/media/analytics/report/marketing/country-wise-campaign-report.png" alt="Country-Wise Email Campaign Data" />
   <figcaption>Country-Wise Campaign Report</figcaption>
 </figure>
 
@@ -177,7 +172,7 @@ It includes a table with the following columns:
 </details>
 
 <figure>
-  <img src="/media/image28.png" alt="Outgoing Email Reports" />
+  <img src="/media/analytics/report/marketing/email-performance.png" alt="Outgoing Email Reports" />
   <figcaption>Outgoing Email Reports</figcaption>
 </figure>
 
@@ -214,7 +209,7 @@ The **Click Performance** report tracks engagement with outbound assets such as 
 </details>
 
 <figure>
-  <img src="/media/image29.png" alt="Click Performance Report" />
+  <img src="/media/analytics/report/marketing/click-performance.png" alt="Click Performance Report" />
   <figcaption>Click Performance Report</figcaption>
 </figure>
 
@@ -232,21 +227,28 @@ The **Landing Pages** section shows visitor engagement with landing pages linked
   - <strong>Unique Count</strong> – Unique visitors<br/>
   - <strong>Total Count</strong> – Total visits
   </p>
+
 </details>
+
+<figure>
+  <img src="/media/analytics/report/marketing/outgoing-landing-pages.png" alt="outgoing landing pages" />
+  <figcaption>Outgoing Landing Pages</figcaption>
+</figure>
 
 ---
 
 ## 📈 Campaign Dashboards Reports
 
 This section provides a high-level overview of campaign performance with the following reports:
-
+<details>
+<summary><strong>It includes</strong></summary>
 - **Parent Campaign**
 - **Email Performance**
 - **Email Performance by Partner**
 - **Compare Email Over Time**
-
+</details>
 <figure>
-  <img src="/media/image2a.png" alt="Campaign Dashboard Reports" />
+  <img src="/media/analytics/report/marketing/campaign-insight.png" alt="Campaign Dashboard Reports" />
   <figcaption>Campaign Dashboard Reports</figcaption>
 </figure>
 
@@ -255,13 +257,14 @@ This section provides a high-level overview of campaign performance with the fol
 ## 🤝 Lead and Opportunity Dashboards Reports
 
 The **Lead & Opportunity Dashboards Reports** track lead progression and sales opportunities within campaigns. Reports include:
-
+<details>
+<summary><strong>It includes</strong></summary>
 - **Leads by Campaign**
 - **Campaign Opportunity Dashboard**
 - **Leads Profiled by Stage**
 - **Opportunity Stage Distribution**
-
+</details>
 <figure>
-  <img src="/media/image2b.png" alt="Lead and Opportunity Dashboard Reports" />
+  <img src="/media/analytics/report/marketing/leads and opportunities.png" alt="Lead and Opportunity Dashboard Reports" />
   <figcaption>Lead & Opportunity Dashboard Reports</figcaption>
 </figure>

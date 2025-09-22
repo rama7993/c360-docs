@@ -35,7 +35,10 @@ It includes columns such as:
 You can **sort** columns ascending/descending and **expand to fullscreen** using the maximize button beside the search bar.
 :::
 
-// Put Account-List Image
+<figure>
+  <img src="/media/crm/account/account-list.png" alt="Account list with sortable columns and actions" />
+  <figcaption>Account list view</figcaption>
+</figure>
 
 ---
 
@@ -44,8 +47,10 @@ You can **sort** columns ascending/descending and **expand to fullscreen** using
 - Enter keywords in fields like _Title, Name, Email, Phone, Company Phone_.
 - Click the **Search icon** or press **Enter** to find matching results.
 
-// Put Search -Account Image
-
+<figure>
+  <img src="/media/crm/account/account-search.png" alt="Search bar  for  Account" />
+  <figcaption>Search Account</figcaption>
+</figure>
 ---
 
 ## 🎯 Filtering Accounts
@@ -67,7 +72,24 @@ Use the **Active / Archived** toggle to include archived Accounts.
 You can also filter by **Owned by Me** vs **Assigned to Me**.
 :::
 
-//Put Filter- Account Image
+<figure>
+  <img src="/media/crm/account/account-filter.png" alt="Filter panel with multiple criteria and applied chips" />
+  <figcaption>Filter Account</figcaption>
+</figure>
+
+---
+
+
+## 🗑️ Deleting Accounts
+
+1. Select the checkbox(es) beside the Account you want to delete.
+2. Click the **Delete** icon .
+3. Click on **Yes** from the confirmation pop up if you want to delete.
+
+<figure>
+  <img src="/media/crm/account/account-delete.png" alt="Delete action for selected account" />
+  <figcaption>Delete selected accounts</figcaption>
+</figure>
 
 ---
 
@@ -76,7 +98,10 @@ You can also filter by **Owned by Me** vs **Assigned to Me**.
 1. Select the checkbox(es) for the desired leads.
 2. Click the **Download** icon to export them as a spreadsheet.
 
-// Put Download-Account Image
+<figure>
+  <img src="/media/crm/account/account-filter.png" alt="Download action for selected accounts" />
+  <figcaption>Download Selected Account</figcaption>
+</figure>
 
 ---
 
@@ -105,13 +130,22 @@ The Account Information section shows important details about an account, such a
 
 - Address
 
-// Put Account Details Image
+<figure>
+  <img src="/media/crm/account/account-details.png" alt="Details about an account" />
+  <figcaption> Account Details</figcaption>
+</figure>
 
 You can view more information about an account—such as associated contacts and opportunities—by expanding the respective sections (accordions).
 
-// Put Related Contact Image
+<figure>
+  <img src="/media/crm/account/account-related contact.png" alt="Contacts related to an individual accounts" />
+  <figcaption> Related Contact</figcaption>
+</figure>
 
-// Put Related Opportunity Image
+<figure>
+  <img src="/media/crm/account/account-related opportunity.png" alt="Opportunities related to an individual accounts" />
+  <figcaption>Related Opportunity </figcaption>
+</figure>
 
 ---
 
@@ -136,7 +170,7 @@ You can view more information about an account—such as associated contacts and
 2. Click **Change Owner** → select user → click **Confirm**.
 
 <figure>
-  <img src="/media/crm/account/account-owner.png" alt="Change owner" />
+  <img src="/media/crm/account/account-change owner.png" alt="Change owner" />
   <figcaption>Change account owner</figcaption>
 </figure>
 
@@ -157,7 +191,10 @@ You can view more information about an account—such as associated contacts and
   3. During Lead Convertion(if new).
     :::
 
-// Put Add/Edit Image
+<figure>
+  <img src="/media/crm/account/account-add.png" alt="Add/Edit an account" />
+  <figcaption>Add/Edit an Account</figcaption>
+</figure>
 
 ---
 
@@ -178,6 +215,19 @@ On the review step you can select:
 - **Specific** entries
   :::
 
-  //Put all images related to upload
+  <figure>
+  <img src="/media/crm/account/account-contact-choose data.png" alt="Upload account from Excel" />
+  <figcaption>Choose Data</figcaption>
+</figure>
+
+<figure>
+  <img src="/media/crm/account/account-contact-map field.png" alt="Map Excel columns to account fields" />
+  <figcaption>Field mapping</figcaption>
+</figure>
+
+<figure>
+  <img src="/media/crm/account/account-contact-confirm & import.png" alt="Summary and import confirmation" />
+  <figcaption>Confirm & Import</figcaption>
+</figure>
 
   ***

@@ -45,6 +45,6 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 
 <figure>
-  <img src="/media/image31.png" alt="Account Type Configuration" />
+  <img src="/media/system-configuration/account-type/account-type.png" alt="Account Type Configuration" />
   <figcaption>Managing Account Type Configuration</figcaption>
 </figure>

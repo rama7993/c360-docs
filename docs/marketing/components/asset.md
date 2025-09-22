@@ -8,11 +8,6 @@ The **Assets** module in **C360 CRM** helps you organize, manage, and track mark
 To access it:  
 ➡️ Go to **Marketing** → **Campaign Components** → **Assets** from the left-hand menu.
 
-<figure>
-  <img src="media/image1.png" style={{width:"100%", maxWidth:"650px"}} />
-  <figcaption>Navigation to Assets in C360</figcaption>
-</figure>
-
 ---
 
  ## 🗂️ Asset Views
@@ -26,7 +21,7 @@ To access it:
   - **Grid View** – Shows each asset as a card with quick actions (**copy link, download, edit, delete**).
 
   <figure>
-    <img src="media/image2.png" style={{width:"100%", maxWidth:"650px"}} />
+    <img src="/media/marketing/component/asset/asset-grid.png" style={{width:"100%", maxWidth:"650px"}} />
     <figcaption> Grid View of Assets</figcaption>
   </figure>
 
@@ -37,7 +32,7 @@ To access it:
   - **List View** – Shows assets in a table with columns like **Name, Type, Created By, and Actions**.
 
   <figure>
-    <img src="media/image2b.png" style={{width:"100%", maxWidth:"650px"}} />
+    <img src="/media/marketing/component/asset/asset-list.png" style={{width:"100%", maxWidth:"650px"}} />
     <figcaption> List View of Assets</figcaption>
   </figure>
 
@@ -54,7 +49,7 @@ To search for assets:
 ➡️ Enter the title or details in the **search bar** and press **Enter**.  
 
 <figure>
-  <img src="media/image4.png" style={{width:"100%", maxWidth:"650px"}} />
+  <img src="/media/marketing/component/asset/asset-search.png" style={{width:"100%", maxWidth:"650px"}} />
   <figcaption>Searching Assets in C360</figcaption>
 </figure>
 
@@ -69,8 +64,21 @@ You can filter assets by:
 - **Owned By / Assigned To**  
 
 <figure>
-  <img src="media/image5.png" style={{width:"100%", maxWidth:"650px"}} />
+  <img src="/media/marketing/component/asset/asset-filter.png" style={{width:"100%", maxWidth:"650px"}} />
   <figcaption>Filtering Assets</figcaption>
+</figure>
+
+---
+
+## 🗑️ Deleting Asset
+
+1. Select the checkbox(es) for the assets you want to delete.
+2. Click the **Delete** icon .
+3. Click on **Yes** from the confirmation pop up if you want to delete.
+
+<figure>
+  <img src="/media/marketing/component/asset/asset-delete.png" style={{width:"100%", maxWidth:"650px"}} />
+  <figcaption>Delete selected Assets</figcaption>
 </figure>
 
 ---
@@ -78,18 +86,22 @@ You can filter assets by:
 ## ✏️Add or Edit Asset
 
 **To add an asset:**  
-➡️ Click ** Add Asset**, enter details (**Type, Category, Assigned To, Description, Title, File/Link**), and click ** Save**.  
+1. ➡️ Click ** Add Asset** 
+2. enter details (**Type, Category, Assigned To, Description, Title, File/Link**) 
+3. click ** Save**.  
 
 <figure>
-  <img src="media/image6.png" style={{width:"100%", maxWidth:"650px"}} />
+  <img src="/media/marketing/component/asset/asset-add.png" style={{width:"100%", maxWidth:"650px"}} />
   <figcaption> Adding a New Asset</figcaption>
 </figure>
 
 **To edit an asset:**  
-➡️ Click the ** Edit (pencil)** icon, update the details, and click ** Update**.  
+ 1. ➡️ Click the ** Edit (pencil)** icon
+ 2. Make necessary Changes 
+ 3. click ** Update** 
 
 <figure>
-  <img src="media/image2c.png" style={{width:"100%", maxWidth:"600px"}} />
+  <img src="/media/marketing/component/asset/asset-edit.png" style={{width:"100%", maxWidth:"600px"}} />
   <figcaption> Editing an Asset</figcaption>
 </figure>
 
@@ -100,7 +112,7 @@ You can filter assets by:
 ➡️ Select one or more assets → Click **Assign To** → Choose a group.  
 
 <figure>
-  <img src="media/image9.png" style={{width:"100%", maxWidth:"650px"}} />
+  <img src="/media/marketing/component/asset/asset-assign.png" style={{width:"100%", maxWidth:"650px"}} />
   <figcaption> Assigning Assets to Groups</figcaption>
 </figure>
 
@@ -113,14 +125,14 @@ You can filter assets by:
 - Assets can also be grouped into **Categories**  for easier management.  
 
 <figure>
-  <img src="media/image10.png" style={{width:"100%", maxWidth:"650px"}} />
+  <img src="/media/marketing/component/asset/asset-category.png" style={{width:"100%", maxWidth:"650px"}} />
   <figcaption> Asset Categories in System Configuration</figcaption>
 </figure>
 
 💡 **Tip:** To track downloads via email, copy the **Asset Link**  into your Email Template button’s `href`.  
 
 <figure>
-  <img src="media/image11.png" style={{width:"100%", maxWidth:"650px"}} />
+  <img src="/media/marketing/component/asset/asset-track.png" style={{width:"100%", maxWidth:"650px"}} />
   <figcaption> Tracking Asset Downloads in Email Templates</figcaption>
 </figure>
 

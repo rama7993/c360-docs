@@ -154,6 +154,20 @@ stateDiagram-v2
     classDef archived stroke-dasharray: 5 5,stroke:#999,fill:#f9f9f9;
     class Converted,Not_Interested,Unqualified archived;
 ```
+---
+
+## 🗑️ Deleting Leads
+
+1. Select the checkbox(es) beside the leads you want to delete.
+2. Click the **Delete** icon .
+3. Click on **Yes** from the confirmation pop up if you want to delete.
+
+<figure>
+  <img src="/media/crm/lead/lead-delete.png" alt="Delete action for selected leads" />
+  <figcaption>Delete selected leads</figcaption>
+</figure>
+
+---
 
 ---
 
@@ -180,7 +194,7 @@ Click a lead’s name to open the **Lead Detail** page. From here you can:
 - View related **Notes, Tasks, and Activities**
 
 <figure>
-  <img src="/media/crm/lead/lead-detail.png" alt="Lead details with info, notes, tasks and activities" />
+  <img src="/media/crm/lead/lead-details.png" alt="Lead details with info, notes, tasks and activities" />
   <figcaption>Lead details</figcaption>
 </figure>
 
@@ -284,8 +298,8 @@ At the review step, you can import:
   :::
 
 <figure>
-  <img src="/media/crm/lead/lead-import-upload.png" alt="Upload leads from Excel" />
-  <figcaption>Upload list</figcaption>
+  <img src="/media/crm/lead/lead-import-choose data.png" alt="Upload leads from Excel" />
+  <figcaption>Choose Data</figcaption>
 </figure>
 
 <figure>
@@ -294,32 +308,9 @@ At the review step, you can import:
 </figure>
 
 <figure>
-  <img src="/media/crm/lead/lead-import-filter.png" alt="Filter imported leads by deliverability" />
-  <figcaption>Filter imported leads</figcaption>
-</figure>
-
-<figure>
-  <img src="/media/crm/lead/lead-import-summary.png" alt="Summary and import confirmation" />
-  <figcaption>Import summary</figcaption>
+  <img src="/media/crm/lead/lead-import.png" alt="Summary and import confirmation" />
+  <figcaption>Confirm & Import</figcaption>
 </figure>
 
 ---
 
-## 📁 Expected image files
-
-Copy your screenshots into `static/media/crm/lead/` with these names (or update the paths above to match your filenames):
-
-```
-lead-list.png
-lead-search.png
-lead-filter.png
-lead-download.png
-lead-detail.png
-lead-convert.png
-lead-assign.png
-lead-add-edit.png
-lead-import-upload.png
-lead-import-map.png
-lead-import-filter.png
-lead-import-summary.png
-```

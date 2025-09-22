@@ -1,9 +1,9 @@
-# **📝Form Builder** 
+# **📝Form Builder**
 
-The **Form Builder** in **C360** allows you to design, manage, and assign forms that can be integrated with campaigns, landing pages, and lead management.  
+The **Form Builder** in **C360** allows you to design, manage, and assign forms that can be integrated with campaigns, landing pages, and lead management.
 
 To access it:  
-➡️ Go to **Marketing** → **Campaign Components** → **Form Builder** from the left-hand menu.  
+➡️ Go to **Co-Marketing** → **Campaign Components** → **Form Builder** from the left-hand menu.
 
 <figure>
   <img src="/media/image35.png" alt="Form Builder Navigation" />
@@ -14,29 +14,29 @@ To access it:
 
 ## 📋Viewing the Existing Forms List
 
-The Forms list provides a complete overview of all created forms.  
+The Forms list provides a complete overview of all created forms.
 
--  Columns include: **Name, Form Status, Created By, Created On, Last Updated By, Last Updated On, and Actions (Edit & Preview).**  
--  You can sort the columns in ascending or descending order.  
--  Use the **Search bar** to quickly find forms.  
--  Options are available to **Add**, 🗑️ **Delete**, or 👥 **Assign** forms to user groups.  
--  Click the **Pencil icon** in the Actions column to edit a form.  
--  To delete, select the form(s) via checkbox and click **Delete**.  
+- Columns include: **Name, Form Status, Created By, Created On, Last Updated By, Last Updated On, and Actions (Edit & Preview).**
+- You can sort the columns in ascending or descending order.
+- Use the **Search bar** to quickly find forms.
+- Options are available to **Add**, 🗑️ **Delete**, or 👥 **Assign** forms to user groups.
+- Click the **Pencil icon** in the Actions column to edit a form.
+- To delete, select the form(s) via checkbox and click **Delete**.
 
 <figure>
-  <img src="/media/image36.png" alt="Forms List Overview" />
+  <img src="/media/marketing/component/form builder/form-list.png" alt="Forms List Overview" />
   <figcaption> Viewing and Managing Forms in the List</figcaption>
 </figure>
 
 ---
 
-## 🔍Searching for a Form 
+## 🔍Searching for a Form
 
--  Enter a keyword or form name in the **Search bar**.  
--  Matching results will appear instantly.  
+- Enter a keyword or form name in the **Search bar**.
+- Matching results will appear instantly.
 
 <figure>
-  <img src="/media/image37.png" alt="Form Search Example" />
+  <img src="/media/marketing/component/form builder/form-search.png" alt="Form Search Example" />
   <figcaption> Searching for Forms in the List</figcaption>
 </figure>
 
@@ -44,102 +44,114 @@ The Forms list provides a complete overview of all created forms.
 
 ## ✏️Add / Edit a Form
 
-### ⚙️Details Tab 
--  **Name** – Enter the form title.  
--  **Successful Submit Action** – Define what happens after submission.  
--  **Redirect URL** – Page where users are redirected post-submission.  
--  **Category** – Assign a form category.  
--  **Status** – Draft / Published.  
--  **Contact Us** – Enable/Disable toggle.  
--  **Description** – Provide extra information.  
+### ⚙️Details Tab
+
+- **Name** – Enter the form title.
+- **Successful Submit Action** – Define what happens after submission.
+- **Redirect URL** – Page where users are redirected post-submission.
+- **Category** – Assign a form category.
+- **Status** – Draft / Published.
+- **Contact Us** – Enable/Disable toggle.
+- **Description** – Provide extra information.
 
 <figure>
-  <img src="/media/image38.png" alt="Form Details Tab" />
+  <img src="/media/marketing/component/form builder/form-add.png" alt="Form Details Tab" />
   <figcaption> Form Details Configuration</figcaption>
 </figure>
 
 ---
 
 ### 🧩Fields Tab
--  Add and manage different field types: **Text, Select, Date**.  
--  Fields are categorized as **General Fields** and **Lead Fields with Validation**.  
--  Options include:  
 
-  -  **Label** – Display text for the field.  
-  -  **Default Value** – Pre-filled data.  
-  -  **Placeholder** – Example text.  
+- Add and manage different field types: **Text, Select, Date**.
+- Fields are categorized as **General Fields** and **Lead Fields with Validation** .
+- Options include:
+- **Label** – Display text for the field.
+- **Default Value** – Pre-filled data.
+- **Placeholder** – Example text.
+- For **Lead Fields**, select predefined fields and add validations.
 
-<figure>
-  <img src="/media/image2f.png" alt="General Field Options" />
-  <figcaption> Adding General Fields to the Form</figcaption>
-</figure>
+##### Text
 
--  For **Lead Fields**, select predefined fields and add validations.  
+- **Text Field** is an input field To collect short or medium-length responses from users (names, email addresses, job titles, etc.).
 
 <figure>
-  <img src="/media/image30.png" alt="Lead Field Validation" />
+  <img src="/media/marketing/component/form builder/form-field-text.png" alt="Lead Field Validation" />
   <figcaption> Configuring Lead Fields and Validations</figcaption>
 </figure>
 
--  For **Select fields**, define **Label & Value** for dropdown options.  
+#### Select Field
+
+- **Select Field**  a dropdown to provide a controlled list of options for consistency.
+- For **Select fields**, define **Label & Value** for dropdown options.
 
 <figure>
-  <img src="/media/image31.png" alt="Dropdown Field Example" />
+  <img src="/media/marketing/component/form builder/form-field-select.png" alt="Dropdown Field Example" />
   <figcaption> Adding Dropdown Options in a Form</figcaption>
 </figure>
 
-- ↔ Fields can be **dragged and reordered**.  
+- ↔ Fields can be **dragged and reordered**.
 
 <figure>
-  <img src="/media/image32.png" alt="Drag and Drop Fields" />
+  <img src="/media/marketing/component/form builder/form-field-reorder.png" alt="Drag and Drop Fields" />
   <figcaption>↔ Reordering Fields with Drag and Drop</figcaption>
+</figure>
+
+#### Date
+
+- **Date Field** is an input type that allows users to capture a specific date (and optionally time) in a consistent format.
+
+<figure>
+  <img src="/media/marketing/component/form builder/form-field-date.png" alt="Date Fields" />
+  <figcaption>↔ Date Field</figcaption>
 </figure>
 
 ---
 
 ### ⚡Actions Tab
-Define automated actions that trigger after form submission.  
 
-1. 📊 **Modify Campaign Segments** – Add or remove contacts from segments.  
+Define automated actions that trigger after form submission.
+
+1. 📊 **Modify Campaign Segments** – Add or remove contacts from segments.
 
    <figure>
-     <img src="/media/image44.png" alt="Modify Campaign Segments" />
+     <img src="/media/marketing/component/form builder/form-action-modify campaign segment.png" alt="Modify Campaign Segments" />
      <figcaption> Form Action – Modify Campaign Segments</figcaption>
    </figure>
 
-2. 📂 **Download an Asset** – Provide downloadable content upon form submission.  
+2. 📂 **Download an Asset** – Provide downloadable content upon form submission.
 
    <figure>
-     <img src="/media/image45.png" alt="Download Asset Action" />
+     <img src="/media/marketing/component/form builder/form-action-download asset.png" alt="Download Asset Action" />
      <figcaption> Form Action – Download Asset</figcaption>
    </figure>
 
-3. 📧 **Send Email to Lead**  
+3. 📧 **Send Email to Lead**
 
    <figure>
-     <img src="/media/image46.png" alt="Send Email to Lead" />
+     <img src="/media/marketing/component/form builder/form-action-send email to lead.png" />
      <figcaption> Form Action – Send Email to Lead</figcaption>
    </figure>
 
-4. 👤 **Send Email to User**  
+4. 👤 **Send Email to User**
 
    <figure>
-     <img src="/media/image47.png" alt="Send Email to User" />
+     <img src="/media/marketing/component/form builder/form-action-send email to user.png" alt="Send Email to User" />
      <figcaption> Form Action – Send Email to User</figcaption>
    </figure>
 
-5. 📤 **Send Form Results** – Send form responses via email with options for **To, CC, BCC, Send to Owner, Send to Contact.**  
+5. 📤 **Send Form Results** – Send form responses via email with options for **To, CC, BCC, Send to Owner, Send to Contact.**
 
    <figure>
-     <img src="/media/image48.png" alt="Send Form Results Action" />
+     <img src="/media/marketing/component/form builder/form-action-send form result.png" alt="Send Form Results Action" />
      <figcaption> Form Action – Send Form Results via Email</figcaption>
    </figure>
 
--  To **edit** or  **delete** individual fields/actions, use the icons beside each item.  
--  Always click **Save** after changes.  
+- To **edit** or **delete** individual fields/actions, use the icons beside each item.
+- Always click **Update** after changes.
 
 <figure>
-  <img src="/media/image49.png" alt="Edit Form Actions" />
+  <img src="/media/marketing/component/form builder/form-action-edit & delete.png" alt="Edit Form Actions" />
   <figcaption> Editing or Deleting Form Actions</figcaption>
 </figure>
 
@@ -147,31 +159,44 @@ Define automated actions that trigger after form submission.
 
 ## 👥Assigning a Form to a Group
 
--  On the Forms list page, select one or more forms.  
--  Click **Assign To** at the top.  
--  Choose a group from the dropdown.  
--  Assigned forms will be linked to that group.  
+- On the Forms list page, select one or more forms.
+- Click **Assign To** at the top.
+- Choose a group from the dropdown.
+- Assigned forms will be linked to that group.
 
 <figure>
-  <img src="/media/image50.png" alt="Assign Forms to Group" />
+  <img src="/media/marketing/component/form builder/form-assign.png" alt="Assign Forms to Group" />
   <figcaption> Assigning a Form to a Group</figcaption>
+</figure>
+
+---
+
+## 🗑️ Deleting Form
+
+1. Select the checkbox(es) for the Form you want to delete.
+2. Click the **Delete** icon .
+3. Click on **Yes** from the confirmation pop up if you want to delete.
+
+<figure>
+  <img src="/media/marketing/component/form builder/form-delete.png" style={{width:"100%", maxWidth:"650px"}} />
+  <figcaption>Delete selected form</figcaption>
 </figure>
 
 ---
 
 ## 🌐Form Integration with Landing Page
 
--  Go to **Landing Page** under Campaign Components.  
--  Edit the landing page and click on a text element.  
--  Select the form from the dropdown to embed it.  
--  To preview, click the **Eye icon**.  
+- Go to **Landing Page** under Campaign Components.
+- Edit the landing page and click on a text element.
+- Select the form from the dropdown to embed it.
+- To preview, click the **Eye icon**.
 
 <figure>
-  <img src="/media/image51.png" alt="Embed Form in Landing Page" />
+  <img src="/media/marketing/component/form builder/form-track.png" alt="Embed Form in Landing Page" />
   <figcaption>Adding Forms into a Landing Page</figcaption>
 </figure>
 
 <figure>
-  <img src="/media/image52.png" alt="Preview Form in Landing Page" />
+  <img src="/media/marketing/component/form builder/form-preview.png" alt="Preview Form in Landing Page" />
   <figcaption>Previewing a Form on the Landing Page</figcaption>
 </figure>

@@ -44,7 +44,7 @@ Examples: email campaigns, social media promotions, and other outreach activitie
 </Tabs>
 
 <figure>
-  <img src="/media/image32.png" alt="Campaign Category Configuration" />
+  <img src="/media/system-configuration/category/campaign.png" alt="Campaign Category Configuration" />
   <figcaption>Managing Campaign Category Configuration</figcaption>
 </figure>
 
@@ -86,7 +86,7 @@ Examples: brochures, videos, infographics, and other marketing materials.
 </Tabs>
 
 <figure>
-  <img src="/media/image33.png" alt="Asset Category Configuration" />
+  <img src="/media/system-configuration/category/asset.png" alt="Asset Category Configuration" />
   <figcaption>Managing Asset Category Configuration</figcaption>
 </figure>
 
@@ -127,6 +127,6 @@ Online tools used to collect user information such as contact details, preferenc
 </Tabs>
 
 <figure>
-  <img src="/media/image34.png" alt="Form Category Configuration" />
+  <img src="/media/system-configuration/category/form.png" alt="Form Category Configuration" />
   <figcaption>Managing Form Category Configuration</figcaption>
 </figure>

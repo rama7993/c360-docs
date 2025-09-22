@@ -25,7 +25,7 @@ Eligible users or partners can **claim leads**, while admins maintain oversight 
 4. Select which users or partners are eligible to claim leads.
 
 <figure>
-  <img src="/media/shark-tank/assign-leads.png" alt="Assign leads in Shark Tank" />
+  <img src="/media/shortcut/shark-tank-and-round-robin/shark-tank-assign.png" alt="Assign leads in Shark Tank" />
   <figcaption>Assigning leads into the Shark Tank pool</figcaption>
 </figure>
 
@@ -36,7 +36,7 @@ Eligible users or partners can **claim leads**, while admins maintain oversight 
 - Once approved, the lead is assigned and visible in their pipeline.
 
 <figure>
-  <img src="/media/shark-tank/claim-leads-table.png" alt="Claim Leads Table" />
+  <img src="/media/shortcut/shark-tank-and-round-robin/shark-tank-claim-request.png" alt="Claim Leads Table" />
   <figcaption>Claim Leads table for users</figcaption>
 </figure>
 
@@ -47,7 +47,7 @@ Eligible users or partners can **claim leads**, while admins maintain oversight 
 - Claiming users are automatically notified of the outcome via email.
 
 <figure>
-  <img src="/media/shark-tank/claim-review-requests.png" alt="Claim Review Request Table" />
+  <img src="/media/shortcut/shark-tank-and-round-robin/shark-tank-claim-review-request.png" alt="Claim Review Request Table" />
   <figcaption>Admin reviewing pending lead claims</figcaption>
 </figure>
 
@@ -72,7 +72,7 @@ This approach guarantees:
 4. Choose eligible users/partners and drag to set the rotation order.
 
 <figure>
-  <img src="/media/round-robin/assign-leads.png" alt="Assign leads in Round Robin" />
+  <img src="/media/shortcut/shark-tank-and-round-robin/round-robin-assign.png" alt="Assign leads in Round Robin" />
   <figcaption>Assigning leads automatically with Round Robin</figcaption>
 </figure>
 
@@ -83,7 +83,7 @@ This approach guarantees:
 - If rejected, the lead instantly moves to the next person in rotation.
 
 <figure>
-  <img src="/media/round-robin/lead-alerts.png" alt="Round Robin Lead Alerts" />
+  <img src="/media/shortcut/shark-tank-and-round-robin/round-robin-claim.png" alt="Round Robin Lead Alerts" />
   <figcaption>Round Robin alerts for users</figcaption>
 </figure>
 

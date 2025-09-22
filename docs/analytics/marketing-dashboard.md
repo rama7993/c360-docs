@@ -8,11 +8,6 @@ The **Marketing Dashboard** in C360 provides detailed insights into marketing ca
 To access **Marketing Dashboard**:  
 ➡️ Go to **Analytics** → **Insights** → **Marketing Dashboard** from the left-hand menu.
 
-<figure>
-  <img src="/media/image1d.png" alt="C360 Analytics - Insights Navigation" />
-  <figcaption>Navigate to Analytics → Insights to access dashboards</figcaption>
-</figure>
-
 ---
 
 
@@ -72,7 +67,7 @@ The Campaign Performance dashboard highlights campaign effectiveness, email enga
 
 
 <figure>
-  <img src="/media/image20.png" alt="Marketing Dashboard - Campaign Performance" />
+  <img src="/media/analytics/insight/marketing/marketing campaign.png" alt="Marketing Dashboard - Campaign Performance" />
   <figcaption>Campaign performance and email engagement insights</figcaption>
 </figure>
 
@@ -104,6 +99,6 @@ This section focuses on lead generation, profiling, and opportunity conversion.
 
 
 <figure>
-  <img src="/media/image21.png" alt="Marketing Dashboard - Leads and Opportunities" />
+  <img src="/media/analytics/insight/marketing/leads and opportunities.png" alt="Marketing Dashboard - Leads and Opportunities" />
   <figcaption>Lead generation and opportunity conversion insights</figcaption>
 </figure>

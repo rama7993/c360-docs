@@ -23,9 +23,18 @@ To access Users:
 - **Columns**: First Name, Last Name, Email, Email Verified, Assigned Group, Actions (Edit/Delete)
 - **Sorting**: Click any column header to sort users
 - **Top Features**:
+
   - **Search bar** → Quickly locate users
   - **Add button** → Create a new user
   - **Toggle button** → Switch between List / Tree views
+  - **pencil Icon** → Create a new user
+  - **Trash Icon** → Create a new user
+  - **Envelope Icon** → Create a new user
+
+<figure>
+  <img src="/media/account-management/user/user-list.png" alt="User List View" />
+  <figcaption>User List View</figcaption>
+</figure>
 
 </TabItem>
 
@@ -35,7 +44,13 @@ To access Users:
 - **Edit** → Pencil icon or Edit button in the sidebar
 - **Delete** → Trash icon under Actions
 
+<figure>
+  <img src="/media/account-management/user/user-tree-view.png" alt="Tree View" />
+  <figcaption>User Tree View</figcaption>
+</figure>
+
 </TabItem>
+
 </Tabs>
 
 ---
@@ -43,7 +58,7 @@ To access Users:
 ## ➕ Add / Edit a User
 
 <details>
-<summary>Steps to Add a User</summary>
+<summary>Steps to Add an User</summary>
 
 1. Click **Add User**
 2. Enter the following details:
@@ -54,12 +69,25 @@ To access Users:
    - **Group Assignment**
 3. Click **Save** to complete user creation.
 
+<figure>
+  <img src="/media/account-management/user/user-add.png" alt="Add User" />
+  <figcaption>Add User</figcaption>
+</figure>
+
 </details>
 
-**To Edit a User:**
+<details>
+<summary>Steps to edit an User</summary>
 
 - Click the **pencil icon** in the user list, or
 - Use the **Edit button** on the user’s details page.
+
+<figure>
+  <img src="/media/account-management/user/user-edit.png" alt="Edit User" />
+  <figcaption>Edit User</figcaption>
+</figure>
+
+ </details>
 
 ---
 
@@ -67,6 +95,23 @@ To access Users:
 
 - Enter a **name or keyword** in the search bar.
 - Press **Enter** to instantly filter results.
+
+<figure>
+  <img src="/media/account-management/user/user-search.png" alt="Search User" />
+  <figcaption>Searching for User</figcaption>
+</figure>
+
+---
+
+## 🗑️ Deleting User
+
+1. Click the **Delete** icon for the User you want to delete .
+2. Click on **Yes** from the confirmation pop up if you want to delete.
+
+<figure>
+  <img src="/media/account-management/user/user-delete.png" alt="Delete User" />
+  <figcaption>Delete an User</figcaption>
+</figure>
 
 ---
 
@@ -78,6 +123,11 @@ Here you can review:
 - **Assigned Group**
 - **Email Verification Status**
 - **Access Permissions**
+
+<figure>
+  <img src="/media/account-management/user/user-details.png" alt="Delete Details" />
+  <figcaption>Details of an User</figcaption>
+</figure>
 
 ---
 

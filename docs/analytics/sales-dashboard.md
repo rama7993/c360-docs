@@ -8,12 +8,6 @@ The **Sales Dashboard** in C360 provides visibility into **Leads** and **Opportu
 To access **Sales Dashboard**:  
 ➡️ Go to **Analytics** → **Insights** → **Sales Dashboard** from the left-hand menu.
 
-<figure>
-  <img src="/media/image1d.png" alt="C360 Analytics - Insights Navigation" />
-  <figcaption>Navigate to Analytics → Insights to access dashboards</figcaption>
-</figure>
-
-
 ---
 
 ## 🎛️Filters 
@@ -209,7 +203,7 @@ The Opportunities dashboard provides detailed insights into **revenue, pipeline,
       <li><strong>Top 10 Accounts</strong> – Highest revenue & potential accounts.</li>
     </ul>
     <figure>
-        <img src="/media/image7.png" alt="Sales Dashboard - Executive Sponsor Metrics" />
+        <img src="/media/analytics/insight/sales/executive sponsor key matrics.png" alt="Sales Dashboard - Executive Sponsor Metrics" />
         <figcaption>Executive Sponsor – Key Sales Metrics</figcaption>
       </figure>
   </div>
@@ -226,7 +220,7 @@ The Opportunities dashboard provides detailed insights into **revenue, pipeline,
       <li><strong>Opportunity Pipeline</strong> – Active opportunity value.</li>
     </ul>
     <figure>
-        <img src="/media/image8.png" alt="Sales Dashboard - Key Performance Indicators" />
+        <img src="/media/analytics/insight/sales/key performance indicator.png" alt="Sales Dashboard - Key Performance Indicators" />
         <figcaption>Key Sales Performance Indicators</figcaption>
       </figure>
   </div>
@@ -238,7 +232,7 @@ The Opportunities dashboard provides detailed insights into **revenue, pipeline,
       <li><strong>Performance by Partner</strong> – Lead distribution and partner outcomes.</li>
     </ul>
     <figure>
-        <img src="/media/image9.png" alt="Sales Dashboard - Round Robin Metrics" />
+        <img src="/media/analytics/insight/sales/round robin dashboard.png" alt="Sales Dashboard - Round Robin Metrics" />
         <figcaption>Round Robin – Distribution & Partner Performance</figcaption>
       </figure>
   </div>
@@ -254,7 +248,7 @@ The Opportunities dashboard provides detailed insights into **revenue, pipeline,
       <li><strong>Closed Won by Rep</strong> – Sales rep performance on won deals.</li>
     </ul>
      <figure>
-        <img src="/media/image10.png" alt="Sales Manager Dashboard" />
+        <img src="/media/analytics/insight/sales/sales manager dashboard.png" alt="Sales Manager Dashboard" />
         <figcaption>Sales Manager – Team Performance Overview</figcaption>
       </figure>
   </div>
@@ -271,7 +265,7 @@ The Opportunities dashboard provides detailed insights into **revenue, pipeline,
       <li><strong>Average Days to Close</strong> – Rep-specific sales cycle.</li>
     </ul>
      <figure>
-        <img src="/media/image11.png" alt="Sales Manager Key Metrics" />
+        <img src="/media/analytics/insight/sales/sales manager key matrics.png" alt="Sales Manager Key Metrics" />
         <figcaption>Sales Manager – Team KPIs</figcaption>
       </figure>
   </div>
@@ -284,7 +278,7 @@ The Opportunities dashboard provides detailed insights into **revenue, pipeline,
       <li><strong>All-Time Top Accounts</strong> – Accounts with highest historical revenue.</li>
     </ul>
     <figure>
-        <img src="/media/image12.png" alt="Sales Representative Clean Your Room" />
+        <img src="/media/analytics/insight/sales/sales represantative clean your room.png" alt="Sales Representative Clean Your Room" />
         <figcaption>Sales Rep – Pipeline & Revenue Insights</figcaption>
       </figure>
   </div>
@@ -296,7 +290,7 @@ The Opportunities dashboard provides detailed insights into **revenue, pipeline,
       <li><strong>Performance by Partner</strong> – Lead performance across partners.</li>
     </ul>
      <figure>
-        <img src="/media/image13.png" alt="Shark Tank Dashboard" />
+        <img src="/media/analytics/insight/sales/shark tank dashboard.png" alt="Shark Tank Dashboard" />
         <figcaption>Shark Tank – Partner Performance & Lead Tracking</figcaption>
       </figure>
   </div>

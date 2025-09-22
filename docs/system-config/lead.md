@@ -39,7 +39,7 @@ Represents the current state of a lead in the sales process. Each status reflect
 ➡️ You can **add, delete, or modify** lead statuses as needed, and update their scores.
 
 <figure>
-  <img src="/media/image15.png" alt="Lead Status Configuration" />
+  <img src="/media/system-configuration/lead/lead-score-status.png" alt="Lead Status Configuration" />
   <figcaption>Lead Status Configuration</figcaption>
 </figure>
 
@@ -53,7 +53,7 @@ Shows where a lead is in the buyer journey — from acquisition by marketing to 
 ➡️ Color indicators are reflected in the **Lead List table**.
 
 <figure>
-  <img src="/media/image2b.png" alt="Lead Stage Configuration" />
+  <img src="/media/system-configuration/lead/lead-stage.png" alt="Lead Stage Configuration" />
   <figcaption>Lead Stage with Color Indicators</figcaption>
 </figure>
 
@@ -78,7 +78,7 @@ You can manage and update scores for activities such as:
 ➡️ Updated scores are reflected in the **Lead Score column** of the leads data table.
 
 <figure>
-  <img src="/media/image17.png" alt="Marketing Response Lead Scoring" />
+  <img src="/media/system-configuration/lead/marketing-response.png" alt="Marketing Response Lead Scoring" />
   <figcaption>Marketing Response Lead Scoring</figcaption>
 </figure>
 
@@ -93,7 +93,7 @@ Adjust the weightage of each scoring factor as required. Update the percentage v
 - Lead Stage Weightage (LStW)
 
 <figure>
-  <img src="/media/image18.png" alt="Lead Score Weight Allocation" />
+  <img src="/media/system-configuration/lead/weightage-allocation.png" alt="Lead Score Weight Allocation" />
   <figcaption>Weight Allocation for Lead Scoring</figcaption>
 </figure>
 
@@ -108,7 +108,7 @@ TLS = (MRS \times MRW) + (LSS \times LSW) + (LStS \times LStW)
 $$
 
 <figure>
-  <img src="/media/image19.png" alt="Lead Score Calculation" />
+  <img src="/media/system-configuration/lead/lead-score.png" alt="Lead Score Calculation" />
   <figcaption>Total Lead Score (TLS) Calculation</figcaption>
 </figure>
 
@@ -126,7 +126,7 @@ The **Lead Assign** section contains two modes:
       <li>Shark Tank Reminder 🔔</li>
     </ul>
     <figure>
-      <img src="/media/image20.png" alt="Shark Tank Lead Assignment" />
+      <img src="/media/system-configuration/lead/shark-tank.png" alt="Shark Tank Lead Assignment" />
       <figcaption>Shark Tank Lead Assignment</figcaption>
     </figure>
   </TabItem>
@@ -137,7 +137,7 @@ The **Lead Assign** section contains two modes:
       <li>Round Robin Reminder 🔔</li>
     </ul>
     <figure>
-      <img src="/media/image21.png" alt="Round Robin Lead Assignment" />
+      <img src="/media/system-configuration/lead/round-robin.png" alt="Round Robin Lead Assignment" />
       <figcaption>Round Robin Lead Assignment</figcaption>
     </figure>
   </TabItem>
@@ -179,7 +179,7 @@ Defines the current state of a lead or customer interaction in the sales process
 </Tabs>
 
 <figure>
-  <img src="/media/image22.png" alt="Lead Status Management" />
+  <img src="/media/system-configuration/lead/lead-status.png" alt="Lead Status Management" />
   <figcaption>Lead Status Management</figcaption>
 </figure>
 
@@ -211,7 +211,7 @@ Represents the industry in which the lead’s company operates.
 </Tabs>
 
 <figure>
-  <img src="/media/image23.png" alt="Lead Industry Configuration" />
+  <img src="/media/system-configuration/lead/lead-industry.png" alt="Lead Industry Configuration" />
   <figcaption>Lead Industry Setup</figcaption>
 </figure>
 
@@ -243,7 +243,7 @@ Identifies how a lead was acquired (e.g., marketing campaign, referral, online i
 </Tabs>
 
 <figure>
-  <img src="/media/image24.png" alt="Lead Source Configuration" />
+  <img src="/media/system-configuration/lead/lead-source.png" alt="Lead Source Configuration" />
   <figcaption>Lead Source Setup</figcaption>
 </figure>
 
@@ -277,6 +277,6 @@ Represents the result of a call made during sales or customer interactions.
 </Tabs>
 
 <figure>
-  <img src="/media/image2c.png" alt="Lead Call Outcome Configuration" />
+  <img src="/media/system-configuration/lead/lead-call-outcome.png" alt="Lead Call Outcome Configuration" />
   <figcaption>Lead Call Outcome Setup</figcaption>
 </figure>

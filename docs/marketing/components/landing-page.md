@@ -5,11 +5,6 @@ The **Landing Page** module in **C360 CRM** helps you create, manage, and track 
 To access it:  
 ➡️ Go to **Marketing** → **Campaign Component** → **Landing Page** from the left-hand menu.  
 
-<figure>
-  <img src="/media/image28.png" alt="Landing Page navigation" style={{width:"100%", maxWidth:"800px"}} />
-  <figcaption>Navigation to Landing Page module</figcaption>
-</figure>
-
 ---
 
 ## 📑 Landing Page Views 
@@ -30,7 +25,7 @@ import TabItem from '@theme/TabItem';
   - **Grid View** → Displays action dropdowns for **Clone, Edit, Copy**, and shows a **Preview** option on hover.  
 
   <figure>
-    <img src="/media/image29.png" alt="Landing Page grid view" style={{width:"100%", maxWidth:"800px"}} />
+    <img src="/media/marketing/component/landing page/landing-page-grid.png" style={{width:"100%", maxWidth:"650px"}} />
     <figcaption>🔲 Grid View of Landing Pages</figcaption>
   </figure>
 
@@ -41,7 +36,7 @@ import TabItem from '@theme/TabItem';
   - **List View** → Displays **thumbnail, status, created date, created by**, with action icons for **Preview, Copy, Clone, Edit**.  
 
   <figure>
-    <img src="/media/image2a.png" alt="Landing Page list view" style={{width:"100%", maxWidth:"800px"}} />
+    <img src="/media/marketing/component/landing page/landing-page-list.png" alt="Landing Page list view" style={{width:"100%", maxWidth:"800px"}} />
     <figcaption>📜 List View of Landing Pages</figcaption>
   </figure>
 
@@ -55,7 +50,7 @@ import TabItem from '@theme/TabItem';
 Enter the landing page name in the **Search bar** and click the **Search icon** to view results.  
 
 <figure>
-  <img src="media/image13.png" alt="Search landing pages" style={{width:"100%", maxWidth:"800px"}} />
+  <img src="/media/marketing/component/landing page/landing-page-search.png" alt="Search landing pages" style={{width:"100%", maxWidth:"800px"}} />
   <figcaption>Searching for Landing Pages</figcaption>
 </figure>
 
@@ -68,8 +63,22 @@ Enter the landing page name in the **Search bar** and click the **Search icon** 
 - Applied filters appear beside the filter section and can be cleared anytime.  
 
 <figure>
-  <img src="media/image14.png" alt="Filter landing pages" style={{width:"100%", maxWidth:"800px"}} />
+  <img src="/media/marketing/component/landing page/landing-page-filter.png" alt="Filter landing pages" style={{width:"100%", maxWidth:"800px"}} />
   <figcaption>Filtering Landing Pages</figcaption>
+</figure>
+
+---
+
+
+## 🗑️ Deleting ALanding Page
+
+1. Select the checkbox(es) for the Landing Page you want to delete.
+2. Click the **Delete** icon .
+3. Click on **Yes** from the confirmation pop up if you want to delete.
+
+<figure>
+  <img src="/media/marketing/component/landing page/landing-page-delete.png" style={{width:"100%", maxWidth:"650px"}} />
+  <figcaption>Delete selected Landing Page</figcaption>
 </figure>
 
 ---
@@ -79,7 +88,7 @@ Enter the landing page name in the **Search bar** and click the **Search icon** 
 Select landing pages using checkboxes and click **Assign To** to allocate them to groups.  
 
 <figure>
-  <img src="media/image15.png" alt="Assign landing pages" style={{width:"100%", maxWidth:"800px"}} />
+  <img src="/media/marketing/component/landing page/landing-page-assign.png" alt="Assign landing pages" style={{width:"100%", maxWidth:"800px"}} />
   <figcaption>Assigning Landing Pages</figcaption>
 </figure>
 
@@ -91,7 +100,7 @@ Select landing pages using checkboxes and click **Assign To** to allocate them t
 - **Preview** → Opens the landing page in a new tab.  
 
 <figure>
-  <img src="/media/image2d.png" alt="Landing page actions" style={{width:"100%", maxWidth:"800px"}} />
+  <img src="/media/marketing/component/landing page/landing-page-action.png" alt="Landing page actions" style={{width:"100%", maxWidth:"800px"}} />
   <figcaption>Actions available for Landing Pages</figcaption>
 </figure>
 
@@ -108,14 +117,14 @@ You can create a new landing page in **three ways**:
    - **Create from Scratch** → Start with a blank template.  
 
 <figure>
-  <img src="/media/image2e.png" alt="Add new landing page" style={{width:"100%", maxWidth:"800px"}} />
+  <img src="/media/marketing/component/landing page/landing-page-add.png" alt="Add new landing page" style={{width:"100%", maxWidth:"800px"}} />
   <figcaption>Options to Add a Landing Page</figcaption>
 </figure>
 
 After selecting your option, you will be redirected to the **Editor**:  
 
 <figure>
-  <img src="media/image17.png" alt="Landing page editor" style={{width:"100%", maxWidth:"800px"}} />
+  <img src="/media/marketing/component/landing page/landing-page-editor.png" alt="Landing page editor" style={{width:"100%", maxWidth:"800px"}} />
   <figcaption>Landing Page Editor</figcaption>
 </figure>
 
@@ -129,7 +138,7 @@ After selecting your option, you will be redirected to the **Editor**:
    - **Preview** – View the page before publishing.  
 
 <figure>
-  <img src="media/image18.png" alt="Save landing page" style={{width:"100%", maxWidth:"800px"}} />
+  <img src="/media/marketing/component/landing page/landing-page-grapejs.png" alt="Save landing page" style={{width:"100%", maxWidth:"800px"}} />
   <figcaption>Saving a Landing Page</figcaption>
 </figure>
 
@@ -144,14 +153,14 @@ Landing pages can be linked and tracked within campaigns.
 3. Add the link in the **href** attribute of a button.  
 
 <figure>
-  <img src="media/image19.png" alt="Managing landing pages in email" style={{width:"100%", maxWidth:"800px"}} />
+  <img src="/media/marketing/component/landing page/landing-page-linktrack.png" alt="Managing landing pages in email" style={{width:"100%", maxWidth:"800px"}} />
   <figcaption>Embedding Landing Page in Email</figcaption>
 </figure>
 
 4. Alternatively, insert a landing page using the **Dynamic Landing Page dropdown**.  
 
 <figure>
-  <img src="media/image20.png" alt="Dynamic landing page selection" style={{width:"100%", maxWidth:"800px"}} />
+  <img src="/media/marketing/component/landing page/landing-page-track.png" alt="Dynamic landing page selection" style={{width:"100%", maxWidth:"800px"}} />
   <figcaption> Selecting Dynamic Landing Page</figcaption>
 </figure>
 
