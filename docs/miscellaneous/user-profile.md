@@ -20,7 +20,7 @@ Accessing your profile is quick and easy:
 This opens your **Profile Dashboard**, where you can manage personal and company details.
 
 <figure>
-  <img src="/media/profile/access-profile-settings.png" alt="Access Profile Settings" />
+  <img src="/media/shortcut/profile-preference/profile-preference-navigation.png" alt="Access Profile Settings" />
   <figcaption>Accessing Profile & Preferences in C360</figcaption>
 </figure>
 
@@ -37,7 +37,7 @@ Under the **Profile tab**, you can update essential details:
 - Profile Picture
 
 <figure>
-  <img src="/media/profile/edit-profile-information.png" alt="Edit Profile Information" />
+  <img src="/media/shortcut/profile-preference/profile.png" alt="Edit Profile Information" />
   <figcaption>Updating Personal Information</figcaption>
 </figure>
 
@@ -52,14 +52,14 @@ In the **Company Information tab**, ensure your brand identity is always consist
 - Social Media URLs (Facebook, Twitter, LinkedIn, Google+)
 
 <figure>
-  <img src="/media/profile/company-information.png" alt="Company Information" />
+  <img src="/media/shortcut/profile-preference/company-info.png" alt="Company Information" />
   <figcaption>Adding Your Company Information</figcaption>
 </figure>
 
 💡 **Pro Tip:** Company information automatically appears in **default email templates**, ensuring professional and branded communication.
 
 <figure>
-  <img src="/media/profile/default-email-template.png" alt="Default Email Template" />
+  <img src="/media/shortcut/profile-preference/company-info-footer.png" alt="Default Email Template" />
   <figcaption>Branded Email Templates Powered by Your Company Info</figcaption>
 </figure>
 
@@ -78,7 +78,7 @@ Never miss an important update — customize how you stay informed:
    - Landing pages, forms, and microsites
 
 <figure>
-  <img src="/media/profile/notification-settings.png" alt="Notification Settings" />
+  <img src="/media/shortcut/profile-preference/preference.png" alt="Notification Settings" />
   <figcaption>Personalizing Notification Preferences</figcaption>
 </figure>
 
@@ -96,14 +96,14 @@ Stay on top of updates using the **bell icon** in the header:
   - **Last 15 days** → Two weeks of updates
 
 <figure>
-  <img src="/media/profile/notification-dropdown.png" alt="Notifications Dropdown" />
+  <img src="/media/shortcut/profile-preference/notification.png" alt="Notifications Dropdown" />
   <figcaption>Quick Filters for Notifications</figcaption>
 </figure>
 
 For full visibility, click **View All** to access the **Notifications Page** — filterable by **date** or **notification type**.
 
 <figure>
-  <img src="/media/profile/view-all-notifications.png" alt="View All Notifications" />
+  <img src="/media/shortcut/profile-preference/all-notification.png" alt="View All Notifications" />
   <figcaption>Comprehensive Notifications Center</figcaption>
 </figure>
 

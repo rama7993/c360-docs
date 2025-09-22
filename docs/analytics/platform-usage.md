@@ -12,11 +12,6 @@ The **Platform Usage Dashboard** provides a set of visual reports and key metric
 To access **Platform Usage Dashboard**:  
 ➡️ Go to **Analytics** → **Insights** → **Platform Usage Dashboard** from the left-hand menu.
 
-<figure>
-  <img src="/media/image1d.png" alt="C360 Analytics - Insights Navigation" />
-  <figcaption>Navigate to Analytics → Insights to access dashboards</figcaption>
-</figure>
-
 ---
 
 ## 🎛️Filters
@@ -185,6 +180,7 @@ Each graph includes common actions:
 ---
 
 <figure>
-  <img src="/media/image5.png" alt="Platform Usage Dashboard" />
+  <img src="/media/analytics/insight/platform usage dashboard/platform usage dashboard.png" alt="Platform Usage Dashboard" />
   <figcaption>Platform Usage Dashboard Overview</figcaption>
 </figure>
+  

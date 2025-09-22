@@ -6,7 +6,7 @@ To access Notes:
 Click the **Notes icon** in the right-hand menu.
 
 <figure>
-  <img src="/media/notes/notes-dashboard.png" alt="Accessing Notes in C360" />
+  <img src="/media/shortcut/note/note-navigation.png" alt="Accessing Notes in C360" />
   <figcaption>Accessing Notes from the right-hand menu</figcaption>
 </figure>
 
@@ -26,7 +26,7 @@ You can find and manage notes in multiple ways:
 Expanding a note reveals its full details.
 
 <figure>
-  <img src="/media/notes/notes-list.png" alt="Notes listed under CRM modules" />
+  <img src="/media/shortcut/note/note-list.png" alt="Notes listed under CRM modules" />
   <figcaption>Notes listed under Leads, Contacts, or Opportunities</figcaption>
 </figure>
 
@@ -45,7 +45,7 @@ Expanding a note reveals its full details.
 1. On the right-hand panel, click **Add Note**.
 
 <figure>
-  <img src="/media/notes/add-note-button.png" alt="Add Note button in CRM record" />
+  <img src="/media/shortcut/note/note-list-crm-record.png" alt="Add Note button in CRM record" />
   <figcaption>Adding a new note from a CRM record</figcaption>
 </figure>
 
@@ -54,7 +54,7 @@ Expanding a note reveals its full details.
 4. Click **Save**.
 
 <figure>
-  <img src="/media/notes/note-form.png" alt="Note creation form with attachments" />
+  <img src="/media/shortcut/note/note-add.png" alt="Note creation form with attachments" />
   <figcaption>Note creation form with attachment support</figcaption>
 </figure>
 
@@ -65,12 +65,12 @@ Expanding a note reveals its full details.
 - Click the **Related to** link to view notes in their associated Lead, Contact, or Opportunity record.
 
 <figure>
-  <img src="/media/notes/edit-note.png" alt="Editing an existing note" />
+  <img src="/media/shortcut/note/note-details.png" alt="Editing an existing note" />
   <figcaption>Editing an existing note</figcaption>
 </figure>
 
 <figure>
-  <img src="/media/notes/attachments.png" alt="Managing note attachments" />
+  <img src="/media/shortcut/note/note-edit.png" alt="Managing note attachments" />
   <figcaption>Adding and managing attachments in notes</figcaption>
 </figure>
 

@@ -6,7 +6,7 @@ To access Lead Alerts:
 Click the **Alert icon** in the right-hand menu. A pop-up will appear showing all assigned leads.
 
 <figure>
-  <img src="/media/alerts/lead-alerts-dashboard.png" alt="Lead alerts popup in C360" />
+  <img src="/media/shortcut/lead-alert/lead-alert-navigation.png" alt="Lead alerts popup in C360" />
   <figcaption>Lead Alerts pop-up showing recent lead notifications</figcaption>
 </figure>
 
@@ -25,12 +25,17 @@ Triggered when new **Leads, Accounts, Contacts, or Opportunities** are assigned 
 - **ST** → Shark Tank _(Visible to all users except Admin)_
 - **RST** → Review Shark Tank _(Visible to Admin only)_
 
+<figure>
+  <img src="/media/shortcut/lead-alert/lead-alert-sales-list.png" alt="Sales and marketing alerts with labels" />
+  <figcaption>Different alert types displayed in Sales and Marketing tabs</figcaption>
+</figure>
+
 ### 🔹 Marketing Alerts
 
 Triggered when recipients **click campaign components** in an email you launched. These appear in the **Marketing tab**, marked with an **M** beside the lead name.
 
 <figure>
-  <img src="/media/alerts/lead-alerts-types.png" alt="Sales and marketing alerts with labels" />
+  <img src="/media/shortcut/lead-alert/lead-alert-marketing-list.png" alt="Sales and marketing alerts with labels" />
   <figcaption>Different alert types displayed in Sales and Marketing tabs</figcaption>
 </figure>
 
@@ -47,7 +52,7 @@ You can filter Lead Alerts using three dropdowns:
 - Unread
 
 <figure>
-  <img src="/media/alerts/filter-lead-status.png" alt="Filter lead alerts by read/unread status" />
+  <img src="/media/shortcut/lead-alert/lead-alert-status-filter.png" alt="Filter lead alerts by read/unread status" />
   <figcaption>Filter lead alerts by status</figcaption>
 </figure>
 
@@ -62,7 +67,7 @@ You can filter Lead Alerts using three dropdowns:
 - Review Shark Tank _(Admin only)_
 
 <figure>
-  <img src="/media/alerts/filter-lead-assignment.png" alt="Filter lead alerts by assignment type" />
+  <img src="/media/shortcut/lead-alert/lead-alert-assignment-filter.png" alt="Filter lead alerts by assignment type" />
   <figcaption>Filter lead alerts by assignment type</figcaption>
 </figure>
 
@@ -76,7 +81,7 @@ You can filter Lead Alerts using three dropdowns:
 - Last 15 Days
 
 <figure>
-  <img src="/media/alerts/filter-lead-dates.png" alt="Filter lead alerts by time period" />
+  <img src="/media/shortcut/lead-alert/lead-alert-date-filter.png" alt="Filter lead alerts by time period" />
   <figcaption>Filter lead alerts by date</figcaption>
 </figure>
 
@@ -89,7 +94,7 @@ You can filter Lead Alerts using three dropdowns:
 - To view past alerts, switch to the **Read** filter.
 
 <figure>
-  <img src="/media/alerts/read-unread-toggle.png" alt="Toggle between unread and read alerts" />
+  <img src="/media/shortcut/lead-alert/lead-alert-read.png" alt="Toggle between unread and read alerts" />
   <figcaption>Toggle between Unread and Read alerts</figcaption>
 </figure>
 

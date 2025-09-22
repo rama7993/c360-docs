@@ -5,12 +5,8 @@ import TabItem from '@theme/TabItem';
 
 The **Campaign Management** module in C360 allows you to plan, launch, and monitor marketing campaigns that engage your audience through emails, webinars, and other activities.
 
-👉 To access campaigns, navigate to **Marketing → Campaign** from the left-hand menu.
-
-<figure>
-  <img src="/media/campaign/open_campaign_module.png" alt="Open Campaign Management module" />
-  <figcaption>Open Campaign Management module</figcaption>
-</figure>
+To access it:
+➡️Go to **Marketing → Campaign** from the left-hand menu.
 
 ## 📋 Managing Campaigns
 
@@ -45,7 +41,7 @@ The **List View** displays campaigns in a structured table format for quick scan
 | **Actions**       | Assign, Edit, or Add/View Activities |
 
 <figure>
-  <img src="/media/campaign/campaign_list_view.png" alt="Campaign List View" />
+  <img src="/media/marketing/campaign/campaign-list.png" alt="Campaign List View" />
   <figcaption>Campaign List View</figcaption>
 </figure>
 
@@ -56,7 +52,7 @@ The **List View** displays campaigns in a structured table format for quick scan
 The **Grid View** presents campaigns as visual cards with thumbnails and quick actions.
 
 <figure>
-  <img src="/media/campaign/campaign_grid_view.png" alt="Campaign Grid View" />
+  <img src="/media/marketing/campaign/campaign-grid.png" alt="Campaign Grid View" />
   <figcaption>Campaign Grid View</figcaption>
 </figure>
 
@@ -93,7 +89,7 @@ flowchart TD
 - Press **Enter** or click the **search icon**
 
 <figure>
-  <img src="/media/campaign/search_campaigns.png" alt="Search campaigns by name" />
+  <img src="/media/marketing/campaign/campaign-search.png" alt="Search campaigns by name" />
   <figcaption>Search campaigns by name</figcaption>
 </figure>
 
@@ -121,7 +117,7 @@ Applied filters appear as chips and can be cleared individually or all at once.
 :::
 
 <figure>
-  <img src="/media/campaign/filter_campaigns.png" alt="Filter options for campaigns" />
+  <img src="/media/marketing/campaign/campaign-filter.png" alt="Filter options for campaigns" />
   <figcaption>Filter options for campaigns</figcaption>
 </figure>
 
@@ -132,8 +128,21 @@ Applied filters appear as chips and can be cleared individually or all at once.
 3. Select the appropriate **user group** and confirm the assignment.
 
 <figure>
-  <img src="media/mkt/campaign/campaign-assign.png" alt="Assign campaigns to user groups" />
+  <img src="/media/marketing/campaign/campaign-assign.png" alt="Assign campaigns to user groups" />
   <figcaption>Assign campaigns to a user group</figcaption>
+</figure>
+
+---
+
+## 🗑️ Deleting Campaign
+
+1. Select the checkbox(es) for the Campaign you want to delete.
+2. Click the **Delete** icon .
+3. Click on **Yes** from the confirmation pop up if you want to delete.
+
+<figure>
+  <img src="/media/marketing/campaign/campaign-delete.png" style={{width:"100%", maxWidth:"650px"}} />
+  <figcaption>Delete selected Campaign</figcaption>
 </figure>
 
 ---
@@ -157,7 +166,7 @@ When creating or editing a campaign, the interface is organized into tabs. Compl
 - **Expiration Date** — Campaign end date (if applicable)
 
 <figure>
-  <img src="media/mkt/campaign/campaign-general-info.png" alt="Campaign general information" />
+  <img src="/media/marketing/campaign/campaign-add-general info.png" alt="Campaign general information" />
   <figcaption>Campaign general information</figcaption>
 </figure>
 
@@ -173,7 +182,7 @@ When creating or editing a campaign, the interface is organized into tabs. Compl
 - **Regions / Countries** — Target geographies
 
 <figure>
-  <img src="media/mkt/campaign/campaign-attributes.png" alt="Campaign attributes" />
+  <img src="/media/marketing/campaign/campaign-add-attributes.png" alt="Campaign attributes" />
   <figcaption>Campaign attributes</figcaption>
 </figure>
 
@@ -211,7 +220,7 @@ The **List View** presents activities in a tabular format for quick scanning.
 | **Actions**            | Preview, Clone, Edit, Delete, Execute   |
 
 <figure>
-  <img src="media/mkt/campaign/activities-list-view.png" alt="Activity list view" />
+  <img src="/media/marketing/campaign/campaign-activity-list.png" alt="Activity list view" />
   <figcaption>Activities displayed in List View</figcaption>
 </figure>
 
@@ -229,7 +238,7 @@ Use the **⋮ menu** on each card to access available actions:
 - Delete
 
 <figure>
-  <img src="media/mkt/campaign/activities-grid-actions.png" alt="Activities grid actions" />
+  <img src="/media/marketing/campaign/campaign-activity-grid.png" alt="Activities grid actions" />
   <figcaption>Activity actions in Grid View</figcaption>
 </figure>
 
@@ -240,16 +249,38 @@ Use the **⋮ menu** on each card to access available actions:
 
 ## 🔎 Search & Filter Activities
 
-- **Search** — Enter an activity title in the search bar.
-- **Filter** — Narrow results by:
+### Search Activities
+
+- Enter a **Activity name** in the search bar
+- Press **Enter** or click the **search icon**
+
+<figure>
+  <img src="/media/marketing/campaign/campaign-activity-search.png" alt="Search activity by name" />
+  <figcaption>Search activity by name</figcaption>
+</figure>
+
+### Filter Activities
+
+You can refine activity results using filters.
+
+<details>
+<summary>Available Filters</summary>
+ **Filter** — Narrow results by:
   - **Type** (Email, Webinar, etc.)
   - **Flow** (Single / Multi Touch)
   - **Status** (Draft / Published)
   - **Date Range** (Created / Modified)
 
+</details>
+
+:::tip
+Use **Owned by Me** or **Assigned to Me** tabs for quick filtering.  
+Applied filters appear as chips and can be cleared individually or all at once.
+:::
+
 <figure>
-  <img src="media/mkt/campaign/activities-search.png" alt="Search activities" />
-  <figcaption>Search and filter activities</figcaption>
+  <img src="/media/marketing/campaign/campaign-activity-filter.png" alt="Filter options for activity" />
+  <figcaption>Filter options for activity</figcaption>
 </figure>
 
 ---
@@ -262,7 +293,7 @@ Activities can follow one of two flows:
 - **Multi Touch** — A sequence of multiple steps in a campaign workflow.
 
 <figure>
-  <img src="media/mkt/campaign/activity-flow-option.png" alt="Activity Flow options" />
+  <img src="/media/marketing/campaign/campaign-activity-add.png" alt="Activity Flow options" />
   <figcaption>Single Touch vs. Multi Touch workflows</figcaption>
 </figure>
 
@@ -290,7 +321,7 @@ Click **Save** to finalize. Once saved, the activity can be previewed or execute
 - Preview your configuration and click **Save**.
 
 <figure>
-  <img src="/img/mkt/campaign/activity-add-single.png" alt="Add Single Touch Activity" />
+  <img src="/media/marketing/campaign/campaign-activity-add.png" alt="Add Single Touch Activity" />
   <figcaption>Adding a Single Touch Activity</figcaption>
 </figure>
 
@@ -303,7 +334,7 @@ Click **Save** to finalize. Once saved, the activity can be previewed or execute
 - Add steps (emails, webinars, follow-ups) and save your workflow.
 
 <figure>
-  <img src="/img/mkt/campaign/activity-builder-canvas.png" alt="Activity Builder Canvas" />
+  <img src="/media/marketing/campaign/campaign-activity-add-multitouch.png" alt="Activity Builder Canvas" />
   <figcaption>Designing a Multi Touch workflow in the Activity Builder</figcaption>
 </figure>
 
@@ -315,12 +346,12 @@ Click **Save** to finalize. Once saved, the activity can be previewed or execute
 - The cloned version is automatically saved as **Draft** for editing.
 
 <figure>
-  <img src="/img/mkt/campaign/activity-clone-icon.png" alt="Clone Activity Icon" />
+  <img src="/media/marketing/campaign/campaign-activity-clone action.png" alt="Clone Activity Icon" />
   <figcaption>Cloning an activity</figcaption>
 </figure>
 
 <figure>
-  <img src="/img/mkt/campaign/activity-cloned-draft.png" alt="Cloned Activity Draft" />
+  <img src="/media/marketing/campaign/campaign-activity-after clone.png" alt="Cloned Activity Draft" />
   <figcaption>A cloned activity in Draft status</figcaption>
 </figure>
 
@@ -332,16 +363,31 @@ Click **Save** to finalize. Once saved, the activity can be previewed or execute
 2. Click **Assign To** and choose a target group.
 
 <figure>
-  <img src="/img/mkt/campaign/activities-assign.png" alt="Assign Activities to Groups" />
+  <img src="/media/marketing/campaign/campaign-activity-assign.png" alt="Assign Activities to Groups" />
   <figcaption>Assigning activities to user groups</figcaption>
 </figure>
+
+---
+
+## 🗑️ Deleting Activity
+
+1. Select the checkbox(es) for the Activity you want to delete.
+2. Click the **Delete** icon .
+3. Click on **Yes** from the confirmation pop up if you want to delete.
+
+<figure>
+  <img src="/media/marketing/campaign/campaign-activity-delete.png" style={{width:"100%", maxWidth:"650px"}} />
+  <figcaption>Delete selected Activity</figcaption>
+</figure>
+
+---
 
 ## 🏗 Multi-Touch Campaign — Workflow Builder
 
 The **Workflow Builder** allows you to design automated, multi-step campaigns that combine emails, lead updates, and conditional logic based on user behavior.
 
 <figure>
-  <img src="/img/mkt/campaign/workflow-builder-canvas.png" alt="Workflow Builder canvas" />
+  <img src="/media/marketing/campaign/campaign-activity-builder canvas.png" alt="Workflow Builder canvas" />
   <figcaption>Workflow Builder Canvas</figcaption>
 </figure>
 
@@ -360,7 +406,7 @@ Actions define what happens at each step of the workflow:
 - **Inaction (No Action) - Update Lead** — take an alternate step if no change occurs
 
 <figure>
-  <img src="/img/mkt/campaign/workflow-actions.png" alt="Workflow actions" />
+  <img src="/media/marketing/campaign/campaign-activity-builder-actions.png" alt="Workflow actions" />
   <figcaption>Workflow Actions</figcaption>
 </figure>
 
@@ -376,7 +422,7 @@ Decisions (triggers) determine the path a user follows in the workflow, based on
 - **Visit Landing Page**
 
 <figure>
-  <img src="/img/mkt/campaign/workflow-decisions.png" alt="Workflow decisions" />
+  <img src="/media/marketing/campaign/campaign-activity-builder-decissions.png" alt="Workflow decisions" />
   <figcaption>Workflow Decisions</figcaption>
 </figure>
 
@@ -391,23 +437,30 @@ Follow these steps to create a simple multi-touch workflow:
 
 1. Click **Start** — a modal displays available actions (e.g., Send Email, Update Lead).
 2. Select an action and configure it:
+
    - **Name**
    - **Execution Timing** (immediately, after a delay, or at a specific date/time)
    - **Subject**
    - **Sender Name**
    - **Email Template** (choose from library or **Add Email**)
+
+<figure>
+  <img src="/media/marketing/campaign/campaign-activity-builder-add action.png" alt="Add action" />
+  <figcaption>add action</figcaption>
+</figure>
+     
+
 3. Preview the configuration and click **Save** to add the block to the workflow canvas.
 
 <figure>
-  <img src="/img/mkt/campaign/workflow-add-email.png" alt="Add Email modal" />
+  <img src="/media/marketing/campaign/campaign-activity-builder-add email.png" alt="Add Email modal" />
   <figcaption>Configuring an email block</figcaption>
 </figure>
 
 <figure>
-  <img src="/img/mkt/campaign/workflow-email-preview.png" alt="Preview email modal" />
+  <img src="/media/marketing/campaign/campaign-activity-builder-email preview.png" alt="Preview email modal" />
   <figcaption>Previewing an email before saving</figcaption>
 </figure>
-
 ---
 
 ### 🔀 Managing Workflow Blocks
@@ -417,12 +470,12 @@ Follow these steps to create a simple multi-touch workflow:
 - Branch workflows to handle multiple outcomes
 
 <figure>
-  <img src="/img/mkt/campaign/workflow-example-branching.png" alt="Example branching workflow" />
+  <img src="/media/marketing/campaign/campaign-activity-builder-manage block.png" alt="Example branching workflow" />
   <figcaption>Example of a branching workflow</figcaption>
 </figure>
 
 <figure>
-  <img src="/img/mkt/campaign/workflow-block-controls.png" alt="Workflow block controls" />
+  <img src="/media/marketing/campaign/campaign-activity-builder-work flow.png" alt="Workflow block controls" />
   <figcaption>Editing and managing workflow blocks</figcaption>
 </figure>
 
@@ -441,17 +494,17 @@ Always use **Preview** to validate the workflow logic before executing it live.
    - **Multi Touch** campaigns open in a new browser tab.
 
 <figure>
-  <img src="media/mkt/campaign/campaign-details.png" alt="Campaign details page" />
+  <img src="/media/marketing/campaign/campaign-details.png" alt="Campaign details page" />
   <figcaption>Campaign details page</figcaption>
 </figure>
 
 <figure>
-  <img src="media/mkt/campaign/single-touch-preview-modal.png" alt="Single Touch preview modal" />
+  <img src="/media/marketing/campaign/campaign-activity-single-touch-preveiw-modal.png" alt="Single Touch preview modal" />
   <figcaption>Single Touch campaign preview (modal)</figcaption>
 </figure>
 
 <figure>
-  <img src="media/mkt/campaign/multi-touch-preview-tab.png" alt="Multi Touch preview tab" />
+  <img src="/media/marketing/campaign/campaign-activity-multi-touch-preview-tab.png" alt="Multi Touch preview tab" />
   <figcaption>Multi Touch campaign preview (new tab)</figcaption>
 </figure>
 
@@ -482,14 +535,14 @@ You can execute both **Single Touch** and **Multi Touch** campaigns. The steps b
    - Preview text
 
 <figure>
-  <img src="media/mkt/campaign/single-touch-configure.png" alt="Single touch configure" />
+  <img src="/media/marketing/campaign/campaign-activity-single-touch-configure.png" alt="Single touch configure" />
   <figcaption>Single Touch configuration</figcaption>
 </figure>
 
 3. **Preview and edit** the content if needed.
 
 <figure>
-  <img src="media/mkt/campaign/single-touch-preview-edit.png" alt="Preview and edit single touch" />
+  <img src="/media/marketing/campaign/campaign-activity-single-touch-preview.png" alt="Preview and edit single touch" />
   <figcaption>Preview and edit</figcaption>
 </figure>
 
@@ -498,7 +551,7 @@ You can execute both **Single Touch** and **Multi Touch** campaigns. The steps b
    - Click **Test Mail** to verify how it appears.
 
 <figure>
-  <img src="media/mkt/campaign/single-touch-test-mail.png" alt="Single touch test mail" />
+  <img src="/media/marketing/campaign/campaign-activity-single-touch-test mail.png" alt="Single touch test mail" />
   <figcaption>Sending a test mail</figcaption>
 </figure>
 
@@ -508,12 +561,12 @@ You can execute both **Single Touch** and **Multi Touch** campaigns. The steps b
    - Import leads using a CSV file if needed.
 
 <figure>
-  <img src="media/mkt/campaign/send-to-audience-selection.png" alt="Audience selection" />
+  <img src="/media/marketing/campaign/campaign-activity-single-touch-segment.png" alt="Audience selection" />
   <figcaption>Audience selection</figcaption>
 </figure>
 
 <figure>
-  <img src="media/mkt/campaign/upload-leads-csv.png" alt="Upload leads CSV" />
+  <img src="/media/marketing/campaign/campaign-activity-single-touch-upload-campaign-list.png" alt="Upload leads CSV" />
   <figcaption>Upload leads (CSV)</figcaption>
 </figure>
 
@@ -521,7 +574,7 @@ You can execute both **Single Touch** and **Multi Touch** campaigns. The steps b
    - Set a date and time for sending.
 
 <figure>
-  <img src="media/mkt/campaign/schedule-send.png" alt="Schedule send" />
+  <img src="/media/marketing/campaign/campaign-activity-single-touch-send email.png" alt="Schedule send" />
   <figcaption>Scheduling a campaign</figcaption>
 </figure>
 
@@ -529,7 +582,7 @@ You can execute both **Single Touch** and **Multi Touch** campaigns. The steps b
    After sending, a confirmation modal appears with navigation options back to **Campaign List** or **Outgoing Campaigns**.
 
 <figure>
-  <img src="media/mkt/campaign/send-success-modal.png" alt="Send success modal" />
+  <img src="/media/marketing/campaign/campaign-activity-execution-success.png" alt="Send success modal" />
   <figcaption>Confirmation after send</figcaption>
 </figure>
 
@@ -540,7 +593,7 @@ You can execute both **Single Touch** and **Multi Touch** campaigns. The steps b
 1. **Click Execute** to open the Builder canvas.
 
 <figure>
-  <img src="media/mkt/campaign/multi-touch-execute-canvas.png" alt="Multi touch execute canvas" />
+  <img src="/media/marketing/campaign/campaign-activity-multi-touch-execution.png" alt="Multi touch execute canvas" />
   <figcaption>Execute on Builder canvas</figcaption>
 </figure>
 
@@ -560,7 +613,7 @@ You can execute both **Single Touch** and **Multi Touch** campaigns. The steps b
    - Send test mails to confirm content.
 
 <figure>
-  <img src="media/mkt/campaign/multi-touch-preview-test-mail.png" alt="Multi touch preview and test mail" />
+  <img src="/media/marketing/campaign/campaign-activity-multi-touch-test mail.png" alt="Multi touch preview and test mail" />
   <figcaption>Preview and Test Mail</figcaption>
 </figure>
 
@@ -569,7 +622,7 @@ You can execute both **Single Touch** and **Multi Touch** campaigns. The steps b
    - Emails that pass test verification are marked as verified.
 
 <figure>
-  <img src="media/mkt/campaign/multi-touch-carousel-verified.png" alt="Multi touch carousel verified" />
+  <img src="/media/marketing/campaign/campaign-activity-multi-touch-email verifed.png" alt="Multi touch carousel verified" />
   <figcaption>Carousel of verified emails</figcaption>
 </figure>
 
@@ -578,7 +631,7 @@ You can execute both **Single Touch** and **Multi Touch** campaigns. The steps b
    - Import CSV files if required.
 
 <figure>
-  <img src="media/mkt/campaign/multi-touch-select-audience.png" alt="Multi touch select audience" />
+  <img src="/media/marketing/campaign/campaign-activity-multi-touch-segment.png" alt="Multi touch select audience" />
   <figcaption>Selecting recipients</figcaption>
 </figure>
 
@@ -586,7 +639,7 @@ You can execute both **Single Touch** and **Multi Touch** campaigns. The steps b
    After execution, a confirmation modal appears with navigation links.
 
 <figure>
-  <img src="media/mkt/campaign/multi-touch-send-success.png" alt="Multi touch send success" />
+  <img src="/media/marketing/campaign/campaign-activity-execution-success.png" alt="Multi touch send success" />
   <figcaption>Send success confirmation</figcaption>
 </figure>
 
@@ -601,6 +654,6 @@ You can execute both **Single Touch** and **Multi Touch** campaigns. The steps b
 - **Execute** — Execute button per activity
 
 <figure>
-  <img src="media/mkt/campaign/activity-tab.png" alt="Activity tab" />
+  <img src="/media/marketing/campaign/campaign-activity-quick action.png" alt="Activity tab" />
   <figcaption>Activity tab inside Campaign</figcaption>
 </figure>

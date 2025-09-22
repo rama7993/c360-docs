@@ -8,11 +8,6 @@ The **Reports** module in **C360** allows you to view, search, and analyze key r
 To access it:  
 ➡️ Go to **Analytics** → **Reports** → **Sales Reort** from the left-hand menu.
 
-<figure>
-  <img src="/media/image22.png" alt="Reports Navigation in Analytics Menu" />
-  <figcaption>Accessing Reports from the Analytics Menu</figcaption>
-</figure>
-
 ---
 
 <!-- ### View Report List
@@ -171,7 +166,7 @@ Each report blocks contains a **data table** with multiple actions and by defual
 </details>
 
   <figure>
-    <img src="/media/image23.png" alt="Reports List with Dropdown Menu" />
+    <img src="/media/analytics/report/sales/report-list.png" alt="Reports List with Dropdown Menu" />
     <figcaption>Report List with Dropdown and Data Table</figcaption>
   </figure>
 
@@ -185,7 +180,7 @@ As you type a keyword, the system displays matching results based on **report na
 :::
 
   <figure>
-    <img src="/media/image24.png" alt="Search Reports in C360" />
+    <img src="/media/analytics/report/sales/report-search.png" alt="Search Reports in C360" />
     <figcaption>Searching Reports by Name or Category</figcaption>
   </figure>
 
@@ -200,6 +195,11 @@ As you type a keyword, the system displays matching results based on **report na
 - ⬇️ Download – Export reports easily
 - 📊 Summary details for quick insights  
   📊 _Example: Detailed Report View_
+
+   <figure>
+    <img src="/media/analytics/report/sales/report-details.png" alt="Detailed Report View in C360" />
+    <figcaption>Detailed Report View with Filters and Download Option</figcaption>
+  </figure>
 
 ---
 
@@ -224,11 +224,6 @@ As you type a keyword, the system displays matching results based on **report na
 
   </TabItem>
 </Tabs>
-
-  <figure>
-    <img src="/media/image25.png" alt="Detailed Report View in C360" />
-    <figcaption>Detailed Report View with Filters and Download Option</figcaption>
-  </figure>
 
 ---
 

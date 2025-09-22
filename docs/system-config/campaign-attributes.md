@@ -25,10 +25,6 @@ Vertical industries represent specific sectors in which businesses operate, such
       <li>Click <strong>Save</strong> to store the new industry type.</li>
     </ol>
 
-    <figure>
-      <img src="/media/image35.png" alt="Add Vertical Industry Type" />
-      <figcaption>Adding a New Vertical Industry Type</figcaption>
-    </figure>
   </TabItem>
 
   <TabItem value="edit" label="✏️ Edit">
@@ -39,10 +35,6 @@ Vertical industries represent specific sectors in which businesses operate, such
       <li>Save changes by clicking outside the field or pressing <strong>Enter</strong>.</li>
     </ol>
 
-    <figure>
-      <img src="/media/image36.png" alt="Edit Vertical Industry Type" />
-      <figcaption>Editing a Vertical Industry Type</figcaption>
-    </figure>
   </TabItem>
 
   <TabItem value="delete" label="🗑️ Delete">
@@ -53,6 +45,11 @@ Vertical industries represent specific sectors in which businesses operate, such
     </ol>
   </TabItem>
 </Tabs>
+
+<figure>
+  <img src="/media/system-configuration/campaign-attributes/industry-focus.png" alt="Manage Vertical Industry Type" />
+  <figcaption>Manage Vertical Industry Type</figcaption>
+</figure>
 
 ---
 
@@ -73,10 +70,6 @@ Product types categorize the various products or services a business offers, dep
       <li>Click <strong>Save</strong> to store the new product type.</li>
     </ol>
 
-    <figure>
-      <img src="/media/image37.png" alt="Add Campaign Product Type" />
-      <figcaption>Adding a New Campaign Product Type</figcaption>
-    </figure>
   </TabItem>
 
   <TabItem value="edit" label="✏️ Edit">
@@ -87,10 +80,6 @@ Product types categorize the various products or services a business offers, dep
       <li>Save changes by clicking outside the field or pressing <strong>Enter</strong>.</li>
     </ol>
 
-    <figure>
-      <img src="/media/image38.png" alt="Edit Campaign Product Type" />
-      <figcaption>Editing a Campaign Product Type</figcaption>
-    </figure>
   </TabItem>
 
   <TabItem value="delete" label="🗑️ Delete">
@@ -101,6 +90,11 @@ Product types categorize the various products or services a business offers, dep
     </ol>
   </TabItem>
 </Tabs>
+
+<figure>
+  <img src="/media/system-configuration/campaign-attributes/product-focus.png" alt="Manage Campaign Product Type" />
+  <figcaption>Manage Campaign Product Type</figcaption>
+</figure>
 
 :::note
 ℹ️ Both **Products** and **Vertical Industries** will appear in the **Categories dropdown** when adding or editing a campaign.
@@ -125,10 +119,6 @@ A **Campaign Audience** defines the group of individuals or businesses targeted 
       <li>Click <strong>Save</strong> to store the new entry.</li>
     </ol>
 
-    <figure>
-      <img src="/media/image39.png" alt="Add Campaign Audience" />
-      <figcaption>Adding a New Campaign Audience</figcaption>
-    </figure>
   </TabItem>
 
   <TabItem value="edit" label="✏️ Edit">
@@ -139,10 +129,6 @@ A **Campaign Audience** defines the group of individuals or businesses targeted 
       <li>Save changes by clicking outside the field or pressing <strong>Enter</strong>.</li>
     </ol>
 
-    <figure>
-      <img src="/media/image40.png" alt="Edit Campaign Audience" />
-      <figcaption>Editing a Campaign Audience</figcaption>
-    </figure>
   </TabItem>
 
   <TabItem value="delete" label="🗑️ Delete">
@@ -153,3 +139,8 @@ A **Campaign Audience** defines the group of individuals or businesses targeted 
     </ol>
   </TabItem>
 </Tabs>
+
+<figure>
+  <img src="/media/system-configuration/campaign-attributes/audience.png" alt="ManageCampaign Audience" />
+  <figcaption>Managing Campaign Audience</figcaption>
+</figure>

@@ -6,7 +6,7 @@ To access Tasks:
 Click the **Tasks icon** in the right-hand menu.
 
 <figure>
-  <img src="/media/tasks/tasks-dashboard.png" alt="Accessing tasks in C360" />
+  <img src="/media/shortcut/task/task-navigation.png" alt="Accessing tasks in C360" />
   <figcaption>Accessing the Tasks Management dashboard</figcaption>
 </figure>
 
@@ -30,7 +30,7 @@ Expanding a task displays full details.
 - Select any task from the list to view its details in the right-hand panel.
 
 <figure>
-  <img src="/media/tasks/tasks-list.png" alt="Viewing task list in CRM" />
+  <img src="/media/shortcut/task/task-list.png" alt="Viewing task list in CRM" />
   <figcaption>Task list with details and quick access</figcaption>
 </figure>
 
@@ -48,7 +48,7 @@ You can refine your task list using filters:
 After selecting your filters, click **Filter** to update the results.
 
 <figure>
-  <img src="/media/tasks/task-filters.png" alt="Filtering tasks by type, status, and priority" />
+  <img src="/media/shortcut/task/task-filter.png" alt="Filtering tasks by type, status, and priority" />
   <figcaption>Filtering tasks by relation, status, priority, and appointment type</figcaption>
 </figure>
 
@@ -63,7 +63,7 @@ You can add tasks directly from the **Tasks module** or within a **record (Lead,
 1. Click **Add Task** in the top-right corner.
 
 <figure>
-  <img src="/media/tasks/add-task-button.png" alt="Add Task button in CRM" />
+  <img src="/media/shortcut/task/task-add-button.png" alt="Add Task button in CRM" />
   <figcaption>Adding a new task from the task list</figcaption>
 </figure>
 
@@ -72,12 +72,12 @@ You can add tasks directly from the **Tasks module** or within a **record (Lead,
 4. Click **Save**. Your new task will appear in the **Tasks List**.
 
 <figure>
-  <img src="/media/tasks/task-form.png" alt="Task creation form" />
+  <img src="/media/shortcut/task/task-add.png" alt="Task creation form" />
   <figcaption>Task creation form with required fields</figcaption>
 </figure>
 
 <figure>
-  <img src="/media/tasks/recurring-task-reminder.png" alt="Recurring task reminder option" />
+  <img src="/media/shortcut/task/task-range-of-recurrence.png" alt="Recurring task reminder option" />
   <figcaption>Setting recurring reminders for tasks</figcaption>
 </figure>
 
@@ -91,7 +91,7 @@ You can add tasks directly from the **Tasks module** or within a **record (Lead,
 4. A pop-up form opens. Enter the required details as before and save.
 
 <figure>
-  <img src="/media/tasks/add-task-from-record.png" alt="Adding a task from a CRM record" />
+  <img src="/media/shortcut/task/task-add-crm-record.png" alt="Adding a task from a CRM record" />
   <figcaption>Adding a task directly from a Lead, Contact, or Opportunity</figcaption>
 </figure>
 
@@ -102,7 +102,7 @@ You can add tasks directly from the **Tasks module** or within a **record (Lead,
 You can also view all your **upcoming tasks** on the **Home Dashboard** for quick access.
 
 <figure>
-  <img src="/media/tasks/upcoming-tasks-dashboard.png" alt="Upcoming tasks in dashboard view" />
+  <img src="/media/shortcut/task/task-upcoming.png" alt="Upcoming tasks in dashboard view" />
   <figcaption>Upcoming tasks displayed on the home dashboard</figcaption>
 </figure>
 

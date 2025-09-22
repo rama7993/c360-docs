@@ -8,11 +8,6 @@ The **Contact Management** module in **C360 CRM** helps you track, manage, and u
 To access it:  
 ➡️ Go to **Sales** → **Contact** from the left-hand menu.
 
-<figure>
-  <img src="/media/crm/contact/contact-navigation.png" alt="Navigate to Contact Management" />
-  <figcaption>Navigate to Contact Management</figcaption>
-</figure>
-
 ---
 
 ## 📊 Contact Overview
@@ -76,6 +71,18 @@ Other filter options include:
 
 ---
 
+## 🗑️ Deleting Contact
+
+1. Select the checkbox(es) beside the Contacts you want to delete.
+2. Click the **Delete** icon .
+3. Click on **Yes** from the confirmation pop up if you want to delete.
+
+<figure>
+  <img src="/media/crm/contact/contact-delete.png" alt="Delete action for selected contacts" />
+  <figcaption>Delete selected contacts</figcaption>
+</figure>
+
+---
 ## ⬇️ Download Contacts
 
 Select the checkboxes for the contacts you want to download. Then, click the **Download** button in the top-right corner.
@@ -127,7 +134,7 @@ You can also add new notes or tasks using the **Add Note** or **Add Task** butto
 2. Click **Change Owner** → select user → click **Confirm**.
 
 <figure>
-  <img src="/media/crm/contact/contact-owner.png" alt="Change owner" />
+  <img src="/media/crm/contact/contact-change owner.png" alt="Change owner" />
   <figcaption>Change contact owner</figcaption>
 </figure>
 
@@ -136,7 +143,7 @@ You can also add new notes or tasks using the **Add Note** or **Add Task** butto
 
 ---
 
-##  ✏️ Add/Edit Contact
+## ✏️ Add/Edit Contact
 
 To **add a contact**:
 
@@ -146,11 +153,12 @@ To **add a contact**:
 4. Click **Save** when done.
 
 :::info
-  Contact can be generated or Added  using three ways:
-  1. Normal Addition from list Page.
-  2. Via Import Contact.
-  3. During Lead Convertion(if new).
-    :::
+Contact can be generated or Added using three ways:
+
+1. Normal Addition from list Page.
+2. Via Import Contact.
+3. During Lead Convertion(if new).
+   :::
 
 <figure>
   <img src="/media/crm/contact/contact-add.png" alt="Add new contact" />
@@ -169,7 +177,7 @@ To **edit a contact**:
 
 ---
 
-## 📤  Upload a List – Import Contacts from Excel
+## 📤 Upload a List – Import Contacts from Excel
 
 To bulk upload contacts:
 
@@ -178,31 +186,21 @@ To bulk upload contacts:
 3. Use the **Sample File** link to check the required format.
 
 <figure>
-  <img src="/media/crm/contact/contact-upload.png" alt="Upload contacts from Excel" />
+  <img src="/media/crm/contact/account-contact-choose data.png" alt="Upload contacts from Excel" />
   <figcaption>Upload contacts from Excel</figcaption>
 </figure>
 
 4. Map your Excel columns with system fields and click **Next**.
 
 <figure>
-  <img src="/media/crm/contact/contact-mapping.png" alt="Field mapping" />
+  <img src="/media/crm/contact/account-contact-map field.png" alt="Field mapping" />
   <figcaption>Field mapping during import</figcaption>
 </figure>
 
-5. Review the data table (Name, Company Name, Email, Deliverable %).
-   - Use the **search bar** to find records.
-   - Use the **filter slider** to refine by deliverability.
+5. Review the summary report.
+6. Click **Import** to complete the process.
 
 <figure>
-  <img src="/media/crm/contact/contact-import-review.png" alt="Review imported contacts" />
-  <figcaption>Review contacts before import</figcaption>
-</figure>
-
-6. Select which contacts to save (all, filtered, or specific).
-7. Review the summary report.
-8. Click **Import** to complete the process.
-
-<figure>
-  <img src="/media/crm/contact/contact-import-summary.png" alt="Import summary" />
+  <img src="/media/crm/contact/account-contact-confirm & import.png" alt="Import summary" />
   <figcaption>Import summary</figcaption>
 </figure>

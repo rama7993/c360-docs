@@ -37,7 +37,7 @@ In **List View**, opportunities are displayed in a table format with sortable co
 | **Last Activity**      | Most recent engagement/interaction.                          |
 
 <figure>
-  <img src="/static/media/crm/opportunity/opportunity-list.png" alt="Opportunity List view" />
+  <img src="/media/crm/opportunity/opportunity-list.png" alt="Opportunity List view" />
   <figcaption>List View — tabular format with sortable columns</figcaption>
 </figure>
 
@@ -53,7 +53,7 @@ In **Grid View**, opportunities appear as **cards** arranged by their **stage**.
 - Use the **ellipsis (⋮)** on a card for quick actions like Edit, Clone, or Delete.
 
 <figure>
-  <img src="/static/media/crm/opportunity/opportunity-grid.png" alt="Opportunity Grid view" />
+  <img src="/media/crm/opportunity/opportunity-grid.png" alt="Opportunity Grid view" />
   <figcaption>Grid View — opportunities displayed as cards grouped by stage</figcaption>
 </figure>
 
@@ -99,7 +99,7 @@ flowchart LR
 
 <figure>
   <img
-    src="/static/media/crm/opportunity/opportunity-grid.png"
+    src="/media/crm/opportunity/opportunity-grid.png"
     alt="Opportunity Grid View"
   />
   <figcaption>Grid view with stage-based color coding</figcaption>
@@ -116,7 +116,7 @@ flowchart LR
 
 <figure>
   <img
-    src="/static/media/crm/opportunity/opportunity-search.png"
+    src="/media/crm/opportunity/opportunity-search.png"
     alt="Search Opportunities"
   />
   <figcaption>Search opportunities instantly</figcaption>
@@ -148,7 +148,7 @@ You can filter opportunities by:
 
 <figure>
   <img
-    src="/static/media/crm/opportunity/opportunity-filter.png"
+    src="/media/crm/opportunity/opportunity-filter.png"
     alt="Filter Opportunities"
   />
   <figcaption>Filter opportunities by multiple criteria</figcaption>
@@ -165,14 +165,27 @@ You can filter opportunities by:
 
 ---
 
-## 📂 Exporting Opportunities
+## 🗑️ Deleting Opportunities
+
+1. Select the checkbox(es) beside the Opportunities you want to delete.
+2. Click the **Delete** icon .
+3. Click on **Yes** from the confirmation pop up if you want to delete.
+
+<figure>
+  <img src="/media/crm/opportunity/opportunity-delete.png" alt="Delete action for selected opportunity" />
+  <figcaption>Delete selected opportunitys</figcaption>
+</figure>
+
+---
+
+## 📂 Downoading Opportunities
 
 1. Select the checkboxes for opportunities.
 2. Click the **Download icon**.
 
 <figure>
   <img
-    src="/static/media/crm/opportunity/opportunity-download.png"
+    src="/media/crm/opportunity/opportunity-download.png"
     alt="Download Opportunities"
   />
   <figcaption>Export selected opportunities to Excel</figcaption>
@@ -205,7 +218,7 @@ Use the **Add Note** or **Add Task** buttons in the top-right corner to capture 
 
 <figure>
   <img
-    src="/static/media/crm/opportunity/opportunity-detail.png"
+    src="/media/crm/opportunity/opportunity-details.png"
     alt="Opportunity Details"
   />
   <figcaption>Opportunity detail view with editable fields and related activities</figcaption>
@@ -223,7 +236,7 @@ Use the **Add Note** or **Add Task** buttons in the top-right corner to capture 
 
 <figure>
   <img
-    src="/static/media/crm/opportunity/opportunity-assign.png"
+    src="/media/crm/opportunity/opportunity-assign.png"
     alt="Assign Opportunity"
   />
   <figcaption>Assign an opportunity to a user</figcaption>
@@ -238,10 +251,10 @@ Use the **Add Note** or **Add Task** buttons in the top-right corner to capture 
 
 <figure>
   <img
-    src="/static/media/crm/opportunity/opportunity-change-owner.png"
+    src="/media/crm/opportunity/opportunity-change owner.png"
     alt="Change Owner"
   />
-  <figcaption>Change ownership of an opportunity</figcaption>
+  <figcaption>Change Owner</figcaption>
 </figure>
 
 </TabItem>
@@ -272,16 +285,10 @@ The **Update button** activates once you make changes.
 
 <figure>
   <img
-    src="/static/media/crm/opportunity/opportunity-add.png"
+    src="/media/crm/opportunity/opportunity-add.png"
     alt="Add Opportunity"
   />
   <figcaption>Create a new opportunity</figcaption>
 </figure>
 
-<figure>
-  <img
-    src="/static/media/crm/opportunity/opportunity-edit.png"
-    alt="Edit Opportunity"
-  />
-  <figcaption>Edit an existing opportunity</figcaption>
-</figure>
+

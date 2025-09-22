@@ -24,7 +24,7 @@ The **List View** displays all available segments in a structured table.
 | **Actions**              | Edit ✏️ / Clone 📑 / Delete 🗑️     |
 
 <figure>
-  <img src="/media/audience/segment-list-view.png" alt="Segment List view" />
+  <img src="/media/marketing/audience/segment-list.png" alt="Segment List view" />
   <figcaption>Segment List – Table view</figcaption>
 </figure>
 
@@ -34,7 +34,7 @@ The **List View** displays all available segments in a structured table.
 - Press **Enter** to display matching results.
 
 <figure>
-  <img src="/media/audience/search-segment.png" alt="Search Segment List" />
+  <img src="/media/marketing/audience/segment-search.png" alt="Search Segment List" />
   <figcaption>Searching for segments</figcaption>
 </figure>
 
@@ -49,7 +49,7 @@ The **List View** displays all available segments in a structured table.
 5. Click **Save** to store the segment.
 
 <figure>
-  <img src="/media/audience/add-segment.png" alt="Add Segment" />
+  <img src="/media/marketing/audience/segment-add.png" alt="Add Segment" />
   <figcaption>Creating a new segment</figcaption>
 </figure>
 
@@ -74,7 +74,7 @@ They can be created manually, imported from files, or customized from existing l
 | **Actions**              | Upload, Edit, Delete        |
 
 <figure>
-  <img src="/media/audience/campaign-list-view.png" alt="Campaign List view" />
+  <img src="/media/marketing/audience/campaign-list.png" alt="Campaign List view" />
   <figcaption>Campaign List – Table view</figcaption>
 </figure>
 
@@ -84,7 +84,7 @@ They can be created manually, imported from files, or customized from existing l
 - Press **Enter** to display results.
 
 <figure>
-  <img src="/media/audience/search-campaign.png" alt="Search Campaign List" />
+  <img src="/media/marketing/audience/campaign-search.png" alt="Search Campaign List" />
   <figcaption>Searching for campaign lists</figcaption>
 </figure>
 
@@ -100,7 +100,7 @@ They can be created manually, imported from files, or customized from existing l
 6. Review the summary and click **Import**.
 
 <figure>
-  <img src="/media/audience/upload-campaign-list.png" alt="Upload Campaign List" />
+  <img src="/media/marketing/audience/campaign-upload.png" alt="Upload Campaign List" />
   <figcaption>Uploading a campaign list from file</figcaption>
 </figure>
 
@@ -115,7 +115,7 @@ They can be created manually, imported from files, or customized from existing l
 5. Click **Save** → your new campaign list is ready.
 
 <figure>
-  <img src="/media/audience/custom-campaign-list.png" alt="Create Custom Campaign List" />
+  <img src="/media/marketing/audience/campaign-custom.png" alt="Create Custom Campaign List" />
   <figcaption>Creating a custom campaign list</figcaption>
 </figure>
 

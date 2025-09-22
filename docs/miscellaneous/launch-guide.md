@@ -13,7 +13,7 @@ To open the **Launch Guide**, follow these steps:
 2. Click on the **Launch Guide** button.
 
 <figure>
-  <img src="./img/launch-guide-dashboard.png" alt="Launch Guide Button on Homepage" width="600"/>
+  <img src="/media/shortcut/launch-guide/launch-guide-navigation.png" alt="Launch Guide Button on Homepage" width="600"/>
   <figcaption>Launch Guide Button on Homepage</figcaption>
 </figure>
 
@@ -24,7 +24,7 @@ To open the **Launch Guide**, follow these steps:
 Once you click the button, a popup will appear:
 
 <figure>
-  <img src="./img/launch-guide-popup.png" alt="Launch Guide Popup Example" width="600"/>
+  <img src="/media/shortcut/launch-guide/launch-guide-popup.png" alt="Launch Guide Popup Example" width="600"/>
   <figcaption>Launch Guide Popup Example</figcaption>
 </figure>
 

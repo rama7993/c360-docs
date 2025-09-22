@@ -28,9 +28,18 @@ Groups can be displayed in **List View** or **Tree View** for better organizatio
   - User Count
   - Actions (Edit / Delete)
 - **Top Features**:
+
   - **Search bar** → Quickly find groups
   - **Add button** → Create a new group
   - **Toggle button** → Switch to Tree View
+  - **Pencli Icon** → Inine Edit
+  - **Delete Icon** → Remove Group
+
+  <figure>
+    <img src="/media/account-management/group/group-list.png" alt="Group List View" />
+    <figcaption>Groups displayed in List View</figcaption>
+  </figure>
+
 
 </TabItem>
 
@@ -41,7 +50,7 @@ Groups can be displayed in **List View** or **Tree View** for better organizatio
 - **Delete** → Click trash icon under Actions.
 
 <figure>
-  <img src="media/image2.png" alt="Group Tree View" />
+  <img src="/media/account management/groups/group-tree-view.png" alt="Group Tree View" />
   <figcaption>Groups displayed in Tree View</figcaption>
 </figure>
 
@@ -63,21 +72,22 @@ Groups can be displayed in **List View** or **Tree View** for better organizatio
 4. Click **Save** to create the group.
 
 <figure>
-  <img src="media/image4.png" alt="Add Group" />
+  <img src="/media/account-management/group/group-add.png" alt="Add Group" />
   <figcaption>Adding a new group</figcaption>
 </figure>
 </details>
 
-**To Edit a Group:**
+<details>
+<summary>Steps to Edit a Group</summary>
 
 - Click the **pencil icon** in the Actions column, or
 - Click the **Group Name** to open and update details.
 
 <figure>
-  <img src="media/image5.png" alt="Edit Group" />
+  <img src="/media/account-management/group/group-edit&details.png" alt="Edit Group" />
   <figcaption>Editing group details</figcaption>
 </figure>
-
+</details>
 ---
 
 ## 🔍 Search Groups
@@ -86,12 +96,23 @@ Groups can be displayed in **List View** or **Tree View** for better organizatio
 - Press **Enter** to filter results.
 
 <figure>
-  <img src="media/image3.png" alt="Search Groups" />
+  <img src="/media/account-management/group/group-search.png" alt="Search Groups" />
   <figcaption>Search for groups</figcaption>
 </figure>
 
 ---
 
+## 🗑️ Deleting Group
+
+1. Click the **Delete** icon for the group you want to delete .
+2. Click on **Yes** from the confirmation pop up if you want to delete.
+
+<figure>
+  <img src="/media/account-management/group/group-delete.png" alt="Delete Group" />
+  <figcaption>Delete groups</figcaption>
+</figure>
+
+---
 ## 📄 View Group Details
 
 Click a **Group Name** in List View or Tree View to open its details page.  
@@ -101,7 +122,7 @@ Here you can review:
 - **Assigned Permissions**
 
 <figure>
-  <img src="media/image6.png" alt="Group Details" />
+  <img src="/media/account-management/group/group-edit&details.png" alt="Group Details" />
   <figcaption>Group details with user list</figcaption>
 </figure>
 
