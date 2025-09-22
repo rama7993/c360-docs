@@ -314,21 +314,3 @@ At the review step, you can import:
 
 ---
 
-## 📁 Expected image files
-
-Copy your screenshots into `static/media/crm/lead/` with these names (or update the paths above to match your filenames):
-
-```
-lead-list.png
-lead-search.png
-lead-filter.png
-lead-download.png
-lead-detail.png
-lead-convert.png
-lead-assign.png
-lead-add-edit.png
-lead-import-upload.png
-lead-import-map.png
-lead-import-filter.png
-lead-import-summary.png
-```
