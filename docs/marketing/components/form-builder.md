@@ -5,6 +5,11 @@ The **Form Builder** in **C360** allows you to design, manage, and assign forms 
 To access it:  
 ➡️ Go to **Co-Marketing** → **Campaign Components** → **Form Builder** from the left-hand menu.
 
+<figure>
+  <img src="/media/image35.png" alt="Form Builder Navigation" />
+  <figcaption> Accessing Form Builder in C360</figcaption>
+</figure>
+
 ---
 
 ## 📋Viewing the Existing Forms List

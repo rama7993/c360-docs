@@ -5,7 +5,7 @@ The **System Configuration** settings in **C360** allow administrators to manage
 :::
 
 To access **System Configuration**:  
-➡️ Go to **Setting** → **System Configuration** from the Top Bar.
+➡️ Go to **Settings** → **System Configuration** from the Top Bar.
 
 ---
 

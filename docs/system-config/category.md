@@ -4,7 +4,7 @@ import TabItem from '@theme/TabItem';
 # 🗂️ **Categories**
 
 To access **Category**:  
-➡️ Go to **Setting** → **System Configuration** → **Category** from the Top Bar.
+➡️ Go to **Settings** → **System Configuration** → **Category** from the Top Bar.
 
 ---
 

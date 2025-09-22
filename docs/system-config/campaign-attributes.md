@@ -4,7 +4,7 @@ import TabItem from '@theme/TabItem';
 # 🗂️ **Campaign Attributes**
 
 To access **Campaign Attributes**:  
-➡️ Go to **Setting** → **System Configuration** → **Campaign Attributes** from the Top Bar.
+➡️ Go to **Settings** → **System Configuration** → **Campaign Attributes** from the Top Bar.
 
 ---
 

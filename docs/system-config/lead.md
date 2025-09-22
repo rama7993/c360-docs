@@ -4,11 +4,12 @@ import TabItem from '@theme/TabItem';
 # 🧲 **Lead**
 
 To access **Lead**:  
-➡️ Go to **Setting** → **System Configuration** → **Lead** from the Top Bar.
+➡️ Go to **Settings** → **System Configuration** → **Lead** from the Top Bar.
 
 ---
 
 ## 📊 Lead Score
+
 :::note
 Lead scoring ranks potential customers based on their engagement and interest, helping sales teams prioritize the most promising leads.  
 :::
@@ -18,25 +19,24 @@ Lead scoring ranks potential customers based on their engagement and interest, h
 <p>
 TLS = (MRS × MRW) + (LSS × LSW) + (LStS × LStW)
 
-yaml
-Copy code
+Where:
 
-Where:  
-- **MRS** – Marketing Response Score  
-- **MRW** – Marketing Response Weightage  
-- **LSS** – Lead Status Score  
-- **LSW** – Lead Status Weightage  
-- **LStS** – Lead Stage Score  
-- **LStW** – Lead Stage Weightage  
+- **MRS** – Marketing Response Score
+- **MRW** – Marketing Response Weightage
+- **LSS** – Lead Status Score
+- **LSW** – Lead Status Weightage
+- **LStS** – Lead Stage Score
+- **LStW** – Lead Stage Weightage
 </p>
 </details>
+
 ---
 
 #### 🟢 **1. Lead Status**
 
-Represents the current state of a lead in the sales process. Each status reflects how engaged or interested a lead is.  
+Represents the current state of a lead in the sales process. Each status reflects how engaged or interested a lead is.
 
-➡️ You can **add, delete, or modify** lead statuses as needed, and update their scores.  
+➡️ You can **add, delete, or modify** lead statuses as needed, and update their scores.
 
 <figure>
   <img src="/media/system-configuration/lead/lead-score-status.png" alt="Lead Status Configuration" />
@@ -47,10 +47,10 @@ Represents the current state of a lead in the sales process. Each status reflect
 
 #### 🟣 **2. Lead Stage**
 
-Shows where a lead is in the buyer journey — from acquisition by marketing to qualification and handoff to sales.  
+Shows where a lead is in the buyer journey — from acquisition by marketing to qualification and handoff to sales.
 
 ➡️ Update scores, assign **color indicators**, and save changes.  
-➡️ Color indicators are reflected in the **Lead List table**.  
+➡️ Color indicators are reflected in the **Lead List table**.
 
 <figure>
   <img src="/media/system-configuration/lead/lead-stage.png" alt="Lead Stage Configuration" />
@@ -62,20 +62,20 @@ Shows where a lead is in the buyer journey — from acquisition by marketing to 
 #### 📧 **3. Marketing Response**
 
 Measures how engaged a lead is with marketing activities.  
-You can manage and update scores for activities such as:  
+You can manage and update scores for activities such as:
 
-- Asset Download  
-- Contact Us Form Submission  
-- Dynamic Form Submission  
-- Email Bounced  
-- Email Link Clicked  
-- Email Marked Spam  
-- Email Opened  
-- Landing Page Visits  
-- Unsubscribe Link Clicked  
-- View in Browser Clicked  
+- Asset Download
+- Contact Us Form Submission
+- Dynamic Form Submission
+- Email Bounced
+- Email Link Clicked
+- Email Marked Spam
+- Email Opened
+- Landing Page Visits
+- Unsubscribe Link Clicked
+- View in Browser Clicked
 
-➡️ Updated scores are reflected in the **Lead Score column** of the leads data table.  
+➡️ Updated scores are reflected in the **Lead Score column** of the leads data table.
 
 <figure>
   <img src="/media/system-configuration/lead/marketing-response.png" alt="Marketing Response Lead Scoring" />
@@ -86,11 +86,11 @@ You can manage and update scores for activities such as:
 
 #### ⚖️ 4. Weight Allocation
 
-Adjust the weightage of each scoring factor as required. Update the percentage values and save changes.  
+Adjust the weightage of each scoring factor as required. Update the percentage values and save changes.
 
-- Marketing Response Weightage (MRW)  
-- Lead Status Weightage (LSW)  
-- Lead Stage Weightage (LStW)  
+- Marketing Response Weightage (MRW)
+- Lead Status Weightage (LSW)
+- Lead Stage Weightage (LStW)
 
 <figure>
   <img src="/media/system-configuration/lead/weightage-allocation.png" alt="Lead Score Weight Allocation" />
@@ -101,12 +101,11 @@ Adjust the weightage of each scoring factor as required. Update the percentage v
 
 #### 🧮 5. Lead Score
 
-View the **Total Lead Score (TLS)** dynamically based on selected Lead Status, Lead Stage, and Marketing Response.  
+View the **Total Lead Score (TLS)** dynamically based on selected Lead Status, Lead Stage, and Marketing Response.
 
 $$
 TLS = (MRS \times MRW) + (LSS \times LSW) + (LStS \times LStW)
 $$
-
 
 <figure>
   <img src="/media/system-configuration/lead/lead-score.png" alt="Lead Score Calculation" />
@@ -117,7 +116,7 @@ $$
 
 ## 👥 Lead Assign
 
-The **Lead Assign** section contains two modes:  
+The **Lead Assign** section contains two modes:
 
 <Tabs>
   <TabItem value="shark-tank" label="🦈 Shark Tank" default>
@@ -144,16 +143,18 @@ The **Lead Assign** section contains two modes:
   </TabItem>
 </Tabs>
 
-
 :::tip
 ➡️ After entering values, click **Update** to save and apply the changes.
 :::
+
 ---
 
 ## 🟢 Lead Status
+
 :::note
 Defines the current state of a lead or customer interaction in the sales process.  
 :::
+
 <details>
 <summary><strong>**Fields:**</strong></summary> 
 <p>
@@ -165,7 +166,7 @@ Defines the current state of a lead or customer interaction in the sales process
 </p>
 </details>
 
-**Actions:** 
+**Actions:**
 
 <Tabs>
   <TabItem value="save" label="💾 Save" default>
@@ -176,7 +177,6 @@ Defines the current state of a lead or customer interaction in the sales process
     <p>Click the <strong>Delete</strong> remove a saved entry.</p>
   </TabItem>
 </Tabs>
-
 
 <figure>
   <img src="/media/system-configuration/lead/lead-status.png" alt="Lead Status Management" />
@@ -198,7 +198,7 @@ Represents the industry in which the lead’s company operates.
 </p>
 </details>
 
-**Actions:**  
+**Actions:**
 
 <Tabs>
   <TabItem value="save" label="💾 Save" default>
@@ -230,7 +230,7 @@ Identifies how a lead was acquired (e.g., marketing campaign, referral, online i
 </p>
 </details>
 
-**Actions:** 
+**Actions:**
 
 <Tabs>
   <TabItem value="save" label="💾 Save" default>
@@ -240,7 +240,7 @@ Identifies how a lead was acquired (e.g., marketing campaign, referral, online i
   <TabItem value="delete" label="🗑️ Delete">
     <p>Click the <strong>Delete</strong> remove a saved entry.</p>
   </TabItem>
-</Tabs> 
+</Tabs>
 
 <figure>
   <img src="/media/system-configuration/lead/lead-source.png" alt="Lead Source Configuration" />
@@ -250,6 +250,7 @@ Identifies how a lead was acquired (e.g., marketing campaign, referral, online i
 ---
 
 ## 📞 Lead Call Outcome
+
 :::note
 Represents the result of a call made during sales or customer interactions.  
 :::
@@ -264,7 +265,7 @@ Represents the result of a call made during sales or customer interactions.
 </details>
 
 **Actions:**
-  
+
 <Tabs>
   <TabItem value="save" label="💾 Save" default>
     <p>Click <strong>Save</strong> to store the entry after filling in all details.</p>
@@ -273,7 +274,7 @@ Represents the result of a call made during sales or customer interactions.
   <TabItem value="delete" label="🗑️ Delete">
     <p>Click the <strong>Delete</strong> remove a saved entry.</p>
   </TabItem>
-</Tabs>  
+</Tabs>
 
 <figure>
   <img src="/media/system-configuration/lead/lead-call-outcome.png" alt="Lead Call Outcome Configuration" />

@@ -267,11 +267,12 @@ flowchart LR
 - **Edit** → Use the **pencil icon** (inline) or open detail page → **Edit** → **Save**.
 
 :::info
-  Lead can be created or added using three ways:
-  1. Normal Addition from list Page.
-  2. Via Import Lead.
-  3. While adding audience Campaign(If lead not exist in the list).
-    :::
+Lead can be created or added using three ways:
+
+1. Normal Addition from list Page.
+2. Via Import Lead.
+3. While adding audience Campaign(If lead not exist in the list).
+   :::
 
 <figure>
   <img src="/media/crm/lead/lead-add-edit.png" alt="Add or edit lead form" />

@@ -1,7 +1,7 @@
 # 🏷️ **Account Type**
 
 To access **Account Type**:  
-➡️ Go to **Setting** → **System Configuration** → **Account Type** from the Top Bar.
+➡️ Go to **Settings** → **System Configuration** → **Account Type** from the Top Bar.
 
 :::note
 An **Account Type** categorizes a business relationship, such as **Customer, Prospect, Partner, or Vendor**, helping teams manage interactions and strategies effectively.
@@ -48,4 +48,3 @@ import TabItem from '@theme/TabItem';
   <img src="/media/system-configuration/account-type/account-type.png" alt="Account Type Configuration" />
   <figcaption>Managing Account Type Configuration</figcaption>
 </figure>
-
