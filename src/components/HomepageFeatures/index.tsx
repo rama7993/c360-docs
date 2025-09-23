@@ -12,7 +12,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: "Smart Decisions",
-    Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
+    Svg: require("@site/static/img/bulb-idea.svg").default,
     description: (
       <>
         Satisfic helps you make smarter decisions with data-driven insights and
@@ -22,7 +22,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: "Seamless Experience",
-    Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
+    Svg: require("@site/static/img/workflow.svg").default,
     description: (
       <>
         Enjoy a clean, intuitive interface designed to simplify complex
@@ -32,7 +32,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: "Powered by Innovation",
-    Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
+    Svg: require("@site/static/img/logic.svg").default,
     description: (
       <>
         Built with modern technology, Satisfic ensures scalability, security,

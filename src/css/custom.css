@@ -6,25 +6,57 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #c256c3;
+  --ifm-color-primary-dark: #b04ab0;
+  --ifm-color-primary-darker: #a844a8;
+  --ifm-color-primary-darkest: #8a388a;
+  --ifm-color-primary-light: #c866c6;
+  --ifm-color-primary-lighter: #cc76ca;
+  --ifm-color-primary-lightest: #d496d2;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme="dark"] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #d466d1;
+  --ifm-color-primary-dark: #c85ac5;
+  --ifm-color-primary-darker: #c254c1;
+  --ifm-color-primary-darkest: #a844a6;
+  --ifm-color-primary-light: #d876d5;
+  --ifm-color-primary-lighter: #dc86d9;
+  --ifm-color-primary-lightest: #e496e1;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.navbar__logo {
+  height: 3rem;
+}
+
+/* Enhanced Footer Styling */
+.footer {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+  border-top: 1px solid rgba(194, 86, 195, 0.2);
+}
+
+.footer__title {
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.footer__link-item {
+  color: rgba(255, 255, 255, 0.8);
+  transition: color 0.3s ease;
+}
+
+.footer__link-item:hover {
+  color: var(--ifm-color-primary);
+}
+
+.footer__copyright {
+  color: rgba(255, 255, 255, 0.6);
+  border-top: 1px solid rgba(194, 86, 195, 0.1);
+  padding-top: 2rem;
+  margin-top: 2rem;
 }
