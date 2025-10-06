@@ -163,6 +163,11 @@ const sidebars: SidebarsConfig = {
           id: "system-config/account-type",
           label: "Account Type",
         },
+        {
+          type: "doc",
+          id: "system-config/activity-goal",
+          label: "Activity Goal",
+        },
         { type: "doc", id: "system-config/category", label: "Category" },
         {
           type: "doc",
