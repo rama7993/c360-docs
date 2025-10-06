@@ -110,46 +110,79 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "Product",
           items: [
             {
-              label: "Get Started",
+              label: "C360 Platform",
+              href: "https://satisfic.com/",
+            },
+            {
+              label: "Features",
+              to: "/docs/intro",
+            },
+            {
+              label: "Documentation",
               to: "/docs/intro",
             },
           ],
         },
         {
-          title: "Community",
+          title: "Services",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              label: "Marketing To Partners",
+              href: "https://satisfic.com/",
             },
             {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
+              label: "Marketing Through Partners",
+              href: "https://satisfic.com/",
             },
             {
-              label: "X",
-              href: "https://x.com/docusaurus",
+              label: "Concierge Services",
+              href: "https://satisfic.com/",
+            },
+            {
+              label: "Channel Research",
+              href: "https://satisfic.com/",
             },
           ],
         },
         {
-          title: "More",
+          title: "Company",
           items: [
             {
-              label: "Blog",
-              to: "/blog",
+              label: "About Us",
+              href: "https://satisfic.com/",
             },
             {
-              label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              label: "Career",
+              href: "https://satisfic.com/",
+            },
+            {
+              label: "Contact",
+              href: "https://satisfic.com/",
+            },
+          ],
+        },
+        {
+          title: "Support",
+          items: [
+            {
+              label: "Get Started",
+              to: "/docs/intro",
+            },
+            {
+              label: "Help Center",
+              to: "/docs/intro",
+            },
+            {
+              label: "Contact Support",
+              href: "mailto:sales@satisfic.com",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Satisfic, Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Satisfic. All Rights Reserved.`,
     },
     prism: {
       theme: prismThemes.github,
