@@ -51,18 +51,25 @@ Enter the contact’s name or email in the search bar and click the search icon.
 
 ---
 
-## 🎯 Filtering Contacts
+## 🎛️ Filtering Contacts
 
 You can filter contacts by:
-
+<details>
+<summary>Click to view available filters</summary>
 - **Account Name**
 - **Country**
 - **Call Outcome**
-
+</details>
 Other filter options include:
 
 - Viewing **Active** or **Archived** contacts using the toggle switch.
-- Viewing contacts **owned by you** or **assigned to you** by selecting the respective tabs.
+- **All Contacts/ My Contacts / Contacts Assigned To Me**  
+
+:::note
+ - All Contacts: Created By me/Assigned to me/Created By below users.
+ - My Contacts: Created By me
+ - Contacts Assigned To Me: The Contact which was assiged to me by someone.
+:::
 
 <figure>
   <img src="/media/crm/contact/contact-filter.png" alt="Filter contacts" />

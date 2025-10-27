@@ -156,12 +156,24 @@ You can filter opportunities by:
 
 ---
 
-## 📋 Filters Summary
-
+## 🎛️ Filtering Opportunity
+<details>
+<summary>Click to view available filters</summary>
 - **Lead Source** → Origin of the opportunity (Website, Referral, Campaign, etc.)
 - **Opportunity Type** → Business type (New, Renewal, Upsell)
 - **Opportunity Stage** → Current sales stage (Prospecting → Negotiation → Closed)
 - **Account Name** → Specific account or organization
+</details>
+Other filter options include:
+
+- Viewing **Active** or **Archived** Opportunities using the toggle switch.
+- **All Opportunities / My Opportunities / Opportunities Assigned To Me**  
+
+:::note
+ - All Opportunities: Created By me/Assigned to me/Created By below users.
+ - My Opportunities: Created By me
+ - Opportunities Assigned To Me: The Opportunity which was assiged to me by someone.
+:::
 
 ---
 
@@ -273,7 +285,6 @@ Use the **Add Note** or **Add Task** buttons in the top-right corner to capture 
      Opportunity can be generated or created using two ways:
   4. Normal Addition from list Page.
   5. From Lead Convertion.
-     :::
 
 - **Edit**:
   - Use the **inline edit icon** in the list, OR
@@ -290,5 +301,3 @@ The **Update button** activates once you make changes.
   />
   <figcaption>Create a new opportunity</figcaption>
 </figure>
-
-

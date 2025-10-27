@@ -53,10 +53,11 @@ You can **sort** columns ascending/descending and **expand to fullscreen** using
 </figure>
 ---
 
-## 🎯 Filtering Accounts
+## 🎛️ Filtering Accounts
 
 You can filter by:
-
+<details>
+<summary>Click to view available filters</summary>
 - Account Owner
 - Account Type
 - Industry Type
@@ -66,10 +67,16 @@ You can filter by:
 - Costume Field Three
 - Costume Field Four
 - Costume Field Five
+</details>
+Other filter options include:
+
+- Viewing **Active** or **Archived** Accounts using the toggle switch.
+- **All Accounts/ My Accounts / Accounts Assigned To Me**  
 
 :::note
-Use the **Active / Archived** toggle to include archived Accounts.  
-You can also filter by **Owned by Me** vs **Assigned to Me**.
+ - All Accounts: Created By me/Assigned to me/Created By below users.
+ - My Accounts: Created By me
+ - Accounts Assigned To Me: The Accounts which was assiged to me by someone.
 :::
 
 <figure>

@@ -59,8 +59,17 @@ Enter the landing page name in the **Search bar** and click the **Search icon** 
 ## 🎛️Filtering Landing Pages
 
 - Filter by **Status, Created At,** and **Modified At**.  
-- You can also filter pages **owned by you** or **assigned to you** using tabs.  
+- **All Landing Pages/ My Landing Pages / Landing Pages Assigned To Me**  
+
+:::note
+ - All Landing Pages: Created By me/Assigned to me/Created By below users.
+ - My Landing Pages: Created By me.
+ - Landing Pages Assigned To Me: The Landing Pages which was assiged to me by someone.
+:::
+
+:::tip
 - Applied filters appear beside the filter section and can be cleared anytime.  
+:::
 
 <figure>
   <img src="/media/marketing/component/landing page/landing-page-filter.png" alt="Filter landing pages" style={{width:"100%", maxWidth:"800px"}} />

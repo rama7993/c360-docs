@@ -72,7 +72,7 @@ flowchart TD
 
 ---
 
-## 🎯 Filtering Leads
+## 🎛️ Filtering Leads
 
 You can filter leads by:
 
@@ -87,11 +87,16 @@ You can filter leads by:
 - **Industry** → Business vertical.
 </details>
 
-:::note
+Other filter options include:
 
-- Use the **Active / Archived** toggle to include archived leads.
-- You can also filter by **Owned by Me** or **Assigned to Me**.
-  :::
+- Viewing **Active** or **Archived** Leads using the toggle switch.
+- **All Leads/ My Leads / Leads Assigned To Me**  
+
+:::note
+ - All Leads: Created By me/Assigned to me/Created By below users.
+ - My Leads: Created By me
+ - Leads Assigned To Me: The Lead which was assiged to me by someone.
+:::
 
 <figure>
   <img src="/media/crm/lead/lead-filter.png" alt="Filter panel with multiple criteria and applied chips" />

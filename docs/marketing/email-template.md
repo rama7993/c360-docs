@@ -65,7 +65,13 @@ The **List View** displays Email Templates in a structured table format for quic
 
 - Filter by **Status**, **Created At**, and **Modified At**.
 - View applied filters beside filter section (with option to clear).
-- Filter by ownership → **Owned by Me / Assigned to Me**.
+- **All Email Templated/ My Email Templated / Email Templates Assigned To Me**  
+
+:::note
+ - All Email Templates: Created By me/Assigned to me/Created By below users.
+ - My Email Templates: Created By me.
+ - Email Templates Assigned To Me: The Email Template which was assiged to me by someone.
+:::
 
 <figure>
   <img src="/media/marketing/email template/email-template-filter.png" alt="Filtering Email Templates" />

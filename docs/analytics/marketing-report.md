@@ -215,6 +215,28 @@ The **Click Performance** report tracks engagement with outbound assets such as 
 
 ---
 
+## ⭐ Social Performance 
+
+**Social Performance** represents how well your brand or campaigns are performing across different social media channels based on engagement, reach, and audience growth.
+
+<details>
+  <summary><strong>Click to see metrics included</strong></summary>
+  <p>
+  - <strong>Post Name</strong> – Name of the Post<br/>
+  - <strong>Channels</strong> – Post associated with the Social Channel <br/>
+  - <strong>Impressions</strong> – The total number of times your social post was displayed on users’ screens — whether or not they interacted with it.<br/>
+  - <strong>Engagements</strong> – Total interactions such as likes, comments, shares, clicks, and saves on your posts.<br/>
+  - <strong>Clicks</strong> – The number of times users clicked on any link, image, video, or call-to-action (CTA) within your post.
+  </p>
+</details>
+
+<figure>
+  <img src="/media/analytics/report/marketing/social-performance.png" alt="Social Performance Report" />
+  <figcaption>Social Performance Report</figcaption>
+</figure>
+
+---
+
 ## 🌐 Outgoing Landing Pages
 
 The **Landing Pages** section shows visitor engagement with landing pages linked to campaigns.
