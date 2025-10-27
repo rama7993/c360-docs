@@ -1,12 +1,10 @@
-# 🏷️ **Asset Type**
+# 🎯 **Activity Goal**
 
-To access **Asset Type**:  
-➡️ Go to **Setting** → **System Configuration** → **Asset Type** from the Top Bar.
+To access **Activity Goal**:  
+➡️ Go to **Setting** → **System Configuration** → **Acivity Goal** from the Top Bar.
 
 :::note
-An **Asset Type** categorizes the kind of content or resource used in
-marketing, such as **Whitepapers, eBooks, Videos, or Infographics**, to
-help organize and manage marketing materials efficiently.
+An **Activity Goal** is a measurable objective tied to a specific campaign activity **emails, calls, events, ads, etc**. it Defines Generate leads , customer engagement, drive awerness, generate responses etc.
 :::
 
 ---
@@ -16,7 +14,7 @@ help organize and manage marketing materials efficiently.
 <details>
 <summary><strong>Name</strong></summary>
 <p>  
-  Defines the title or label of the asset type.
+  Defines the title or label of the activity goal.
 </p>
 </details>
 
@@ -38,6 +36,6 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 
 <figure>
-  <img src="/media/system-configuration/asset-type/asset-type.png" alt="Asset Type Configuration" />
-  <figcaption>Managing Asset Type Configuration</figcaption>
+  <img src="/media/system-configuration/activity-goal/activity-goal.png" alt="Activity Goal Configuration" />
+  <figcaption>Managing Activity Goal Configuration</figcaption>
 </figure>

@@ -90,9 +90,13 @@ Search by **title**, **type**, or **category** to quickly find the right asset.
 2. Apply filters such as:
    - **Type** – Filter by media type
    - **Created At** – Filter by creation date
-3. You can also filter by:
-   - Media **owned by you**
-   - Media **assigned to you**
+3. - **All Media/ My Media / Media Assigned To Me**  
+
+:::note
+ - All Media: Created By me/Assigned to me/Created By below users.
+ - My Media: Created By me
+ - Media Assigned To Me: The Mediawhich was assiged to me by someone.
+:::
 
 <figure>
   <img src="media/filter-media.png" alt="Filter options in media library" width="800" />

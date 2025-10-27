@@ -8,6 +8,8 @@ The **Campaign Management** module in C360 allows you to plan, launch, and monit
 To access it:
 ➡️Go to **Marketing → Campaign** from the left-hand menu.
 
+---
+
 ## 📋 Managing Campaigns
 
 The Campaigns section provides a clear overview of all campaigns. You can toggle between **List View** and **Grid View** for easier management.
@@ -111,9 +113,12 @@ You can refine campaign results using filters.
 
 </details>
 
-:::tip
-Use **Owned by Me** or **Assigned to Me** tabs for quick filtering.  
-Applied filters appear as chips and can be cleared individually or all at once.
+- **All Campaigns/ My Campaigns / Campaigns Assigned To Me**  
+
+:::note
+ - All Campaigns: Created By me/Assigned to me/Created By below users.
+ - My Campaigns: Created By me
+ - Campaigns Assigned To Me: The Campaign which was assiged to me by someone.
 :::
 
 <figure>
@@ -273,9 +278,12 @@ You can refine activity results using filters.
 
 </details>
 
-:::tip
-Use **Owned by Me** or **Assigned to Me** tabs for quick filtering.  
-Applied filters appear as chips and can be cleared individually or all at once.
+- **All Activities/ My Activities / Activities Assigned To Me**  
+
+:::note
+ - All Activities: Created By me/Assigned to me/Created By below users.
+ - My Activities: Created By me
+ - Activities Assigned To Me: The Activities which was assiged to me by someone.
 :::
 
 <figure>

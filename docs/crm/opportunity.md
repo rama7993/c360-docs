@@ -156,12 +156,24 @@ You can filter opportunities by:
 
 ---
 
-## 📋 Filters Summary
-
+## 🎛️ Filtering Opportunity
+<details>
+<summary>Click to view available filters</summary>
 - **Lead Source** → Origin of the opportunity (Website, Referral, Campaign, etc.)
 - **Opportunity Type** → Business type (New, Renewal, Upsell)
 - **Opportunity Stage** → Current sales stage (Prospecting → Negotiation → Closed)
 - **Account Name** → Specific account or organization
+</details>
+Other filter options include:
+
+- Viewing **Active** or **Archived** Opportunities using the toggle switch.
+- **All Opportunities / My Opportunities / Opportunities Assigned To Me**  
+
+:::note
+ - All Opportunities: Created By me/Assigned to me/Created By below users.
+ - My Opportunities: Created By me
+ - Opportunities Assigned To Me: The Opportunity which was assiged to me by someone.
+:::
 
 ---
 

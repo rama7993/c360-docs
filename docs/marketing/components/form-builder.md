@@ -1,3 +1,6 @@
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # **📝Form Builder**
 
 The **Form Builder** in **C360** allows you to design, manage, and assign forms that can be integrated with campaigns, landing pages, and lead management.
@@ -5,28 +8,41 @@ The **Form Builder** in **C360** allows you to design, manage, and assign forms 
 To access it:  
 ➡️ Go to **Co-Marketing** → **Campaign Components** → **Form Builder** from the left-hand menu.
 
-<figure>
-  <img src="/media/image35.png" alt="Form Builder Navigation" />
-  <figcaption> Accessing Form Builder in C360</figcaption>
-</figure>
-
 ---
+## 🗂️ Form Builder Views
+- The Forms list provides a complete overview of all created forms.
+- Form Builder can be viewed in **Grid View** or **List View**.
 
-## 📋Viewing the Existing Forms List
+<Tabs>
 
-The Forms list provides a complete overview of all created forms.
+  <TabItem value="grid" label="🔲 Grid View" default>
 
-- Columns include: **Name, Form Status, Created By, Created On, Last Updated By, Last Updated On, and Actions (Edit & Preview).**
-- You can sort the columns in ascending or descending order.
-- Use the **Search bar** to quickly find forms.
-- Options are available to **Add**, 🗑️ **Delete**, or 👥 **Assign** forms to user groups.
-- Click the **Pencil icon** in the Actions column to edit a form.
-- To delete, select the form(s) via checkbox and click **Delete**.
+  - **Grid View** – Shows each form as a card with quick actions **edit**.
 
-<figure>
-  <img src="/media/marketing/component/form builder/form-list.png" alt="Forms List Overview" />
-  <figcaption> Viewing and Managing Forms in the List</figcaption>
-</figure>
+  :::tip
+   - Hovering on **"i"** icon you can see the Description .
+   :::
+
+  <figure>
+    <img src="/media/marketing/component/form builder/form-grid.png" style={{width:"100%", maxWidth:"650px"}} />
+    <figcaption> Grid View of Form Builder</figcaption>
+  </figure>
+
+  </TabItem>
+
+  <TabItem value="list" label="📜 List View">
+
+  - **List View** – Shows Forms in a table with columns like **Name, Status, Created By,Modified By, Preview and Edit**.
+
+  <figure>
+    <img src="/media/marketing/component/form builder/form-list.png" style={{width:"100%", maxWidth:"650px"}} />
+    <figcaption> List View of Form Builder</figcaption>
+  </figure>
+
+  </TabItem>
+  
+</Tabs>
+
 
 ---
 
@@ -38,6 +54,28 @@ The Forms list provides a complete overview of all created forms.
 <figure>
   <img src="/media/marketing/component/form builder/form-search.png" alt="Form Search Example" />
   <figcaption> Searching for Forms in the List</figcaption>
+</figure>
+
+---
+
+## 🎛️Filtering Forms
+
+You can filter Forms by:  
+- **Status**   
+- **Category**   
+- **Created At**   
+- **Modified At**
+- **All/ My Form / Form Assigned To Me**  
+
+:::note
+ - All: Created By me/Assigned to me/Created By below users.
+ - My Form: Created By me
+ - Form Assigned To Me: The form which was assiged to me by someone.
+:::
+
+<figure>
+  <img src="/media/marketing/component/form builder/form-filter.png" style={{width:"100%", maxWidth:"650px"}} />
+  <figcaption>Filtering forms</figcaption>
 </figure>
 
 ---

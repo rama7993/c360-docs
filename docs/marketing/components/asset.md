@@ -18,7 +18,7 @@ To access it:
 
   <TabItem value="grid" label="🔲 Grid View" default>
 
-  - **Grid View** – Shows each asset as a card with quick actions (**copy link, download, edit, delete**).
+  - **Grid View** – Shows each asset as a card with quick actions (**copy link, download, edit**).
 
   <figure>
     <img src="/media/marketing/component/asset/asset-grid.png" style={{width:"100%", maxWidth:"650px"}} />
@@ -61,7 +61,13 @@ You can filter assets by:
 - **Category**   
 - **Type**   
 - **Created Date**   
-- **Owned By / Assigned To**  
+- **All Assets/ My Assets / Assets Assigned To Me**  
+
+:::note
+ - All Assets: Created By me/Assigned to me/Created By below users.
+ - My Assets: Created By me
+ - Assets Assigned To Me: The Asset which was assiged to me by someone.
+:::
 
 <figure>
   <img src="/media/marketing/component/asset/asset-filter.png" style={{width:"100%", maxWidth:"650px"}} />
