@@ -111,6 +111,70 @@ Each notification links directly to the relevant **detail page**, so you can act
 
 ---
 
+## 🖼️ Logos
+
+**Logo Management** allows users or organizations to upload, update, and maintain their own brand logos within the system.
+
+:::note
+This ensures consistent branding across all communication channels while giving users full control over logo versions, visibility, and placement.
+:::
+To access it:  
+➡️ Click **Select User Profile** Icon → Click on **Profile and Prefrerence** Tab → Click on **Logos** Tab.
+
+### Manage Logos
+
+- Go to the **User Icon → Profile Prefrence → Logos** Page.
+- Click on **Upload Logo Link** or in **Upload Icon**.
+- Select the Picture from the desktop.
+- Click on \*\*Update.
+
+:::info
+You will find three option for Managing the Logos i.e. **Over Primary Color**, **Over White**, and **Favicon**.
+:::
+
+<figure>
+  <img src="/media/shortcut/profile-preference/logos.png" alt="Notification Settings" />
+  <figcaption>Personalizing Notification Preferences</figcaption>
+</figure>
+
+---
+
+## ✨Platform Style
+
+**Platform Style** focuses on defining and managing your organization’s visual identity — including color schemes, typography, and design elements.
+
+:::note
+It ensures all assets consistently reflect your brand’s tone, personality, and values across every platform.
+:::
+
+To access it:  
+➡️ Click **Select User Profile** Icon → Click on **Profile and Prefrerence** Tab → Click on **Brand** Tab.
+
+### Manage Platform Style
+
+- Go to the **User Icon → Profile Prefrence →Platform Style** Page.
+- Select the appropriate color you want to give for the elements by clicking on the color picker .
+- Click on **Update**.
+
+:::info
+You can set the color of the elements for both dark and bright mode.
+
+<details>
+   <summary><strong>Click to See the elements you can design:</strong></summary>
+- **Primary Button**
+- **Secondary Button**
+- **Element State**
+- **React Email Chips**
+- **Count Notification**
+</details>
+:::
+
+<figure>
+  <img src="/media/shortcut/profile-preference/platform-style.png" alt="Notification Settings" />
+  <figcaption>Personalizing Notification Preferences</figcaption>
+</figure>
+---
+
 ## ✅ Why This Matters
 
 - Keep your **personal and company details current** for professionalism and trust.
