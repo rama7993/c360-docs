@@ -3,30 +3,26 @@ import TabItem from '@theme/TabItem';
 
 # 📚 Media Library
 
-The **Media Library** in C360 is a central place to store and manage images, files, and other media assets.  
+The **Media Library** in C360 is a central place to store and manage images, files, and other media assets. 
+<details>
+<summary><strong>Click to see the Tips</strong></summary>
+<p>
+:::tip 
 These items can be reused across **social posts, campaigns, and channels**, ensuring brand consistency and saving time.
+:::
+</p>
+</details>
+
+To access it:  
+➡️ Go to **Marketing** → **Social** → **Media Library** from the Top Bar.
 
 ---
 
-## 📍 Navigation
-
-To access the Media Library in C360:
-
-1. Go to the **Marketing** section from the left menu.
-2. Click on **Social**.
-3. Select the **Media Library** tab.
-
----
-
-## 📑 Views
+## 📑 Media Library Views
 
 At the top of the **Media Library** page, you can:
 
-- **Search** for media
-- **Add** new media
-- **Delete** selected media
-- **Assign** media to groups
-- Toggle between **List View** and **Grid View**
+Media's can be viewed in **Grid View** or **List View**:
 
 <Tabs>
 
@@ -39,7 +35,7 @@ In **grid view**, each media item is shown with a thumbnail preview and quick ac
 - **Checkbox** – Select media items to delete or assign to groups
 
 <figure>
-  <img src="media/grid-view-media.png" alt="Grid view of media library" width="800" />
+  <img src="/media/marketing/social/media-library/media-grid.png" alt="Grid view of media library" width="800" />
   <figcaption>Media Library in grid view with thumbnails and action icons</figcaption>
 </figure>
 
@@ -52,12 +48,11 @@ In **list view**, items are displayed in a table format with more details:
 - **Name** – Media title
 - **Type** – Media type/category
 - **Created By & Created On** – User and creation date
-- **Actions** – Options available:
-  - **Download/Preview** – Access the file
+- **Download** – Downloading the Media.
 
 <figure>
-  <img src="media/list-view-media.png" alt="List view of media library" width="800" />
-  <figcaption>Media Library in list view with detailed columns</figcaption>
+  <img src="/media/marketing/social/media-library/media-list.png" alt="List view of media library" width="800" />
+  <figcaption>Media Library in list view with thumbnails and action icons</figcaption>
 </figure>
 
 </TabItem>
@@ -74,13 +69,9 @@ In **list view**, items are displayed in a table format with more details:
 4. The system displays all matching media items.
 
 <figure>
-  <img src="media/search-media.png" alt="Searching for media in library" width="800" />
+  <img src="/media/marketing/social/media-library/media-search.png" alt="Searching for media in library" width="800" />
   <figcaption>Search bar with results in the Media Library</figcaption>
 </figure>
-
-:::tip  
-Search by **title**, **type**, or **category** to quickly find the right asset.  
-:::
 
 ---
 
@@ -95,11 +86,11 @@ Search by **title**, **type**, or **category** to quickly find the right asset.
 :::note
  - All Media: Created By me/Assigned to me/Created By below users.
  - My Media: Created By me
- - Media Assigned To Me: The Mediawhich was assiged to me by someone.
+ - Media Assigned To Me: The Media which was assiged to me by someone.
 :::
 
 <figure>
-  <img src="media/filter-media.png" alt="Filter options in media library" width="800" />
+  <img src="/media/marketing/social/media-library/media-filter.png" alt="Filter options in media library" width="800" />
   <figcaption>Filter options for narrowing down media results</figcaption>
 </figure>
 
@@ -108,6 +99,16 @@ Active filters appear next to the filter section. You can clear them anytime.
 :::
 
 ---
+## 🗑️ Delete Media
+
+1. Select the checkbox(es) for the Media you want to delete.
+2. Click the **Delete** icon .
+3. Click on **Yes** from the confirmation pop up if you want to delete.
+
+<figure>
+  <img src="/media/marketing/social/media-library/media-delete.png" alt="Delete options in media library" width="800" />
+  <figcaption>Delete Selected Media</figcaption>
+</figure>
 
 ## ➕ Adding Media
 
@@ -118,7 +119,7 @@ To add new media to the library:
 3. Click **Save/Add** to complete the upload.
 
 <figure>
-  <img src="media/add-media.png" alt="Adding a new media item" width="800" />
+  <img src="/media/marketing/social/media-library/media-add.png" alt="Adding a new media item" width="800" />
   <figcaption>Adding a new media file or link to the Media Library</figcaption>
 </figure>
 
@@ -131,7 +132,7 @@ To add new media to the library:
 3. Choose the desired group from the dropdown.
 
 <figure>
-  <img src="media/assign-media.png" alt="Assigning media to groups" width="800" />
+  <img src="/media/marketing/social/media-library/media-assign.png" alt="Assigning media to groups" width="800" />
   <figcaption>Assigning media items to specific user groups</figcaption>
 </figure>
 

@@ -235,6 +235,94 @@ The **Click Performance** report tracks engagement with outbound assets such as 
   <figcaption>Social Performance Report</figcaption>
 </figure>
 
+### 🧩 Social Performance Details
+
+- Click on Post Name to navigate to the **Social Performance Details** Page, where you will find overall performance by percentage and each individual performance by graph blocks.
+
+<figure>
+  <img src="/media/analytics/report/marketing/social-performance-details.png" alt="Social Performance details Report" />
+  <figcaption>Social Performance Report</figcaption>
+</figure>
+
+<details>
+<summary>Click to See Available Tabs</summary>
+<Tabs>
+  <TabItem value="reaction" label="👍 Reaction">
+    **Definition:**  
+    Indicates how many people have reacted to your post (e.g., liked, loved, celebrated).  
+    Reactions show how your audience emotionally responds to your content.
+
+  <figure>
+   <img src="/media/analytics/report/marketing/social-performance-details.png" alt="Social Performance details Report" />
+   <figcaption>Social Performance Report</figcaption>
+  </figure>
+
+  </TabItem>
+
+  <TabItem value="comment" label="💬 Comment">
+    **Definition:**  
+    Represents the total number of comments made on your post.  
+    Comments reflect how engaging or conversation-worthy your post is.
+
+  <figure>
+   <img src="/media/analytics/report/marketing/social-performance-details.png" alt="Social Performance details Report" />
+   <figcaption>Social Performance Report</figcaption>
+  </figure>
+
+  </TabItem>
+
+  <TabItem value="reshare" label="🔁 Reshare">
+    **Definition:**  
+    Shows how many times your post was reshared by users.  
+    Reshares help increase your post’s visibility and reach.
+
+  <figure>
+   <img src="/media/analytics/report/marketing/social-performance-details.png" alt="Social Performance details Report" />
+   <figcaption>Social Performance Report</figcaption>
+  </figure>
+
+  </TabItem>
+
+  <TabItem value="engagements" label="📊 Engagements">
+    **Definition:**  
+    The sum of all user interactions on your post — including reactions, comments, clicks, and reshares.  
+    It’s a key measure of how actively your audience interacts with your content.
+
+  <figure>
+   <img src="/media/analytics/report/marketing/social-performance-details.png" alt="Social Performance details Report" />
+   <figcaption>Social Performance Report</figcaption>
+  </figure>
+
+  </TabItem>
+
+  <TabItem value="impressions" label="👁️ Impressions">
+    **Definition:**  
+    Indicates how many times your post appeared on users’ screens.  
+    Multiple impressions can occur from the same user if they see the post more than once.
+
+   <figure>
+   <img src="/media/analytics/report/marketing/social-performance-details.png" alt="Social Performance details Report" />
+   <figcaption>Social Performance Report</figcaption>
+  </figure>
+
+  </TabItem>
+
+  <TabItem value="members-reached" label=" 🙋 Members Reached">
+    **Definition:**  
+    The total number of unique members who saw your post at least once.  
+    Unlike impressions, reach counts **unique** viewers only.
+
+  <figure>
+   <img src="/media/analytics/report/marketing/social-performance-details.png" alt="Social Performance details Report" />
+   <figcaption>Social Performance Report</figcaption>
+  </figure>
+  
+  </TabItem>
+
+</Tabs>
+
+</details>
+
 ---
 
 ## 🌐 Outgoing Landing Pages
