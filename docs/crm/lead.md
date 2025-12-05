@@ -79,7 +79,7 @@ You can filter leads by:
 <details>
 <summary>Click to view available filters</summary>
 - **Lead Source** → Where the lead originated.
-- **Lead Status** → Current working statu.
+- **Lead Status** → Current working status.
 - **Lead Stage** → Lifecycle stage.
 - **Call Outcome** → Logged call results.
 - **Country** → Geographic location of the lead.
@@ -95,7 +95,7 @@ Other filter options include:
 :::note
  - All Leads: Created By me/Assigned to me/Created By below users.
  - My Leads: Created By me
- - Leads Assigned To Me: The Lead which was assiged to me by someone.
+ - Leads Assigned To Me: The Lead which was assigned to me by someone.
 :::
 
 <figure>
@@ -235,6 +235,63 @@ flowchart LR
 </figure>
 
 ---
+## 📞 Call Script Wizard
+
+The **Call Script Wizard** guides sales representatives through a structured conversation with a lead. It ensures consistency and helps capture key information during calls.
+
+### 🏃 How to Run a Script
+
+1. Open the **Lead List** page.
+2. Click on the "Call Script" Icon under the "Action" Column for the desired lead.
+3. Select the Campaign and its activity and click on next.
+4. Follow the on-screen prompts to ask questions and record responses.
+5. Click **Finish** to save the call outcome and notes. 
+
+<figure>
+  <img src="/media/crm/lead/lead-call-script.png" alt="Executing the call script" />
+  <figcaption>Call Script Wizard </figcaption>
+</figure>
+
+:::tip
+ You can find the desired lead for script execution by filtering through campaign and campaign activity. Follow the steps mentioned below:
+- Click on the Filter button
+- Click on the campaign dropdown.
+- Select the campaign to find the related lead .
+<details>
+<summary>Click to view more effortless way to find lead associated with a campaign activity</summary>
+- Click on the campaign activity dropdown and select the activity if you want to find the related lead for an activity.
+</details>
+
+:::
+
+### 🔄 Script Execution Flow
+
+```mermaid
+flowchart TD
+    A[Open Lead List] --> B[Click on the call script icon]
+    B --> C[Select Campaign and its activity]
+    C --> D[Start Call]
+    D --> E{Ask Question}
+    E -->|Response A| F[Next Question A]
+    E -->|Response B| G[Next Question B]
+    E -->|Prospect Question| Q[Provide Answer]
+    E -->|Objection| O[Handle Objection]
+    Q --> E
+    O -->|Resolved| E
+    O -->|Unresolved| H[End Call]
+    F --> H
+    G --> H
+    H --> I[Call Outcome & Notes]
+```
+
+:::note
+- You can add note and can view the call summary in the note list for the lead.
+- You can schedule appointment by selecting the "schedule appointment" option from call outcome dropdown at the end step.
+- You can follow up the lead and add task / assign to a lead by selecting the "follow up" option from call outcome dropdown at the end step.
+- You can send assets to the lead by selecting the "send assets" option from call outcome dropdown at the end step.
+:::
+
+---
 
 ## 👥 Assigning / Changing Lead Owner
 
@@ -276,7 +333,7 @@ Lead can be created or added using three ways:
 
 1. Normal Addition from list Page.
 2. Via Import Lead.
-3. While adding audience Campaign(If lead not exist in the list).
+3. While adding audience Campaign (If the lead does not exist in the list).
    :::
 
 <figure>
