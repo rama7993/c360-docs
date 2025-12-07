@@ -31,6 +31,8 @@ const sidebars: SidebarsConfig = {
         { type: "doc", id: "crm/account", label: "Account" },
         { type: "doc", id: "crm/contact", label: "Contact" },
         { type: "doc", id: "crm/opportunity", label: "Opportunity" },
+        { type: "doc", id: "crm/script-wizard", label: "Script Wizard" }
+
       ],
     },
 

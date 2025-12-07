@@ -107,9 +107,7 @@ flowchart LR
 
 ---
 
-## 🔍 Searching & Filtering Opportunities
-
-### Search
+##  🔍 Searching Opportunities
 
 - Enter **Name**, **Phone**, or **Mobile Number** in the search bar.
 - Click the **Search icon**.
@@ -124,27 +122,14 @@ flowchart LR
 
 ---
 
-### Filter
-
-# Opportunity Filters
-
-You can filter opportunities by:
-
+## 🎛️ Filtering Opportunity
 <details>
-<summary>Click to view available opportunity filters</summary>
-
-- **Lead Source** – Opportunities based on where the lead originated (e.g., Website, Referral, Campaign).
-- **Opportunity Type** – Categorize opportunities by type (e.g., New Business, Renewal, Upsell).
-- **Opportunity Stage** – Filter opportunities according to the sales stage (e.g., Prospecting, Negotiation, Closed Won).
-- **Account Name** – View opportunities linked to a specific account or client.
-
+<summary>Click to view available filters</summary>
+- **Lead Source** → Origin of the opportunity (Website, Referral, Campaign, etc.)
+- **Opportunity Type** → Business type (New, Renewal, Upsell)
+- **Opportunity Stage** → Current sales stage (Prospecting → Negotiation → Closed)
+- **Account Name** → Specific account or organization
 </details>
-
-:::tip
-
-- Toggle between **Active** and **Archived** opportunities.
-- Use tabs to switch between **Opportunities Owned by You** vs **Assigned to You**.  
-  :::
 
 <figure>
   <img
@@ -154,16 +139,6 @@ You can filter opportunities by:
   <figcaption>Filter opportunities by multiple criteria</figcaption>
 </figure>
 
----
-
-## 🎛️ Filtering Opportunity
-<details>
-<summary>Click to view available filters</summary>
-- **Lead Source** → Origin of the opportunity (Website, Referral, Campaign, etc.)
-- **Opportunity Type** → Business type (New, Renewal, Upsell)
-- **Opportunity Stage** → Current sales stage (Prospecting → Negotiation → Closed)
-- **Account Name** → Specific account or organization
-</details>
 Other filter options include:
 
 - Viewing **Active** or **Archived** Opportunities using the toggle switch.

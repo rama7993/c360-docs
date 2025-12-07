@@ -130,3 +130,45 @@ Online tools used to collect user information such as contact details, preferenc
   <img src="/media/system-configuration/category/form.png" alt="Form Category Configuration" />
   <figcaption>Managing Form Category Configuration</figcaption>
 </figure>
+
+---
+
+## 📑 Call Script Category
+
+:::note
+Used to classify call scripts based on their purpose, audience, or campaign type for easy organization and retrieval. 
+:::
+
+### 📝 Fields
+
+<details>
+ <summary><strong>🏷️ Name</strong></summary>
+ <p>
+- **Name** → Title or label of the Call Script.  
+</p>
+</details>
+
+<details>
+ <summary><strong>📝 Description</strong></summary>
+ <p>
+- **Description** → Explains the purpose and content of the Call Script. 
+</p>
+</details>
+
+### ⚡ Actions
+
+<Tabs>
+  <TabItem value="save" label="💾 Save" default>
+    <p><strong>Save</strong> → Click <strong>Save</strong> to store the entry after completing details.</p>
+  </TabItem>
+
+  <TabItem value="delete" label="🗑️ Delete">
+    <p><strong>Delete</strong> → Click the <strong>Delete</strong> icon in the action column to remove an entry.</p>
+  </TabItem>
+</Tabs>
+
+<figure>
+  <img src="/media/system-configuration/category/call-script.png" alt="Call Script Category Configuration" />
+  <figcaption>Managing Call Script Category Configuration</figcaption>
+</figure>
+

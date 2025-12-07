@@ -12,7 +12,7 @@ To access it:
 
 ## 📊 Accounts Overview
 
-The **Account list** provides an overview of all existing Accont.
+The **Account list** provides an overview of all existing Account.
 
 It includes columns such as:
 
