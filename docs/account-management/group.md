@@ -29,10 +29,10 @@ Groups can be displayed in **List View** or **Tree View** for better organizatio
   - Actions (Edit / Delete)
 - **Top Features**:
 
-  - **Search bar** → Quickly find groups
-  - **Add button** → Create a new group
-  - **Toggle button** → Switch to Tree View
-  - **Pencli Icon** → Inine Edit
+  - **Search Bar** → Quickly find groups
+  - **Add Button** → Create a new group
+  - **Toggle Button** → Switch to Tree View
+  - **Pencil Icon** → Inline Edit
   - **Delete Icon** → Remove Group
 
   <figure>
@@ -104,7 +104,7 @@ Groups can be displayed in **List View** or **Tree View** for better organizatio
 
 ## 🗑️ Deleting Group
 
-1. Click the **Delete** icon for the group you want to delete .
+1. Click the **Delete** icon for the group you want to delete.
 2. Click on **Yes** from the confirmation pop up if you want to delete.
 
 <figure>

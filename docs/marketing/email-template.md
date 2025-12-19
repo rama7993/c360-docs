@@ -38,7 +38,7 @@ import TabItem from '@theme/TabItem';
 
   <TabItem value="list" label="📜 List View">
 
-The **List View** displays Email Templates in a structured table format for quick scanning and comparison. And you will find same actions as **grid view**.
+The **List View** displays Email Templates in a structured table format for quick scanning and comparison. You will find same actions as **grid view**.
 
   <figure>
     <img src="/media/marketing/email template/email-template-list.png" alt="List View of Email Templates" />
@@ -65,12 +65,12 @@ The **List View** displays Email Templates in a structured table format for quic
 
 - Filter by **Status**, **Created At**, and **Modified At**.
 - View applied filters beside filter section (with option to clear).
-- **All Email Templated/ My Email Templated / Email Templates Assigned To Me**  
+- **All Email Templates/ My Email Templates/ Email Templates Assigned To Me**  
 
 :::note
- - All Email Templates: Created By me/Assigned to me/Created By below users.
- - My Email Templates: Created By me.
- - Email Templates Assigned To Me: The Email Template which was assiged to me by someone.
+ - All Email Templates: Created by me/Assigned to me/Created by below users.
+ - My Email Templates: Created by me.
+ - Email Templates Assigned To Me: The Email Template which were assigned to me by someone.
 :::
 
 <figure>
@@ -96,7 +96,7 @@ Emails in **Published** state can be assigned to groups:
 
 1. Select the checkbox(es) for the Email Template you want to delete.
 2. Click the **Delete** icon .
-3. Click on **Yes** from the confirmation pop up if you want to delete.
+3. Click on **Yes** from the confirmation pop-up if you want to delete.
 
 <figure>
   <img src="/media/marketing/email template/email-template-delete.png" style={{width:"100%", maxWidth:"650px"}} />

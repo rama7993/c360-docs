@@ -6,7 +6,7 @@ import TabItem from '@theme/TabItem';
 The **Reports** module in **C360** allows you to view, search, and analyze key reports across different categories.
 
 To access it:  
-➡️ Go to **Analytics** → **Reports** → **Sales Reort** from the left-hand menu.
+➡️ Go to **Analytics** → **Reports** → **Sales Report** from the left-hand menu.
 
 ---
 
@@ -57,9 +57,9 @@ Clicking a graph link acts as a shortcut to the related report, giving you insta
 
 ## 📊 Sales Reports
 
-The **Sales Report List** contains Different Report Sections in the left side bar along with its individual categories where you can select to view the details of the reports.
+The **Sales Report List** contains different report sections in the left side bar along with its individual categories where you can select to view the details of the reports.
 :::info
-Each report blocks contains a **data table** with multiple actions and by defualt live data.
+Each report block contains a **data table** with multiple actions and by default live data.
 :::
 
   <details>
@@ -172,7 +172,7 @@ Each report blocks contains a **data table** with multiple actions and by defual
 
 ---
 
-## 🔍Search report
+## 🔍 Search Report
 
 Use the **search bar** to quickly locate a report.  
  :::tip
@@ -186,12 +186,12 @@ As you type a keyword, the system displays matching results based on **report na
 
 ---
 
-## 📂 View Report Details"
+## 📂 View Report Details
 
     To see detailed information about a specific report:
 
 - 📌 Click **Report Name** – Opens the data table
-- 🔍 Search - Can search the needed data from respected reports.
+- 🔍 Search - Search for data within respective reports.
 - ⬇️ Download – Export reports easily
 - 📊 Summary details for quick insights  
   📊 _Example: Detailed Report View_
@@ -203,7 +203,7 @@ As you type a keyword, the system displays matching results based on **report na
 
 ---
 
-- ## 🧰Filter
+## 🧰 Filters
 
 <Tabs>
   <TabItem value="date-range" label="📅 Date Range Filter" default>

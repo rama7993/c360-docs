@@ -158,11 +158,11 @@ Defines the current state of a lead or customer interaction in the sales process
 <details>
 <summary><strong>**Fields:**</strong></summary> 
 <p>
-- **Name** – Title of the lead status  
-- **Score** – Numeric value indicating priority/quality  
-- **Colour** – Visual indicator for quick identification  
-- **Description** – Explanation of the status meaning  
-- **Active/Archive (Toggle)** – Mark as active or archive  
+- **Name** – Title of the lead status . 
+- **Score** – Numeric value indicating priority/quality. 
+- **Color** – Visual indicator for quick identification.  
+- **Description** – Explanation of the status meaning.  
+- **Active/Archive (Toggle)** – Mark as active or archive.  
 </p>
 </details>
 
@@ -174,7 +174,7 @@ Defines the current state of a lead or customer interaction in the sales process
   </TabItem>
 
   <TabItem value="delete" label="🗑️ Delete">
-    <p>Click the <strong>Delete</strong> remove a saved entry.</p>
+    <p>Click the <strong>Delete</strong> icon to remove a saved entry.</p>
   </TabItem>
 </Tabs>
 
@@ -206,7 +206,7 @@ Represents the industry in which the lead’s company operates.
   </TabItem>
 
   <TabItem value="delete" label="🗑️ Delete">
-    <p>Click the <strong>Delete</strong> remove a saved entry.</p>
+    <p>Click the <strong>Delete</strong> icon to remove a saved entry.</p>
   </TabItem>
 </Tabs>
 
@@ -238,7 +238,7 @@ Identifies how a lead was acquired (e.g., marketing campaign, referral, online i
   </TabItem>
 
   <TabItem value="delete" label="🗑️ Delete">
-    <p>Click the <strong>Delete</strong> remove a saved entry.</p>
+    <p>Click the <strong>Delete</strong> icon to remove a saved entry.</p>
   </TabItem>
 </Tabs>
 
@@ -259,7 +259,7 @@ Represents the result of a call made during sales or customer interactions.
 <summary><strong>**Fields:**</strong></summary>  
 <p>
 - **Name** – Call outcome label  
-- **Colour** – Visual indicator for quick identification  
+- **Color** – Visual indicator for quick identification  
 - **Description** – Explanation of the outcome  
 </p>
 </details>
@@ -272,7 +272,7 @@ Represents the result of a call made during sales or customer interactions.
   </TabItem>
 
   <TabItem value="delete" label="🗑️ Delete">
-    <p>Click the <strong>Delete</strong> remove a saved entry.</p>
+    <p>Click the <strong>Delete</strong> icon to remove a saved entry.</p>
   </TabItem>
 </Tabs>
 

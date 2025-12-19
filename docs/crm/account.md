@@ -29,7 +29,7 @@ It includes columns such as:
 | **Country**               | The country associated with the account.                                                                    |
 | **Modified At**           | The last modification date of the account.                                                                  |
 | **Last Contracted**       | The date of the most recent contract or agreement made with the account.                                    |
-| **Costume Fields**        | A custom field is an additional field you create to store business-specific information                     |
+| **Custom Fields**        | A custom field is an additional field you create to store business-specific information                     |
 
 :::tip
 You can **sort** columns ascending/descending and **expand to fullscreen** using the maximize button beside the search bar.
@@ -62,11 +62,11 @@ You can filter by:
 - Account Type
 - Industry Type
 - Countries
-- Costume Field One
-- Costume Field Two
-- Costume Field Three
-- Costume Field Four
-- Costume Field Five
+- Custom Field One
+- Custom Field Two
+- Custom Field Three
+- Custom Field Four
+- Custom Field Five
 </details>
 Other filter options include:
 
@@ -76,7 +76,7 @@ Other filter options include:
 :::note
  - All Accounts: Created By me/Assigned to me/Created By below users.
  - My Accounts: Created By me
- - Accounts Assigned To Me: The Accounts which was assiged to me by someone.
+ - Accounts Assigned To Me: The Accounts which were assigned to me by someone.
 :::
 
 <figure>
@@ -114,7 +114,7 @@ Other filter options include:
 
 ## 👁️ Viewing Account Details
 
-Click a Account's name to open the **Account Detail** page. From here you can:
+Click on an Account's name to open the **Account Detail** page. From here you can:
 
 - Edit Account info
 - Change the **Owner**
@@ -173,7 +173,7 @@ You can view more information about an account—such as associated contacts and
 
 <TabItem value="Change" label="Change Owner">
 
-1. Select Accounts from the list .
+1. Select Accounts from the list.
 2. Click **Change Owner** → select user → click **Confirm**.
 
 <figure>
@@ -192,10 +192,10 @@ You can view more information about an account—such as associated contacts and
 - **Edit** → Click the **pencil** (inline) or open details → **Edit** → **Save**.
 
 :::info
-  Account can be generated or Added  using three ways:
+  Account can be generated or added using three ways:
   1. Normal Addition from list Page.
   2. Via Import Account.
-  3. During Lead Convertion(if new).
+  3. During Lead Conversion(if new).
     :::
 
 <figure>

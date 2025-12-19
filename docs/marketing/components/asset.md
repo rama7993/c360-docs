@@ -1,7 +1,7 @@
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# **📂Assets** 
+# **📂 Assets** 
 
 The **Assets** module in **C360 CRM** helps you organize, manage, and track marketing resources like documents, videos, and infographics.
 
@@ -64,9 +64,9 @@ You can filter assets by:
 - **All Assets/ My Assets / Assets Assigned To Me**  
 
 :::note
- - All Assets: Created By me/Assigned to me/Created By below users.
- - My Assets: Created By me
- - Assets Assigned To Me: The Asset which was assiged to me by someone.
+ - All Assets: Created by me/Assigned to me/Created by below users.
+ - My Assets: Created by me
+ - Assets Assigned To Me: The Asset which was assigned to me by someone.
 :::
 
 <figure>
@@ -80,7 +80,7 @@ You can filter assets by:
 
 1. Select the checkbox(es) for the assets you want to delete.
 2. Click the **Delete** icon .
-3. Click on **Yes** from the confirmation pop up if you want to delete.
+3. Click on **Yes** from the confirmation pop-up if you want to delete.
 
 <figure>
   <img src="/media/marketing/component/asset/asset-delete.png" style={{width:"100%", maxWidth:"650px"}} />
@@ -93,8 +93,8 @@ You can filter assets by:
 
 **To add an asset:**  
 1. ➡️ Click ** Add Asset** 
-2. enter details (**Type, Category, Assigned To, Description, Title, File/Link**) 
-3. click ** Save**.  
+2. Enter details (**Type, Category, Assigned To, Description, Title, File/Link**) 
+3. Click ** Save**.  
 
 <figure>
   <img src="/media/marketing/component/asset/asset-add.png" style={{width:"100%", maxWidth:"650px"}} />
@@ -103,8 +103,8 @@ You can filter assets by:
 
 **To edit an asset:**  
  1. ➡️ Click the ** Edit (pencil)** icon
- 2. Make necessary Changes 
- 3. click ** Update** 
+ 2. Make necessary changes 
+ 3. Click ** Update** 
 
 <figure>
   <img src="/media/marketing/component/asset/asset-edit.png" style={{width:"100%", maxWidth:"600px"}} />

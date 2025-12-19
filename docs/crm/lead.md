@@ -243,14 +243,9 @@ The **Call Script Wizard** guides sales representatives through a structured con
 
 1. Open the **Lead List** page.
 2. Click on the "Call Script" Icon under the "Action" Column for the desired lead.
-3. Select the Campaign and its activity and click on next.
+3. Select the Campaign and its activity and click on **Start Call Script**.
 4. Follow the on-screen prompts to ask questions and record responses.
-5. Click **Finish** to save the call outcome and notes. 
-
-<figure>
-  <img src="/media/crm/lead/lead-call-script.png" alt="Executing the call script" />
-  <figcaption>Call Script Wizard </figcaption>
-</figure>
+5. Click **Finish** to save the call outcome and notes.
 
 :::tip
  You can find the desired lead for script execution by filtering through campaign and campaign activity. Follow the steps mentioned below:

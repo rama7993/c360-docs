@@ -1,6 +1,6 @@
-# 🎥 Videos Management
+# 🎥 Video Management
 
-The **Videos Management** feature in C360 allows you to upload, organize, and share videos with your team — making it easier to distribute learning material, product demos, and recorded meetings.
+The **Video Management** feature in C360 allows you to upload, organize, and share videos with your team — making it easier to distribute learning material, product demos, and recorded meetings.
 
 To access Videos:  
 Click the **“+” icon** in the bottom-right corner and select **Videos** from the menu.
@@ -14,7 +14,7 @@ Click the **“+” icon** in the bottom-right corner and select **Videos** from
 
 ## 📂 Viewing Videos
 
-From the **Videos List** page, you can manage all uploaded and assigned videos.
+From the **Video List** page, you can manage all uploaded and assigned videos.
 
 - Click **Add Video** to upload a new file.
 - Click a video thumbnail or name to play it.
@@ -24,7 +24,7 @@ Each video provides the following actions:
 
 - **✏️ Edit** → Modify video details.
 - **🔗 Copy Link** → Copy the video URL for sharing.
-- **⬇️  Download** → Download the attached video file.
+- **⬇️ Download** → Download the attached video file.
 - **👥 Assign to Users** → Share the video with specific users.
 - **🗑️ Delete** → Permanently remove the video.
 - **☑️ Checkbox** → Select multiple videos for bulk actions.

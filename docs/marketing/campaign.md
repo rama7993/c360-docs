@@ -6,7 +6,7 @@ import TabItem from '@theme/TabItem';
 The **Campaign Management** module in C360 allows you to plan, launch, and monitor marketing campaigns that engage your audience through emails, webinars, and other activities.
 
 To access it:
-➡️Go to **Marketing → Campaign** from the left-hand menu.
+➡️ Go to **Marketing → Campaign** from the left-hand menu.
 
 ---
 
@@ -116,9 +116,9 @@ You can refine campaign results using filters.
 - **All Campaigns/ My Campaigns / Campaigns Assigned To Me**  
 
 :::note
- - All Campaigns: Created By me/Assigned to me/Created By below users.
- - My Campaigns: Created By me
- - Campaigns Assigned To Me: The Campaign which was assiged to me by someone.
+ - All Campaigns: Created by me/Assigned to me/Created by below users.
+ - My Campaigns: Created by me
+ - Campaigns Assigned To Me: The campaign which were assigned to me by someone.
 :::
 
 <figure>
@@ -143,7 +143,7 @@ You can refine campaign results using filters.
 
 1. Select the checkbox(es) for the Campaign you want to delete.
 2. Click the **Delete** icon .
-3. Click on **Yes** from the confirmation pop up if you want to delete.
+3. Click on **Yes** from the confirmation pop-up if you want to delete.
 
 <figure>
   <img src="/media/marketing/campaign/campaign-delete.png" style={{width:"100%", maxWidth:"650px"}} />
@@ -200,7 +200,7 @@ Once you save the **General Information** and **Attributes**, the **Activities**
 
 ---
 
-## 📑Campaign Activities
+## 📑 Campaign Activities
 
 Each campaign can include one or more **Activities** (e.g., Emails, Webinars). Activities can be managed in **List View** or **Grid View**, and support the following actions:
 
@@ -256,8 +256,8 @@ Use the **⋮ menu** on each card to access available actions:
 
 ### Search Activities
 
-- Enter a **Activity name** in the search bar
-- Press **Enter** or click the **search icon**
+- Enter an **Activity name** in the search bar.
+- Press **Enter** or click the **search icon**.
 
 <figure>
   <img src="/media/marketing/campaign/campaign-activity-search.png" alt="Search activity by name" />
@@ -281,9 +281,9 @@ You can refine activity results using filters.
 - **All Activities/ My Activities / Activities Assigned To Me**  
 
 :::note
- - All Activities: Created By me/Assigned to me/Created By below users.
- - My Activities: Created By me
- - Activities Assigned To Me: The Activities which was assiged to me by someone.
+ - All Activities: Created by me/Assigned to me/Created by below users.
+ - My Activities: Created by me
+ - Activities Assigned To Me: The activities which were assigned to me by someone.
 :::
 
 <figure>
@@ -381,7 +381,7 @@ Click **Save** to finalize. Once saved, the activity can be previewed or execute
 
 1. Select the checkbox(es) for the Activity you want to delete.
 2. Click the **Delete** icon .
-3. Click on **Yes** from the confirmation pop up if you want to delete.
+3. Click on **Yes** from the confirmation pop-up if you want to delete.
 
 <figure>
   <img src="/media/marketing/campaign/campaign-activity-delete.png" style={{width:"100%", maxWidth:"650px"}} />
@@ -454,7 +454,7 @@ Follow these steps to create a simple multi-touch workflow:
 
 <figure>
   <img src="/media/marketing/campaign/campaign-activity-builder-add action.png" alt="Add action" />
-  <figcaption>add action</figcaption>
+  <figcaption>Add action</figcaption>
 </figure>
      
 

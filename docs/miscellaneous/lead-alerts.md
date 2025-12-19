@@ -6,7 +6,7 @@ To access Lead Alerts:
 Click the **Alert icon** in the right-hand menu. A pop-up will appear showing all assigned leads.
 
 <figure>
-  <img src="/media/shortcut/lead-alert/lead-alert-navigation.png" alt="Lead alerts popup in C360" />
+  <img src="/media/shortcut/lead-alert/lead-alert-navigation.png" alt="Lead alerts pop-up in C360" />
   <figcaption>Lead Alerts pop-up showing recent lead notifications</figcaption>
 </figure>
 

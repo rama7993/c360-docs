@@ -119,17 +119,17 @@ Each notification links directly to the relevant **detail page**, so you can act
 This ensures consistent branding across all communication channels while giving users full control over logo versions, visibility, and placement.
 :::
 To access it:  
-➡️ Click **Select User Profile** Icon → Click on **Profile and Prefrerence** Tab → Click on **Logos** Tab.
+➡️ Click **Select User Profile** Icon → Click on **Profile and Preference** Tab → Click on **Logos** Tab.
 
 ### Manage Logos
 
-- Go to the **User Icon → Profile Prefrence → Logos** Page.
-- Click on **Upload Logo Link** or in **Upload Icon**.
+- Go to the **User Icon → Profile Preference → Logos** Page.
+- Click on **Upload Logo Link** or on **Upload Icon**.
 - Select the Picture from the desktop.
-- Click on \*\*Update.
+- Click on **Update**.
 
 :::info
-You will find three option for Managing the Logos i.e. **Over Primary Color**, **Over White**, and **Favicon**.
+You will find three options for Managing the Logos i.e. **Over Primary Color**, **Over White**, and **Favicon**.
 :::
 
 <figure>
@@ -139,7 +139,7 @@ You will find three option for Managing the Logos i.e. **Over Primary Color**, *
 
 ---
 
-## ✨Platform Style
+## ✨ Platform Style
 
 **Platform Style** focuses on defining and managing your organization’s visual identity — including color schemes, typography, and design elements.
 
@@ -148,12 +148,12 @@ It ensures all assets consistently reflect your brand’s tone, personality, and
 :::
 
 To access it:  
-➡️ Click **Select User Profile** Icon → Click on **Profile and Prefrerence** Tab → Click on **Brand** Tab.
+➡️ Click **Select User Profile** Icon → Click on **Profile and Preference** Tab → Click on **Brand** Tab.
 
 ### Manage Platform Style
 
-- Go to the **User Icon → Profile Prefrence →Platform Style** Page.
-- Select the appropriate color you want to give for the elements by clicking on the color picker .
+- Go to the **User Icon → Profile Preference → Platform Style** Page.
+- Select the appropriate color you want to give for the elements by clicking on the color picker.
 - Click on **Update**.
 
 :::info

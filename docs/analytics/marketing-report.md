@@ -307,7 +307,7 @@ The **Click Performance** report tracks engagement with outbound assets such as 
 
   </TabItem>
 
-  <TabItem value="members-reached" label=" 🙋 Members Reached">
+  <TabItem value="members-reached" label="🙋 Members Reached">
     **Definition:**  
     The total number of unique members who saw your post at least once.  
     Unlike impressions, reach counts **unique** viewers only.

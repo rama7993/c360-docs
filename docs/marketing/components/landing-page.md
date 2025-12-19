@@ -1,9 +1,9 @@
-# **📄Landing Page** 
+# **📄 Landing Page** 
 
 The **Landing Page** module in **C360 CRM** helps you create, manage, and track campaign-specific pages that drive engagement and capture leads.  
 
 To access it:  
-➡️ Go to **Marketing** → **Campaign Component** → **Landing Page** from the left-hand menu.  
+➡️ Go to **Marketing** → **Campaign Components** → **Landing Page** from the left-hand menu.  
 
 ---
 
@@ -62,9 +62,9 @@ Enter the landing page name in the **Search bar** and click the **Search icon** 
 - **All Landing Pages/ My Landing Pages / Landing Pages Assigned To Me**  
 
 :::note
- - All Landing Pages: Created By me/Assigned to me/Created By below users.
- - My Landing Pages: Created By me.
- - Landing Pages Assigned To Me: The Landing Pages which was assiged to me by someone.
+ - All Landing Pages: Created by me/Assigned to me/Created by below users.
+ - My Landing Pages: Created by me.
+ - Landing Pages Assigned To Me: The landing pages which were assigned to me by someone.
 :::
 
 :::tip
@@ -79,11 +79,11 @@ Enter the landing page name in the **Search bar** and click the **Search icon** 
 ---
 
 
-## 🗑️ Deleting ALanding Page
+## 🗑️ Deleting Landing Page
 
 1. Select the checkbox(es) for the Landing Page you want to delete.
 2. Click the **Delete** icon .
-3. Click on **Yes** from the confirmation pop up if you want to delete.
+3. Click on **Yes** from the confirmation pop-up if you want to delete.
 
 <figure>
   <img src="/media/marketing/component/landing page/landing-page-delete.png" style={{width:"100%", maxWidth:"650px"}} />
@@ -173,4 +173,4 @@ Landing pages can be linked and tracked within campaigns.
   <figcaption> Selecting Dynamic Landing Page</figcaption>
 </figure>
 
-✅ By linking landing pages with campaigns, you can **track visitor activity**  and generate **valuable leads** .  
+✅ By linking landing pages with campaigns, you can **track visitor activity**  and generate **valuable leads**.  

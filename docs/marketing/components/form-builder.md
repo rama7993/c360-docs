@@ -1,7 +1,7 @@
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# **📝Form Builder**
+# **📝 Form Builder**
 
 The **Form Builder** in **C360** allows you to design, manage, and assign forms that can be integrated with campaigns, landing pages, and lead management.
 
@@ -17,10 +17,10 @@ To access it:
 
   <TabItem value="grid" label="🔲 Grid View" default>
 
-  - **Grid View** – Shows each form as a card with quick actions **edit**.
+  - **Grid View** – Shows each form as a card with quick actions like **edit**.
 
   :::tip
-   - Hovering on **"i"** icon you can see the Description .
+   - Hovering on **"i"** icon allows you to see the Description.
    :::
 
   <figure>
@@ -32,7 +32,7 @@ To access it:
 
   <TabItem value="list" label="📜 List View">
 
-  - **List View** – Shows Forms in a table with columns like **Name, Status, Created By,Modified By, Preview and Edit**.
+  - **List View** – Shows Forms in a table with columns like **Name, Status, Created By, Modified By, Preview and Edit**.
 
   <figure>
     <img src="/media/marketing/component/form builder/form-list.png" style={{width:"100%", maxWidth:"650px"}} />
@@ -68,9 +68,9 @@ You can filter Forms by:
 - **All/ My Form / Form Assigned To Me**  
 
 :::note
- - All: Created By me/Assigned to me/Created By below users.
- - My Form: Created By me
- - Form Assigned To Me: The form which was assiged to me by someone.
+ - All: Created by me/Assigned to me/Created by below users.
+ - My Form: Created by me
+ - Form Assigned To Me: The form which was assigned to me by someone.
 :::
 
 <figure>
@@ -102,7 +102,7 @@ You can filter Forms by:
 ### 🧩Fields Tab
 
 - Add and manage different field types: **Text, Select, Date**.
-- Fields are categorized as **General Fields** and **Lead Fields with Validation** .
+- Fields are categorized as **General Fields** and **Lead Fields with Validation**.
 - Options include:
 - **Label** – Display text for the field.
 - **Default Value** – Pre-filled data.
@@ -111,7 +111,7 @@ You can filter Forms by:
 
 ##### Text
 
-- **Text Field** is an input field To collect short or medium-length responses from users (names, email addresses, job titles, etc.).
+- **Text Field** is an input field to collect short or medium-length responses from users (names, email addresses, job titles, etc.).
 
 <figure>
   <img src="/media/marketing/component/form builder/form-field-text.png" alt="Lead Field Validation" />
@@ -120,7 +120,7 @@ You can filter Forms by:
 
 #### Select Field
 
-- **Select Field**  a dropdown to provide a controlled list of options for consistency.
+- **Select Field** is a dropdown to provide a controlled list of options for consistency.
 - For **Select fields**, define **Label & Value** for dropdown options.
 
 <figure>
@@ -128,7 +128,7 @@ You can filter Forms by:
   <figcaption> Adding Dropdown Options in a Form</figcaption>
 </figure>
 
-- ↔ Fields can be **dragged and reordered**.
+- Fields can be **dragged and reordered**.
 
 <figure>
   <img src="/media/marketing/component/form builder/form-field-reorder.png" alt="Drag and Drop Fields" />
@@ -213,7 +213,7 @@ Define automated actions that trigger after form submission.
 
 1. Select the checkbox(es) for the Form you want to delete.
 2. Click the **Delete** icon .
-3. Click on **Yes** from the confirmation pop up if you want to delete.
+3. Click on **Yes** from the confirmation pop-up if you want to delete.
 
 <figure>
   <img src="/media/marketing/component/form builder/form-delete.png" style={{width:"100%", maxWidth:"650px"}} />
