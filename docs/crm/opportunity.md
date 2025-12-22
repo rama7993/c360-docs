@@ -122,7 +122,7 @@ flowchart LR
 
 ---
 
-## 🎛️ Filtering Opportunity
+## 🎛️ Filtering Opportunities
 <details>
 <summary>Click to view available filters</summary>
 - **Lead Source** → Origin of the opportunity (Website, Referral, Campaign, etc.)
@@ -147,7 +147,7 @@ Other filter options include:
 :::note
  - All Opportunities: Created By me/Assigned to me/Created By below users.
  - My Opportunities: Created By me
- - Opportunities Assigned To Me: The Opportunity which was assiged to me by someone.
+ - Opportunities Assigned To Me: The Opportunity which were assigned to me by someone.
 :::
 
 ---
@@ -160,12 +160,12 @@ Other filter options include:
 
 <figure>
   <img src="/media/crm/opportunity/opportunity-delete.png" alt="Delete action for selected opportunity" />
-  <figcaption>Delete selected opportunitys</figcaption>
+  <figcaption>Delete selected opportunities</figcaption>
 </figure>
 
 ---
 
-## 📂 Downoading Opportunities
+## 📂 Downloading Opportunities
 
 1. Select the checkboxes for opportunities.
 2. Click the **Download icon**.
@@ -233,7 +233,7 @@ Use the **Add Note** or **Add Task** buttons in the top-right corner to capture 
 
 <TabItem value="Change" label="Change Owner">
 
-1. Select opportunity from the list.
+1. Select opportunities from the list.
 2. Click **Change Owner** → select user → click **Confirm**.
 
 <figure>
@@ -257,9 +257,9 @@ Use the **Add Note** or **Add Task** buttons in the top-right corner to capture 
   2. Fill required fields
   3. Click **Save**
      :::info
-     Opportunity can be generated or created using two ways:
+    An Opportunity can be generated or created using two ways:
   4. Normal Addition from list Page.
-  5. From Lead Convertion.
+  5. From Lead Conversion.
 
 - **Edit**:
   - Use the **inline edit icon** in the list, OR

@@ -56,7 +56,7 @@ It helps sales teams monitor progress, prioritize efforts, and forecast revenue.
     <p><strong>To add a stage:</strong></p>
     <ol>
       <li>Enter the stage name.</li>
-      <li>Open the <strong>colour chart</strong> 🎨 and choose a colour.</li>
+      <li>Open the <strong>color chart</strong> 🎨 and choose a colour.</li>
       <li>Click <strong>Select</strong> ✅ to confirm.</li>
       <li>Set the <strong>probability value</strong> 📊.</li>
       <li>Click <strong>Save</strong> 💾 to store the stage.</li>
@@ -69,7 +69,7 @@ It helps sales teams monitor progress, prioritize efforts, and forecast revenue.
     <ol>
       <li>Update the stage name or probability inline.</li>
       <li>Save by pressing <strong>Enter</strong> ⏎ or clicking outside the field.</li>
-      <li>To update the colour, pick a new one 🎨 and confirm.</li>
+      <li>To update the color, pick a new one 🎨 and confirm.</li>
     </ol>
 
   </TabItem>
@@ -89,7 +89,7 @@ It helps sales teams monitor progress, prioritize efforts, and forecast revenue.
     </figure>
 
 :::tip
-✅ Stage colours are shown in the **Opportunity List table**, making it easy to visually track stages.
+✅ Stage colors are shown in the **Opportunity List table**, making it easy to visually track stages.
 :::
 
 ---

@@ -95,9 +95,9 @@ To Create New Script follow these steps:
 <Tabs>
   <TabItem value="configure" label="Configure">
     Configure your project settings, environment variables, and dependencies before proceeding to the build process.
-    - Fill all the mandatory fields **(Script Name,Category,status,campaign and Campaign activity)**.
+    - Fill all the mandatory fields **(Script Name, Category, Status, Campaign and Campaign Activity)**.
     :::note
-    campaign activity will appear only when you select a campaign in which at least one activity exist.
+    Campaign Activity will appear only when you select a campaign in which at least one activity exist.
     :::
     - Provide the description if needed and click on next.
 
@@ -112,15 +112,15 @@ To Create New Script follow these steps:
     Build and compile the application using your preferred build tools or automated pipelines.
     - Start with greeting.
     :::note
-    - you can add only one greetings in a script.
+    - you can add only one greeting in a script.
     :::
-    - Arranges the **questions** and **responses according to your preference .
-    - click on next
+    - Arrange the **questions** and **responses according to your preference.
+    - click on **Next**.
     <details>
     <summary>Click to view additional actions you can perform </summary>
     - You can zoom in and zoom out the page.
     - You can reset the zoom.
-    - You can **Hold shift + drag** or middle mouse button to pan.
+    - You can **Hold Shift + drag** or middle mouse button to pan.
     </details>
 
   <figure>
@@ -198,8 +198,8 @@ Scripts can be assigned to specific campaigns or leads to ensure agents use the 
 
 ### 👤 Assign to User
 
-1. Select the Script you want to assign to the User using checkbox.
-2. Click on **Assign** icon that appear beside the trash icon.
+1. Select the Script you want to assign to the user using checkbox.
+2. Click on **Assign** icon that appears beside the trash icon.
 3. Select the appropriate user and confirm.
 
 <figure>

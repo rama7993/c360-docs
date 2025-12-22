@@ -66,7 +66,7 @@ This approach guarantees:
 
 ### 🔹 Assign Leads in Round Robin
 
-1. Go to the **Leads List** in the **C360 Partner Leads Management** module.
+1. Go to the **Leads List**. 
 2. Select the leads you want to assign.
 3. Click **Assign To → Round Robin**.
 4. Choose eligible users/partners and drag to set the rotation order.
@@ -78,7 +78,7 @@ This approach guarantees:
 
 ### 🔹 What Happens Next
 
-- The system sets status to **Round Robin in Progress**.
+- The system sets the status to **Round Robin in Progress**.
 - Users are notified and can either **Accept** or **Reject** leads.
 - If rejected, the lead instantly moves to the next person in rotation.
 

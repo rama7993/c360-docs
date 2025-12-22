@@ -1,7 +1,7 @@
 # 🎯 **Activity Goal**
 
 To access **Activity Goal**:  
-➡️ Go to **Setting** → **System Configuration** → **Acivity Goal** from the Top Bar.
+➡️ Go to **Setting** → **System Configuration** → **Activity Goal** from the Top Bar.
 
 :::note
 An **Activity Goal** is a measurable objective tied to a specific campaign activity **emails, calls, events, ads, etc**. it Defines Generate leads , customer engagement, drive awerness, generate responses etc.

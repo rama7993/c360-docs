@@ -3,7 +3,7 @@ import TabItem from "@theme/TabItem";
 
 # Contact Management
 
-The **Contact Management** module in **C360 CRM** helps you track, manage, and update all sales Contact in one place.
+The **Contact Management** module in **C360 CRM** helps you track, manage, and update all sales Contacts in one place.
 
 To access it:  
 ➡️ Go to **Sales** → **Contact** from the left-hand menu.
@@ -12,7 +12,7 @@ To access it:
 
 ## 📊 Contact Overview
 
-The **Contact list** provides an overview of all existing Accont.
+The **Contact list** provides an overview of all existing contacts.
 
 It includes columns such as:
 
@@ -68,7 +68,7 @@ Other filter options include:
 :::note
  - All Contacts: Created By me/Assigned to me/Created By below users.
  - My Contacts: Created By me
- - Contacts Assigned To Me: The Contact which was assiged to me by someone.
+ - Contacts Assigned To Me: The Contact which were assigned to me by someone.
 :::
 
 <figure>
@@ -78,7 +78,7 @@ Other filter options include:
 
 ---
 
-## 🗑️ Deleting Contact
+## 🗑️ Deleting Contacts
 
 1. Select the checkbox(es) beside the Contacts you want to delete.
 2. Click the **Delete** icon .
@@ -101,7 +101,7 @@ Select the checkboxes for the contacts you want to download. Then, click the **D
 
 ---
 
-## 👁️ View Contact Details
+## 👁️ Viewing Contact Details
 
 On the **Contact Details** page, you can:
 
@@ -160,11 +160,11 @@ To **add a contact**:
 4. Click **Save** when done.
 
 :::info
-Contact can be generated or Added using three ways:
+Contacts can be generated or added using three ways:
 
 1. Normal Addition from list Page.
 2. Via Import Contact.
-3. During Lead Convertion(if new).
+3. During Lead Conversion(if new).
    :::
 
 <figure>

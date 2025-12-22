@@ -5,7 +5,7 @@ It provides the flexibility to build precise audience groups, import data seamle
 
 To access it: 
 
-➡️Go to **Marketing** → **Audience** from the left-hand menu.
+➡️ Go to **Marketing** → **Audience** from the left-hand menu.
 
 ---
 

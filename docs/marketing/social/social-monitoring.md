@@ -50,7 +50,7 @@ It includes columns such as:
 You can **sort** columns ascending/descending and **expand to fullscreen** using the maximize button beside the search bar.
 :::
 
-- Additionally You will Find Recent Post at the Bottom.
+- Additionally, you will find recent post at the bottom.
 
 <figure>  
   <img src="/media/marketing/social/social-monitoring/channel-list.png" alt="Social monitoring channels list" width="800" />  
@@ -63,7 +63,7 @@ You can **sort** columns ascending/descending and **expand to fullscreen** using
 
 ### ➕ <u> Add Channel</u>
 
-You will Find Different Actions Under Add Channel Pop Up Page.
+You will find different actions under Add Channel Pop-Up Page.
 
 <Tabs>
   <TabItem value="signin" label=" 🔁 Sign In with another Account">
@@ -96,7 +96,7 @@ You will Find Different Actions Under Add Channel Pop Up Page.
 
 <figure>  
   <img src="/media/marketing/social/social-monitoring/channel-search.png" alt="Social monitoring search channel" width="800" />  
-  <figcaption>Seaching profiles Accociated with the Channel </figcaption>  
+  <figcaption>Seaching profiles associated with the channel </figcaption>  
 </figure>
 
 ### 👁️ <u> View Social Account Details</u>
@@ -148,8 +148,8 @@ To access it:
   <TabItem value="add-campaign" label=" ➕Add Campaign">
   
   1. Enter Details(**Select Campaign Name, Activity Name, Activity Goal, Activity Description**)
-  2. Or You can Add a Campign id Not Listed In te Dropdown.
-  3. Click on Next.
+  2. Or you can add a campaign id not listed in the dropdown.
+  3. Click on next.
 
   <figure>  
   <img src="/media/marketing/social/social-monitoring/post-add-add-campaign.png" alt="Add Post Page" width="800" />  
@@ -178,9 +178,9 @@ After finalize the Post Content :
   <Tabs groupId="create-inner">
    <TabItem value="schedule" label=" 🕒 Schedule a time">
 
-1. Choose Shedule a Time Radio Button.
-2. Select / Set a Time
-3. Click on Schedule
+1. Choose schedule a time radio button.
+2. Select / Set a time.
+3. Click on schedule.
 
   </TabItem>
 
@@ -352,7 +352,7 @@ This includes:
 
 :::info
 
-- Additionally Ypu can refresh the page to view fresh data.
+- Additionally, you can refresh the page to view fresh data.
   :::
 
 <figure>  

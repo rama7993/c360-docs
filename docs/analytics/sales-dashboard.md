@@ -1,7 +1,7 @@
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# 📊Sales Dashboard
+# 📊 Sales Dashboard
 
 The **Sales Dashboard** in C360 provides visibility into **Leads** and **Opportunities**, helping sales teams monitor performance and identify growth opportunities.  
 
@@ -10,10 +10,10 @@ To access **Sales Dashboard**:
 
 ---
 
-## 🎛️Filters 
+## 🎛️ Filters 
 
 
-Both sections include a **dropdown menu** for filtering by **Company, Country, and Users**. and The dashboard provides multiple filter options for fiscal periods, months, and days, along with additional customization and graph actions.
+Both sections include a **dropdown menu** for filtering by **Company, Country, Users** and the dashboard provides multiple filter options for fiscal periods, months, and days, along with additional customization and graph actions.
 
 :::tip
 💡 You can switch between **Date Range** and **Respective Filters** tabs to refine your analysis based on time period or specific criteria.  
@@ -107,15 +107,15 @@ In addition to the predefined options, there is also a **Custom** option where y
 
 
      :::tip 
-      1.The **Users filter** works only when either **Country** or **Company** is selected.  
-      2.**Company** is disabled if **Country** is selected, and vice versa.  
+      1. The **Users filter** works only when either **Country** or **Company** is selected.  
+      2. **Company** is disabled if **Country** is selected and vice versa.  
      :::
   </TabItem>
 </Tabs>
 
 ---
 
-## 📈Graph Options
+## 📈 Graph Options
 
 <Tabs>
  <TabItem value="report-link" label="Report Link">
@@ -143,7 +143,7 @@ Each graph includes common actions:
 
 ---
 
-## 🧲Leads Analytics
+## 🧲 Leads Analytics
 
 <div className="grid grid-cols-2 gap-4">
 
@@ -184,7 +184,7 @@ Each graph includes common actions:
 
 ---
 
-## 💼Opportunities Analytics
+## 💼 Opportunities Analytics
 
 The Opportunities dashboard provides detailed insights into **revenue, pipeline, and win rates**.
 
@@ -203,7 +203,7 @@ The Opportunities dashboard provides detailed insights into **revenue, pipeline,
       <li><strong>Top 10 Accounts</strong> – Highest revenue & potential accounts.</li>
     </ul>
     <figure>
-        <img src="/media/analytics/insight/sales/executive sponsor key matrics.png" alt="Sales Dashboard - Executive Sponsor Metrics" />
+        <img src="/media/analytics/insight/sales/executive sponsor key metrics.png" alt="Sales Dashboard - Executive Sponsor Metrics" />
         <figcaption>Executive Sponsor – Key Sales Metrics</figcaption>
       </figure>
   </div>
@@ -265,7 +265,7 @@ The Opportunities dashboard provides detailed insights into **revenue, pipeline,
       <li><strong>Average Days to Close</strong> – Rep-specific sales cycle.</li>
     </ul>
      <figure>
-        <img src="/media/analytics/insight/sales/sales manager key matrics.png" alt="Sales Manager Key Metrics" />
+        <img src="/media/analytics/insight/sales/sales manager key metrics.png" alt="Sales Manager Key Metrics" />
         <figcaption>Sales Manager – Team KPIs</figcaption>
       </figure>
   </div>
@@ -278,7 +278,7 @@ The Opportunities dashboard provides detailed insights into **revenue, pipeline,
       <li><strong>All-Time Top Accounts</strong> – Accounts with highest historical revenue.</li>
     </ul>
     <figure>
-        <img src="/media/analytics/insight/sales/sales represantative clean your room.png" alt="Sales Representative Clean Your Room" />
+        <img src="/media/analytics/insight/sales/sales representative clean your room.png" alt="Sales Representative Clean Your Room" />
         <figcaption>Sales Rep – Pipeline & Revenue Insights</figcaption>
       </figure>
   </div>

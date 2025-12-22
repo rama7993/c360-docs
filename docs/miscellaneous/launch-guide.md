@@ -1,6 +1,6 @@
 # 🚀 Launch Guide
 
-The **Launch Guide** is a quick gateway to all the important functions **c360** has to offer.  
+The **Launch Guide** is a quick gateway to all the important functions **C360** has to offer.  
 It helps users **quickly access product information, workflows, and guidance** without navigating across multiple screens.
 
 ---
@@ -37,7 +37,7 @@ The Launch Guide is divided into two main sections for ease of navigation.
 :::
 
 - **Left Tab – Product Features**  
-  Displays all major features available in **c360**.
+  Displays all major features available in **C360**.
 
 - **Right Tab – Workflow Guidance**  
   Shows respective **workflow features** along with **step-by-step guidance**.
@@ -54,7 +54,7 @@ The Launch Guide is divided into two main sections for ease of navigation.
 
 - Speeds up navigation.
 - Provides **quick access** to essential product workflows.
-- Helps new users **learn and explore** c360 features effortlessly.
+- Helps new users **learn and explore** C360 features effortlessly.
 - Reduces time spent searching for relevant options.
 
 ---
@@ -72,7 +72,7 @@ Here’s a quick demo flow for better understanding:
 
 ## 🔖 Summary
 
-The **Launch Guide** acts as a **central navigation hub** in c360.  
+The **Launch Guide** acts as a **central navigation hub** in C360.  
 It allows you to **explore product features, access workflows, and navigate faster** — all from one place.
 
 ---

@@ -22,7 +22,7 @@ To access it:
 
 At the top of the **Media Library** page, you can:
 
-Media's can be viewed in **Grid View** or **List View**:
+Media can be viewed in **Grid View** or **List View**:
 
 <Tabs>
 
@@ -48,7 +48,7 @@ In **list view**, items are displayed in a table format with more details:
 - **Name** – Media title
 - **Type** – Media type/category
 - **Created By & Created On** – User and creation date
-- **Download** – Downloading the Media.
+- **Download** – Download the media file.
 
 <figure>
   <img src="/media/marketing/social/media-library/media-list.png" alt="List view of media library" width="800" />
@@ -84,9 +84,9 @@ In **list view**, items are displayed in a table format with more details:
 3. - **All Media/ My Media / Media Assigned To Me**  
 
 :::note
- - All Media: Created By me/Assigned to me/Created By below users.
- - My Media: Created By me
- - Media Assigned To Me: The Media which was assiged to me by someone.
+ - All Media: Created by me/Assigned to me/Created by below users.
+ - My Media: Created by me
+ - Media Assigned To Me: The Media which were assigned to me by someone.
 :::
 
 <figure>
@@ -103,7 +103,7 @@ Active filters appear next to the filter section. You can clear them anytime.
 
 1. Select the checkbox(es) for the Media you want to delete.
 2. Click the **Delete** icon .
-3. Click on **Yes** from the confirmation pop up if you want to delete.
+3. Click on **Yes** from the confirmation pop-up if you want to delete.
 
 <figure>
   <img src="/media/marketing/social/media-library/media-delete.png" alt="Delete options in media library" width="800" />

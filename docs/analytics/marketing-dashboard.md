@@ -1,7 +1,7 @@
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# 📢Marketing Dashboard
+# 📢 Marketing Dashboard
 
 The **Marketing Dashboard** in C360 provides detailed insights into marketing campaigns, lead generation, and opportunity management. 
 
@@ -11,7 +11,7 @@ To access **Marketing Dashboard**:
 ---
 
 
-## 🎛️Filters 
+## 🎛️ Filters 
 
 
 It is divided into two main sections, both equipped with common filters:
@@ -94,7 +94,7 @@ This section focuses on lead generation, profiling, and opportunity conversion.
 
 <details>
   <summary><strong>Opportunity Stage Distribution</strong></summary>
-  <p>Analyses opportunities across different pipeline stages.</p>
+  <p>Analyzes opportunities across different pipeline stages.</p>
 </details>
 
 

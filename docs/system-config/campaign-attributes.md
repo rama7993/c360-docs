@@ -141,6 +141,6 @@ A **Campaign Audience** defines the group of individuals or businesses targeted 
 </Tabs>
 
 <figure>
-  <img src="/media/system-configuration/campaign-attributes/audience.png" alt="ManageCampaign Audience" />
+  <img src="/media/system-configuration/campaign-attributes/audience.png" alt="Manage Campaign Audience" />
   <figcaption>Managing Campaign Audience</figcaption>
 </figure>

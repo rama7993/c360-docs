@@ -20,16 +20,16 @@ To access Users:
 
 <TabItem value="list" label="📋 List View">
 
-- **Columns**: First Name, Last Name, Email, Email Verified, Assigned Group, Actions (Edit/Delete)
-- **Sorting**: Click any column header to sort users
+- **Columns**: First Name, Last Name, Email, Email Verified, Assigned Group, Actions (Edit/Delete).
+- **Sorting**: Click any column header to sort users.
 - **Top Features**:
 
-  - **Search bar** → Quickly locate users
-  - **Add button** → Create a new user
+  - **Search bar** → Quickly locate users.
+  - **Add button** → Create a new user.
   - **Toggle button** → Switch between List / Tree views
-  - **pencil Icon** → Create a new user
-  - **Trash Icon** → Create a new user
-  - **Envelope Icon** → Create a new user
+  - **Pencil Icon** → Edit and update the existing user.
+  - **Trash Icon** → Remove user.
+  - **Envelope Icon** → Verify user.
 
 <figure>
   <img src="/media/account-management/user/user-list.png" alt="User List View" />
@@ -58,7 +58,7 @@ To access Users:
 ## ➕ Add / Edit a User
 
 <details>
-<summary>Steps to Add an User</summary>
+<summary>Steps to Add a User</summary>
 
 1. Click **Add User**
 2. Enter the following details:
@@ -77,7 +77,7 @@ To access Users:
 </details>
 
 <details>
-<summary>Steps to edit an User</summary>
+<summary>Steps to edit a User</summary>
 
 - Click the **pencil icon** in the user list, or
 - Use the **Edit button** on the user’s details page.
@@ -98,19 +98,19 @@ To access Users:
 
 <figure>
   <img src="/media/account-management/user/user-search.png" alt="Search User" />
-  <figcaption>Searching for User</figcaption>
+  <figcaption>Searching for Users</figcaption>
 </figure>
 
 ---
 
-## 🗑️ Deleting User
+## 🗑️ Deleting a User
 
-1. Click the **Delete** icon for the User you want to delete .
+1. Click on the **Delete** icon for the User you want to delete.
 2. Click on **Yes** from the confirmation pop up if you want to delete.
 
 <figure>
   <img src="/media/account-management/user/user-delete.png" alt="Delete User" />
-  <figcaption>Delete an User</figcaption>
+  <figcaption>Delete a User</figcaption>
 </figure>
 
 ---
@@ -125,8 +125,8 @@ Here you can review:
 - **Access Permissions**
 
 <figure>
-  <img src="/media/account-management/user/user-details.png" alt="Delete Details" />
-  <figcaption>Details of an User</figcaption>
+  <img src="/media/account-management/user/user-details.png" alt="User Details" />
+  <figcaption>Details of a User</figcaption>
 </figure>
 
 ---
