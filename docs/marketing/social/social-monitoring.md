@@ -61,7 +61,7 @@ You can **sort** columns ascending/descending and **expand to fullscreen** using
 
 ## ⚡ Actions:
 
-### ➕ <u> Add Channel</u>
+### ➕ Add Channel
 
 You will find different actions under Add Channel Pop-Up Page.
 
@@ -89,7 +89,7 @@ You will find different actions under Add Channel Pop-Up Page.
   <figcaption>Adding Channel Into the Portal</figcaption>  
 </figure>
 
-### 🔍 <u> Search</u>
+### 🔍 Search
 
 - Enter keywords in fields like Name.
 - According to your Inputs you will get your Result.
@@ -99,7 +99,7 @@ You will find different actions under Add Channel Pop-Up Page.
   <figcaption>Seaching profiles associated with the channel </figcaption>  
 </figure>
 
-### 👁️ <u> View Social Account Details</u>
+### 👁️ View Social Account Details
 
 - To view the social account details page, click on **Channel Name**.
 <figure>  
@@ -140,12 +140,12 @@ To access it:
 
 ## ⚡ Actions:
 
-### ➕ <u> Add Post</u>
+### ➕ Add Post
 
 - To Create a **Post** Click on **Add Post**.
 
 <Tabs>
-  <TabItem value="add-campaign" label=" ➕Add Campaign">
+  <TabItem value="add-campaign" label=" ➕ Add Campaign">
   
   1. Enter Details(**Select Campaign Name, Activity Name, Activity Goal, Activity Description**)
   2. Or you can add a campaign id not listed in the dropdown.
@@ -201,7 +201,7 @@ After finalize the Post Content :
   </TabItem>
 </Tabs>
 
-### 🎛️ <u> Filter</u>
+### 🎛️ Filter
 
 You can filter Posts by:
 
@@ -218,7 +218,7 @@ You can filter Posts by:
   <figcaption>Searching Post by filter  </figcaption>  
 </figure>
 
-### 🧮 <u> Filter Based on Status</u>
+### 🧮 Filter Based on Status
 
 <Tabs>
 
@@ -276,11 +276,11 @@ You can filter Posts by:
 
 </Tabs>
 
-### 📋 <u> Clone</u>
+### 📋 Clone
 
-### ✏️ <u> Edit</u>
+### ✏️ Edit
 
-### 🗑️ <u> Delete</u>
+### 🗑️ Delete
 
 1. Click on the three vertical dots for the particular post you want to delete.
 2. Click the **Delete** Button .

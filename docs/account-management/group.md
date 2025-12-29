@@ -50,7 +50,7 @@ Groups can be displayed in **List View** or **Tree View** for better organizatio
 - **Delete** → Click trash icon under Actions.
 
 <figure>
-  <img src="/media/account management/groups/group-tree-view.png" alt="Group Tree View" />
+  <img src="/media/account-management/group/group-tree-view.png" alt="Group Tree View" />
   <figcaption>Groups displayed in Tree View</figcaption>
 </figure>
 
