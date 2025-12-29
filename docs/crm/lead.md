@@ -247,6 +247,11 @@ The **Call Script Wizard** guides sales representatives through a structured con
 4. Follow the on-screen prompts to ask questions and record responses.
 5. Click **Finish** to save the call outcome and notes.
 
+<figure>
+  <img src="/media/crm/lead/lead-call-script.png" alt="Call script wizard" />
+  <figcaption>Run call script</figcaption>
+</figure>
+
 :::tip
  You can find the desired lead for script execution by filtering through campaign and campaign activity. Follow the steps mentioned below:
 - Click on the Filter button
@@ -309,7 +314,7 @@ flowchart TD
 2. Click **Change Owner** → select user → click **Confirm**.
 
 <figure>
-  <img src="/media/crm/lead/lead-change owner.png" alt="change owner" />
+  <img src="/media/crm/lead/lead-change-owner.png" alt="change owner" />
   <figcaption>Change Owner</figcaption>
 </figure>
 

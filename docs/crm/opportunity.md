@@ -238,7 +238,7 @@ Use the **Add Note** or **Add Task** buttons in the top-right corner to capture 
 
 <figure>
   <img
-    src="/media/crm/opportunity/opportunity-change owner.png"
+    src="/media/crm/opportunity/opportunity-change-owner.png"
     alt="Change Owner"
   />
   <figcaption>Change Owner</figcaption>

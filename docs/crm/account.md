@@ -142,15 +142,19 @@ The Account Information section shows important details about an account, such a
   <figcaption> Account Details</figcaption>
 </figure>
 
-You can view more information about an account—such as associated contacts and opportunities—by expanding the respective sections (accordions).
+You can view more information about an account—such as related contacts and opportunities by scrolling down the page.
+
+:::tip
+Click on **View More** to view all related contacts and opportunities with auto filtered by **Account Name**.
+:::
 
 <figure>
-  <img src="/media/crm/account/account-related contact.png" alt="Contacts related to an individual accounts" />
+  <img src="/media/crm/account/account-related-contact.png" alt="Contacts related to an individual accounts" />
   <figcaption> Related Contact</figcaption>
 </figure>
 
 <figure>
-  <img src="/media/crm/account/account-related opportunity.png" alt="Opportunities related to an individual accounts" />
+  <img src="/media/crm/account/account-related-opportunity.png" alt="Opportunities related to an individual accounts" />
   <figcaption>Related Opportunity </figcaption>
 </figure>
 
