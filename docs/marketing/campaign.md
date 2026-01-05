@@ -327,8 +327,12 @@ Click **Save** to finalize. Once saved, the activity can be previewed or execute
 
 ### 📧 Single Touch Activity
 
-- Select an existing email template from the library, or create a new one.
-- Preview your configuration and click **Save**.
+- Click on **Add Activity**.
+- Give **Activity name** , choose **Activity Goal**, and select flow type as **Single Touch**.
+- Click on **Next** button.
+- Select Channel, Provide status,thumbnail,description and Select an existing email template from the library, or create a new one.
+- Click on **Next** button.
+- Preview your configuration and click on **Save** button.
 
 <figure>
   <img src="/media/marketing/campaign/campaign-activity-add.png" alt="Add Single Touch Activity" />
@@ -339,9 +343,11 @@ Click **Save** to finalize. Once saved, the activity can be previewed or execute
 
 ### 🔄 Multi Touch Activity
 
-- Choose **Multi Touch** as the flow type.
+- Click on **Add Activity**.
+- Give **Activity name** , choose **Activity Goal**, and select flow type as **Multi Touch**.
+- Click on **Next** button.
 - Click **Builder** to open the workflow canvas.
-- Add steps (emails, webinars, follow-ups) and save your workflow.
+- Or Click on next for preview your configuration and Save.
 
 <figure>
   <img src="/media/marketing/campaign/campaign-activity-add-multitouch.png" alt="Activity Builder Canvas" />
@@ -379,7 +385,7 @@ Click **Save** to finalize. Once saved, the activity can be previewed or execute
 
 ---
 
-## 🗑️ Deleting Activity
+### 🗑️ Deleting Activity
 
 1. Select the checkbox(es) for the Activity you want to delete.
 2. Click the **Delete** icon .
