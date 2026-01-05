@@ -3,19 +3,16 @@ import TabItem from '@theme/TabItem';
 
 # 📢 Marketing Dashboard
 
-The **Marketing Dashboard** in C360 provides detailed insights into marketing campaigns, lead generation, and opportunity management. 
+The **Marketing Dashboard** in C360 provides detailed insights into marketing campaigns, lead generation, and opportunity management.
 
 To access **Marketing Dashboard**:  
 ➡️ Go to **Analytics** → **Insights** → **Marketing Dashboard** from the left-hand menu.
 
 ---
 
-
-## 🎛️ Filters 
-
+## 🎛️ Filters
 
 It is divided into two main sections, both equipped with common filters:
-
 
 :::tip
 💡 You can switch between **Date Range** and **Respective Filters** tabs to refine your analysis based on time period or specific criteria.  
@@ -36,11 +33,12 @@ It is divided into two main sections, both equipped with common filters:
 
 1. The **Users filter** works only when either **Country** or **Company** is selected.
 2. **Company** is disabled if **Country** is selected, and vice versa.  
-    :::
+   :::
    </TabItem>
    </Tabs>
 
 ---
+
 ## 1. 📊 Campaign Performance
 
 The Campaign Performance dashboard highlights campaign effectiveness, email engagement, and time-based comparisons.
@@ -64,7 +62,6 @@ The Campaign Performance dashboard highlights campaign effectiveness, email enga
   <summary><strong>Compare Email Over Time</strong></summary>
   <p>Displays engagement trends across time for better pattern analysis.</p>
 </details>
-
 
 <figure>
   <img src="/media/analytics/insight/marketing/marketing campaign.png" alt="Marketing Dashboard - Campaign Performance" />
@@ -96,7 +93,6 @@ This section focuses on lead generation, profiling, and opportunity conversion.
   <summary><strong>Opportunity Stage Distribution</strong></summary>
   <p>Analyzes opportunities across different pipeline stages.</p>
 </details>
-
 
 <figure>
   <img src="/media/analytics/insight/marketing/leads and opportunities.png" alt="Marketing Dashboard - Leads and Opportunities" />

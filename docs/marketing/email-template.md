@@ -65,13 +65,14 @@ The **List View** displays Email Templates in a structured table format for quic
 
 - Filter by **Status**, **Created At**, and **Modified At**.
 - View applied filters beside filter section (with option to clear).
-- **All Email Templates/ My Email Templates/ Email Templates Assigned To Me**  
+- **All Email Templates/ My Email Templates/ Email Templates Assigned To Me**
 
 :::note
- - All Email Templates: Created by me/Assigned to me/Created by below users.
- - My Email Templates: Created by me.
- - Email Templates Assigned To Me: The Email Template which were assigned to me by someone.
-:::
+
+- All Email Templates: Created by me/Assigned to me/Created by below users.
+- My Email Templates: Created by me.
+- Email Templates Assigned To Me: Email templates that were assigned to me by another user.
+  :::
 
 <figure>
   <img src="/media/marketing/email template/email-template-filter.png" alt="Filtering Email Templates" />
@@ -154,7 +155,6 @@ You can create an email in three ways:
 </figure>
 
 3.  Use **Action Dropdown**:
-
 
 - **Save & Test** – Save + test mail.
 - **Save & Close** – Save and return.

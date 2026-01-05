@@ -4,8 +4,6 @@ import type * as Preset from "@docusaurus/preset-classic";
 import rehypeKatex from "rehype-katex";
 import remarkMath from "remark-math";
 
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
-
 const config: Config = {
   title: "Satisfic",
   tagline:
@@ -14,7 +12,7 @@ const config: Config = {
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
-    v4: true, // Improve compatibility with the upcoming Docusaurus v4
+    v4: true,
   },
 
   // Set the production url of your site here
@@ -42,8 +40,7 @@ const config: Config = {
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
           sidebarPath: "./sidebars.ts",
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/rama7993/c360-docs/tree/main/",
         },
         blog: {
           showReadingTime: true,
@@ -51,8 +48,7 @@ const config: Config = {
             type: ["rss", "atom"],
             xslt: true,
           },
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/rama7993/c360-docs/tree/main/",
           onInlineTags: "warn",
           onInlineAuthors: "warn",
           onUntruncatedBlogPosts: "warn",
@@ -86,19 +82,10 @@ const config: Config = {
           position: "left",
           label: "Docs",
         },
-        // {
-        //   type: "localeDropdown",
-        //   position: "right",
-        // },
         {
           type: "search", // Algolia search bar
           position: "right",
         },
-        // {
-        //   href: "https://github.com/facebook/docusaurus",
-        //   label: "GitHub",
-        //   position: "right",
-        // },
       ],
     },
     sidebar: {
@@ -194,22 +181,13 @@ const config: Config = {
       indexName: "satisfic-docs",
       contextualSearch: true,
       externalUrlRegex: "external\\.com|domain\\.com",
-      // replaceSearchResultPathname: {
-      //   from: "/docs/",
-      //   to: "/",
-      // },
+
       searchParameters: {},
-      // 👉 If you want only navbar search:
       searchPagePath: false,
-      // 👉 If you want a dedicated /search page instead:
-      // searchPagePath: "search",
       insights: false,
     },
     mermaid: {
       theme: { light: "neutral", dark: "dark" },
-      // options: {
-      //   maxTextSize: 50,
-      // },
     },
   } satisfies Preset.ThemeConfig,
   stylesheets: [

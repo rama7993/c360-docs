@@ -12,7 +12,7 @@ To access it:
 
 ## 📊 Leads Overview
 
-The **Lead List** list displays all existing leads with quick actions and key details.
+The **Lead List** displays all existing leads with quick actions and key details.
 
 ### Columns in the List
 
@@ -90,13 +90,14 @@ You can filter leads by:
 Other filter options include:
 
 - Viewing **Active** or **Archived** Leads using the toggle switch.
-- **All Leads/ My Leads / Leads Assigned To Me**  
+- **All Leads/ My Leads / Leads Assigned To Me**
 
 :::note
- - All Leads: Created By me/Assigned to me/Created By below users.
- - My Leads: Created By me
- - Leads Assigned To Me: The Lead which was assigned to me by someone.
-:::
+
+- All Leads: Created By me/Assigned to me/Created By below users.
+- My Leads: Created By me
+- Leads Assigned To Me: The Lead which was assigned to me by someone.
+  :::
 
 <figure>
   <img src="/media/crm/lead/lead-filter.png" alt="Filter panel with multiple criteria and applied chips" />
@@ -159,6 +160,7 @@ stateDiagram-v2
     classDef archived stroke-dasharray: 5 5,stroke:#999,fill:#f9f9f9;
     class Converted,Not_Interested,Unqualified archived;
 ```
+
 ---
 
 ## 🗑️ Deleting Leads
@@ -235,6 +237,7 @@ flowchart LR
 </figure>
 
 ---
+
 ## 📞 Call Script Wizard
 
 The **Call Script Wizard** guides sales representatives through a structured conversation with a lead. It ensures consistency and helps capture key information during calls.
@@ -253,7 +256,8 @@ The **Call Script Wizard** guides sales representatives through a structured con
 </figure>
 
 :::tip
- You can find the desired lead for script execution by filtering through campaign and campaign activity. Follow the steps mentioned below:
+You can find the desired lead for script execution by filtering through campaign and campaign activity. Follow the steps mentioned below:
+
 - Click on the Filter button
 - Click on the campaign dropdown.
 - Select the campaign to find the related lead .
@@ -285,11 +289,12 @@ flowchart TD
 ```
 
 :::note
+
 - You can add note and can view the call summary in the note list for the lead.
 - You can schedule appointment by selecting the "schedule appointment" option from call outcome dropdown at the end step.
 - You can follow up the lead and add task / assign to a lead by selecting the "follow up" option from call outcome dropdown at the end step.
 - You can send assets to the lead by selecting the "send assets" option from call outcome dropdown at the end step.
-:::
+  :::
 
 ---
 
@@ -375,4 +380,3 @@ At the review step, you can import:
 </figure>
 
 ---
-
