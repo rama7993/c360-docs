@@ -113,13 +113,14 @@ You can refine campaign results using filters.
 
 </details>
 
-- **All Campaigns/ My Campaigns / Campaigns Assigned To Me**  
+- **All Campaigns/ My Campaigns / Campaigns Assigned To Me**
 
 :::note
- - All Campaigns: Created by me/Assigned to me/Created by below users.
- - My Campaigns: Created by me
- - Campaigns Assigned To Me: The campaign which were assigned to me by someone.
-:::
+
+- All Campaigns: Created by me/Assigned to me/Created by below users.
+- My Campaigns: Created by me
+- Campaigns Assigned To Me: Campaigns that were assigned to me by another user.
+  :::
 
 <figure>
   <img src="/media/marketing/campaign/campaign-filter.png" alt="Filter options for campaigns" />
@@ -278,13 +279,14 @@ You can refine activity results using filters.
 
 </details>
 
-- **All Activities/ My Activities / Activities Assigned To Me**  
+- **All Activities/ My Activities / Activities Assigned To Me**
 
 :::note
- - All Activities: Created by me/Assigned to me/Created by below users.
- - My Activities: Created by me
- - Activities Assigned To Me: The activities which were assigned to me by someone.
-:::
+
+- All Activities: Created by me/Assigned to me/Created by below users.
+- My Activities: Created by me
+- Activities Assigned To Me: The activities which were assigned to me by someone.
+  :::
 
 <figure>
   <img src="/media/marketing/campaign/campaign-activity-filter.png" alt="Filter options for activity" />
@@ -456,7 +458,7 @@ Follow these steps to create a simple multi-touch workflow:
   <img src="/media/marketing/campaign/campaign-activity-builder-add action.png" alt="Add action" />
   <figcaption>Add action</figcaption>
 </figure>
-     
+
 
 3. Preview the configuration and click **Save** to add the block to the workflow canvas.
 

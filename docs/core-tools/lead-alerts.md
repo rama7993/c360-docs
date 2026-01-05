@@ -102,5 +102,5 @@ You can filter Lead Alerts using three dropdowns:
 
 ## 📌 Related Documentation
 
-- [🔄 Round Robin Assignment](./shark-tank-round-robin#-round-robin-management)
-- [🦈 Shark Tank Assignment](./shark-tank-round-robin#-shark-tank-management)
+- [🔄 Round Robin Assignment](../sales/shark-tank-round-robin#-round-robin-management)
+- [🦈 Shark Tank Assignment](../sales/shark-tank-round-robin#-shark-tank-management)
