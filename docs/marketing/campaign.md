@@ -335,7 +335,7 @@ Click **Save** to finalize. Once saved, the activity can be previewed or execute
 - Preview your configuration and click on **Save** button.
 
 <figure>
-  <img src="/media/marketing/campaign/campaign-activity-add.png" alt="Add Single Touch Activity" />
+  <img src="/media/marketing/campaign/campaign-activity-single-touch-add.png" alt="Add Single Touch Activity" />
   <figcaption>Adding a Single Touch Activity</figcaption>
 </figure>
 
@@ -350,9 +350,15 @@ Click **Save** to finalize. Once saved, the activity can be previewed or execute
 - Or Click on next for preview your configuration and Save.
 
 <figure>
-  <img src="/media/marketing/campaign/campaign-activity-add-multitouch.png" alt="Activity Builder Canvas" />
+  <img src="/media/marketing/campaign/campaign-activity-multi-touch-add.png" alt="Activity Builder Canvas" />
   <figcaption>Designing a Multi Touch workflow in the Activity Builder</figcaption>
 </figure>
+
+:::tip
+- Can **zoom in and zoom out** the canvas.
+- Can **reset** the canvas to original size.
+- Can drag or move the canvas by Holding the **Shift + drag or middle mouse button** to pan.
+:::
 
 ---
 
@@ -403,7 +409,7 @@ Click **Save** to finalize. Once saved, the activity can be previewed or execute
 The **Workflow Builder** allows you to design automated, multi-step campaigns that combine emails, lead updates, and conditional logic based on user behavior.
 
 <figure>
-  <img src="/media/marketing/campaign/campaign-activity-builder canvas.png" alt="Workflow Builder canvas" />
+  <img src="/media/marketing/campaign/campaign-activity-builder-canvas.png" alt="Workflow Builder canvas" />
   <figcaption>Workflow Builder Canvas</figcaption>
 </figure>
 
@@ -491,7 +497,7 @@ Follow these steps to create a simple multi-touch workflow:
 </figure>
 
 <figure>
-  <img src="/media/marketing/campaign/campaign-activity-builder-work flow.png" alt="Workflow block controls" />
+  <img src="/media/marketing/campaign/campaign-activity-builder-work-flow.png" alt="Workflow block controls" />
   <figcaption>Editing and managing workflow blocks</figcaption>
 </figure>
 
@@ -520,7 +526,7 @@ Always use **Preview** to validate the workflow logic before executing it live.
 </figure>
 
 <figure>
-  <img src="/media/marketing/campaign/campaign-activity-multi-touch-preview-tab.png" alt="Multi Touch preview tab" />
+  <img src="/media/marketing/campaign/campaign-activity-multi-touch-preview-new-tab.png" alt="Multi Touch preview tab" />
   <figcaption>Multi Touch campaign preview (new tab)</figcaption>
 </figure>
 

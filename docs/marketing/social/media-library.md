@@ -4,14 +4,6 @@ import TabItem from '@theme/TabItem';
 # 📚 Media Library
 
 The **Media Library** in C360 is a central place to store and manage images, files, and other media assets. 
-<details>
-<summary><strong>Click to see the Tips</strong></summary>
-<p>
-:::tip 
-These items can be reused across **social posts, campaigns, and channels**, ensuring brand consistency and saving time.
-:::
-</p>
-</details>
 
 To access it:  
 ➡️ Go to **Marketing** → **Social** → **Media Library** from the Top Bar.
@@ -144,3 +136,7 @@ To add new media to the library:
 - Instead of uploading files every time, users can simply select items from the Media Library.
 
 ✅ This makes campaign creation **faster, more consistent, and easier to track**.
+
+:::tip 
+These items can be reused across **social posts, campaigns, and channels**, ensuring brand consistency and saving time.
+:::
