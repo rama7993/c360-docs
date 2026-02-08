@@ -133,6 +133,11 @@ const sidebars: SidebarsConfig = {
           items: [
             {
               type: "doc",
+              id: "analytics/telemarketing-report",
+              label: "Telemarketing Report",
+            },
+            {
+              type: "doc",
               id: "analytics/sales-report",
               label: "Sales Report",
             },
@@ -189,6 +194,11 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: "doc",
+          id: "settings/call-outcome",
+          label: "Call Outcome",
+        },
+        {
+          type: "doc",
           id: "settings/opportunities",
           label: "Opportunities Configuration",
         },
@@ -209,6 +219,11 @@ const sidebars: SidebarsConfig = {
           label: "Activity Goal",
         },
         { type: "doc", id: "settings/asset-type", label: "Asset Type" },
+        {
+          type: "doc",
+          id: "settings/call-manager",
+          label: "Call Manager",
+        },
       ],
     },
   ],
