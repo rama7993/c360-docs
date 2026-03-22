@@ -60,14 +60,15 @@ To access Users:
 <details>
 <summary>Steps to Add a User</summary>
 
-1. Click **Add User**
+1. Click **Add User**.
 2. Enter the following details:
    - **First Name**
    - **Last Name**
    - **Phone**
    - **Email**
    - **Group Assignment**
-3. Click **Save** to complete user creation.
+3. Provide the associated roles to the user.
+4. Click **Save** to complete user creation.
 
 <figure>
   <img src="/media/account-management/user/user-add.png" alt="Add User" />
@@ -77,7 +78,7 @@ To access Users:
 </details>
 
 <details>
-<summary>Steps to edit a User</summary>
+<summary>Steps to Edit a User</summary>
 
 - Click the **pencil icon** in the user list, or
 - Use the **Edit button** on the user’s details page.
@@ -89,6 +90,26 @@ To access Users:
 
  </details>
 
+---
+
+## 🔐 Assign a Role to a User
+
+ Assign a predefined role to a user to control their access to specific modules, features, and actions within the CRM system.
+
+ - Go to the Add/Edit User page.
+ - Click on Add Role.
+ - Select the role from the dropdown.
+ - Save / Update the user.
+
+<figure>
+  <img src="/media/account-management/user/user-assign-role.png" alt="Assign Role" />
+  <figcaption>Assign Role</figcaption>
+</figure>
+
+:::note
+ 
+ - You can add up to 10 roles for a user.
+:::
 ---
 
 ## 🔍 Search Users
@@ -103,10 +124,10 @@ To access Users:
 
 ---
 
-## 🗑️ Deleting a User
+## 🗑️ Delete User
 
-1. Click on the **Delete** icon for the User you want to delete.
-2. Click on **Yes** from the confirmation pop up if you want to delete.
+1. Click the **Delete** icon for the user you want to delete.
+2. Click **Yes** in the confirmation pop-up if you want to delete it.
 
 <figure>
   <img src="/media/account-management/user/user-delete.png" alt="Delete User" />

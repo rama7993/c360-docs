@@ -68,7 +68,7 @@ Groups can be displayed in **List View** or **Tree View** for better organizatio
 2. Enter the following:
    - **Group Name**
    - **Description**
-3. Configure **permissions** for modules or features.
+3. Provide the associated roles to the group.
 4. Click **Save** to create the group.
 
 <figure>
@@ -88,6 +88,27 @@ Groups can be displayed in **List View** or **Tree View** for better organizatio
   <figcaption>Editing group details</figcaption>
 </figure>
 </details>
+
+---
+
+## 🔐 Assign a Role to a Group
+
+ Assign a predefined role to a group of users to centrally manage their access to modules, features, and data within the CRM.
+
+ - Go to the Add/Edit Group page.
+ - Select the role from the dropdown.
+ - Save / Update the group.
+
+<figure>
+  <img src="/media/account-management/group/group-assign-role.png" alt="Role Assign" />
+  <figcaption>Role Assign</figcaption>
+</figure>
+
+:::note
+ 
+ - You can add only one role to a group.
+:::
+
 ---
 
 ## 🔍 Search Groups
@@ -102,10 +123,10 @@ Groups can be displayed in **List View** or **Tree View** for better organizatio
 
 ---
 
-## 🗑️ Deleting Group
+## 🗑️ Delete Group
 
 1. Click the **Delete** icon for the group you want to delete.
-2. Click on **Yes** from the confirmation pop up if you want to delete.
+2. Click on **Yes** in the confirmation pop-up if you want to delete it.
 
 <figure>
   <img src="/media/account-management/group/group-delete.png" alt="Delete Group" />
@@ -113,6 +134,7 @@ Groups can be displayed in **List View** or **Tree View** for better organizatio
 </figure>
 
 ---
+
 ## 📄 View Group Details
 
 Click a **Group Name** in List View or Tree View to open its details page.  
