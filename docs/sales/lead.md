@@ -248,25 +248,26 @@ The **Call Script Wizard** guides sales representatives through a structured con
 2. Click on the "Call Script" Icon under the "Action" Column for the desired lead.
 3. Select the Campaign and its activity and click on **Start Call Script**.
 4. Follow the on-screen prompts to ask questions and record responses.
-5. Click **Finish** to save the call outcome and notes.
+
+:::note
+- Additionally you can note the live conversation .
+- Can capture the BANT(Budget,authority,timeline,need) along with competitor to qualify a prospect.
+- Can change the Status , stage and call outcome as per the conversation.
+- all above actions you can able to see in the lead note list along with call summary once call script got executed and saved successfully.
+:::
+5. Click **Save** to save the call outcome and notes.
 
 <figure>
   <img src="/media/crm/lead/lead-call-script.png" alt="Call script wizard" />
   <figcaption>Run call script</figcaption>
 </figure>
 
-:::tip
-You can find the desired lead for script execution by filtering through campaign and campaign activity. Follow the steps mentioned below:
+:::info
+- You can schedule appointment by selecting the "schedule appointment" option from call outcome dropdown at the end step.
+- You can follow up the lead and add task / assign to a lead by selecting the "follow up" option from call outcome dropdown at the end step.
+- You can send assets to the lead by selecting the "send assets" option from call outcome dropdown at the end step.
+  :::
 
-- Click on the Filter button
-- Click on the campaign dropdown.
-- Select the campaign to find the related lead .
-<details>
-<summary>Click to view more effortless way to find lead associated with a campaign activity</summary>
-- Click on the campaign activity dropdown and select the activity if you want to find the related lead for an activity.
-</details>
-
-:::
 
 ### 🔄 Script Execution Flow
 
@@ -288,13 +289,18 @@ flowchart TD
     H --> I[Call Outcome & Notes]
 ```
 
-:::note
+:::tip
+You can find the desired lead for script execution by filtering through campaign and campaign activity. Follow the steps mentioned below:
 
-- You can add note and can view the call summary in the note list for the lead.
-- You can schedule appointment by selecting the "schedule appointment" option from call outcome dropdown at the end step.
-- You can follow up the lead and add task / assign to a lead by selecting the "follow up" option from call outcome dropdown at the end step.
-- You can send assets to the lead by selecting the "send assets" option from call outcome dropdown at the end step.
-  :::
+- Click on the Filter button
+- Click on the campaign dropdown.
+- Select the campaign to find the related lead .
+<details>
+<summary>Click to view more effortless way to find lead associated with a campaign activity</summary>
+- Click on the campaign activity dropdown and select the activity if you want to find the related lead for an activity.
+</details>
+
+:::
 
 ---
 

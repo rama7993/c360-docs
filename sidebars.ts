@@ -179,6 +179,7 @@ const sidebars: SidebarsConfig = {
           items: [
             { type: "doc", id: "settings/user", label: "User" },
             { type: "doc", id: "settings/group", label: "Group" },
+            { type: "doc", id: "settings/role", label: "Role" },
           ],
         },
         {

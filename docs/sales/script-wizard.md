@@ -109,12 +109,34 @@ To Create New Script follow these steps:
   </TabItem>
 
   <TabItem value="build" label="Build">
-    Build and compile the application using your preferred build tools or automated pipelines.
-    - Start with greeting.
+    Find the Conversation and completion block under node library to build the script.
+
+Conversion Block : 
+
+  - Greetings : Professional call opening.
+  - Question Node : Ask the prospect a primary question.
+  - Counter Question : Response with a follow - up enquiry.
+  - Prospect Question : Prospect queries about the service.
+  - Objection Node : Handle pushback or concerns.
+
+Completion Block : 
+
+ - End Call : Closing script and CRM logging.
+
+ <figure>
+  <img src="/media/crm/script-wizard/script-wizard-add-node-library.png" alt="Add or edit script interface" />
+  <figcaption>Add / Edit Script</figcaption>
+</figure>
+Instruction : 
+
+    - Start with greetings.
     :::note
-    - you can add only one greeting in a script.
+    - You can add only one greeting in a script.
     :::
-    - Arrange the **questions** and **responses according to your preference.
+    - Arrange the **questions** and **responses** according to your preference.
+    :::note
+    - You can not connect nodes from an objection block.
+    :::
     - click on **Next**.
     <details>
     <summary>Click to view additional actions you can perform </summary>
