@@ -12,7 +12,7 @@ To access it:
 - By default, reports are displayed with a date range of **one year back from today**.
 :::
 
----
+**━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**
 
 ## 🧰 Filters
 
@@ -35,7 +35,7 @@ To access it:
   </TabItem>
 </Tabs>
 
----
+**━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**
 
 ## 🗂️ Parent Campaign (Outgoing Campaigns)
 
@@ -102,7 +102,7 @@ Clicking a **campaign name** opens the **Campaign Performance Report**, which in
 
 ---
 
-## 📤 View Outgoing Activities
+### 📤 View Outgoing Activities
 
 Click **List Report** under **Campaign Activities** to view the **Campaign Emails** page.
 
@@ -116,7 +116,7 @@ Click **List Report** under **Campaign Activities** to view the **Campaign Email
 
 ---
 
-## ✉️ View Outgoing Campaign Email Details
+### ✉️ View Outgoing Campaign Email Details
 
 Selecting an email campaign opens a **detailed performance overview**, which includes:
 
@@ -148,9 +148,11 @@ Selecting an email campaign opens a **detailed performance overview**, which inc
   <figcaption>Country-Wise Campaign Report</figcaption>
 </figure>
 
----
+**━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**
 
-## 📬 Email Reports (Outgoing Emails)
+## Campaign Analytics
+
+### 📬 Email Reports (Outgoing Emails)
 
 The **Email Reports** section provides insights into all outgoing email campaigns, tracking:
 
@@ -193,7 +195,7 @@ It includes a table with the following columns:
 
 ---
 
-## 🖱️ Click Performance (Outgoing Assets)
+### 🖱️ Click Performance (Outgoing Assets)
 
 The **Click Performance** report tracks engagement with outbound assets such as links and documents.
 
@@ -215,7 +217,7 @@ The **Click Performance** report tracks engagement with outbound assets such as 
 
 ---
 
-## ⭐ Social Performance 
+### ⭐ Social Performance 
 
 **Social Performance** represents how well your brand or campaigns are performing across different social media channels based on engagement, reach, and audience growth.
 
@@ -235,7 +237,7 @@ The **Click Performance** report tracks engagement with outbound assets such as 
   <figcaption>Social Performance Report</figcaption>
 </figure>
 
-### 🧩 Social Performance Details
+#### 🧩 Social Performance Details
 
 - Click on Post Name to navigate to the **Social Performance Details** Page, where you will find overall performance by percentage and each individual performance by graph blocks.
 
@@ -325,7 +327,7 @@ The **Click Performance** report tracks engagement with outbound assets such as 
 
 ---
 
-## 🌐 Outgoing Landing Pages
+### 🌐 Outgoing Landing Pages
 
 The **Landing Pages** section shows visitor engagement with landing pages linked to campaigns.
 
@@ -345,36 +347,851 @@ The **Landing Pages** section shows visitor engagement with landing pages linked
   <figcaption>Outgoing Landing Pages</figcaption>
 </figure>
 
----
+**━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**
 
-## 📈 Campaign Dashboards Reports
+## 📈 Campaign Dashboard
 
 This section provides a high-level overview of campaign performance with the following reports:
-<details>
-<summary><strong>It includes</strong></summary>
-- **Parent Campaign**
-- **Email Performance**
-- **Email Performance by Partner**
-- **Compare Email Over Time**
-</details>
+
+### 🗂️ Parent Campaign
+
+Displays an aggregated summary of all overarching campaigns and their constituent marketing activities.
+
+<Tabs>
+  <TabItem value="chart-view" label="📊 Chart View" default>
+
+   <details>
+ <summary><strong>Click to see quick actions</strong></summary>
+  - Can Toggle between Table view and Chart view.
+  - Can Filter the chart by selecting and unselecting the color buttons.
+  - Can Export/Download the report.
+  - Can Filter by Date Range.
+  - Can Filter by Country, Company and Users.
+  - Toggle between Line chart and Bar chart.
+  - Save the Chart as an image.
+  - Can Restore the bar chart.
+ </details>
+
 <figure>
-  <img src="/media/analytics/report/marketing/campaign-insight.png" alt="Campaign Dashboard Reports" />
-  <figcaption>Campaign Dashboard Reports</figcaption>
+  <img src="/media/analytics/report/marketing/campaign-dashboard/parent-campaign-chart-view.png" alt="parent-campaign" />
+  <figcaption>Parent Campaign Chart View</figcaption>
 </figure>
+
+
+  </TabItem>
+
+  <TabItem value="table-view" label="📋 Table View">
+
+   <details>
+ <summary><strong>Click to see quick actions</strong></summary>
+  - Can Toggle between Table view and Chart view.
+  - Can Export/Download the report.
+  - Can perform search in the table.
+  - Can Filter by Date Range.
+  - Can Filter by Country, Company and Users.
+ </details>
+
+ - ##### 🧾 Columns included in the table view
+
+| Field Name                     | Description |
+|----------------------------|-------------|
+| Campaign Name              | Unique name used to identify and track a campaign. |
+| Email Sent Count           | Total number of emails sent to targeted leads. |
+| Lead Profiled Count        | Number of leads captured or enriched through campaign interactions. |
+| Opportunity Converted Count| Number of leads converted into sales opportunities. |
+
+ <figure>
+  <img src="/media/analytics/report/marketing/campaign-dashboard/parent-campaign-table-view.png" alt="parent-campaign" />
+  <figcaption>Parent Campaign Table View</figcaption>
+</figure>
+
+
+  </TabItem>
+</Tabs>
 
 ---
 
-## 🤝 Lead and Opportunity Dashboards Reports
+### 📧 Email Performance
+
+Provides comprehensive metrics on email outreach effectiveness, including delivery, open, and click-through rates.
+
+<Tabs>
+  <TabItem value="chart-view" label="📊 Chart View" default>
+
+   <details>
+ <summary><strong>Click to see quick actions</strong></summary>
+  - Can Toggle between Table view and Chart view.
+  - Can Filter the chart by selecting and unselecting the color buttons.
+  - Can Export/Download the report.
+  - Can Filter by Date Range.
+  - Can Filter by Country, Company and Users.
+  - Toggle between Line chart and Bar chart.
+  - Save the Chart as an image.
+  - Can Restore the bar chart.
+ </details>
+
+ <figure>
+  <img src="/media/analytics/report/marketing/campaign-dashboard/email-performance-chart-view.png" alt="email-performnace" />
+  <figcaption>Email Performance Chart View</figcaption>
+</figure>
+
+
+  </TabItem>
+
+  <TabItem value="table-view" label="📋 Table View">
+
+   <details>
+ <summary><strong>Click to see quick actions</strong></summary>
+  - Can Toggle between Table view and Chart view.
+  - Can Export/Download the report.
+  - Can perform search in the table.
+  - Can Filter by Date Range.
+  - Can Filter by Country, Company and Users.
+ </details>
+
+ - ##### 🧾 Columns included in the table view
+
+| Field Name            | Description |
+|----------------------|-------------|
+| Email Name           | Unique identifier assigned to an email campaign or template for tracking and reference. |
+| Email Sent Count     | Total number of emails successfully sent to recipients. |
+| Email Open Count     | Number of recipients who opened the email, indicating initial engagement. |
+| Click Through Count  | Number of clicks on links within the email, reflecting user interaction and interest. |
+
+ <figure>
+  <img src="/media/analytics/report/marketing/campaign-dashboard/email-performance-table-view.png" alt="email-performnace" />
+  <figcaption>Email Performance Table View</figcaption>
+</figure>
+
+
+  </TabItem>
+</Tabs>
+
+---
+
+### 🤝 Email Performance By Partner
+
+Analyzes the success of email marketing campaigns distributed across various partner channels.
+
+<Tabs>
+  <TabItem value="chart-view" label="📊 Chart View" default>
+
+   <details>
+ <summary><strong>Click to see quick actions</strong></summary>
+  - Can Toggle between Table view and Chart view.
+  - Can Filter the chart by selecting and unselecting the color buttons.
+  - Can Export/Download the report.
+  - Can Filter by Date Range.
+  - Can Filter by Country, Company and Users.
+  - Toggle between Line chart and Bar chart.
+  - Save the Chart as an image.
+  - Can Restore the bar chart.
+ </details>
+
+ <figure>
+  <img src="/media/analytics/report/marketing/campaign-dashboard/email-performance-by-partner-chart-view.png" alt="email-performnace-by-partner" />
+  <figcaption>Email Performance By Partner Chart View</figcaption>
+</figure>
+
+
+  </TabItem>
+
+  <TabItem value="table-view" label="📋 Table View">
+
+   <details>
+ <summary><strong>Click to see quick actions</strong></summary>
+  - Can Toggle between Table view and Chart view.
+  - Can Export/Download the report.
+  - Can perform search in the table.
+  - Can Filter by Date Range.
+  - Can Filter by Country, Company and Users.
+ </details>
+
+ - ##### 🧾 Columns included in the table view
+
+| Field Name            | Description |
+|----------------------|-------------|
+| Partner Name         | Name of the partner associated with the campaign or email activity. |
+| Email Sent Count     | Total number of emails successfully sent under the partner’s campaign. |
+| Email Open Count     | Number of emails opened by recipients, indicating engagement with the partner’s communication. |
+| Click Through Count  | Number of clicks on links within the emails sent by the partner, reflecting user interaction. |
+
+ <figure>
+  <img src="/media/analytics/report/marketing/campaign-dashboard/email-performance-by-partner-table-view.png" alt="email-performnace-by-partner" />
+  <figcaption>Email Performance By Partner Table View</figcaption>
+</figure>
+
+
+  </TabItem>
+</Tabs>
+
+---
+
+### 📈 Compare Email Over Time
+
+Visualizes historical email engagement trends to identify long-term patterns in campaign performance.
+
+<Tabs>
+  <TabItem value="chart-view" label="📊 Chart View" default>
+
+   <details>
+ <summary><strong>Click to see quick actions</strong></summary>
+  - Can Toggle between Table view and Chart view.
+  - Can Filter the chart by selecting and unselecting the color buttons.
+  - Can Export/Download the report.
+  - Can Filter by Date Range.
+  - Can Filter by Country, Company and Users.
+  - Toggle between Line chart and Bar chart.
+  - Save the Chart as an image.
+  - Can Restore the bar chart.
+ </details>
+
+ <figure>
+  <img src="/media/analytics/report/marketing/campaign-dashboard/compare-email-over-time-chart-view.png" alt="compare-email-over-time" />
+  <figcaption>Compare Email Over Time Chart View</figcaption>
+</figure>
+
+
+  </TabItem>
+
+  <TabItem value="table-view" label="📋 Table View">
+
+   <details>
+ <summary><strong>Click to see quick actions</strong></summary>
+  - Can Toggle between Table view and Chart view.
+  - Can Export/Download the report.
+  - Can perform search in the table.
+  - Can Filter by Date Range.
+  - Can Filter by Country, Company and Users.
+ </details>
+
+ - ##### 🧾 Columns included in the table view
+
+| Field Name         | Description |
+|--------------------|-------------|
+| Email Name         | Unique identifier assigned to an email campaign or template for tracking and reference. |
+| Email Open Rate    | Percentage of recipients who opened the email, indicating the effectiveness of the subject line and timing. |
+| Click Through Rate | Percentage of recipients who clicked on links within the email, reflecting engagement and content relevance. |
+
+ <figure>
+  <img src="/media/analytics/report/marketing/campaign-dashboard/compare-email-over-time-table-view.png" alt="compare-email-over-time" />
+  <figcaption>Compare Email Over Time Table View</figcaption>
+</figure>
+
+
+  </TabItem>
+</Tabs>
+
+
+**━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**
+
+## 🤝 Lead and Opportunity Dashboard
 
 The **Lead & Opportunity Dashboards Reports** track lead progression and sales opportunities within campaigns. Reports include:
-<details>
-<summary><strong>It includes</strong></summary>
-- **Leads by Campaign**
-- **Campaign Opportunity Dashboard**
-- **Leads Profiled by Stage**
-- **Opportunity Stage Distribution**
-</details>
-<figure>
-  <img src="/media/analytics/report/marketing/leads and opportunities.png" alt="Lead and Opportunity Dashboard Reports" />
-  <figcaption>Lead & Opportunity Dashboard Reports</figcaption>
+
+### 🎯 Leads By Campaign
+
+Breaks down lead generation performance to identify which specific campaigns are driving the most pipeline growth.
+
+<Tabs>
+  <TabItem value="chart-view" label="📊 Chart View" default>
+
+   <details>
+ <summary><strong>Click to see quick actions</strong></summary>
+  -Can Toggle between Table view and Chart view.
+  - Can Export/Download the report.
+  - Can Filter by Date Range.
+  - Can Filter by Country, Company and Users.
+  - Toggle between Line chart and Bar chart.
+  - Save the Chart as an image.
+  - Can Restore the bar chart.
+ </details>
+
+ <figure>
+  <img src="/media/analytics/report/marketing/lead-and-opportunity-dashboard/leads-by-campaign-chart-view.png" alt="leads-by-campaign" />
+  <figcaption>Leads By Campaign Chart View</figcaption>
 </figure>
+
+
+  </TabItem>
+
+  <TabItem value="table-view" label="📋 Table View">
+
+   <details>
+ <summary><strong>Click to see quick actions</strong></summary>
+  - Can Toggle between Table view and Chart view.
+  - Can Export/Download the report.
+  - Can perform search in the table.
+  - Can Filter by Date Range.
+  - Can Filter by Country, Company and Users.
+ </details>
+
+ - ##### 🧾 Columns included in the table view
+
+| Field Name            | Description |
+|----------------------|-------------|
+| Campaign Name        | Unique name assigned to identify and track a marketing campaign. |
+| Lead Profiled Count  | Number of leads that have been captured, enriched, or profiled through campaign interactions. |
+
+ <figure>
+  <img src="/media/analytics/report/marketing/lead-and-opportunity-dashboard/leads-by-campaign-table-view.png" alt="leads-by-campaign" />
+  <figcaption>Leads By Campaign Table View</figcaption>
+</figure>
+
+  </TabItem>
+</Tabs>
+
+---
+
+### 📊 Campaign Opportunity Dashboard
+
+Monitors the potential value and progression of sales opportunities generated directly from marketing efforts.
+
+<Tabs>
+  <TabItem value="chart-view" label="📊 Chart View" default>
+
+   <details>
+ <summary><strong>Click to see quick actions</strong></summary>
+  - Can Toggle between Table view and Chart view.
+  - Can Export/Download the report.
+  - Can Filter by Date Range.
+  - Can Filter by Country, Company and Users.
+  - Toggle between Line chart and Bar chart.
+  - Save the Chart as an image.
+  - Can Restore the bar chart.
+ </details>
+
+ <figure>
+  <img src="/media/analytics/report/marketing/lead-and-opportunity-dashboard/campaign-opportunity-dashboard-chart-view.png" alt="campaign-opportunity-dashboard" />
+  <figcaption>Campaign Opportunity Dashboard Chart View</figcaption>
+</figure>
+
+
+  </TabItem>
+
+  <TabItem value="table-view" label="📋 Table View">
+
+   <details>
+ <summary><strong>Click to see quick actions</strong></summary>
+  - Can Toggle between Table view and Chart view.
+  - Can Export/Download the report.
+  - Can perform search in the table.
+  - Can Filter by Date Range.
+  - Can Filter by Country, Company and Users.
+ </details>
+
+ - ##### 🧾 Columns included in the table view
+
+| Field Name                    | Description |
+|------------------------------|-------------|
+| Opportunity Name             | Unique identifier assigned to a sales opportunity for tracking and management. |
+| Opportunity Converted Count  | Total number of opportunities successfully converted, indicating closed or progressed deals. |
+
+ <figure>
+  <img src="/media/analytics/report/marketing/lead-and-opportunity-dashboard/campaign-opportunity-dashboard-table-view.png" alt="campaign-opportunity-dashboard" />
+  <figcaption>Campaign Opportunity Dashboard Table View</figcaption>
+</figure>
+
+
+  </TabItem>
+</Tabs>
+
+---
+
+### 🔍 Leads Profiled By Stage
+
+Provides a snapshot of lead distribution across various funnel stages to identify conversion bottlenecks.
+
+<Tabs>
+  <TabItem value="chart-view" label="📊 Chart View" default>
+
+   <details>
+ <summary><strong>Click to see quick actions</strong></summary>
+  - Can Toggle between Table view and Chart view.
+  - Can Filter the chart by selecting and unselecting the color buttons.
+  - Can Export/Download the report.
+  - Can Filter by Date Range.
+  - Can Filter by Country, Company and Users.
+  - Toggle between Line chart and Bar chart.
+  - Save the Chart as an image.
+  - Can Restore the bar chart.
+ </details>
+
+ <figure>
+  <img src="/media/analytics/report/marketing/lead-and-opportunity-dashboard/leads-profiled-by-stage-chart-view.png" alt="leads-profiled-by-stage" />
+  <figcaption>Lead Profiled By Stage Chart View</figcaption>
+</figure>
+
+
+  </TabItem>
+
+  <TabItem value="table-view" label="📋 Table View">
+
+   <details>
+ <summary><strong>Click to see quick actions</strong></summary>
+  - Can Toggle between Table view and Chart view.
+  - Can Export/Download the report.
+  - Can perform search in the table.
+  - Can Filter by Date Range.
+  - Can Filter by Country, Company and Users.
+ </details>
+
+ - ##### 🧾 Columns included in the table view
+
+| Field Name                         | Description |
+|----------------------------------|-------------|
+| Campaign Name                    | Unique name assigned to identify and track a marketing campaign. |
+| Marketing Acquired Lead Count    | Number of leads generated or acquired through marketing efforts for the campaign. |
+| Marketing Qualified Lead Count   | Number of leads that meet predefined marketing qualification criteria. |
+| Sales Accepted Lead Count        | Number of marketing-qualified leads accepted by the sales team for further follow-up. |
+| Sales Qualified Lead Count       | Number of leads validated by sales as having high potential for conversion. |
+| Tele-Sales Meeting Count         | Number of meetings or calls scheduled and conducted by the tele-sales team. |
+| Sales Accepted Opportunity Count | Number of opportunities accepted by sales for active pursuit. |
+| Total Lead Profiled Count        | Total number of leads that have been captured, enriched, or profiled during the campaign. |
+
+ <figure>
+  <img src="/media/analytics/report/marketing/lead-and-opportunity-dashboard/leads-profiled-by-stage-table-view.png" alt="leads-profiled-by-stage" />
+  <figcaption>Lead Profiled By Stage Table View</figcaption>
+</figure>
+
+
+  </TabItem>
+</Tabs>
+
+---
+
+### 📉 Opportunity Stage Distribution
+
+Visualizes the concentration of opportunities within the pipeline stages to aid in revenue forecasting.
+
+<Tabs>
+  <TabItem value="chart-view" label="📊 Chart View" default>
+
+   <details>
+ <summary><strong>Click to see quick actions</strong></summary>
+  - Can Toggle between Table view and Chart view.
+  - Can Filter the chart by selecting and unselecting the color buttons.
+  - Can Export/Download the report.
+  - Can Filter by Date Range.
+  - Can Filter by Country, Company and Users.
+  - Save the Chart as an image.
+  - Can Restore the bar chart.
+ </details>
+
+ <figure>
+  <img src="/media/analytics/report/marketing/lead-and-opportunity-dashboard/opportunity-stage-distribution-chart-view.png" alt="opportunity-stage-distribution" />
+  <figcaption>Opportunity Stage Distribution Chart View</figcaption>
+</figure>
+
+
+  </TabItem>
+
+  <TabItem value="table-view" label="📋 Table View">
+
+   <details>
+ <summary><strong>Click to see quick actions</strong></summary>
+  - Can Toggle between Table view and Chart view.
+  - Can Export/Download the report.
+  - Can perform search in the table.
+  - Can Filter by Date Range.
+  - Can Filter by Country, Company and Users.
+ </details>
+
+ - ##### 🧾 Columns included in the table view
+
+| Field Name                 | Description |
+|--------------------------|-------------|
+| Opportunity Stage Name   | Name of the current stage in the sales pipeline representing the progress of an opportunity. |
+| Opportunity Stage Count  | Total number of opportunities present in each stage of the sales pipeline. |
+
+ <figure>
+  <img src="/media/analytics/report/marketing/lead-and-opportunity-dashboard/opportunity-stage-distribution-table-view.png" alt="opportunity-stage-distribution" />
+  <figcaption>Opportunity Stage Distribution Table View</figcaption>
+</figure>
+
+
+  </TabItem>
+</Tabs>
+
+**━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**
+
+## 📊 Marketing Dashboard 
+
+### ✅ Leads Converted
+
+Tracks the total volume of generated leads that have successfully transitioned into qualified opportunities or customers.
+
+<Tabs>
+  <TabItem value="chart-view" label="📊 Chart View" default>
+
+   <details>
+ <summary><strong>Click to see quick actions</strong></summary>
+  - Can Toggle between Table view and Chart view.
+  - Can Export/Download the report.
+  - Can Filter the chart by selecting and unselecting the color buttons.
+  - Can Filter by Date Range.
+  - Can Filter by Country, Company and Users.
+  - Toggle between Line chart and Bar chart.
+  - Save the Chart as an image.
+  - Can Restore the bar chart.
+ </details>
+
+ <figure>
+  <img src="/media/analytics/report/marketing/marketing-dashboard/leads-converted-chart-view.png" alt="leads-converted" />
+  <figcaption>Leads Converted Chart View</figcaption>
+</figure>
+
+
+  </TabItem>
+
+  <TabItem value="table-view" label="📋 Table View">
+
+   <details>
+ <summary><strong>Click to see quick actions</strong></summary>
+  - Can Toggle between Table view and Chart view.
+  - Can Export/Download the report.
+  - Can perform search in the table.
+  - Can Filter by Date Range.
+  - Can Filter by Country, Company and Users.
+ </details>
+
+ - ##### 🧾 Columns included in the table view
+
+| Field Name                 | Description |
+|---------------------------|-------------|
+| Lead Source               | Origin of the lead, indicating how the lead was acquired (e.g., campaign, website, referral). |
+| Lead Status               | Current status of the lead within the lifecycle (e.g., New, Contacted, Qualified, Converted). |
+| Lead Owner                | User responsible for managing and following up with the lead. |
+| First Name                | First name of the lead or contact. |
+| Last Name                 | Last name of the lead or contact. |
+| Company/Account           | Organization or company associated with the lead or opportunity. |
+| Opportunity Amount        | Estimated monetary value of the associated opportunity. |
+| Created Date              | Date when the record was initially created in the system. |
+| Last Modified Date        | Most recent date when the record was updated. |
+| Converted Date            | Date when the lead was successfully converted into an opportunity or customer. |
+| Opportunity Owner         | User responsible for managing the opportunity. |
+| Opportunity Name          | Unique name assigned to the opportunity for identification and tracking. |
+| Opportunity: Account      | Account associated with the opportunity. |
+| Opportunity Close Date    | Expected or actual date when the opportunity is closed. |
+
+ <figure>
+  <img src="/media/analytics/report/marketing/marketing-dashboard/leads-converted-table-view.png" alt="leads-converted" />
+  <figcaption>Leads Converted Table View</figcaption>
+</figure>
+
+
+  </TabItem>
+</Tabs>
+
+---
+
+### 📅 Leads Converted By FQ
+
+Analyzes the historical trend of successful lead conversions segmented by financial quarters.
+
+<Tabs>
+  <TabItem value="chart-view" label="📊 Chart View" default>
+
+   <details>
+ <summary><strong>Click to see quick actions</strong></summary>
+ - Can Toggle between Table view and Chart view.
+  - Can Export/Download the report.
+  - Can Filter by Date Range.
+  - Can Filter by Country, Company and Users.
+  - Toggle between Line chart and Bar chart.
+  - Save the Chart as an image.
+  - Can Restore the bar chart.
+ </details>
+
+ <figure>
+  <img src="/media/analytics/report/marketing/marketing-dashboard/leads-converted-by-fq-chart-view.png" alt="leads-converted-by-fq" />
+  <figcaption>Leads Converted By FQ Chart View</figcaption>
+</figure>
+
+
+  </TabItem>
+
+  <TabItem value="table-view" label="📋 Table View">
+
+   <details>
+ <summary><strong>Click to see quick actions</strong></summary>
+  - Can Toggle between Table view and Chart view.
+  - Can Export/Download the report.
+  - Can perform search in the table.
+  - Can Filter by Date Range.
+  - Can Filter by Country, Company and Users.
+ </details>
+
+ - ##### 🧾 Columns included in the table view
+
+| Field Name                 | Description |
+|---------------------------|-------------|
+| Converted Date            | Date when the lead was successfully converted into an opportunity or customer. |
+| Lead Source               | Origin of the lead, indicating how it was acquired (e.g., campaign, website, referral). |
+| Lead Status               | Current stage of the lead in the lifecycle (e.g., New, Contacted, Qualified, Converted). |
+| Lead Owner                | User responsible for managing and following up with the lead. |
+| First Name                | First name of the lead or contact. |
+| Last Name                 | Last name of the lead or contact. |
+| Company/Account           | Organization or company associated with the lead or opportunity. |
+| Opportunity Amount        | Estimated monetary value of the associated opportunity. |
+| Created Date              | Date when the record was initially created in the system. |
+| Last Modified Date        | Most recent date when the record was updated. |
+| Opportunity Owner         | User responsible for managing the opportunity. |
+| Opportunity Name          | Unique name assigned to the opportunity for identification and tracking. |
+| Opportunity: Account      | Account associated with the opportunity. |
+| Opportunity Close Date    | Expected or actual date when the opportunity is closed. |
+
+ <figure>
+  <img src="/media/analytics/report/marketing/marketing-dashboard/leads-converted-by-fq-table-view.png" alt="leads-converted-by-fq" />
+  <figcaption>Leads Converted By FQ Table View</figcaption>
+</figure>
+
+
+  </TabItem>
+</Tabs>
+
+---
+
+### 📆 Leads Converted In FQ
+
+Monitors the real-time conversion rate of leads specifically within the current financial quarter.
+
+<Tabs>
+  <TabItem value="chart-view" label="📊 Chart View" default>
+
+   <details>
+ <summary><strong>Click to see quick actions</strong></summary>
+  - Can Toggle between Table view and Chart view.
+  - Can Export/Download the report.
+  - Can Filter by Date Range.
+  - Can Filter by Country, Company and Users.
+  - Toggle between Line chart and Bar chart.
+  - Save the Chart as an image.
+  - Can Restore the bar chart.
+ </details>
+
+ <figure>
+  <img src="/media/analytics/report/marketing/marketing-dashboard/leads-converted-in-fq-chart-view.png" alt="leads-converted-in-fq" />
+  <figcaption>Leads Converted In FQ Chart View</figcaption>
+</figure>
+
+
+  </TabItem>
+
+  <TabItem value="table-view" label="📋 Table View">
+
+   <details>
+ <summary><strong>Click to see quick actions</strong></summary>
+  - Can Toggle between Table view and Chart view.
+  - Can Export/Download the report.
+  - Can perform search in the table.
+  - Can Filter by Date Range.
+  - Can Filter by Country, Company and Users.
+ </details>
+
+-##### 🧾 Columns included in the table view
+
+| Field Name                 | Description |
+|---------------------------|-------------|
+| Lead Source               | Origin of the lead, indicating how the lead was acquired (e.g., campaign, website, referral). |
+| Lead Status               | Current status of the lead within the lifecycle (e.g., New, Contacted, Qualified, Converted). |
+| Lead Owner                | User responsible for managing and following up with the lead. |
+| First Name                | First name of the lead or contact. |
+| Last Name                 | Last name of the lead or contact. |
+| Company/Account           | Organization or company associated with the lead or opportunity. |
+| Opportunity Amount        | Estimated monetary value of the associated opportunity. |
+| Created Date              | Date when the record was initially created in the system. |
+| Last Modified Date        | Most recent date when the record was updated. |
+| Converted Date            | Date when the lead was successfully converted into an opportunity or customer. |
+| Opportunity Owner         | User responsible for managing the opportunity. |
+| Opportunity Name          | Unique name assigned to the opportunity for identification and tracking. |
+| Opportunity: Account      | Account associated with the opportunity. |
+| Opportunity Close Date    | Expected or actual date when the opportunity is closed. |
+
+ <figure>
+  <img src="/media/analytics/report/marketing/marketing-dashboard/leads-converted-in-fq-table-view.png" alt="leads-converted-in-fq" />
+  <figcaption>Leads Converted In FQ Table View</figcaption>
+</figure>
+
+
+  </TabItem>
+</Tabs>
+
+---
+
+### ➕ Leads Created In FQ
+
+Measures the total volume of net new leads generated during the active financial quarter.
+
+<Tabs>
+  <TabItem value="chart-view" label="📊 Chart View" default>
+
+   <details>
+ <summary><strong>Click to see quick actions</strong></summary>
+  - Can Toggle between Table view and Chart view.
+  - Can Export/Download the report.
+  - Can Filter by Date Range.
+  - Can Filter by Country, Company and Users.
+ </details>
+
+ <figure>
+  <img src="/media/analytics/report/marketing/marketing-dashboard/leads-created-in-fq-chart-view.png" alt="leads-created-in-fq" />
+  <figcaption>Leads Created In FQ Chart View</figcaption>
+</figure>
+
+
+  </TabItem>
+
+  <TabItem value="table-view" label="📋 Table View">
+
+   <details>
+ <summary><strong>Click to see quick actions</strong></summary>
+  - Can Toggle between Table view and Chart view.
+  - Can Export/Download the report.
+  - Can perform search in the table.
+  - Can Filter by Date Range.
+  - Can Filter by Country, Company and Users.
+ </details>
+
+ - ##### 🧾 Columns included in the table view
+
+| Field Name         | Description |
+|--------------------|-------------|
+| Lead Source        | Origin of the lead, indicating how the lead was acquired (e.g., campaign, website, referral). |
+| Lead Owner         | User responsible for managing and following up with the lead. |
+| First Name         | First name of the lead. |
+| Last Name          | Last name of the lead. |
+| Title              | Job title or designation of the lead within their organization. |
+| Company/Account    | Organization or company associated with the lead. |
+| Stage              | Current stage of the lead in the lifecycle (e.g., New, Contacted, Qualified). |
+| Street             | Street address of the lead. |
+| Email              | Email address of the lead for communication. |
+
+ <figure>
+  <img src="/media/analytics/report/marketing/marketing-dashboard/leads-created-in-fq-table-view.png" alt="leads-created-in-fq" />
+  <figcaption>Leads Created In FQ Table View</figcaption>
+</figure>
+
+
+  </TabItem>
+</Tabs>
+
+---
+
+### 👤 Asset Tracking By User
+
+Illustrates how individual team members or users are engaging with distributed marketing materials.
+
+<Tabs>
+  <TabItem value="chart-view" label="📊 Chart View" default>
+
+   <details>
+ <summary><strong>Click to see quick actions</strong></summary>
+  - Can Toggle between Table view and Chart view.
+  - Can Export/Download the report.
+  - Can Filter by Date Range.
+  - Can Filter by Country, Company and Users.
+  - Toggle between Line chart and Bar chart.
+  - Save the Chart as an image.
+  - Can Restore the bar chart.
+ </details>
+
+ <figure>
+  <img src="/media/analytics/report/marketing/marketing-dashboard/asset-tracking-by-user-chart-view.png" alt="asset-tracking-by-user" />
+  <figcaption>Asset Tracking By User Chart View</figcaption>
+</figure>
+
+
+  </TabItem>
+
+  <TabItem value="table-view" label="📋 Table View">
+
+   <details>
+ <summary><strong>Click to see quick actions</strong></summary>
+  - Can Toggle between Table view and Chart view.
+  - Can Export/Download the report.
+  - Can perform search in the table.
+  - Can Filter by Date Range.
+  - Can Filter by Country, Company and Users.
+ </details>
+
+ - ##### 🧾 Columns included in the table view
+
+| Field Name              | Description |
+|------------------------|-------------|
+| Content Name           | Name or title of the uploaded content used for identification and reference. |
+| Content Upload Date    | Date when the content was uploaded to the system. |
+| Content Category       | Primary classification of the content (e.g., brochure, whitepaper, video). |
+| Content Sub Category   | Secondary classification providing more detailed grouping of the content. |
+| Most Recent Views      | Number of views recorded in the most recent activity period. |
+| Total Content Download | Total number of times the content has been downloaded by users. |
+
+ <figure>
+  <img src="/media/analytics/report/marketing/marketing-dashboard/asset-tracking-by-user-table-view.png" alt="asset-tracking-by-user" />
+  <figcaption>Asset Tracking By User Table View</figcaption>
+</figure>
+
+
+  </TabItem>
+</Tabs>
+
+---
+
+### 🏢 Asset Tracking By Customer
+
+Evaluates the effectiveness of marketing assets based on direct interactions and engagement from customers.
+
+<Tabs>
+  <TabItem value="chart-view" label="📊 Chart View" default>
+
+   <details>
+ <summary><strong>Click to see quick actions</strong></summary>
+  - Can Toggle between Table view and Chart view.
+  - Can Export/Download the report.
+  - Can Filter by Date Range.
+  - Can Filter by Country, Company and Users.
+  - Toggle between Line chart and Bar chart.
+  - Save the Chart as an image.
+  - Can Restore the bar chart.
+ </details>
+
+ <figure>
+  <img src="/media/analytics/report/marketing/marketing-dashboard/asset-tracking-by-customer-chart-view.png" alt="asset-tracking-by-customer" />
+  <figcaption>Asset Tracking By Customer Chart View</figcaption>
+</figure>
+
+
+  </TabItem>
+
+  <TabItem value="table-view" label="📋 Table View">
+
+   <details>
+ <summary><strong>Click to see quick actions</strong></summary>
+  - Can Toggle between Table view and Chart view.
+  - Can Export/Download the report.
+  - Can perform search in the table.
+  - Can Filter by Date Range.
+  - Can Filter by Country, Company and Users.
+ </details>
+
+ - ##### 🧾 Columns included in the table view
+
+| Field Name              | Description |
+|------------------------|-------------|
+| Content Name           | Name or title of the uploaded content used for identification and reference. |
+| Content Upload Date    | Date when the content was uploaded to the system. |
+| Content Category       | Primary classification of the content (e.g., brochure, whitepaper, video). |
+| Content Sub Category   | Secondary classification providing more detailed grouping of the content. |
+| Most Recent Views      | Number of views recorded in the most recent activity period. |
+| Total Content Download | Total number of times the content has been downloaded by users. |
+
+ <figure>
+  <img src="/media/analytics/report/marketing/marketing-dashboard/asset-tracking-by-customer-table-view.png" alt="asset-tracking-by-customer" />
+  <figcaption>Asset Tracking By Customer Table View</figcaption>
+</figure>
+
+
+  </TabItem>
+</Tabs>
+
+

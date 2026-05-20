@@ -106,28 +106,6 @@ const sidebars: SidebarsConfig = {
       items: [
         {
           type: "category",
-          label: "Insights",
-          collapsed: true,
-          items: [
-            {
-              type: "doc",
-              id: "analytics/sales-dashboard",
-              label: "Sales Dashboard",
-            },
-            {
-              type: "doc",
-              id: "analytics/marketing-dashboard",
-              label: "Marketing Dashboard",
-            },
-            {
-              type: "doc",
-              id: "analytics/platform-usage",
-              label: "Platform Usage",
-            },
-          ],
-        },
-        {
-          type: "category",
           label: "Reports",
           collapsed: true,
           items: [
@@ -138,8 +116,13 @@ const sidebars: SidebarsConfig = {
             },
             {
               type: "doc",
-              id: "analytics/sales-report",
-              label: "Sales Report",
+              id: "analytics/platform",
+              label: "Platform",
+            },
+            {
+              type: "doc",
+              id: "analytics/sales",
+              label: "Sales",
             },
             {
               type: "doc",
@@ -177,9 +160,9 @@ const sidebars: SidebarsConfig = {
           type: "category",
           label: "User Management",
           items: [
-            { type: "doc", id: "settings/user", label: "User" },
-            { type: "doc", id: "settings/group", label: "Group" },
             { type: "doc", id: "settings/role", label: "Role" },
+            { type: "doc", id: "settings/group", label: "Group" },
+            { type: "doc", id: "settings/user", label: "User" },
           ],
         },
         {

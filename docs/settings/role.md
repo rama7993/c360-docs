@@ -94,9 +94,7 @@ flowchart TD
     A[Role Creation] --> B[Define Role Name & Description]
     B --> C[Assign Module Access]
     C --> D[Set Permissions]
-    D --> E[Define Data Access Level]
-    E --> F[Assign Features/Capabilities]
-    F --> G[Assign Role to Users/Groups]
+    D --> G[Assign Role to Users/Groups]
     G --> H[Role Active / In Use]
 
     H --> I{Need Changes?}
@@ -105,5 +103,5 @@ flowchart TD
 
     I -- No --> K{Role Still Required?}
     K -- Yes --> H
-    K -- No --> L[Deactivate Role]
-    L --> M[Archive / Delete Role]
+    K -- No --> L[Delete Role]
+```

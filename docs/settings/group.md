@@ -150,6 +150,28 @@ Here you can review:
 
 ---
 
+## 🔄 Group Life Cycle 
+
+```mermaid
+flowchart TD
+
+A[Create Group] --> B[Assign Roles]
+B --> C[Add Users]
+C --> D[Apply Permissions]
+
+D --> E[Operational Use]
+
+E --> F[Update or Modify Group]
+F --> E
+
+E --> G{Need to Delete}
+
+G -- Yes --> H[Delete Group]
+G -- No --> E
+```
+
+---
+
 ## 💡 Tips
 
 :::tip

@@ -152,6 +152,27 @@ Here you can review:
 
 ---
 
+## 🔄 User Life Cycle
+
+```mermaid
+flowchart TD
+
+A[Create User] --> B[Assign Role]
+B --> C[Assign Group]
+
+C --> E[Active Usage]
+
+E --> F[Update User]
+F --> E
+
+E --> H{Need to Delete}
+
+H -- Yes --> I[Delete User]
+H -- No --> E
+```
+
+---
+
 ## 💡 Best Practices
 
 :::tip
