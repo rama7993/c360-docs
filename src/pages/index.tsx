@@ -5,7 +5,6 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import Heading from "@theme/Heading";
-
 import styles from "./index.module.css";
 
 function HomepageHeader() {
@@ -13,19 +12,19 @@ function HomepageHeader() {
   return (
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
-        <Heading as="h1" className="hero__title">
+        <Heading as="h1" className={clsx("hero__title", styles.heroTitle)}>
           {siteConfig.title}
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className={clsx("hero__subtitle", styles.heroSubtitle)}>
+          {siteConfig.tagline}
+        </p>
         <div className={styles.buttons}>
-          <a
+          <Link
             className="button button--secondary button--lg"
-            href="https://satisfic.com/"
-            target="_blank"
-            rel="noopener noreferrer"
+            to="/docs/intro"
           >
             Discover Our Product 🚀
-          </a>
+          </Link>
         </div>
       </div>
     </header>
@@ -36,7 +35,7 @@ export default function Home(): ReactNode {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title} docs`}
+      title={`${siteConfig.title} | Partner Marketing Concierge Solution`}
       description="Comprehensive documentation for Satisfic — learn how to get started, explore key features, and integrate seamlessly into your workflow."
     >
       <HomepageHeader />

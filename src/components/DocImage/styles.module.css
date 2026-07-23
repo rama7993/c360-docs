@@ -1,0 +1,16 @@
+.figure {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.caption {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.5rem;
+}
