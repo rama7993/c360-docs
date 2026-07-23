@@ -16,12 +16,12 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
+  url: "https://c360-docs.vercel.app",
   baseUrl: "/",
 
   // GitHub pages deployment config.
-  organizationName: "facebook",
-  projectName: "docusaurus",
+  organizationName: "rama7993",
+  projectName: "c360-docs",
 
   onBrokenLinks: "throw",
 

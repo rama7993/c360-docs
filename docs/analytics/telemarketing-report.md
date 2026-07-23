@@ -41,9 +41,9 @@ To access it:
 
   <TabItem value="overview" label="📋 Overview" default>
 
-{/_ >:::note
+{/* >:::note
 **The Telemarketing Overview dashboard provides immediate insights into the efficiency of your calling campaigns.**
-::: _/}
+::: */}
 
 - **Total Leads Worked**: The total number of unique leads that have been processed.
 - **Total Calls Attempted**: Total number of outbound calls made.
@@ -68,9 +68,9 @@ To access it:
 
 <TabItem value="performance" label="📈 Performance">
 
-{/_ :::note
+{/* :::note
 **Summary of telemarketing results, highlighting overall call activity, efficiency, and conversion performance**
-::: _/}
+::: */}
 
 - #### 🗓️ Total Appointment Performance
 
@@ -149,9 +149,9 @@ A ranked view of agents based on their appointment performance, comparing schedu
 
   <TabItem value="analysis" label="📊 Analysis">
 
-{/_ :::note
+{/* :::note
 **A concise analysis of telemarketing performance, summarizing key trends, efficiency metrics, and conversion insights.**
-::: _/}
+::: */}
 
 - #### 📉 Telemarketing Funnel Analysis
 
