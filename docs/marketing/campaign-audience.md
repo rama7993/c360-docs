@@ -3,7 +3,7 @@
 The **Campaign Audience** module in C360 enables you to efficiently organize, manage, and target your audiences through **Segment Lists** and **Campaign Lists**.  
 It provides the flexibility to build precise audience groups, import data seamlessly, and prepare campaign-ready lists.
 
-To access it: 
+To access it:
 
 ➡️ Go to **Marketing** → **Audience** from the left-hand menu.
 

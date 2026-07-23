@@ -271,11 +271,13 @@ You can refine activity results using filters.
 
 <details>
 <summary>Available Filters</summary>
- **Filter** — Narrow results by:
-  - **Type** (Email, Webinar, etc.)
-  - **Flow** (Single / Multi Touch)
-  - **Status** (Draft / Published)
-  - **Date Range** (Created / Modified)
+
+**Filter** — Narrow results by:
+
+- **Type** (Email, Webinar, etc.)
+- **Flow** (Single / Multi Touch)
+- **Status** (Draft / Published)
+- **Date Range** (Created / Modified)
 
 </details>
 
@@ -355,10 +357,11 @@ Click **Save** to finalize. Once saved, the activity can be previewed or execute
 </figure>
 
 :::tip
+
 - Can **zoom in and zoom out** the canvas.
 - Can **reset** the canvas to original size.
 - Can drag or move the canvas by Holding the **Shift + drag or middle mouse button** to pan.
-:::
+  :::
 
 ---
 
@@ -459,7 +462,6 @@ Follow these steps to create a simple multi-touch workflow:
 
 1. Click **Start** — a modal displays available actions (e.g., Send Email, Update Lead).
 2. Select an action and configure it:
-
    - **Name**
    - **Execution Timing** (immediately, after a delay, or at a specific date/time)
    - **Subject**
@@ -470,7 +472,6 @@ Follow these steps to create a simple multi-touch workflow:
   <img src="/media/marketing/campaign/campaign-activity-builder-add action.png" alt="Add action" />
   <figcaption>Add action</figcaption>
 </figure>
-
 
 3. Preview the configuration and click **Save** to add the block to the workflow canvas.
 
@@ -620,12 +621,10 @@ You can execute both **Single Touch** and **Multi Touch** campaigns. The steps b
 </figure>
 
 2. **Configure workflow blocks**:
-
    - Add or edit action blocks.
    - Validate the workflow.
 
 3. Use available options:
-
    - **Back** — return to Campaign Preview
    - **Update & Close** — save changes and exit
    - **Update & Next** — proceed to Preview

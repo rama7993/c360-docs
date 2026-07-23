@@ -1,20 +1,19 @@
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-
 # 🚀 Platform Performance
 
 A consolidated view of system performance combining overview insights, user activity, and object usage metrics to evaluate platform responsiveness, user engagement, and operational efficiency.
 
 To access it:  
-➡️ Go to **Analytics** → **Reports** → **Platform** from the left-hand menu. 
+➡️ Go to **Analytics** → **Reports** → **Platform** from the left-hand menu.
 
 :::info
+
 - By default, reports are displayed with a date range of **one year back from today**.
-:::
+  :::
 
 **━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**
-
 
 ## 🧰 Filters
 
@@ -30,7 +29,8 @@ To access it:
 **Respective Filters** – Filters data by **Country, Company and Users**.
 
 :::tip
-- User filters are dependent on the Country and Company filters (i.e., if you select a country, it will show only the users of that country, and if you select a company, it will show only the users of that company in the user dropdown). 
+
+- User filters are dependent on the Country and Company filters (i.e., if you select a country, it will show only the users of that country, and if you select a company, it will show only the users of that company in the user dropdown).
 - The Country or Company filter alone will not provide any results.
 - The Users filter alone will provide results based on the selected users.
 :::
@@ -75,14 +75,14 @@ A concise overview of user activity and system engagement, highlighting key plat
   - Can Filter by Country, Company and Users.
  </details>
 
- - ##### 🧾 Columns included in the table view.
+##### 🧾 Columns included in the table view.
 
-| Column | Description |
-|--------|-------------|
-|Total User     | The total number of users verified in the CRM system who have successfully logged in.  |
-|Active User      | The number of users actively engaging with the CRM Platform. |
-|% Active Rate      | The percentage of total users who are actively using the CRM.  |
-|AVG Daily Logins    | The average number of user logins per day.           |
+| Column           | Description                                                                           |
+| ---------------- | ------------------------------------------------------------------------------------- |
+| Total User       | The total number of users verified in the CRM system who have successfully logged in. |
+| Active User      | The number of users actively engaging with the CRM Platform.                          |
+| % Active Rate    | The percentage of total users who are actively using the CRM.                         |
+| AVG Daily Logins | The average number of user logins per day.                                            |
 
   <figure>
   <img src="/media/analytics/report/platform/overview-report/platform-usage-summary-table-view.png" alt="platform usage summary" />
@@ -94,7 +94,7 @@ A concise overview of user activity and system engagement, highlighting key plat
 
 **━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**
 
-## 👥 User Activity Report 
+## 👥 User Activity Report
 
 ### 🏆 Login Leaderboard
 
@@ -130,13 +130,13 @@ A ranked overview of the most active users based on login frequency, designed to
   - Can Filter by Country, Company and Users.
  </details>
 
- - ##### 🧾 Columns included in the table view
+##### 🧾 Columns included in the table view
 
-| Column | Description |
-|--------|-------------|
-|User Name       | The full name of the user.  |
-|Total Logins      | The total number of successful logins by the user. |
-|Last Login Date      | The date and time of the user's most recent login.  |
+| Column          | Description                                        |
+| --------------- | -------------------------------------------------- |
+| User Name       | The full name of the user.                         |
+| Total Logins    | The total number of successful logins by the user. |
+| Last Login Date | The date and time of the user's most recent login. |
 
   <figure>
   <img src="/media/analytics/report/platform/user-activity-report/login-leaderboard-table-view.png" alt="login leaderboard" />
@@ -181,12 +181,12 @@ A chronological visualization of new user onboarding, illustrating growth trends
   - Can Filter by Country, Company and Users.
  </details>
 
- - ##### 🧾 Columns included in the table view.
+##### 🧾 Columns included in the table view.
 
-| Column | Description |
-|--------|-------------|
-|Date/Period     | The time period when users were added.  |
-|Users Added      | The number of new users onboarded during the period. |
+| Column      | Description                                          |
+| ----------- | ---------------------------------------------------- |
+| Date/Period | The time period when users were added.               |
+| Users Added | The number of new users onboarded during the period. |
 
   <figure>
   <img src="/media/analytics/report/platform/user-activity-report/user-added-over-time-table-view.png" alt="user added over time" />
@@ -236,12 +236,12 @@ A summary of newly established company profiles, offering insights into organiza
   - Can Filter by Country, Company and Users.
  </details>
 
- - ##### 🧾 Columns included in the table view.
+##### 🧾 Columns included in the table view.
 
-| Column | Description |
-|--------|-------------|
-|Date/Period     | The time period when accounts were created.  |
-|Accounts Created      | The total number of accounts created during the period. |
+| Column           | Description                                             |
+| ---------------- | ------------------------------------------------------- |
+| Date/Period      | The time period when accounts were created.             |
+| Accounts Created | The total number of accounts created during the period. |
 
   <figure>
   <img src="/media/analytics/report/platform/object-usage-reports/accounts-created-table-view.png" alt="accounts created" />
@@ -289,12 +289,12 @@ A metric tracking the addition of new individual profiles, reflecting network ex
   - Can Filter by Country, Company and Users.
  </details>
 
- - ##### 🧾 Columns included in the table view.
+##### 🧾 Columns included in the table view.
 
-| Column | Description |
-|--------|-------------|
-|Date/Period     | The time period when contacts were created.  |
-|Contacts Created      | The total number of contacts created during the period. |
+| Column           | Description                                             |
+| ---------------- | ------------------------------------------------------- |
+| Date/Period      | The time period when contacts were created.             |
+| Contacts Created | The total number of contacts created during the period. |
 
   <figure>
   <img src="/media/analytics/report/platform/object-usage-reports/contacts-created-table-view.png" alt="contacts created" />
@@ -342,12 +342,12 @@ An analytical breakdown of newly identified prospects, providing visibility into
   - Can Filter by Country, Company and Users.
  </details>
 
- - ##### 🧾 Columns included in the table view.
+##### 🧾 Columns included in the table view.
 
-| Column | Description |
-|--------|-------------|
-|Date/Period     | The time period when leads were created.  |
-|Leads Created      | The total number of leads created during the period. |
+| Column        | Description                                          |
+| ------------- | ---------------------------------------------------- |
+| Date/Period   | The time period when leads were created.             |
+| Leads Created | The total number of leads created during the period. |
 
   <figure>
   <img src="/media/analytics/report/platform/object-usage-reports/leads-created-table-view.png" alt="leads created" />
@@ -395,12 +395,12 @@ A strategic overview of newly initiated sales opportunities, indicating business
   - Can Filter by Country, Company and Users.
  </details>
 
- - ##### 🧾 Columns included in the table view.
+##### 🧾 Columns included in the table view.
 
-| Column | Description |
-|--------|-------------|
-|Date/Period     | The time period when opportunities were created.  |
-|Opportunities Created      | The total number of opportunities created during the period. |
+| Column                | Description                                                  |
+| --------------------- | ------------------------------------------------------------ |
+| Date/Period           | The time period when opportunities were created.             |
+| Opportunities Created | The total number of opportunities created during the period. |
 
   <figure>
   <img src="/media/analytics/report/platform/object-usage-reports/opportunities-created-table-view.png" alt="opportunities created" />
@@ -448,12 +448,12 @@ A productivity metric capturing the volume of new activities logged, helping gau
   - Can Filter by Country, Company and Users.
  </details>
 
- - ##### 🧾 Columns included in the table view.
+##### 🧾 Columns included in the table view.
 
-| Column | Description |
-|--------|-------------|
-|Date/Period     | The time period when tasks were created.  |
-|Tasks Created      | The total number of tasks created during the period. |
+| Column        | Description                                          |
+| ------------- | ---------------------------------------------------- |
+| Date/Period   | The time period when tasks were created.             |
+| Tasks Created | The total number of tasks created during the period. |
 
   <figure>
   <img src="/media/analytics/report/platform/object-usage-reports/tasks-created-table-view.png" alt="tasks created" />
@@ -499,12 +499,12 @@ A real-time snapshot of pending and unresolved activities, aimed at assisting te
   - Can Filter by Country, Company and Users.
  </details>
 
- - ##### 🧾 Columns included in the table view.
+##### 🧾 Columns included in the table view.
 
-| Column | Description |
-|--------|-------------|
-|Task Status     | The current state of the open task.  |
-|Tasks Count      | The number of tasks currently open. |
+| Column      | Description                         |
+| ----------- | ----------------------------------- |
+| Task Status | The current state of the open task. |
+| Tasks Count | The number of tasks currently open. |
 
   <figure>
   <img src="/media/analytics/report/platform/object-usage-reports/open-tasks-table-view.png" alt="open tasks" />

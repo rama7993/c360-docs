@@ -16,7 +16,7 @@ Lead scoring ranks potential customers based on their engagement and interest, h
 
 <details>
 <summary><strong>**Click to view Formula for Total Lead Score (TLS):**</strong></summary>
-<p>
+
 TLS = (MRS × MRW) + (LSS × LSW) + (LStS × LStW)
 
 Where:
@@ -27,7 +27,7 @@ Where:
 - **LSW** – Lead Status Weightage
 - **LStS** – Lead Stage Score
 - **LStW** – Lead Stage Weightage
-</p>
+
 </details>
 
 ---
@@ -156,25 +156,25 @@ Defines the current state of a lead or customer interaction in the sales process
 :::
 
 <details>
-<summary><strong>**Fields:**</strong></summary> 
-<p>
-- **Name** – Title of the lead status . 
-- **Score** – Numeric value indicating priority/quality. 
-- **Color** – Visual indicator for quick identification.  
-- **Description** – Explanation of the status meaning.  
-- **Active/Archive (Toggle)** – Mark as active or archive.  
-</p>
+<summary><strong>**Fields:**</strong></summary>
+
+- **Name** – Title of the lead status .
+- **Score** – Numeric value indicating priority/quality.
+- **Color** – Visual indicator for quick identification.
+- **Description** – Explanation of the status meaning.
+- **Active/Archive (Toggle)** – Mark as active or archive.
+
 </details>
 
 **Actions:**
 
 <Tabs>
   <TabItem value="save" label="💾 Save" default>
-    <p>Click <strong>Save</strong> to store the entry after filling in all details.</p>
+    Click **Save** to store the entry after filling in all details.
   </TabItem>
 
   <TabItem value="delete" label="🗑️ Delete">
-    <p>Click the <strong>Delete</strong> icon to remove a saved entry.</p>
+    Click the **Delete** icon to remove a saved entry.
   </TabItem>
 </Tabs>
 
@@ -192,21 +192,21 @@ Represents the industry in which the lead’s company operates.
 :::
 
 <details>
-<summary><strong>**Fields:**</strong></summary> 
-<p> 
-- **Name** – Industry label  
-</p>
+<summary><strong>**Fields:**</strong></summary>
+
+- **Name** – Industry label
+
 </details>
 
 **Actions:**
 
 <Tabs>
   <TabItem value="save" label="💾 Save" default>
-    <p>Click <strong>Save</strong> to store the entry after filling in all details.</p>
+    Click **Save** to store the entry after filling in all details.
   </TabItem>
 
   <TabItem value="delete" label="🗑️ Delete">
-    <p>Click the <strong>Delete</strong> icon to remove a saved entry.</p>
+    Click the **Delete** icon to remove a saved entry.
   </TabItem>
 </Tabs>
 
@@ -224,21 +224,21 @@ Identifies how a lead was acquired (e.g., marketing campaign, referral, online i
 :::
 
 <details>
-<summary><strong>**Fields:** </strong></summary> 
-<p>
-- **Name** – Source label  
-</p>
+<summary><strong>**Fields:** </strong></summary>
+
+- **Name** – Source label
+
 </details>
 
 **Actions:**
 
 <Tabs>
   <TabItem value="save" label="💾 Save" default>
-    <p>Click <strong>Save</strong> to store the entry after filling in all details.</p>
+    Click **Save** to store the entry after filling in all details.
   </TabItem>
 
   <TabItem value="delete" label="🗑️ Delete">
-    <p>Click the <strong>Delete</strong> icon to remove a saved entry.</p>
+    Click the **Delete** icon to remove a saved entry.
   </TabItem>
 </Tabs>
 
@@ -248,4 +248,3 @@ Identifies how a lead was acquired (e.g., marketing campaign, referral, online i
 </figure>
 
 ---
-

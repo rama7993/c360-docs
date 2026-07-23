@@ -18,152 +18,121 @@ Examples: email campaigns, social media promotions, and other outreach activitie
 ### 📝 Fields
 
 <details>
- <summary><strong>🏷️ Name</strong></summary>
- <p>
-- **Name** → Title or label of the campaign.  
-</p>
+<summary><strong>**Fields:**</strong></summary>
+
+- **Name** – Unique title for the category
+- **Description** – Brief explanation of its purpose
+
 </details>
 
-<details>
- <summary><strong>📝 Description</strong></summary>
- <p>
-- **Description** → Explains the purpose and content of the campaign.  
-</p>
-</details>
-
-### ⚡ Actions
+**Actions:**
 
 <Tabs>
   <TabItem value="save" label="💾 Save" default>
-    <p><strong>Save</strong> → Click <strong>Save</strong> to store the entry after completing details.</p>
+    **Save** → Click **Save** to store the entry after completing details.
   </TabItem>
 
   <TabItem value="delete" label="🗑️ Delete">
-    <p><strong>Delete</strong> → Click the <strong>Delete</strong> icon in the action column to remove an entry.</p>
+    **Delete** → Click the **Delete** icon in the action column to remove an entry.
   </TabItem>
 </Tabs>
 
 <figure>
-  <img src="/media/system-configuration/category/campaign.png" alt="Campaign Category Configuration" />
-  <figcaption>Managing Campaign Category Configuration</figcaption>
+  <img src="/media/system-configuration/category/campaign-category.png" alt="Campaign Category Configuration" />
+  <figcaption>Managing Campaign Categories</figcaption>
 </figure>
 
 ---
 
-## 📦 Asset Category
+## 🗂️ Asset Category
 
 :::note
-Content and resources used to engage, inform, and persuade prospects.  
-Examples: brochures, videos, infographics, and other marketing materials.  
+Categorizes marketing assets (e.g., eBooks, Whitepapers, Videos) to ensure easy retrieval and management.  
 :::
 
-### 📝 Fields
-
 <details>
- <summary><strong>🏷️ Name</strong></summary>
- <p>
-- **Name** → Title or label of the asset.  
-</p>
+<summary><strong>**Fields:**</strong></summary>
+
+- **Name** – Unique title for the asset category
+- **Description** – Brief explanation of its purpose
+
 </details>
 
-<details>
- <summary><strong>📝 Description</strong></summary>
- <p>
-- **Description** → Explains the purpose and content of the asset.   
-</p>
-</details>
-
-### ⚡ Actions
+**Actions:**
 
 <Tabs>
   <TabItem value="save" label="💾 Save" default>
-    <p><strong>Save</strong> → Click <strong>Save</strong> to store the entry after completing details.</p>
+    **Save** → Click **Save** to store the entry after completing details.
   </TabItem>
 
   <TabItem value="delete" label="🗑️ Delete">
-    <p><strong>Delete</strong> → Click the <strong>Delete</strong> icon in the action column to remove an entry.</p>
+    **Delete** → Click the **Delete** icon in the action column to remove an entry.
   </TabItem>
 </Tabs>
 
 <figure>
-  <img src="/media/system-configuration/category/asset.png" alt="Asset Category Configuration" />
-  <figcaption>Managing Asset Category Configuration</figcaption>
+  <img src="/media/system-configuration/category/asset-category.png" alt="Asset Category Configuration" />
+  <figcaption>Managing Asset Categories</figcaption>
 </figure>
 
 ---
 
-## 📑 Form Category
+## 🌐 Social Media Category
 
 :::note
-Online tools used to collect user information such as contact details, preferences, and feedback, supporting lead generation and customer engagement.  
+Groups social media posts or campaigns by themes (e.g., Seasonal, Product Launch, Educational).  
 :::
 
-### 📝 Fields
-
 <details>
- <summary><strong>🏷️ Name</strong></summary>
- <p>
-- **Name** → Title or label of the form.  
-</p>
+<summary><strong>**Fields:**</strong></summary>
+
+- **Name** – Unique title for the social media category
+- **Description** – Brief explanation of its purpose
+
 </details>
 
-<details>
- <summary><strong>📝 Description</strong></summary>
- <p>
-- **Description** → Explains the purpose and content of the form. 
-</p>
-</details>
-
-### ⚡ Actions
+**Actions:**
 
 <Tabs>
   <TabItem value="save" label="💾 Save" default>
-    <p><strong>Save</strong> → Click <strong>Save</strong> to store the entry after completing details.</p>
+    **Save** → Click **Save** to store the entry after completing details.
   </TabItem>
 
   <TabItem value="delete" label="🗑️ Delete">
-    <p><strong>Delete</strong> → Click the <strong>Delete</strong> icon in the action column to remove an entry.</p>
+    **Delete** → Click the **Delete** icon in the action column to remove an entry.
   </TabItem>
 </Tabs>
 
 <figure>
-  <img src="/media/system-configuration/category/form.png" alt="Form Category Configuration" />
-  <figcaption>Managing Form Category Configuration</figcaption>
+  <img src="/media/system-configuration/category/social-media-category.png" alt="Social Media Category Configuration" />
+  <figcaption>Managing Social Media Categories</figcaption>
 </figure>
 
 ---
 
-## 📑 Call Script Category
+## 📅 Calendar Category
 
 :::note
-Used to classify call scripts based on their purpose, audience, or campaign type for easy organization and retrieval. 
+Organizes marketing events and activities in the platform calendar by category (e.g., Webinars, Internal Meetings).  
 :::
 
-### 📝 Fields
-
 <details>
- <summary><strong>🏷️ Name</strong></summary>
- <p>
-- **Name** → Title or label of the Call Script.  
-</p>
+<summary><strong>**Fields:**</strong></summary>
+
+- **Name** – Unique title for the calendar category
+- **Description** – Brief explanation of its purpose
+
 </details>
 
-<details>
- <summary><strong>📝 Description</strong></summary>
- <p>
-- **Description** → Explains the purpose and content of the Call Script. 
-</p>
-</details>
-
-### ⚡ Actions
+**Actions:**
 
 <Tabs>
   <TabItem value="save" label="💾 Save" default>
-    <p><strong>Save</strong> → Click <strong>Save</strong> to store the entry after completing details.</p>
+    **Save** → Click **Save** to store the entry after completing details.
   </TabItem>
 
   <TabItem value="delete" label="🗑️ Delete">
-    <p><strong>Delete</strong> → Click the <strong>Delete</strong> icon in the action column to remove an entry.</p>
+    **Delete** → Click the **Delete** icon in the action column to remove an entry.
   </TabItem>
 </Tabs>
 
@@ -171,4 +140,3 @@ Used to classify call scripts based on their purpose, audience, or campaign type
   <img src="/media/system-configuration/category/call-script.png" alt="Call Script Category Configuration" />
   <figcaption>Managing Call Script Category Configuration</figcaption>
 </figure>
-

@@ -107,7 +107,7 @@ flowchart LR
 
 ---
 
-##  🔍 Searching Opportunities
+## 🔍 Searching Opportunities
 
 - Enter **Name**, **Phone**, or **Mobile Number** in the search bar.
 - Click the **Search icon**.
@@ -123,6 +123,7 @@ flowchart LR
 ---
 
 ## 🎛️ Filtering Opportunities
+
 <details>
 <summary>Click to view available filters</summary>
 - **Lead Source** → Origin of the opportunity (Website, Referral, Campaign, etc.)
@@ -142,13 +143,14 @@ flowchart LR
 Other filter options include:
 
 - Viewing **Active** or **Archived** Opportunities using the toggle switch.
-- **All Opportunities / My Opportunities / Opportunities Assigned To Me**  
+- **All Opportunities / My Opportunities / Opportunities Assigned To Me**
 
 :::note
- - All Opportunities: Created By me/Assigned to me/Created By below users.
- - My Opportunities: Created By me
- - Opportunities Assigned To Me: The Opportunity which were assigned to me by someone.
-:::
+
+- All Opportunities: Created By me/Assigned to me/Created By below users.
+- My Opportunities: Created By me
+- Opportunities Assigned To Me: The Opportunity which were assigned to me by someone.
+  :::
 
 ---
 
@@ -252,12 +254,11 @@ Use the **Add Note** or **Add Task** buttons in the top-right corner to capture 
 ## ➕ Add & Edit Opportunities
 
 - **Add**:
-
   1. Click **Add Opportunity**
   2. Fill required fields
   3. Click **Save**
      :::info
-    An Opportunity can be generated or created using two ways:
+     An Opportunity can be generated or created using two ways:
   4. Normal Addition from list Page.
   5. From Lead Conversion.
 

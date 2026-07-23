@@ -250,11 +250,13 @@ The **Call Script Wizard** guides sales representatives through a structured con
 4. Follow the on-screen prompts to ask questions and record responses.
 
 :::note
+
 - Additionally you can note the live conversation .
 - Can capture the BANT(Budget,authority,timeline,need) along with competitor to qualify a prospect.
 - Can change the Status , stage and call outcome as per the conversation.
 - all above actions you can able to see in the lead note list along with call summary once call script got executed and saved successfully.
-:::
+  :::
+
 5. Click **Save** to save the call outcome and notes.
 
 <figure>
@@ -263,11 +265,11 @@ The **Call Script Wizard** guides sales representatives through a structured con
 </figure>
 
 :::info
+
 - You can schedule appointment by selecting the "schedule appointment" option from call outcome dropdown at the end step.
 - You can follow up the lead and add task / assign to a lead by selecting the "follow up" option from call outcome dropdown at the end step.
 - You can send assets to the lead by selecting the "send assets" option from call outcome dropdown at the end step.
   :::
-
 
 ### 🔄 Script Execution Flow
 

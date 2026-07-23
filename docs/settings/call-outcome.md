@@ -1,10 +1,9 @@
-
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 # 📞 **Call Outcome**
 
-<Tabs> 
+<Tabs>
 
 <TabItem value="call-outcome" label= " 📞 Lead Call Outcome">
 
@@ -13,23 +12,23 @@ Represents the result of a call made during sales or customer interactions.
 :::
 
 <details>
-<summary><strong>📝 Fields</strong></summary>  
-<p>
-- **Name** – Call outcome label  
-- **Color** – Visual indicator for quick identification  
-- **Description** – Explanation of the outcome  
-</p>
+<summary><strong>📝 Fields</strong></summary>
+
+- **Name** – Call outcome label
+- **Color** – Visual indicator for quick identification
+- **Description** – Explanation of the outcome
+
 </details>
 
 ### ⚡ Actions
 
 <Tabs>
   <TabItem value="save" label="💾 Save" default>
-    <p>Click <strong>Save</strong> to store the entry after filling in all details.</p>
+    Click **Save** to store the entry after filling in all details.
   </TabItem>
 
   <TabItem value="delete" label="🗑️ Delete">
-    <p>Click the <strong>Delete</strong> icon to remove a saved entry.</p>
+    Click the **Delete** icon to remove a saved entry.
   </TabItem>
 </Tabs>
 
@@ -48,21 +47,21 @@ Represents the reason why a lead is not interested in a product or service.
 
 <details>
  <summary><strong>📝 Fields</strong></summary>
- <p>
-- **Name** → Title or label of the NI Reason.  
-- **Description** → Explains the purpose and content of the NI Reason. 
-</p>
+
+- **Name** → Title or label of the NI Reason.
+- **Description** → Explains the purpose and content of the NI Reason.
+
 </details>
 
 ### ⚡ Actions
 
 <Tabs>
   <TabItem value="save" label="💾 Save" default>
-    <p><strong>Save</strong> → Click <strong>Save</strong> to store the entry after completing details.</p>
+    **Save** → Click **Save** to store the entry after completing details.
   </TabItem>
 
   <TabItem value="delete" label="🗑️ Delete">
-    <p><strong>Delete</strong> → Click the <strong>Delete</strong> icon in the action column to remove an entry.</p>
+    **Delete** → Click the **Delete** icon in the action column to remove an entry.
   </TabItem>
 </Tabs>
 
@@ -74,7 +73,6 @@ Represents the reason why a lead is not interested in a product or service.
 </TabItem>
 
 </Tabs>
-
 
 :::info
 If you don't find any trash icon to delete the options, that means that option is immutable (you can neither delete nor edit.)

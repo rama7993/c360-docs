@@ -66,7 +66,7 @@ This approach guarantees:
 
 ### 🔹 Assign Leads in Round Robin
 
-1. Go to the **Leads List**. 
+1. Go to the **Leads List**.
 2. Select the leads you want to assign.
 3. Click **Assign To → Round Robin**.
 4. Choose eligible users/partners and drag to set the rotation order.

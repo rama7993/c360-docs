@@ -29,7 +29,7 @@ It includes columns such as:
 | **Country**               | The country associated with the account.                                                                    |
 | **Modified At**           | The last modification date of the account.                                                                  |
 | **Last Contracted**       | The date of the most recent contract or agreement made with the account.                                    |
-| **Custom Fields**        | A custom field is an additional field you create to store business-specific information                     |
+| **Custom Fields**         | A custom field is an additional field you create to store business-specific information                     |
 
 :::tip
 You can **sort** columns ascending/descending and **expand to fullscreen** using the maximize button beside the search bar.
@@ -56,6 +56,7 @@ You can **sort** columns ascending/descending and **expand to fullscreen** using
 ## 🎛️ Filtering Accounts
 
 You can filter by:
+
 <details>
 <summary>Click to view available filters</summary>
 - Account Owner
@@ -71,13 +72,14 @@ You can filter by:
 Other filter options include:
 
 - Viewing **Active** or **Archived** Accounts using the toggle switch.
-- **All Accounts/ My Accounts / Accounts Assigned To Me**  
+- **All Accounts/ My Accounts / Accounts Assigned To Me**
 
 :::note
- - All Accounts: Created By me/Assigned to me/Created By below users.
- - My Accounts: Created By me
- - Accounts Assigned To Me: The Accounts which were assigned to me by someone.
-:::
+
+- All Accounts: Created By me/Assigned to me/Created By below users.
+- My Accounts: Created By me
+- Accounts Assigned To Me: The Accounts which were assigned to me by someone.
+  :::
 
 <figure>
   <img src="/media/crm/account/account-filter.png" alt="Filter panel with multiple criteria and applied chips" />
@@ -85,7 +87,6 @@ Other filter options include:
 </figure>
 
 ---
-
 
 ## 🗑️ Deleting Accounts
 
@@ -196,11 +197,12 @@ Click on **View More** to view all related contacts and opportunities with auto 
 - **Edit** → Click the **pencil** (inline) or open details → **Edit** → **Save**.
 
 :::info
-  Account can be generated or added using three ways:
-  1. Normal Addition from list Page.
-  2. Via Import Account.
-  3. During Lead Conversion(if new).
-    :::
+Account can be generated or added using three ways:
+
+1. Normal Addition from list Page.
+2. Via Import Account.
+3. During Lead Conversion(if new).
+   :::
 
 <figure>
   <img src="/media/crm/account/account-add.png" alt="Add/Edit an account" />
@@ -224,7 +226,7 @@ On the review step you can select:
 - **All** records
 - **Only filtered** results (e.g., by deliverability %)
 - **Specific** entries
-  :::
+:::
 
   <figure>
   <img src="/media/crm/account/account-contact-choose data.png" alt="Upload account from Excel" />
@@ -241,4 +243,4 @@ On the review step you can select:
   <figcaption>Confirm & Import</figcaption>
 </figure>
 
-  ***
+---

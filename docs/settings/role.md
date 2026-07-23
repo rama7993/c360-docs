@@ -1,5 +1,3 @@
-
-
 # 👤🛡️ Role
 
 A role is a collection of permissions assigned to a user or group that defines:
@@ -22,7 +20,6 @@ To access Roles:
 - **Columns**: Role Name, Description, Actions (Clone/Delete).
 - **Sorting**: Click any column header to sort roles.
 - **Top Features**:
-
   - **Search bar** → Quickly locate roles.
   - **Add button** → Create a new role.
   - **Clone Icon** → Clone an existing role.
@@ -37,12 +34,14 @@ To access Roles:
 
 ## ➕ Add Role
 
- 1. Click on **Add Role**.
- 2. Enter the following details:
-   - **Role Name**
-   - **Description**
- 3. Enable the access permissions for the modules and features you want to grant.
- 4. Click on **Save**.
+1.  Click on **Add Role**.
+2.  Enter the following details:
+
+- **Role Name**
+- **Description**
+
+3.  Enable the access permissions for the modules and features you want to grant.
+4.  Click on **Save**.
 
  <figure>
   <img src="/media/account-management/role/role-add.png" alt="Role Add" />
@@ -52,9 +51,10 @@ To access Roles:
 ---
 
 ## 📑 Clone Role
- 1. Click on **Clone** icon.
- 2. Make changes if needed.
- 3. Click on **Save**.
+
+1.  Click on **Clone** icon.
+2.  Make changes if needed.
+3.  Click on **Save**.
 
  <figure>
   <img src="/media/account-management/role/role-clone.png" alt="Role Clone" />
@@ -65,8 +65,8 @@ To access Roles:
 
 ## 🔍 Search Role
 
- 1. Enter a **name or keyword** in the search bar.
- 2. Press **Enter** to instantly filter results.
+1.  Enter a **name or keyword** in the search bar.
+2.  Press **Enter** to instantly filter results.
 
  <figure>
   <img src="/media/account-management/role/role-search.png" alt="Role Search" />
@@ -103,5 +103,6 @@ flowchart TD
 
     I -- No --> K{Role Still Required?}
     K -- Yes --> H
-    K -- No --> L[Delete Role]
+    K -- No --> L[Deactivate Role]
+    L --> M[Archive / Delete Role]
 ```

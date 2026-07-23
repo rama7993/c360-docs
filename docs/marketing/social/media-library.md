@@ -3,7 +3,7 @@ import TabItem from '@theme/TabItem';
 
 # 📚 Media Library
 
-The **Media Library** in C360 is a central place to store and manage images, files, and other media assets. 
+The **Media Library** in C360 is a central place to store and manage images, files, and other media assets.
 
 To access it:  
 ➡️ Go to **Marketing** → **Social** → **Media Library** from the Top Bar.
@@ -73,13 +73,14 @@ In **list view**, items are displayed in a table format with more details:
 2. Apply filters such as:
    - **Type** – Filter by media type
    - **Created At** – Filter by creation date
-3. - **All Media/ My Media / Media Assigned To Me**  
+3. - **All Media/ My Media / Media Assigned To Me**
 
 :::note
- - All Media: Created by me/Assigned to me/Created by below users.
- - My Media: Created by me
- - Media Assigned To Me: The Media which were assigned to me by someone.
-:::
+
+- All Media: Created by me/Assigned to me/Created by below users.
+- My Media: Created by me
+- Media Assigned To Me: The Media which were assigned to me by someone.
+  :::
 
 <figure>
   <img src="/media/marketing/social/media-library/media-filter.png" alt="Filter options in media library" width="800" />
@@ -91,6 +92,7 @@ Active filters appear next to the filter section. You can clear them anytime.
 :::
 
 ---
+
 ## 🗑️ Delete Media
 
 1. Select the checkbox(es) for the Media you want to delete.
@@ -137,6 +139,6 @@ To add new media to the library:
 
 ✅ This makes campaign creation **faster, more consistent, and easier to track**.
 
-:::tip 
+:::tip
 These items can be reused across **social posts, campaigns, and channels**, ensuring brand consistency and saving time.
 :::

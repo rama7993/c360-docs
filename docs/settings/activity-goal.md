@@ -13,9 +13,9 @@ An **Activity Goal** is a measurable objective tied to a specific campaign activ
 
 <details>
 <summary><strong>Name</strong></summary>
-<p>  
-  Defines the title or label of the activity goal.
-</p>
+
+Defines the title or label of the activity goal.
+
 </details>
 
 ---
@@ -27,11 +27,11 @@ import TabItem from '@theme/TabItem';
 
 <Tabs>
   <TabItem value="save" label="💾Save" default>
-    <p><strong>Save</strong> – Click **Save** to store the entry after completing the details.</p>
+    **Save** – Click **Save** to store the entry after completing the details.
   </TabItem>
 
   <TabItem value="delete" label="🗑️Delete">
-    <p><strong>Delete</strong> – Click the **Delete** icon in the action column to remove a saved entry.</p>
+    **Delete** – Click the **Delete** icon in the action column to remove a saved entry.
   </TabItem>
 </Tabs>
 

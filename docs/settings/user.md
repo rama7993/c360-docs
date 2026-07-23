@@ -23,7 +23,6 @@ To access Users:
 - **Columns**: First Name, Last Name, Email, Email Verified, Assigned Group, Actions (Edit/Delete).
 - **Sorting**: Click any column header to sort users.
 - **Top Features**:
-
   - **Search bar** → Quickly locate users.
   - **Add button** → Create a new user.
   - **Toggle button** → Switch between List / Tree views
@@ -94,12 +93,12 @@ To access Users:
 
 ## 🔐 Assign a Role to a User
 
- Assign a predefined role to a user to control their access to specific modules, features, and actions within the CRM system.
+Assign a predefined role to a user to control their access to specific modules, features, and actions within the CRM system.
 
- - Go to the Add/Edit User page.
- - Click on Add Role.
- - Select the role from the dropdown.
- - Save / Update the user.
+- Go to the Add/Edit User page.
+- Click on Add Role.
+- Select the role from the dropdown.
+- Save / Update the user.
 
 <figure>
   <img src="/media/account-management/user/user-assign-role.png" alt="Assign Role" />
@@ -107,9 +106,10 @@ To access Users:
 </figure>
 
 :::note
- 
- - You can add up to 10 roles for a user.
-:::
+
+- You can add up to 10 roles for a user.
+  :::
+
 ---
 
 ## 🔍 Search Users

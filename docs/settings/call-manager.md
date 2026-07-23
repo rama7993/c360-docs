@@ -1,10 +1,9 @@
-
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 # 📞 **Call Manager**
 
-<Tabs> 
+<Tabs>
 
 <TabItem value="agent-calling-window" label= " 🕒 Agent Calling Window">
 
@@ -23,48 +22,39 @@ Define specific time windows during which agents are authorized to make calls.
 - **Status** → Active/Inactive.
 </details>
 
-
 <figure>
   <img src="/media/system-configuration/call-manager/agent-calling-window-list.png" alt="Agent Calling Window Configuration" />
   <figcaption>Agent Calling Window Setup</figcaption>
 </figure>
 
-
-
 ### ⚡ Actions
 
 <Tabs>
   <TabItem value="add agent" label="➕ Add Agent" default>
-    <p>
-     - Click on <strong>Add Agent</strong> to create an agent call window.
+     - Click on **Add Agent** to create an agent call window.
      - Fill the required fields.
-     - Click on <strong>Save</strong> to save the entry.
+     - Click on **Save** to save the entry.
 
      :::info
      - Can add up to 10 Breaks.
      :::
-    </p>
 
-    
 <figure>
   <img src="/media/system-configuration/call-manager/agent-calling-window-add.png" alt="AAdd gent Calling Window Configuration" />
   <figcaption>Agent Calling Window Setup</figcaption>
 </figure>
 
   </TabItem>
-  
 
   <TabItem value="edit agent" label="📝 Edit Agent" default>
-    <p>
-     - Click on <strong>Edit Agent</strong> to update an agent call window.
+     - Click on **Edit Agent** to update an agent call window.
      - Make necessary changes.
-     - Click on <strong>Save</strong> to update the agent call window.
+     - Click on **Save** to update the agent call window.
 
      :::info
      - Can add up to 10 Breaks.
      :::
-    </p>
-   
+
 <figure>
   <img src="/media/system-configuration/call-manager/agent-calling-window-edit.png" alt="Update Agent Calling Window Configuration" />
   <figcaption>Edit Agent Calling Window </figcaption>
@@ -73,10 +63,8 @@ Define specific time windows during which agents are authorized to make calls.
   </TabItem>
 
   <TabItem value="delete" label="🗑️ Delete">
-    <p>
-    - Click on <strong>Delete</strong> icon.
-    - Click on <strong>Yes</strong> to confirm the delete process.
-    </p>
+    - Click on **Delete** icon.
+    - Click on **Yes** to confirm the delete process.
  
 <figure>
   <img src="/media/system-configuration/call-manager/agent-calling-window-delete.png" alt="Delete Agent Calling Window Configuration" />
@@ -86,10 +74,8 @@ Define specific time windows during which agents are authorized to make calls.
   </TabItem>
 
  <TabItem value="search" label="🔍 Search">
-    <p>
     - Focus on the search field and type the agent name to search.
     - Hit enter.
-    </p>
 
 <figure>
   <img src="/media/system-configuration/call-manager/agent-calling-window-search.png" alt="Search Agent Calling Window Configuration" />
@@ -102,27 +88,25 @@ Define specific time windows during which agents are authorized to make calls.
 
 </TabItem>
 
-
 <TabItem value="outcome-time" label= " ⏳ Outcome Time">
 
 Configure the duration settings relative to call outcomes, such as validity periods or expected handling times.
 
 <details>
  <summary><strong>📝 Fields</strong></summary>
- <p>
-- **Outcome** → The specific reason for the call outcome. 
+
+- **Outcome** → The specific reason for the call outcome.
 - **Assumed Minutes** → The time duration in minutes that is assumed by the agent for a specific outcome.
 - **Last Updated By** → Name of the user who last updated the outcome time setting.
 - **Date** → On which date the outcome was last updated.
-- **Applies When Outcome Logged** →  Defines the specific circumstances or conditions under which the outcome time setting takes effect.
-</p>
+- **Applies When Outcome Logged** → Defines the specific circumstances or conditions under which the outcome time setting takes effect.
+
 </details>
 
 ### ⚡ Actions
 
 - Reset : Resets to the default position.
 - Update : Can update the **Assumed Minutes** and **Applies When Outcome Logged**
-
 
 <figure>
   <img src="/media/system-configuration/call-manager/outcome-time.png" alt="Outcome Time" />
@@ -131,7 +115,4 @@ Configure the duration settings relative to call outcomes, such as validity peri
 
  </TabItem>
 
-
 </Tabs>
-
-

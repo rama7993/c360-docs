@@ -9,40 +9,42 @@ To access it:
 ➡️ Go to **Co-Marketing** → **Campaign Components** → **Form Builder** from the left-hand menu.
 
 ---
+
 ## 🗂️ Form Builder Views
+
 - The Forms list provides a complete overview of all created forms.
 - Form Builder can be viewed in **Grid View** or **List View**.
 
 <Tabs>
 
-  <TabItem value="grid" label="🔲 Grid View" default>
+<TabItem value="grid" label="🔲 Grid View" default>
 
-  - **Grid View** – Shows each form as a card with quick actions like **edit**.
+- **Grid View** – Shows each form as a card with quick actions like **edit**.
 
-  :::tip
-   - Hovering on **"i"** icon allows you to see the Description.
-   :::
+:::tip
+
+- Hovering on **"i"** icon allows you to see the Description.
+  :::
 
   <figure>
     <img src="/media/marketing/component/form builder/form-grid.png" style={{width:"100%", maxWidth:"650px"}} />
     <figcaption> Grid View of Form Builder</figcaption>
   </figure>
 
-  </TabItem>
+</TabItem>
 
-  <TabItem value="list" label="📜 List View">
+<TabItem value="list" label="📜 List View">
 
-  - **List View** – Shows Forms in a table with columns like **Name, Status, Created By, Modified By, Preview and Edit**.
+- **List View** – Shows Forms in a table with columns like **Name, Status, Created By, Modified By, Preview and Edit**.
 
   <figure>
     <img src="/media/marketing/component/form builder/form-list.png" style={{width:"100%", maxWidth:"650px"}} />
     <figcaption> List View of Form Builder</figcaption>
   </figure>
 
-  </TabItem>
+</TabItem>
   
 </Tabs>
-
 
 ---
 
@@ -60,18 +62,20 @@ To access it:
 
 ## 🎛️Filtering Forms
 
-You can filter Forms by:  
-- **Status**   
-- **Category**   
-- **Created At**   
+You can filter Forms by:
+
+- **Status**
+- **Category**
+- **Created At**
 - **Modified At**
-- **All/ My Form / Form Assigned To Me**  
+- **All/ My Form / Form Assigned To Me**
 
 :::note
- - All: Created by me/Assigned to me/Created by below users.
- - My Form: Created by me
- - Form Assigned To Me: The form which was assigned to me by someone.
-:::
+
+- All: Created by me/Assigned to me/Created by below users.
+- My Form: Created by me
+- Form Assigned To Me: The form which was assigned to me by someone.
+  :::
 
 <figure>
   <img src="/media/marketing/component/form builder/form-filter.png" style={{width:"100%", maxWidth:"650px"}} />

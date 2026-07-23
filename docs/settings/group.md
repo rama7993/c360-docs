@@ -28,7 +28,6 @@ Groups can be displayed in **List View** or **Tree View** for better organizatio
   - User Count
   - Actions (Edit / Delete)
 - **Top Features**:
-
   - **Search Bar** → Quickly find groups
   - **Add Button** → Create a new group
   - **Toggle Button** → Switch to Tree View
@@ -39,7 +38,6 @@ Groups can be displayed in **List View** or **Tree View** for better organizatio
     <img src="/media/account-management/group/group-list.png" alt="Group List View" />
     <figcaption>Groups displayed in List View</figcaption>
   </figure>
-
 
 </TabItem>
 
@@ -93,11 +91,11 @@ Groups can be displayed in **List View** or **Tree View** for better organizatio
 
 ## 🔐 Assign a Role to a Group
 
- Assign a predefined role to a group of users to centrally manage their access to modules, features, and data within the CRM.
+Assign a predefined role to a group of users to centrally manage their access to modules, features, and data within the CRM.
 
- - Go to the Add/Edit Group page.
- - Select the role from the dropdown.
- - Save / Update the group.
+- Go to the Add/Edit Group page.
+- Select the role from the dropdown.
+- Save / Update the group.
 
 <figure>
   <img src="/media/account-management/group/group-assign-role.png" alt="Role Assign" />
@@ -105,9 +103,9 @@ Groups can be displayed in **List View** or **Tree View** for better organizatio
 </figure>
 
 :::note
- 
- - You can add only one role to a group.
-:::
+
+- You can add only one role to a group.
+  :::
 
 ---
 
@@ -150,7 +148,7 @@ Here you can review:
 
 ---
 
-## 🔄 Group Life Cycle 
+## 🔄 Group Life Cycle
 
 ```mermaid
 flowchart TD

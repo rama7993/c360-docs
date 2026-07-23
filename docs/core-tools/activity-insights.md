@@ -13,8 +13,8 @@ The **Activity Insights** panel provides a quick snapshot of your daily schedule
 View your scheduled meetings and appointments for the day or upcoming dates.
 
 - **Date Range Picker**: Filter appointments by selecting a specific date range.
-- **Quick View**: See time, subject, and participants at a 
-glance.
+- **Quick View**: See time, subject, and participants at a
+  glance.
 
 <figure>
   <img src="/media/home/activity-insights/upcoming-appointments.png" alt="Upcoming Appointments" />

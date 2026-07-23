@@ -1,8 +1,7 @@
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-
-# 📈 Sales 
+# 📈 Sales
 
 A consolidated report that monitors sales activities, opportunity status, conversion rates, revenue trends, etc., to evaluate team performance and forecast growth.
 
@@ -10,11 +9,11 @@ To access it:
 ➡️ Go to **Analytics** → **Reports** → **Sales** from the left-hand menu.
 
 :::info
+
 - By default, reports are displayed with a date range of **one year back from today**.
-:::
+  :::
 
 **━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**
-
 
 ## 🧰 Filters
 
@@ -30,7 +29,8 @@ To access it:
 **Respective Filters** – Filters data by **Country, Company and Users**.
 
 :::tip
-- User filters are dependent on the Country and Company filters (i.e., if you select a country, it will show only the users of that country, and if you select a company, it will show only the users of that company in the user dropdown). 
+
+- User filters are dependent on the Country and Company filters (i.e., if you select a country, it will show only the users of that country, and if you select a company, it will show only the users of that company in the user dropdown).
 - The Country or Company filter alone will not provide any results.
 - The Users filter alone will provide results based on the selected users.
 :::
@@ -40,7 +40,7 @@ To access it:
 
 **━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**
 
-## 📊 Overview 
+## 📊 Overview
 
 ### 🚀 Sales Performance Overview
 
@@ -76,19 +76,19 @@ Provides a comprehensive summary of key sales activities and overall team perfor
   - Can Filter by Country, Company and Users.
  </details>
 
-- ##### 🧾 Columns included in the table view
+##### 🧾 Columns included in the table view
 
-| Metric                    | Description                                                                 |
-|--------------------------|-----------------------------------------------------------------------------|
-| Total Records            | Total number of opportunity records in the system.                         |
-| Total Pipeline Value     | Combined value of all open opportunities in the sales pipeline.            |
-| Closed Won QTD           | Total revenue from deals successfully closed in the current quarter.       |
-| Win Rate                 | Percentage of won deals compared to total closed opportunities.            |
-| Avg Opportunity Size     | Average value of each opportunity in the pipeline.                         |
-| Avg Sales Cycle Days     | Average time taken to close a deal from creation to completion.            |
-| Opportunities Created    | Total number of new opportunities created within a specific period.        |
-| Opportunities Closed     | Total number of opportunities closed (won or lost).                        |
-| Forecast Accuracy        | Measure of how closely sales forecasts match actual results.               |
+| Metric                | Description                                                          |
+| --------------------- | -------------------------------------------------------------------- |
+| Total Records         | Total number of opportunity records in the system.                   |
+| Total Pipeline Value  | Combined value of all open opportunities in the sales pipeline.      |
+| Closed Won QTD        | Total revenue from deals successfully closed in the current quarter. |
+| Win Rate              | Percentage of won deals compared to total closed opportunities.      |
+| Avg Opportunity Size  | Average value of each opportunity in the pipeline.                   |
+| Avg Sales Cycle Days  | Average time taken to close a deal from creation to completion.      |
+| Opportunities Created | Total number of new opportunities created within a specific period.  |
+| Opportunities Closed  | Total number of opportunities closed (won or lost).                  |
+| Forecast Accuracy     | Measure of how closely sales forecasts match actual results.         |
 
   <figure>
   <img src="/media/analytics/report/sales/overview/sales-performance-overview-table-view.png" alt="sales performance overview" />
@@ -100,7 +100,7 @@ Provides a comprehensive summary of key sales activities and overall team perfor
 
 ---
 
-### ⚖️ Win Ratio Overview 
+### ⚖️ Win Ratio Overview
 
 Analyzes the success rate of closing deals to evaluate sales effectiveness and strategy.
 
@@ -136,20 +136,20 @@ Analyzes the success rate of closing deals to evaluate sales effectiveness and s
   - Can Filter by Country, Company and Users.
  </details>
 
- - ##### 🧾 Columns included in the table view
+##### 🧾 Columns included in the table view
 
- | Field Name        | Description                                                                 |
-|------------------|-----------------------------------------------------------------------------|
-| Opportunity Owner| User responsible for managing and closing the opportunity.                 |
-| Stage            | Current phase of the opportunity in the sales pipeline.                    |
-| Opportunity Name | Unique name or title identifying the opportunity.                          |
-| Lead Source      | Origin from which the opportunity was generated (e.g., Web, Referral).     |
-| Amount           | Expected revenue value of the opportunity.                                 |
-| Close Date       | Expected or actual date when the opportunity will be closed.               |
-| Probability      | Likelihood (in %) of the opportunity being successfully closed.            |
-| Age              | Number of days since the opportunity was created.                          |
-| Created Date     | Date when the opportunity record was created.                              |
-| Win Ratio        | Percentage of won opportunities compared to total opportunities.           |
+| Field Name        | Description                                                            |
+| ----------------- | ---------------------------------------------------------------------- |
+| Opportunity Owner | User responsible for managing and closing the opportunity.             |
+| Stage             | Current phase of the opportunity in the sales pipeline.                |
+| Opportunity Name  | Unique name or title identifying the opportunity.                      |
+| Lead Source       | Origin from which the opportunity was generated (e.g., Web, Referral). |
+| Amount            | Expected revenue value of the opportunity.                             |
+| Close Date        | Expected or actual date when the opportunity will be closed.           |
+| Probability       | Likelihood (in %) of the opportunity being successfully closed.        |
+| Age               | Number of days since the opportunity was created.                      |
+| Created Date      | Date when the opportunity record was created.                          |
+| Win Ratio         | Percentage of won opportunities compared to total opportunities.       |
 
   <figure>
   <img src="/media/analytics/report/sales/overview/win-ratio-overview-table-view.png" alt="win ratio overview" />
@@ -199,14 +199,14 @@ Displays total generated revenue and tracks high-level financial growth trends.
   - Can filter by country, company and users.
  </details>
 
- - ##### 🧾 Columns included in the table view
+##### 🧾 Columns included in the table view
 
- | Field Name         | Description                                                                 |
-|-------------------|-----------------------------------------------------------------------------|
-| Opportunity Owner | User responsible for managing and closing the opportunity.                 |
-| Close Quarter     | The quarter (e.g., Q1, Q2) in which the opportunity is expected to close.  |
-|Q1 FY 2026         | First Quarter of Fiscal Year 2026|
-| Total             | Total value or count of opportunities, depending on the report context.    |
+| Field Name        | Description                                                               |
+| ----------------- | ------------------------------------------------------------------------- |
+| Opportunity Owner | User responsible for managing and closing the opportunity.                |
+| Close Quarter     | The quarter (e.g., Q1, Q2) in which the opportunity is expected to close. |
+| Q1 FY 2026        | First Quarter of Fiscal Year 2026                                         |
+| Total             | Total value or count of opportunities, depending on the report context.   |
 
   <figure>
   <img src="/media/analytics/report/sales/executive-reports/revenue-overview-table-view.png" alt="revenue overview" />
@@ -218,7 +218,7 @@ Displays total generated revenue and tracks high-level financial growth trends.
 
 ---
 
-### 📈 Win Ratio Summary 
+### 📈 Win Ratio Summary
 
 Summarizes overall win rate percentages to gauge opportunity conversion success.
 
@@ -251,20 +251,20 @@ Summarizes overall win rate percentages to gauge opportunity conversion success.
   - Can Filter by Country, Company and Users.
  </details>
 
- - ##### 🧾 Columns included in the table view
+##### 🧾 Columns included in the table view
 
- | Field Name        | Description                                                                 |
-|------------------|-----------------------------------------------------------------------------|
-| Opportunity Owner| User responsible for managing and closing the opportunity.                 |
-| Stage            | Current phase of the opportunity in the sales pipeline.                    |
-| Opportunity Name | Unique name or title identifying the opportunity.                          |
-| Lead Source      | Origin from which the opportunity was generated (e.g., Web, Referral).     |
-| Amount           | Expected revenue value of the opportunity.                                 |
-| Close Date       | Expected or actual date when the opportunity will be closed.               |
-| Probability      | Likelihood (in %) of the opportunity being successfully closed.            |
-| Age              | Number of days since the opportunity was created.                          |
-| Created Date     | Date when the opportunity record was created.                              |
-| Win Ratio        | Percentage of won opportunities compared to total opportunities.           |
+| Field Name        | Description                                                            |
+| ----------------- | ---------------------------------------------------------------------- |
+| Opportunity Owner | User responsible for managing and closing the opportunity.             |
+| Stage             | Current phase of the opportunity in the sales pipeline.                |
+| Opportunity Name  | Unique name or title identifying the opportunity.                      |
+| Lead Source       | Origin from which the opportunity was generated (e.g., Web, Referral). |
+| Amount            | Expected revenue value of the opportunity.                             |
+| Close Date        | Expected or actual date when the opportunity will be closed.           |
+| Probability       | Likelihood (in %) of the opportunity being successfully closed.        |
+| Age               | Number of days since the opportunity was created.                      |
+| Created Date      | Date when the opportunity record was created.                          |
+| Win Ratio         | Percentage of won opportunities compared to total opportunities.       |
 
   <figure>
   <img src="/media/analytics/report/sales/executive-reports/win-ratio-summary-table-view.png" alt="win ratio summary" />
@@ -312,22 +312,22 @@ Offers a quick assessment of the sales pipeline's current state and overall heal
   - Can Filter by Country, Company and Users.
  </details>
 
- - ##### 🧾 Columns included in the table view
+##### 🧾 Columns included in the table view
 
- | Field Name         | Description                                                                 |
-|-------------------|-----------------------------------------------------------------------------|
-| Stage             | Current phase of the opportunity in the sales pipeline.                    |
-| Type              | Category of the opportunity (e.g., New Business, Existing Customer).       |
-| Opportunity Name  | Unique name or title identifying the opportunity.                          |
-| Lead Source       | Origin from which the opportunity was generated (e.g., Web, Referral).     |
-| Amount            | Expected revenue value of the opportunity.                                 |
-| Close Date        | Expected or actual date when the opportunity will be closed.               |
-| Probability       | Likelihood (in %) of the opportunity being successfully closed.            |
-| Fiscal Period     | Financial period (month/quarter/year) associated with the opportunity.     |
-| Age               | Number of days since the opportunity was created.                          |
-| Created Date      | Date when the opportunity record was created.                              |
-| Opportunity Owner | User responsible for managing and closing the opportunity.                 |
-| Account Name      | Name of the associated customer or business account.                       |
+| Field Name        | Description                                                            |
+| ----------------- | ---------------------------------------------------------------------- |
+| Stage             | Current phase of the opportunity in the sales pipeline.                |
+| Type              | Category of the opportunity (e.g., New Business, Existing Customer).   |
+| Opportunity Name  | Unique name or title identifying the opportunity.                      |
+| Lead Source       | Origin from which the opportunity was generated (e.g., Web, Referral). |
+| Amount            | Expected revenue value of the opportunity.                             |
+| Close Date        | Expected or actual date when the opportunity will be closed.           |
+| Probability       | Likelihood (in %) of the opportunity being successfully closed.        |
+| Fiscal Period     | Financial period (month/quarter/year) associated with the opportunity. |
+| Age               | Number of days since the opportunity was created.                      |
+| Created Date      | Date when the opportunity record was created.                          |
+| Opportunity Owner | User responsible for managing and closing the opportunity.             |
+| Account Name      | Name of the associated customer or business account.                   |
 
   <figure>
   <img src="/media/analytics/report/sales/executive-reports/pipeline-health-snapshot-table-view.png" alt="pipeline health snapshot" />
@@ -372,14 +372,14 @@ Tracks the historical changes in average deal value to identify shifting market 
   - Can Filter by Country, Company and Users.
  </details>
 
- - ##### 🧾 Columns included in the table view
+##### 🧾 Columns included in the table view
 
- | Field Name         | Description                                                                 |
-|-------------------|-----------------------------------------------------------------------------|
-| Opportunity Owner | User responsible for managing and closing the opportunity.                 |
-| Close Month       | Month in which the opportunity is expected to close.                       |
-| May 2026          | Represents opportunities scheduled to close in May 2026.                   |
-| Total             | Total value of opportunities for the selected period. |
+| Field Name        | Description                                                |
+| ----------------- | ---------------------------------------------------------- |
+| Opportunity Owner | User responsible for managing and closing the opportunity. |
+| Close Month       | Month in which the opportunity is expected to close.       |
+| May 2026          | Represents opportunities scheduled to close in May 2026.   |
+| Total             | Total value of opportunities for the selected period.      |
 
   <figure>
   <img src="/media/analytics/report/sales/executive-reports/average-deal-size-trend-table-view.png" alt="average deal size trend" />
@@ -424,14 +424,14 @@ Evaluates lost deals to uncover trends and identify areas for strategic improvem
   - Can Filter by Country, Company and Users.
  </details>
 
- - ##### 🧾 Columns included in the table view
+##### 🧾 Columns included in the table view
 
- | Field Name         | Description                                                                 |
-|-------------------|-----------------------------------------------------------------------------|
-| Opportunity Owner | User responsible for managing and closing the opportunity.                 |
-| Close Quarter     | Quarter in which the opportunity is expected to close.                     |
-| Q1 FY 2026        | Represents opportunities scheduled to close in the first quarter of fiscal year 2026.|
-| Total             | Total value or count of opportunities for the selected quarter.            |
+| Field Name        | Description                                                                           |
+| ----------------- | ------------------------------------------------------------------------------------- |
+| Opportunity Owner | User responsible for managing and closing the opportunity.                            |
+| Close Quarter     | Quarter in which the opportunity is expected to close.                                |
+| Q1 FY 2026        | Represents opportunities scheduled to close in the first quarter of fiscal year 2026. |
+| Total             | Total value or count of opportunities for the selected quarter.                       |
 
   <figure>
   <img src="/media/analytics/report/sales/executive-reports/close-lost-opportunities-table-view.png" alt="close lost opportunities" />
@@ -479,15 +479,15 @@ Highlights opportunities assigned directly to individual owners across respectiv
   - Can Filter by Country, Company and Users.
  </details>
 
-- ##### 🧾 Columns included in the table view
+##### 🧾 Columns included in the table view
 
-| Field Name         | Description                                                                 |
-|-------------------|-----------------------------------------------------------------------------|
-| Account Name      | Name of the account associated with the opportunity.      |
-| Opportunity Owner | User responsible for managing and closing the opportunity.                 |
-| Close Month       | Month in which the opportunity is expected to close.                       |
-| January 2026      | Represents opportunities scheduled to close in January 2026.               |
-| Total             | Total value or count of opportunities for the selected month.              |
+| Field Name        | Description                                                   |
+| ----------------- | ------------------------------------------------------------- |
+| Account Name      | Name of the account associated with the opportunity.          |
+| Opportunity Owner | User responsible for managing and closing the opportunity.    |
+| Close Month       | Month in which the opportunity is expected to close.          |
+| January 2026      | Represents opportunities scheduled to close in January 2026.  |
+| Total             | Total value or count of opportunities for the selected month. |
 
   <figure>
   <img src="/media/analytics/report/sales/executive-reports/won-opportunities-by-account-table-view.png" alt="won opportunities by account" />
@@ -535,15 +535,15 @@ Summarizes the distribution of active, ongoing opportunities organized by specif
   - Can Filter by Country, Company and Users.
  </details>
 
- - ##### 🧾 Columns included in the table view
+##### 🧾 Columns included in the table view
 
- | Field Name         | Description                                                                 |
-|-------------------|-----------------------------------------------------------------------------|
+| Field Name        | Description                                                   |
+| ----------------- | ------------------------------------------------------------- |
 | Account Name      | Name of the account associated with the opportunity.          |
-| Opportunity Owner | User responsible for managing and closing the opportunity.                 |
-| Close Month       | Month in which the opportunity is expected to close.                       |
-| January 2026      | Represents opportunities scheduled to close in January 2026.               |
-| Total             | Total value or count of opportunities for the selected month.              |
+| Opportunity Owner | User responsible for managing and closing the opportunity.    |
+| Close Month       | Month in which the opportunity is expected to close.          |
+| January 2026      | Represents opportunities scheduled to close in January 2026.  |
+| Total             | Total value or count of opportunities for the selected month. |
 
   <figure>
   <img src="/media/analytics/report/sales/executive-reports/open-opportunities-by-account-table-view.png" alt="open opportunities by account" />
@@ -593,22 +593,22 @@ Monitors all active opportunities expected to close within the current business 
   - Can Filter by Country, Company and Users.
  </details>
 
- - ##### 🧾 Columns included in the table view
+##### 🧾 Columns included in the table view
 
- | Field Name         | Description                                                                 |
-|-------------------|-----------------------------------------------------------------------------|
-| Stage             | Current phase of the opportunity in the sales pipeline.                    |
-| Type              | Category of the opportunity (e.g., New Business, Existing Customer).       |
-| Opportunity Name  | Unique name or title identifying the opportunity.                          |
-| Lead Source       | Origin from which the opportunity was generated (e.g., Web, Referral).     |
-| Amount            | Expected revenue value of the opportunity.                                 |
-| Close Date        | Expected or actual date when the opportunity will be closed.               |
-| Probability       | Likelihood (in %) of the opportunity being successfully closed.            |
-| Fiscal Period     | Financial period (month/quarter/year) associated with the opportunity.     |
-| Age               | Number of days since the opportunity was created.                          |
-| Created Date      | Date when the opportunity record was created.                              |
-| Opportunity Owner | User responsible for managing and closing the opportunity.                 |
-| Account Name      | Name of the associated customer or business account.                       |
+| Field Name        | Description                                                            |
+| ----------------- | ---------------------------------------------------------------------- |
+| Stage             | Current phase of the opportunity in the sales pipeline.                |
+| Type              | Category of the opportunity (e.g., New Business, Existing Customer).   |
+| Opportunity Name  | Unique name or title identifying the opportunity.                      |
+| Lead Source       | Origin from which the opportunity was generated (e.g., Web, Referral). |
+| Amount            | Expected revenue value of the opportunity.                             |
+| Close Date        | Expected or actual date when the opportunity will be closed.           |
+| Probability       | Likelihood (in %) of the opportunity being successfully closed.        |
+| Fiscal Period     | Financial period (month/quarter/year) associated with the opportunity. |
+| Age               | Number of days since the opportunity was created.                      |
+| Created Date      | Date when the opportunity record was created.                          |
+| Opportunity Owner | User responsible for managing and closing the opportunity.             |
+| Account Name      | Name of the associated customer or business account.                   |
 
   <figure>
   <img src="/media/analytics/report/sales/pipeline-reports/open-opportunities-in-q-table-view.png" alt="open opportunity in q" />
@@ -620,7 +620,7 @@ Monitors all active opportunities expected to close within the current business 
 
 ---
 
-### 💵 Pipeline Value In Q 
+### 💵 Pipeline Value In Q
 
 Calculates the projected financial value of all opportunities forecasted for this quarter.
 
@@ -656,22 +656,22 @@ Calculates the projected financial value of all opportunities forecasted for thi
   - Can Filter by Country, Company and Users.
  </details>
 
- - ##### 🧾 Columns included in the table view
+##### 🧾 Columns included in the table view
 
- | Field Name         | Description                                                                 |
-|-------------------|-----------------------------------------------------------------------------|
-| Stage             | Current phase of the opportunity in the sales pipeline.                    |
-| Type              | Category of the opportunity (e.g., New Business, Existing Customer).       |
-| Opportunity Name  | Unique name or title identifying the opportunity.                          |
-| Lead Source       | Origin from which the opportunity was generated (e.g., Web, Referral).     |
-| Amount            | Expected revenue value of the opportunity.                                 |
-| Close Date        | Expected or actual date when the opportunity will be closed.               |
-| Probability       | Likelihood (in %) of the opportunity being successfully closed.            |
-| Fiscal Period     | Financial period (month/quarter/year) associated with the opportunity.     |
-| Age               | Number of days since the opportunity was created.                          |
-| Created Date      | Date when the opportunity record was created.                              |
-| Opportunity Owner | User responsible for managing and closing the opportunity.                 |
-| Account Name      | Name of the associated customer or business account.                       |
+| Field Name        | Description                                                            |
+| ----------------- | ---------------------------------------------------------------------- |
+| Stage             | Current phase of the opportunity in the sales pipeline.                |
+| Type              | Category of the opportunity (e.g., New Business, Existing Customer).   |
+| Opportunity Name  | Unique name or title identifying the opportunity.                      |
+| Lead Source       | Origin from which the opportunity was generated (e.g., Web, Referral). |
+| Amount            | Expected revenue value of the opportunity.                             |
+| Close Date        | Expected or actual date when the opportunity will be closed.           |
+| Probability       | Likelihood (in %) of the opportunity being successfully closed.        |
+| Fiscal Period     | Financial period (month/quarter/year) associated with the opportunity. |
+| Age               | Number of days since the opportunity was created.                      |
+| Created Date      | Date when the opportunity record was created.                          |
+| Opportunity Owner | User responsible for managing and closing the opportunity.             |
+| Account Name      | Name of the associated customer or business account.                   |
 
   <figure>
   <img src="/media/analytics/report/sales/pipeline-reports/pipeline-value-in-q-table-view.png" alt="pipeline value in q" />
@@ -719,15 +719,15 @@ Identifies opportunities that have remained stagnant in the pipeline for an exte
   - Can Filter by Country, Company and Users.
  </details>
 
- - ##### 🧾 Columns included in the table view
+##### 🧾 Columns included in the table view
 
- | Field Name         | Description                                                                 |
-|-------------------|-----------------------------------------------------------------------------|
-| Opportunity Owner | User responsible for managing and closing the opportunity.                 |
-| Stage             | Current phase of the opportunity in the sales pipeline.                    |
-| Close Month       | Month in which the opportunity is expected to close.                       |
-| January 2026      | Represents opportunities scheduled to close in January 2026.               |
-| Total             | Total value or count of opportunities for the selected month.              |
+| Field Name        | Description                                                   |
+| ----------------- | ------------------------------------------------------------- |
+| Opportunity Owner | User responsible for managing and closing the opportunity.    |
+| Stage             | Current phase of the opportunity in the sales pipeline.       |
+| Close Month       | Month in which the opportunity is expected to close.          |
+| January 2026      | Represents opportunities scheduled to close in January 2026.  |
+| Total             | Total value or count of opportunities for the selected month. |
 
   <figure>
   <img src="/media/analytics/report/sales/pipeline-reports/stuck-opportunities-report-table-view.png" alt="stuck opportunities report" />
@@ -778,17 +778,17 @@ Highlights assigned accounts that lack recent interactions or engagement from th
   - Can Filter by Country, Company and Users.
  </details>
 
- - ##### 🧾 Columns included in the table view
+##### 🧾 Columns included in the table view
 
- | Field Name                     | Description                                                                 |
-|--------------------------------|-----------------------------------------------------------------------------|
-| Country                        | Geographic location of the accounts.                                        |
-| Total Target Accounts          | Total number of accounts targeted for engagement.                          |
-| Accounts Engaged               | Number of accounts with at least one interaction or engagement.            |
-| Accounts with Activity (%)     | Percentage of accounts that have recorded activity.                        |
-| Accounts with No Activity      | Number of accounts with no recorded interactions.                          |
-| No Activity (%)                | Percentage of accounts without any activity.                               |
-| Last Activity (Avg Days)       | Average number of days since the last recorded activity across accounts.   |
+| Field Name                 | Description                                                              |
+| -------------------------- | ------------------------------------------------------------------------ |
+| Country                    | Geographic location of the accounts.                                     |
+| Total Target Accounts      | Total number of accounts targeted for engagement.                        |
+| Accounts Engaged           | Number of accounts with at least one interaction or engagement.          |
+| Accounts with Activity (%) | Percentage of accounts that have recorded activity.                      |
+| Accounts with No Activity  | Number of accounts with no recorded interactions.                        |
+| No Activity (%)            | Percentage of accounts without any activity.                             |
+| Last Activity (Avg Days)   | Average number of days since the last recorded activity across accounts. |
 
   <figure>
   <img src="/media/analytics/report/sales/risk-reports/accounts-with-no-activity-table-view.png" alt="accounts with no activity" />
@@ -836,18 +836,18 @@ Flags active leads that have not received any follow-up or activity in over 48 h
   - Can Filter by Country, Company and Users.
  </details>
 
- - ##### 🧾 Columns included in the table view
+##### 🧾 Columns included in the table view
 
- | Field Name        | Description                                                                 |
-|------------------|-----------------------------------------------------------------------------|
-| Lead Owner       | User responsible for managing the lead.                                     |
-| First Name       | Lead’s given name.                                                          |
-| Last Name        | Lead’s family or surname.                                                   |
-| Title            | Job title or designation of the lead.                                       |
-| Company/Account  | Organization or business associated with the lead.                          |
-| Stage            | Current status of the lead in the lifecycle (e.g., New, Qualified).         |
-| Street           | Street address of the lead.                                                 |
-| Email            | Primary email address for communication with the lead.                      |
+| Field Name      | Description                                                         |
+| --------------- | ------------------------------------------------------------------- |
+| Lead Owner      | User responsible for managing the lead.                             |
+| First Name      | Lead’s given name.                                                  |
+| Last Name       | Lead’s family or surname.                                           |
+| Title           | Job title or designation of the lead.                               |
+| Company/Account | Organization or business associated with the lead.                  |
+| Stage           | Current status of the lead in the lifecycle (e.g., New, Qualified). |
+| Street          | Street address of the lead.                                         |
+| Email           | Primary email address for communication with the lead.              |
 
   <figure>
   <img src="/media/analytics/report/sales/risk-reports/leads-w-o-activity-48-hours-table-view.png" alt="leads w/o activity >48 hours" />
@@ -897,22 +897,22 @@ Breaks down successful deal conversions on a quarterly basis to track seasonal p
   - Can Filter by Country, Company and Users.
  </details>
 
-  - ##### 🧾 Columns included in the table view
+##### 🧾 Columns included in the table view
 
- | Field Name         | Description                                                                 |
-|-------------------|-----------------------------------------------------------------------------|
-| Type              | Category of the opportunity (e.g., New Business, Existing Customer).       |
-| Fiscal Period     | Financial period (month/quarter/year) associated with the opportunity.     |
-| Account Name      | Name of the customer or business linked to the opportunity.                |
-| Opportunity Name  | Unique name or title identifying the opportunity.                          |
-| Lead Source       | Origin from which the opportunity was generated (e.g., Web, Referral).     |
-| Amount            | Expected revenue value of the opportunity.                                 |
-| Close Date        | Expected or actual date when the opportunity will be closed.               |
-| Stage             | Current phase of the opportunity in the sales pipeline.                    |
-| Probability       | Likelihood (in %) of the opportunity being successfully closed.            |
-| Age               | Number of days since the opportunity was created.                          |
-| Created Date      | Date when the opportunity record was created.                              |
-| Opportunity Owner | User responsible for managing and closing the opportunity.                 |
+| Field Name        | Description                                                            |
+| ----------------- | ---------------------------------------------------------------------- |
+| Type              | Category of the opportunity (e.g., New Business, Existing Customer).   |
+| Fiscal Period     | Financial period (month/quarter/year) associated with the opportunity. |
+| Account Name      | Name of the customer or business linked to the opportunity.            |
+| Opportunity Name  | Unique name or title identifying the opportunity.                      |
+| Lead Source       | Origin from which the opportunity was generated (e.g., Web, Referral). |
+| Amount            | Expected revenue value of the opportunity.                             |
+| Close Date        | Expected or actual date when the opportunity will be closed.           |
+| Stage             | Current phase of the opportunity in the sales pipeline.                |
+| Probability       | Likelihood (in %) of the opportunity being successfully closed.        |
+| Age               | Number of days since the opportunity was created.                      |
+| Created Date      | Date when the opportunity record was created.                          |
+| Opportunity Owner | User responsible for managing and closing the opportunity.             |
 
   <figure>
   <img src="/media/analytics/report/sales/closed-won-reports/closed-won-by-quarter-table-view.png" alt="closed won by quarter" />
@@ -961,21 +961,21 @@ Details the volume and value of successfully closed deals attributed to each sal
   - Can Filter by Country, Company and Users.
  </details>
 
-  - ##### 🧾 Columns included in the table view
+##### 🧾 Columns included in the table view
 
-  | Field Name         | Description                                                                 |
-|-------------------|-----------------------------------------------------------------------------|
-| Fiscal Period     | Financial period (month/quarter/year) associated with the opportunity.     |
-| Opportunity Owner | User responsible for managing and closing the opportunity.                 |
-| Lead Source       | Origin from which the opportunity was generated (e.g., Web, Referral).     |
-| Opportunity Name  | Unique name or title identifying the opportunity.                          |
-| Amount            | Expected revenue value of the opportunity.                                 |
-| Closed Date       | Actual date when the opportunity was successfully closed.                  |
-| Stage             | Current phase of the opportunity in the sales pipeline.                    |
-| Probability       | Likelihood (in %) of the opportunity being successfully closed.            |
-| Age               | Number of days since the opportunity was created.                          |
-| Created Date      | Date when the opportunity record was created.                              |
-| Account Name      | Name of the customer or business linked to the opportunity.                |
+| Field Name        | Description                                                            |
+| ----------------- | ---------------------------------------------------------------------- |
+| Fiscal Period     | Financial period (month/quarter/year) associated with the opportunity. |
+| Opportunity Owner | User responsible for managing and closing the opportunity.             |
+| Lead Source       | Origin from which the opportunity was generated (e.g., Web, Referral). |
+| Opportunity Name  | Unique name or title identifying the opportunity.                      |
+| Amount            | Expected revenue value of the opportunity.                             |
+| Closed Date       | Actual date when the opportunity was successfully closed.              |
+| Stage             | Current phase of the opportunity in the sales pipeline.                |
+| Probability       | Likelihood (in %) of the opportunity being successfully closed.        |
+| Age               | Number of days since the opportunity was created.                      |
+| Created Date      | Date when the opportunity record was created.                          |
+| Account Name      | Name of the customer or business linked to the opportunity.            |
 
   <figure>
   <img src="/media/analytics/report/sales/closed-won-reports/closed-won-by-owner-table-view.png" alt="closed won by owner" />
@@ -1023,22 +1023,22 @@ Categorizes finalized sales by opportunity or customer type to identify key reve
   - Can Filter by Country, Company and Users.
  </details>
 
-  - ##### 🧾 Columns included in the table view
+##### 🧾 Columns included in the table view
 
- | Field Name         | Description                                                                 |
-|-------------------|-----------------------------------------------------------------------------|
-| Type              | Category of the opportunity (e.g., New Business, Existing Customer).       |
-| Fiscal Period     | Financial period (month/quarter/year) associated with the opportunity.     |
-| Account Name      | Name of the customer or business linked to the opportunity.                |
-| Opportunity Name  | Unique name or title identifying the opportunity.                          |
-| Lead Source       | Origin from which the opportunity was generated (e.g., Web, Referral).     |
-| Amount            | Expected revenue value of the opportunity.                                 |
-| Close Date        | Expected or actual date when the opportunity will be closed.               |
-| Stage             | Current phase of the opportunity in the sales pipeline.                    |
-| Probability       | Likelihood (in %) of the opportunity being successfully closed.            |
-| Age               | Number of days since the opportunity was created.                          |
-| Created Date      | Date when the opportunity record was created.                              |
-| Opportunity Owner | User responsible for managing and closing the opportunity.                 |
+| Field Name        | Description                                                            |
+| ----------------- | ---------------------------------------------------------------------- |
+| Type              | Category of the opportunity (e.g., New Business, Existing Customer).   |
+| Fiscal Period     | Financial period (month/quarter/year) associated with the opportunity. |
+| Account Name      | Name of the customer or business linked to the opportunity.            |
+| Opportunity Name  | Unique name or title identifying the opportunity.                      |
+| Lead Source       | Origin from which the opportunity was generated (e.g., Web, Referral). |
+| Amount            | Expected revenue value of the opportunity.                             |
+| Close Date        | Expected or actual date when the opportunity will be closed.           |
+| Stage             | Current phase of the opportunity in the sales pipeline.                |
+| Probability       | Likelihood (in %) of the opportunity being successfully closed.        |
+| Age               | Number of days since the opportunity was created.                      |
+| Created Date      | Date when the opportunity record was created.                          |
+| Opportunity Owner | User responsible for managing and closing the opportunity.             |
 
   <figure>
   <img src="/media/analytics/report/sales/closed-won-reports/closed-won-by-type-table-view.png" alt="closed won by type" />
@@ -1089,21 +1089,21 @@ Details the primary factors contributing to lost deals to inform training and pr
   - Can Filter by Country, Company and Users.
  </details>
 
-  - ##### 🧾 Columns included in the table view
+##### 🧾 Columns included in the table view
 
-  | Field Name         | Description                                                                 |
-|-------------------|-----------------------------------------------------------------------------|
-| Fiscal Period     | Financial period (month/quarter/year) associated with the opportunity.     |
-| Closed Reason     | Reason why the opportunity was closed (won or lost).                       |
-| Opportunity Name  | Unique name or title identifying the opportunity.                          |
-| Lead Source       | Origin from which the opportunity was generated (e.g., Web, Referral).     |
-| Amount            | Expected or actual revenue value of the opportunity.                       |
-| Close Date        | Expected or actual date when the opportunity will be closed.               |
-| Stage             | Current phase of the opportunity in the sales pipeline.                    |
-| Probability       | Likelihood (in %) of the opportunity being successfully closed.            |
-| Age               | Number of days since the opportunity was created.                          |
-| Created Date      | Date when the opportunity record was created.                              |
-| Opportunity Owner | User responsible for managing and closing the opportunity.                 |
+| Field Name        | Description                                                            |
+| ----------------- | ---------------------------------------------------------------------- |
+| Fiscal Period     | Financial period (month/quarter/year) associated with the opportunity. |
+| Closed Reason     | Reason why the opportunity was closed (won or lost).                   |
+| Opportunity Name  | Unique name or title identifying the opportunity.                      |
+| Lead Source       | Origin from which the opportunity was generated (e.g., Web, Referral). |
+| Amount            | Expected or actual revenue value of the opportunity.                   |
+| Close Date        | Expected or actual date when the opportunity will be closed.           |
+| Stage             | Current phase of the opportunity in the sales pipeline.                |
+| Probability       | Likelihood (in %) of the opportunity being successfully closed.        |
+| Age               | Number of days since the opportunity was created.                      |
+| Created Date      | Date when the opportunity record was created.                          |
+| Opportunity Owner | User responsible for managing and closing the opportunity.             |
 
   <figure>
   <img src="/media/analytics/report/sales/loss-analysis/closed-lost-by-reason-table-view.png" alt="close lost by reason" />
@@ -1153,14 +1153,14 @@ Measures the standard value of closed deals to establish benchmarks for revenue 
   - Can Filter by Country, Company and Users.
  </details>
 
- - ##### 🧾 Columns included in the table view
+##### 🧾 Columns included in the table view
 
- | Field Name         | Description                                                                 |
-|-------------------|-----------------------------------------------------------------------------|
-| Opportunity Owner | User responsible for managing and closing the opportunity.                 |
-| Close Month       | Month in which the opportunity is expected to close.                       |
-| January 2026      | Represents opportunities scheduled to close in January 2026.               |
-| Total             | Total value or count of opportunities for the selected month.              |
+| Field Name        | Description                                                   |
+| ----------------- | ------------------------------------------------------------- |
+| Opportunity Owner | User responsible for managing and closing the opportunity.    |
+| Close Month       | Month in which the opportunity is expected to close.          |
+| January 2026      | Represents opportunities scheduled to close in January 2026.  |
+| Total             | Total value or count of opportunities for the selected month. |
 
   <figure>
   <img src="/media/analytics/report/sales/performance-metrics/average-deal-size-table-view.png" alt="average deal size" />
@@ -1208,14 +1208,14 @@ Calculates the typical time required to convert an opportunity from creation to 
   - Can Filter by Country, Company and Users.
  </details>
 
-  - ##### 🧾 Columns included in the table view
+##### 🧾 Columns included in the table view
 
-| Field Name         | Description                                                                 |
-|-------------------|-----------------------------------------------------------------------------|
-| Opportunity Owner | User responsible for managing and closing the opportunity.                 |
-| Close Month       | Month in which the opportunity is expected to close.                       |
-| January 2026      | Represents opportunities scheduled to close in January 2026.               |
-| Total             | Total value or count of opportunities for the selected month.              |
+| Field Name        | Description                                                   |
+| ----------------- | ------------------------------------------------------------- |
+| Opportunity Owner | User responsible for managing and closing the opportunity.    |
+| Close Month       | Month in which the opportunity is expected to close.          |
+| January 2026      | Represents opportunities scheduled to close in January 2026.  |
+| Total             | Total value or count of opportunities for the selected month. |
 
   <figure>
   <img src="/media/analytics/report/sales/performance-metrics/average-days-to-close-table-view.png" alt="average days to close" />
@@ -1263,20 +1263,20 @@ Showcases the overall win rate for the current financial year to evaluate annual
   - Can Filter by Country, Company and Users.
  </details>
 
-  - ##### 🧾 Columns included in the table view
+##### 🧾 Columns included in the table view
 
- | Field Name         | Description                                                                 |
-|-------------------|-----------------------------------------------------------------------------|
-| Opportunity Owner | User responsible for managing and closing the opportunity.                 |
-| Stage             | Current phase of the opportunity in the sales pipeline.                    |
-| Opportunity Name  | Unique name or title identifying the opportunity.                          |
-| Lead Source       | Origin from which the opportunity was generated (e.g., Web, Referral).     |
-| Amount            | Expected or actual revenue value of the opportunity.                       |
-| Closed Date       | Actual date when the opportunity was closed.                               |
-| Probability       | Likelihood (in %) of the opportunity being successfully closed.            |
-| Age               | Number of days since the opportunity was created.                          |
-| Created Date      | Date when the opportunity record was created.                              |
-| Win Ratio         | Percentage of won opportunities compared to total opportunities.           |
+| Field Name        | Description                                                            |
+| ----------------- | ---------------------------------------------------------------------- |
+| Opportunity Owner | User responsible for managing and closing the opportunity.             |
+| Stage             | Current phase of the opportunity in the sales pipeline.                |
+| Opportunity Name  | Unique name or title identifying the opportunity.                      |
+| Lead Source       | Origin from which the opportunity was generated (e.g., Web, Referral). |
+| Amount            | Expected or actual revenue value of the opportunity.                   |
+| Closed Date       | Actual date when the opportunity was closed.                           |
+| Probability       | Likelihood (in %) of the opportunity being successfully closed.        |
+| Age               | Number of days since the opportunity was created.                      |
+| Created Date      | Date when the opportunity record was created.                          |
+| Win Ratio         | Percentage of won opportunities compared to total opportunities.       |
 
   <figure>
   <img src="/media/analytics/report/sales/performance-metrics/win-ratio-current-fy-table-view.png" alt="win ratio current fy" />
@@ -1324,14 +1324,14 @@ Focuses on high-confidence opportunities that have a 70% or greater likelihood o
   - Can Filter by Country, Company and Users.
  </details>
 
-  - ##### 🧾 Columns included in the table view
+##### 🧾 Columns included in the table view
 
- | Field Name         | Description                                                                 |
-|-------------------|-----------------------------------------------------------------------------|
-| Opportunity Stage | Current phase of the opportunity in the sales pipeline.                    |
-| Close Quarter     | Quarter in which the opportunity is expected to close.                     |
-| Q1 FY 2026        | Represents opportunities scheduled to close in the first quarter of FY 2026.|
-| Total             | Total value or count of opportunities for the selected quarter.            |
+| Field Name        | Description                                                                  |
+| ----------------- | ---------------------------------------------------------------------------- |
+| Opportunity Stage | Current phase of the opportunity in the sales pipeline.                      |
+| Close Quarter     | Quarter in which the opportunity is expected to close.                       |
+| Q1 FY 2026        | Represents opportunities scheduled to close in the first quarter of FY 2026. |
+| Total             | Total value or count of opportunities for the selected quarter.              |
 
   <figure>
   <img src="/media/analytics/report/sales/performance-metrics/probability-less-than-70-percent-opportunities-table-view.png" alt="probability >= 70% opportunities" />
@@ -1381,15 +1381,15 @@ Spotlights individual rep success by highlighting the total number of deals they
   - Can Filter by Country, Company and Users.
  </details>
 
- - ##### 🧾 Columns included in the table view
+##### 🧾 Columns included in the table view
 
- | Field Name         | Description                                                                 |
-|-------------------|-----------------------------------------------------------------------------|
-| Opportunity Owner | User responsible for managing and closing the opportunity.                 |
-| Lead Source       | Origin from which the opportunity was generated (e.g., Web, Referral).     |
-| Fiscal Period     | Financial period (month/quarter/year) associated with the opportunity.     |
-| Q1 2026           | Represents opportunities within the first quarter of the year 2026.        |
-| Total             | Total value or count of opportunities for the selected fiscal period.      |
+| Field Name        | Description                                                            |
+| ----------------- | ---------------------------------------------------------------------- |
+| Opportunity Owner | User responsible for managing and closing the opportunity.             |
+| Lead Source       | Origin from which the opportunity was generated (e.g., Web, Referral). |
+| Fiscal Period     | Financial period (month/quarter/year) associated with the opportunity. |
+| Q1 2026           | Represents opportunities within the first quarter of the year 2026.    |
+| Total             | Total value or count of opportunities for the selected fiscal period.  |
 
   <figure>
   <img src="/media/analytics/report/sales/sales-manager-performance/closed-won-by-rep-table-view.png" alt="closed won by rep" />
@@ -1438,23 +1438,23 @@ Ranks sales representatives based on the volume of new opportunities they have s
   - Can Filter by Country, Company and Users.
  </details>
 
- - ##### 🧾 Columns included in the table view
+##### 🧾 Columns included in the table view
 
- | Field Name         | Description                                                                 |
-|-------------------|-----------------------------------------------------------------------------|
-| Close Month       | Month in which the opportunity is expected to close.                       |
-| Opportunity Owner | User responsible for managing and closing the opportunity.                 |
-| Stage             | Current phase of the opportunity in the sales pipeline.                    |
-| Account Name      | Name of the customer or business linked to the opportunity.                |
-| Opportunity Name  | Unique name or title identifying the opportunity.                          |
-| Fiscal Period     | Financial period (month/quarter/year) associated with the opportunity.     |
-| Amount            | Expected revenue value of the opportunity.                                 |
-| Probability       | Likelihood (in %) of the opportunity being successfully closed.            |
-| Age               | Number of days since the opportunity was created.                          |
-| Close Date        | Expected or actual date when the opportunity will be closed.               |
-| Created Date      | Date when the opportunity record was created.                              |
-| Lead Source       | Origin from which the opportunity was generated (e.g., Web, Referral).     |
-| Type              | Category of the opportunity (e.g., New Business, Existing Customer).       |
+| Field Name        | Description                                                            |
+| ----------------- | ---------------------------------------------------------------------- |
+| Close Month       | Month in which the opportunity is expected to close.                   |
+| Opportunity Owner | User responsible for managing and closing the opportunity.             |
+| Stage             | Current phase of the opportunity in the sales pipeline.                |
+| Account Name      | Name of the customer or business linked to the opportunity.            |
+| Opportunity Name  | Unique name or title identifying the opportunity.                      |
+| Fiscal Period     | Financial period (month/quarter/year) associated with the opportunity. |
+| Amount            | Expected revenue value of the opportunity.                             |
+| Probability       | Likelihood (in %) of the opportunity being successfully closed.        |
+| Age               | Number of days since the opportunity was created.                      |
+| Close Date        | Expected or actual date when the opportunity will be closed.           |
+| Created Date      | Date when the opportunity record was created.                          |
+| Lead Source       | Origin from which the opportunity was generated (e.g., Web, Referral). |
+| Type              | Category of the opportunity (e.g., New Business, Existing Customer).   |
 
   <figure>
   <img src="/media/analytics/report/sales/sales-manager-performance/new-opportunities-leaderboard-table-view.png" alt="new opportunities leaderboard" />
@@ -1502,15 +1502,15 @@ Ranks team members by the total number of logged sales activities and active eng
   - Can Filter by Country, Company and Users.
  </details>
 
- - ##### 🧾 Columns included in the table view
+##### 🧾 Columns included in the table view
 
- | Field Name         | Description                                                                 |
-|-------------------|-----------------------------------------------------------------------------|
-| Opportunity Owner | User responsible for managing and owning the opportunity.                  |
-| Assigned          | Indicates when or to whom the opportunity was assigned.                    |
-| Created Date      | Date when the opportunity record was created.                              |
-| January 2026      | Represents opportunities created or assigned in January 2026.              |
-| Total             | Total value or count of opportunities for the selected period.             |
+| Field Name        | Description                                                    |
+| ----------------- | -------------------------------------------------------------- |
+| Opportunity Owner | User responsible for managing and owning the opportunity.      |
+| Assigned          | Indicates when or to whom the opportunity was assigned.        |
+| Created Date      | Date when the opportunity record was created.                  |
+| January 2026      | Represents opportunities created or assigned in January 2026.  |
+| Total             | Total value or count of opportunities for the selected period. |
 
   <figure>
   <img src="/media/analytics/report/sales/sales-manager-performance/activities-leaderboard-table-view.png" alt="activities leaderboard" />
@@ -1558,22 +1558,22 @@ Displays the total financial contribution generated by individual sales represen
   - Can Filter by Country, Company and Users.
  </details>
 
- - ##### 🧾 Columns included in the table view
+##### 🧾 Columns included in the table view
 
- | Field Name         | Description                                                                 |
-|-------------------|-----------------------------------------------------------------------------|
-| Account Name      | Name of the customer or business linked to the opportunity.                |
-| Opportunity Owner | User responsible for managing and closing the opportunity.                 |
-| Opportunity Name  | Unique name or title identifying the opportunity.                          |
-| Stage             | Current phase of the opportunity in the sales pipeline.                    |
-| Fiscal Period     | Financial period (month/quarter/year) associated with the opportunity.     |
-| Amount            | Expected revenue value of the opportunity.                                 |
-| Probability       | Likelihood (in %) of the opportunity being successfully closed.            |
-| Age               | Number of days since the opportunity was created.                          |
-| Close Date        | Expected or actual date when the opportunity will be closed.               |
-| Created Date      | Date when the opportunity record was created.                              |
-| Lead Source       | Origin from which the opportunity was generated (e.g., Web, Referral).     |
-| Type              | Category of the opportunity (e.g., New Business, Existing Customer).       |
+| Field Name        | Description                                                            |
+| ----------------- | ---------------------------------------------------------------------- |
+| Account Name      | Name of the customer or business linked to the opportunity.            |
+| Opportunity Owner | User responsible for managing and closing the opportunity.             |
+| Opportunity Name  | Unique name or title identifying the opportunity.                      |
+| Stage             | Current phase of the opportunity in the sales pipeline.                |
+| Fiscal Period     | Financial period (month/quarter/year) associated with the opportunity. |
+| Amount            | Expected revenue value of the opportunity.                             |
+| Probability       | Likelihood (in %) of the opportunity being successfully closed.        |
+| Age               | Number of days since the opportunity was created.                      |
+| Close Date        | Expected or actual date when the opportunity will be closed.           |
+| Created Date      | Date when the opportunity record was created.                          |
+| Lead Source       | Origin from which the opportunity was generated (e.g., Web, Referral). |
+| Type              | Category of the opportunity (e.g., New Business, Existing Customer).   |
 
   <figure>
   <img src="/media/analytics/report/sales/sales-manager-performance/revenue-by-rep-table-view.png" alt="revenue by rep" />
@@ -1621,22 +1621,22 @@ Provides a personalized view of all active opportunities currently assigned to t
   - Can Filter by Country, Company and Users.
  </details>
 
-  - ##### 🧾 Columns included in the table view
+##### 🧾 Columns included in the table view
 
- | Field Name         | Description                                                                 |
-|-------------------|-----------------------------------------------------------------------------|
-| Close Month       | Month in which the opportunity is expected to close.                       |
-| Opportunity Owner | User responsible for managing and closing the opportunity.                 |
-| Account Name      | Name of the customer or business linked to the opportunity.                |
-| Opportunity Name  | Unique name or title identifying the opportunity.                          |
-| Fiscal Period     | Financial period (month/quarter/year) associated with the opportunity.     |
-| Amount            | Expected revenue value of the opportunity.                                 |
-| Probability       | Likelihood (in %) of the opportunity being successfully closed.            |
-| Age               | Number of days since the opportunity was created.                          |
-| Close Date        | Expected or actual date when the opportunity will be closed.               |
-| Created Date      | Date when the opportunity record was created.                              |
-| Lead Source       | Origin from which the opportunity was generated (e.g., Web, Referral).     |
-| Type              | Category of the opportunity (e.g., New Business, Existing Customer).       |
+| Field Name        | Description                                                            |
+| ----------------- | ---------------------------------------------------------------------- |
+| Close Month       | Month in which the opportunity is expected to close.                   |
+| Opportunity Owner | User responsible for managing and closing the opportunity.             |
+| Account Name      | Name of the customer or business linked to the opportunity.            |
+| Opportunity Name  | Unique name or title identifying the opportunity.                      |
+| Fiscal Period     | Financial period (month/quarter/year) associated with the opportunity. |
+| Amount            | Expected revenue value of the opportunity.                             |
+| Probability       | Likelihood (in %) of the opportunity being successfully closed.        |
+| Age               | Number of days since the opportunity was created.                      |
+| Close Date        | Expected or actual date when the opportunity will be closed.           |
+| Created Date      | Date when the opportunity record was created.                          |
+| Lead Source       | Origin from which the opportunity was generated (e.g., Web, Referral). |
+| Type              | Category of the opportunity (e.g., New Business, Existing Customer).   |
 
   <figure>
   <img src="/media/analytics/report/sales/sales-rep-workspace/my-open-opportunities-table-view.png" alt="my open opportunities" />
@@ -1682,22 +1682,22 @@ Summarizes the user's successful deal closures from the beginning of the current
   - Can Filter by Country, Company and Users.
  </details>
 
-  - ##### 🧾 Columns included in the table view
+##### 🧾 Columns included in the table view
 
- | Field Name         | Description                                                                 |
-|-------------------|-----------------------------------------------------------------------------|
-| Close Month       | Month in which the opportunity is expected to close.                       |
-| Opportunity Owner | User responsible for managing and closing the opportunity.                 |
-| Account Name      | Name of the customer or business linked to the opportunity.                |
-| Opportunity Name  | Unique name or title identifying the opportunity.                          |
-| Fiscal Period     | Financial period (month/quarter/year) associated with the opportunity.     |
-| Amount            | Expected revenue value of the opportunity.                                 |
-| Probability       | Likelihood (in %) of the opportunity being successfully closed.            |
-| Age               | Number of days since the opportunity was created.                          |
-| Close Date        | Expected or actual date when the opportunity will be closed.               |
-| Created Date      | Date when the opportunity record was created.                              |
-| Lead Source       | Origin from which the opportunity was generated (e.g., Web, Referral).     |
-| Type              | Category of the opportunity (e.g., New Business, Existing Customer).       |
+| Field Name        | Description                                                            |
+| ----------------- | ---------------------------------------------------------------------- |
+| Close Month       | Month in which the opportunity is expected to close.                   |
+| Opportunity Owner | User responsible for managing and closing the opportunity.             |
+| Account Name      | Name of the customer or business linked to the opportunity.            |
+| Opportunity Name  | Unique name or title identifying the opportunity.                      |
+| Fiscal Period     | Financial period (month/quarter/year) associated with the opportunity. |
+| Amount            | Expected revenue value of the opportunity.                             |
+| Probability       | Likelihood (in %) of the opportunity being successfully closed.        |
+| Age               | Number of days since the opportunity was created.                      |
+| Close Date        | Expected or actual date when the opportunity will be closed.           |
+| Created Date      | Date when the opportunity record was created.                          |
+| Lead Source       | Origin from which the opportunity was generated (e.g., Web, Referral). |
+| Type              | Category of the opportunity (e.g., New Business, Existing Customer).   |
 
   <figure>
   <img src="/media/analytics/report/sales/sales-rep-workspace/my-closed-won-mtd-table-view.png" alt="my closed won mtd" />
@@ -1743,22 +1743,22 @@ Summarizes the user's successful deal closures from the beginning of the current
   - Can Filter by Country, Company and Users.
  </details>
 
-  - ##### 🧾 Columns included in the table view
+##### 🧾 Columns included in the table view
 
- | Field Name         | Description                                                                 |
-|-------------------|-----------------------------------------------------------------------------|
-| Type              | Category of the opportunity (e.g., New Business, Existing Customer).       |
-| Fiscal Period     | Financial period (month/quarter/year) associated with the opportunity.     |
-| Account Name      | Name of the customer or business linked to the opportunity.                |
-| Opportunity Name  | Unique name or title identifying the opportunity.                          |
-| Lead Source       | Origin from which the opportunity was generated (e.g., Web, Referral).     |
-| Amount            | Expected revenue value of the opportunity.                                 |
-| Close Date        | Expected or actual date when the opportunity will be closed.               |
-| Stage             | Current phase of the opportunity in the sales pipeline.                    |
-| Probability       | Likelihood (in %) of the opportunity being successfully closed.            |
-| Age               | Number of days since the opportunity was created.                          |
-| Created Date      | Date when the opportunity record was created.                              |
-| Opportunity Owner | User responsible for managing and closing the opportunity.                 |
+| Field Name        | Description                                                            |
+| ----------------- | ---------------------------------------------------------------------- |
+| Type              | Category of the opportunity (e.g., New Business, Existing Customer).   |
+| Fiscal Period     | Financial period (month/quarter/year) associated with the opportunity. |
+| Account Name      | Name of the customer or business linked to the opportunity.            |
+| Opportunity Name  | Unique name or title identifying the opportunity.                      |
+| Lead Source       | Origin from which the opportunity was generated (e.g., Web, Referral). |
+| Amount            | Expected revenue value of the opportunity.                             |
+| Close Date        | Expected or actual date when the opportunity will be closed.           |
+| Stage             | Current phase of the opportunity in the sales pipeline.                |
+| Probability       | Likelihood (in %) of the opportunity being successfully closed.        |
+| Age               | Number of days since the opportunity was created.                      |
+| Created Date      | Date when the opportunity record was created.                          |
+| Opportunity Owner | User responsible for managing and closing the opportunity.             |
 
   <figure>
   <img src="/media/analytics/report/sales/sales-rep-workspace/my-closed-won-qtd-table-view.png" alt="my closed won qtd" />
@@ -1806,15 +1806,15 @@ Alerts the user to their own opportunities that have stalled and require immedia
   - Can Filter by Country, Company and Users.
  </details>
 
-  - ##### 🧾 Columns included in the table view
+##### 🧾 Columns included in the table view
 
-  | Field Name         | Description                                                                 |
-|-------------------|-----------------------------------------------------------------------------|
-| Opportunity Owner | User responsible for managing and closing the opportunity.                 |
-| Stage             | Current phase of the opportunity in the sales pipeline.                    |
-| Close Month       | Month in which the opportunity is expected to close.                       |
-| January 2026      | Represents opportunities scheduled to close in January 2026.               |
-| Total             | Total value or count of opportunities for the selected month.              |
+| Field Name        | Description                                                   |
+| ----------------- | ------------------------------------------------------------- |
+| Opportunity Owner | User responsible for managing and closing the opportunity.    |
+| Stage             | Current phase of the opportunity in the sales pipeline.       |
+| Close Month       | Month in which the opportunity is expected to close.          |
+| January 2026      | Represents opportunities scheduled to close in January 2026.  |
+| Total             | Total value or count of opportunities for the selected month. |
 
   <figure>
   <img src="/media/analytics/report/sales/sales-rep-workspace/my-stuck-opportunities-table-view.png" alt="my stuck opportunities" />
@@ -1862,22 +1862,22 @@ Highlights the user's most valuable and high-priority accounts based on deal siz
   - Can Filter by Country, Company and Users.
  </details>
 
-  - ##### 🧾 Columns included in the table view
+##### 🧾 Columns included in the table view
 
- | Field Name         | Description                                                                 |
-|-------------------|-----------------------------------------------------------------------------|
-| Account Name      | Name of the customer or business linked to the opportunity.                |
-| Opportunity Owner | User responsible for managing and closing the opportunity.                 |
-| Opportunity Name  | Unique name or title identifying the opportunity.                          |
-| Stage             | Current phase of the opportunity in the sales pipeline.                    |
-| Fiscal Period     | Financial period (month/quarter/year) associated with the opportunity.     |
-| Amount            | Expected revenue value of the opportunity.                                 |
-| Probability       | Likelihood (in %) of the opportunity being successfully closed.            |
-| Age               | Number of days since the opportunity was created.                          |
-| Close Date        | Expected or actual date when the opportunity will be closed.               |
-| Created Date      | Date when the opportunity record was created.                              |
-| Lead Source       | Origin from which the opportunity was generated (e.g., Web, Referral).     |
-| Type              | Category of the opportunity (e.g., New Business, Existing Customer).       |
+| Field Name        | Description                                                            |
+| ----------------- | ---------------------------------------------------------------------- |
+| Account Name      | Name of the customer or business linked to the opportunity.            |
+| Opportunity Owner | User responsible for managing and closing the opportunity.             |
+| Opportunity Name  | Unique name or title identifying the opportunity.                      |
+| Stage             | Current phase of the opportunity in the sales pipeline.                |
+| Fiscal Period     | Financial period (month/quarter/year) associated with the opportunity. |
+| Amount            | Expected revenue value of the opportunity.                             |
+| Probability       | Likelihood (in %) of the opportunity being successfully closed.        |
+| Age               | Number of days since the opportunity was created.                      |
+| Close Date        | Expected or actual date when the opportunity will be closed.           |
+| Created Date      | Date when the opportunity record was created.                          |
+| Lead Source       | Origin from which the opportunity was generated (e.g., Web, Referral). |
+| Type              | Category of the opportunity (e.g., New Business, Existing Customer).   |
 
   <figure>
   <img src="/media/analytics/report/sales/sales-rep-workspace/my-top-accounts-table-view.png" alt="my top accounts" />
@@ -1891,7 +1891,7 @@ Highlights the user's most valuable and high-priority accounts based on deal siz
 
 ## 🦈 Shark Tank Dashboard Reports
 
-### 🤝 Performance By Partner: Shark Tank 
+### 🤝 Performance By Partner: Shark Tank
 
 Evaluates collaborative sales performance metrics specific to the Shark Tank routing structure.
 
@@ -1927,16 +1927,16 @@ Evaluates collaborative sales performance metrics specific to the Shark Tank rou
   - Can Filter by Country, Company and Users.
  </details>
 
-  - ##### 🧾 Columns included in the table view
+##### 🧾 Columns included in the table view
 
-  | Field Name            | Description                                                                 |
-|----------------------|-----------------------------------------------------------------------------|
-| Partner Name         | Name of the partner associated with opportunities or records.              |
-| Records              | Total number of records linked to the partner.                             |
-| Assigned             | Number of records assigned to the partner.                                 |
-| In Progress          | Number of records currently being worked on by the partner.                |
-| Opportunity          | Total number of opportunities generated by the partner.                    |
-| Conversion Rate      | Percentage of opportunities converted into successful deals by the partner.|
+| Field Name      | Description                                                                 |
+| --------------- | --------------------------------------------------------------------------- |
+| Partner Name    | Name of the partner associated with opportunities or records.               |
+| Records         | Total number of records linked to the partner.                              |
+| Assigned        | Number of records assigned to the partner.                                  |
+| In Progress     | Number of records currently being worked on by the partner.                 |
+| Opportunity     | Total number of opportunities generated by the partner.                     |
+| Conversion Rate | Percentage of opportunities converted into successful deals by the partner. |
 
   <figure>
   <img src="/media/analytics/report/sales/shark-tank-dashboard-reports/performance-by-partner-shark-tank-table-view.png" alt="performance by partner: shark tank" />
@@ -1984,15 +1984,15 @@ Aggregates performance data collectively across all partners within the Shark Ta
   - Can Filter by Country, Company and Users.
  </details>
 
-  - ##### 🧾 Columns included in the table view
+##### 🧾 Columns included in the table view
 
-  | Field Name            | Description                                                                 |
-|----------------------|-----------------------------------------------------------------------------|
-| Records              | Total number of records linked to the partner.                             |
-| Assigned             | Number of records assigned to the partner.                                 |
-| In Progress          | Number of records currently being worked on by the partner.                |
-| Opportunity          | Total number of opportunities generated by the partner.                    |
-| Conversion Rate      | Percentage of opportunities converted into successful deals by the partner.|
+| Field Name      | Description                                                                 |
+| --------------- | --------------------------------------------------------------------------- |
+| Records         | Total number of records linked to the partner.                              |
+| Assigned        | Number of records assigned to the partner.                                  |
+| In Progress     | Number of records currently being worked on by the partner.                 |
+| Opportunity     | Total number of opportunities generated by the partner.                     |
+| Conversion Rate | Percentage of opportunities converted into successful deals by the partner. |
 
   <figure>
   <img src="/media/analytics/report/sales/shark-tank-dashboard-reports/total-across-all-partners-shark-tank-table-view.png" alt="total across all partners: shark tank" />
@@ -2006,7 +2006,7 @@ Aggregates performance data collectively across all partners within the Shark Ta
 
 ## 🔄 Round Robin Dashboard Reports
 
-### 🤝 Performance By Partner: Round Robin 
+### 🤝 Performance By Partner: Round Robin
 
 Appraises partner performance levels managed under the Round Robin distribution system.
 
@@ -2043,16 +2043,16 @@ Appraises partner performance levels managed under the Round Robin distribution 
   - Can Filter by Country, Company and Users.
  </details>
 
-  - ##### 🧾 Columns included in the table view
+##### 🧾 Columns included in the table view
 
-  | Field Name            | Description                                                                 |
-|----------------------|-----------------------------------------------------------------------------|
-| Partner Name         | Name of the partner receiving records through round robin distribution.    |
-| Records              | Total number of records distributed to the partner.                        |
-| Assigned             | Number of records assigned to the partner via round robin.                 |
-| In Progress          | Number of records currently being worked on by the partner.                |
-| Opportunity          | Total number of opportunities generated from assigned records.             |
-| Conversion Rate      | Percentage of opportunities converted into successful deals by the partner.|
+| Field Name      | Description                                                                 |
+| --------------- | --------------------------------------------------------------------------- |
+| Partner Name    | Name of the partner receiving records through round robin distribution.     |
+| Records         | Total number of records distributed to the partner.                         |
+| Assigned        | Number of records assigned to the partner via round robin.                  |
+| In Progress     | Number of records currently being worked on by the partner.                 |
+| Opportunity     | Total number of opportunities generated from assigned records.              |
+| Conversion Rate | Percentage of opportunities converted into successful deals by the partner. |
 
   <figure>
   <img src="/media/analytics/report/sales/round-robin-dashboard-reports/performance-by-partner-round-robin-table-view.png" alt="performance by partner: round robin" />
@@ -2100,15 +2100,15 @@ Summarizes comprehensive performance metrics of all partners within the Round Ro
   - Can Filter by Country, Company and Users.
  </details>
 
-  - ##### 🧾 Columns included in the table view
+##### 🧾 Columns included in the table view
 
-  | Field Name            | Description                                                                 |
-|----------------------|-----------------------------------------------------------------------------|
-| Records              | Total number of records distributed to the partner.                        |
-| Assigned             | Number of records assigned to the partner via round robin.                 |
-| In Progress          | Number of records currently being worked on by the partner.                |
-| Opportunity          | Total number of opportunities generated from assigned records.             |
-| Conversion Rate      | Percentage of opportunities converted into successful deals by the partner.|
+| Field Name      | Description                                                                 |
+| --------------- | --------------------------------------------------------------------------- |
+| Records         | Total number of records distributed to the partner.                         |
+| Assigned        | Number of records assigned to the partner via round robin.                  |
+| In Progress     | Number of records currently being worked on by the partner.                 |
+| Opportunity     | Total number of opportunities generated from assigned records.              |
+| Conversion Rate | Percentage of opportunities converted into successful deals by the partner. |
 
   <figure>
   <img src="/media/analytics/report/sales/round-robin-dashboard-reports/total-across-all-partners-round-robin-table-view.png" alt="total across all partners: round robin" />
