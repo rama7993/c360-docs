@@ -1,0 +1,136 @@
+.notFoundContainer {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 4rem 1.5rem; */
+}
+
+.notFoundCard {
+  max-width: 680px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 3.5rem 2.5rem;
+  border-radius: 24px;
+  background: var(--ifm-card-background-color);
+  border: 1px solid rgba(194, 86, 195, 0.25);
+  box-shadow:
+    0 16px 40px rgba(0, 0, 0, 0.08),
+    0 0 30px rgba(194, 86, 195, 0.1);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+:global([data-theme="dark"]) .notFoundCard {
+  box-shadow:
+    0 16px 40px rgba(0, 0, 0, 0.4),
+    0 0 35px rgba(194, 86, 195, 0.2);
+  border-color: rgba(212, 102, 209, 0.3);
+}
+
+.notFoundIllustration {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 1.5rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: linear-gradient(
+    135deg,
+    rgba(194, 86, 195, 0.15) 0%,
+    rgba(194, 86, 195, 0.05) 100%
+  );
+  border: 1px solid rgba(194, 86, 195, 0.3);
+  color: var(--ifm-color-primary);
+}
+
+.notFoundBadge {
+  display: inline-block;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1;
+  background: linear-gradient(
+    135deg,
+    var(--ifm-color-primary) 0%,
+    #8a388a 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1rem;
+  letter-spacing: -2px;
+}
+
+.notFoundTitle {
+  font-size: 2.25rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  color: var(--ifm-heading-color);
+}
+
+.notFoundDescription {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: var(--ifm-font-color-base);
+  opacity: 0.85;
+  max-width: 520px;
+  margin: 0 auto 2rem auto;
+}
+
+.notFoundActions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.notFoundActions :global(.button) {
+  padding: 0.75rem 1.75rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.25s ease;
+}
+
+.notFoundQuickLinks {
+  border-top: 1px solid rgba(194, 86, 195, 0.15);
+  padding-top: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.notFoundQuickLinksTitle {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: var(--ifm-color-emphasis-600);
+  margin-bottom: 1rem;
+}
+
+.notFoundLinksGrid {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.notFoundLink {
+  color: var(--ifm-color-primary);
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  transition: opacity 0.2s ease;
+}
+
+.notFoundLink:hover {
+  text-decoration: underline;
+  opacity: 0.85;
+}
