@@ -14,11 +14,7 @@ The **Email Templates** section provides two types of views: **Grid View** and *
 import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
 
-<Tabs>
-  <TabItem value="grid" label="🔲 Grid View" default>
-  The Grid View presents Email Templates as visual cards with thumbnails and quick actions.
-    
-  ### ⚙️ Available Actions
+### ⚙️ Available Actions
 
 | 🛠️ Action           | 📌 Description                                                           |
 | ------------------- | ------------------------------------------------------------------------ |
@@ -27,7 +23,15 @@ import TabItem from "@theme/TabItem";
 | 👥 **Assign To**    | Assign email(s) to groups.                                               |
 | 🗑️ **Delete**       | Select checkbox → click **Delete**.                                      |
 | ➕ **Add Email**    | Create new templates.                                                    |
-| ✏️ **Clone / Edit** | Available in **Grid View** (via three-dot menu).                         |
+| ✏️ **Edit**         | Updating an existing email template. 
+| 📋 **Clone Email**   | Dulicate of an existing templates. 
+| ⚡ **Execute**      | Can Execute the email directly from grid view.                       |
+| 🔄 **Modify Status** | Can change the status of the email.
+
+<Tabs>
+  <TabItem value="grid" label="🔲 Grid View" default>
+  The Grid View presents Email Templates as visual cards with thumbnails and quick actions.
+    
 
 <DocImage
   src="/media/marketing/email template/email-template-grid.png"
@@ -111,20 +115,6 @@ Emails in **Published** state can be assigned to groups:
 
 ---
 
-## 🛠️ Email Actions in Grid View
-
-For each email, you can perform:
-
-- **Edit** – Open in edit mode.
-- **Clone** – Duplicate into edit mode.
-
-<DocImage
-  src="/media/marketing/email template/email-template-action.png"
-  alt="Email Template Actions"
-  caption="Available Actions on Templates"
-/>
-
----
 
 ## ➕ Create New Email
 
@@ -156,14 +146,7 @@ You can create an email in three ways:
 
 1.  Provide a **Template Name** → Click **Next**.
 2.  Customize via editor (images, layout, menu tools).
-
-<DocImage
-  src="/media/marketing/email template/email-template-grapejs.png"
-  alt="Email Editor Page"
-  caption="Email Editor"
-/>
-
-3.  Use **Action Dropdown**:
+3.  Use **Action Available In Email Template GrapeJS**:
 
 - **Save & Test** – Save + test mail.
 - **Save & Close** – Save and return.
@@ -172,22 +155,25 @@ You can create an email in three ways:
 - **Edit** – Reopen for edits.
 
 <DocImage
-  src="/media/marketing/email template/email-template-add action.png"
-  alt="Email Editor Customization"
-  caption="Editing and Customizing Emails"
+  src="/media/marketing/email template/email-template-grapejs.png"
+  alt="Email Editor Page"
+  caption="Email Editor"
 />
+
 
 ---
 
-### ⚙️ Email Configuration
-
+### ⚙️ Compose & Preview
+x
 ➡️ After **Save & Next**, configure details:
 
 - Fill mandatory fields.
+- Preview email.
 - Click **Next**.
 
+
 <DocImage
-  src="/media/marketing/email template/email-template-configure.png"
+  src="/media/marketing/email template/email-template-compose-preview.png"
   alt="Email Configuration Page"
   caption="Email Configuration"
 />
@@ -202,17 +188,11 @@ If no campaign exists → ➕ **Add Campaign**:
 
 ---
 
-### 👀 Preview & Testing
+### 👀 Testing
 
-1.  Preview email.
-2.  **Test Mail** → Send to users.
-3.  Add recipient → Send test.
+1.  **Test Mail** → Send to users.
+2.  Add recipient → Send test.
 
-<DocImage
-  src="/media/marketing/email template/email-template-preview.png"
-  alt="Email Preview"
-  caption="Previewing an Email"
-/>
 
 <DocImage
   src="/media/marketing/email template/email-template-test mail.png"

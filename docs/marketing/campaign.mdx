@@ -14,13 +14,14 @@ To access it:
 
 The Campaigns section provides a clear overview of all campaigns. You can toggle between **List View** and **Grid View** for easier management.
 
-### 🔎 Top Bar Actions
+### 🔎 Actions In The List And Grid View
 
 - **Search** campaigns by name
 - **Add** a new campaign
 - **Assign** campaigns to user groups
 - **Delete** campaigns (single or bulk)
 - Toggle between **List / Grid View**
+- **Status** modification (Draft / Published / Expired)
 
 > **✏️ Edit** → Pencil icon  
 > **🗑️ Delete** → Trash icon
@@ -212,7 +213,9 @@ Each campaign can include one or more **Activities** (e.g., Emails, Webinars). A
 - **Edit**
 - **Delete**
 - **Execute**
-
+- **Status** modification (Draft / Published / Expired).
+- **Details Page View** : Clicking on the activity name opens a detailed view with all relevant information.
+- **View Description** : Hover on the "i" icon.
 <Tabs>
   <TabItem value="activities-list" label="📄 List View" default>
 
@@ -309,7 +312,7 @@ Activities can follow one of two flows:
 - **Multi Touch** — A sequence of multiple steps in a campaign workflow.
 
 <DocImage
-  src="/media/marketing/campaign/campaign-activity-add.png"
+  src="/media/marketing/campaign/campaign-activity-flow.png"
   alt="Activity Flow options"
   caption="Single Touch vs. Multi Touch workflows"
 />
@@ -378,13 +381,13 @@ Click **Save** to finalize. Once saved, the activity can be previewed or execute
 - The cloned version is automatically saved as **Draft** for editing.
 
 <DocImage
-  src="/media/marketing/campaign/campaign-activity-clone action.png"
+  src="/media/marketing/campaign/campaign-activity-clone-action.png"
   alt="Clone Activity Icon"
   caption="Cloning an activity"
 />
 
 <DocImage
-  src="/media/marketing/campaign/campaign-activity-after clone.png"
+  src="/media/marketing/campaign/campaign-activity-after-clone.png"
   alt="Cloned Activity Draft"
   caption="A cloned activity in Draft status"
 />
@@ -566,28 +569,22 @@ You can execute both **Single Touch** and **Multi Touch** campaigns. The steps b
 ## ✉️ Execute a Single Touch Campaign
 
 1. **Click Execute** on the activity you want to send.
-2. **Configure email settings**:
-   - Email name
+2. **Compose And Preview Email Setting**:
    - Subject line
    - From name
    - Type (Email / Webinar)
    - Preview text
+   - Prveiw Mode (Desktop / Tablet / MObile)
+   - Edit Email Template
 
 <DocImage
-  src="/media/marketing/campaign/campaign-activity-single-touch-configure.png"
+  src="/media/marketing/campaign/campaign-activity-single-touch-compose-preview.png"
   alt="Single touch configure"
   caption="Single Touch configuration"
 />
 
-3. **Preview and edit** the content if needed.
 
-<DocImage
-  src="/media/marketing/campaign/campaign-activity-single-touch-preview.png"
-  alt="Preview and edit single touch"
-  caption="Preview and edit"
-/>
-
-4. **Send a test email**:
+3. **Send a test email**:
    - Enter a test recipient address.
    - Click **Test Mail** to verify how it appears.
 
@@ -597,7 +594,7 @@ You can execute both **Single Touch** and **Multi Touch** campaigns. The steps b
   caption="Sending a test mail"
 />
 
-5. **Choose recipients**:
+4. **Choose recipients**:
    - Send to the entire group or select specific leads.
    - Add segments with **Add Segment**.
    - Import leads using a CSV file if needed.
@@ -613,7 +610,7 @@ You can execute both **Single Touch** and **Multi Touch** campaigns. The steps b
   caption="Upload leads (CSV)"
 />
 
-6. **Schedule the send** (optional):
+5. **Schedule the send** (optional):
    - Set a date and time for sending.
 
 <DocImage
@@ -622,7 +619,7 @@ You can execute both **Single Touch** and **Multi Touch** campaigns. The steps b
   caption="Scheduling a campaign"
 />
 
-7. **Confirm send**:  
+6. **Confirm send**:  
    After sending, a confirmation modal appears with navigation options back to **Campaign List** or **Outgoing Campaigns**.
 
 <DocImage
@@ -653,11 +650,12 @@ You can execute both **Single Touch** and **Multi Touch** campaigns. The steps b
    - **Update & Next** — proceed to Preview
 
 4. **Test each email**:
+   - Click on **Next Template** to test mails one by one.
    - Enter a test recipient address.
    - Send test mails to confirm content.
 
 <DocImage
-  src="/media/marketing/campaign/campaign-activity-multi-touch-test mail.png"
+  src="/media/marketing/campaign/campaign-activity-multi-touch-test-mail.png"
   alt="Multi touch preview and test mail"
   caption="Preview and Test Mail"
 />
@@ -667,7 +665,7 @@ You can execute both **Single Touch** and **Multi Touch** campaigns. The steps b
    - Emails that pass test verification are marked as verified.
 
 <DocImage
-  src="/media/marketing/campaign/campaign-activity-multi-touch-email verifed.png"
+  src="/media/marketing/campaign/campaign-activity-multi-touch-email-verified.png"
   alt="Multi touch carousel verified"
   caption="Carousel of verified emails"
 />
@@ -677,7 +675,7 @@ You can execute both **Single Touch** and **Multi Touch** campaigns. The steps b
    - Import CSV files if required.
 
 <DocImage
-  src="/media/marketing/campaign/campaign-activity-multi-touch-segment.png"
+  src="/media/marketing/campaign/campaign-activity-multi-touch-select-audience.png"
   alt="Multi touch select audience"
   caption="Selecting recipients"
 />
@@ -702,7 +700,7 @@ You can execute both **Single Touch** and **Multi Touch** campaigns. The steps b
 - **Execute** — Execute button per activity
 
 <DocImage
-  src="/media/marketing/campaign/campaign-activity-quick action.png"
+  src="/media/marketing/campaign/campaign-activity-quick-action.png"
   alt="Activity tab"
   caption="Activity tab inside Campaign"
 />
