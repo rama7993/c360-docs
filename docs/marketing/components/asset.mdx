@@ -20,6 +20,12 @@ Assets can be viewed in **Grid View** or **List View**:
 
 - **Grid View** – Shows each asset as a card with quick actions (**copy link, download, edit**).
 
+:::info
+
+- You will find grid view of assets only in the **All Assets** sections.
+
+:::
+
 <DocImage
   src="/media/marketing/component/asset/asset-grid.png"
   caption="Grid View of Assets"
@@ -38,7 +44,105 @@ Assets can be viewed in **Grid View** or **List View**:
 
 </TabItem>
   
+</Tabs> 
+
+---
+
+## 🧩Left Panel Components 
+
+<Tabs>
+
+
+<TabItem value="all assets" label="📜 All Asset">
+
+- The **All Assets** category provides a comprehensive view of every asset available in the system.
+- It includes all active items across different categories, enabling users to browse, search, and manage their complete asset library from a single place.
+
+### 🗂️ Actions Available In The All Asset Section
+
+
+| Column                    | Description                                                                        |
+| ------------------------- | ---------------------------------------------------------------------------------- |
+| **Edit**                  | Modify asset details such as name, content, or configuration.                      |
+| **Download**                  | Download the asset to your local device..                      |
+| **Move to Folder**        | Move the asset to a different folder for better organization.                      |
+| **Share**                 | Share the asset with users or teams with controlled permissions.                   |
+| **Remove from Favorites** | Remove the asset from the Favorites list while keeping it available in All Assets. |
+| **Copy**                  | Create a duplicate of the asset for reuse or modification.                         |
+| **Manage Tags**           | Add, edit, or remove tags to organize and filter assets efficiently.               |
+| **Folder / File Information**    | View details like folder name, owner, and asset count.                             |
+| **Move to Trash**         | Move the asset to Trash for temporary storage or permanent deletion.               |
+| **Preview**               | Can view the files in the asset without downloading them.                          |
+
+<DocImage
+  src="/media/marketing/component/asset/all-asset.png"
+  caption="All Assets"
+/>
+
+</TabItem>
+
+<TabItem value="favourite" label="📜 Favorite">
+
+- **Favorite** Assets allow users to quickly access the items they use most frequently.
+- By marking assets as favorites, users can save time and improve efficiency, ensuring that important files, templates, or resources are always easily accessible from a dedicated section.
+
+### ⭐ Actions Available In The Favorites Section
+
+
+| Column                    | Description                                                                        |
+| ------------------------- | ---------------------------------------------------------------------------------- |
+| **Edit**                  | Modify asset details such as name, content, or configuration.                      |
+| **Move to Folder**        | Move the asset to a different folder for better organization.                      |
+| **Share**                 | Share the asset with users or teams with controlled permissions.                   |
+| **Remove from Favorites** | Remove the asset from the Favorites list while keeping it available in All Assets. |
+| **Copy**                  | Create a duplicate of the asset for reuse or modification.                         |
+| **Manage Tags**           | Add, edit, or remove tags to organize and filter assets efficiently.               |
+| **Folder / File Information**    | View details like folder name, owner, and asset count.                      |
+| **Move to Trash**         | Move the asset to Trash for temporary storage or permanent deletion.               |
+| **Preview**               | Can view the files in the asset without downloading them.                          |
+
+:::tip
+
+- You can list favourite the records files and folders by clciking on **Star Icon**
+
+:::
+                   |
+
+<DocImage
+  src="/media/marketing/component/asset/favorites.png"
+  caption="Favorite Assets"
+/>
+</TabItem>
+
+<TabItem value="trash" label="📜 Trash">
+
+- The **Trash** category stores assets that have been deleted by users.
+- Items in this section can be restored if needed or permanently removed after a certain period.
+
+### 🗑️ Actions Available In The Trash Section
+
+| Column                    | Description                                                                        |
+| ------------------------- | ---------------------------------------------------------------------------------- |
+| **Delete**                | Permanently delete the asset from the system.                                      |                                        |
+| **Restore**              | Restore the asset to its original location.                                        |
+
+
+<DocImage
+  src="/media/marketing/component/asset/trash.png"
+  caption="Trash Assets"
+/>
+
+</TabItem>
+
+
 </Tabs>
+
+:::note 
+
+- Additionaly you can find the **Tree Structure** for the asset folders.
+
+:::
+
 
 ---
 
@@ -61,14 +165,15 @@ You can filter assets by:
 - **Category**
 - **Type**
 - **Created Date**
-- **All Assets/ My Assets / Assets Assigned To Me**
+- **All Asset/ Folder / File**
 
 :::note
 
-- All Assets: Created by me/Assigned to me/Created by below users.
-- My Assets: Created by me
-- Assets Assigned To Me: The Asset which was assigned to me by someone.
-  :::
+- **All Assets**: Visibility of all the assets in the system.
+- **Folder**: Visibility of all the Folders in the system.
+- **File**: Visibility of all the Files in the system.
+
+:::
 
 <DocImage
   src="/media/marketing/component/asset/asset-filter.png"
@@ -77,11 +182,109 @@ You can filter assets by:
 
 ---
 
+## 📂 Move To Folder
+
+- Select the checkbox for the asset you want to move or click on three vertical dots..
+- Click on the **Move to Folder** button.
+- Selecte the folder.
+- Click on **Move**.
+
+:::note
+
+- You can move both **File** and **Folder** to another folder.
+
+:::
+
+
+<DocImage
+  src="/media/marketing/component/asset/move-to-folder.png"
+  caption="Move Assets to Folder"
+/>
+
+---
+
+## 📋 Copy 
+
+- Select the checkbox for the asset you want to copy or click on three vertical dots.
+- Click on the **Copy** button.
+- Select the destination folder.
+- Click on **Copy**.
+
+:::note
+
+- You can copy both **File** and **Folder** to another folder.
+
+:::
+
+
+<DocImage
+  src="/media/marketing/component/asset/asset-copy.png"
+  caption="Copy Assets"
+/>
+
+
+---
+
+## 🗑️ Move To Trash
+
+- Select the checkbox for the asset you want to move to trash or click on three vertical dots.
+- Click on the **Move to Trash** button.
+- Click on **Yes**.
+
+:::note
+
+- You can move both **File** and **Folder** to trash.
+
+:::
+
+
+<DocImage
+  src="/media/marketing/component/asset/move-to-trash.png"
+  caption="Move Assets to Trash"
+/>
+
+---
+
+## ⓘ File / Folder Information
+
+<Tabs>
+
+<TabItem value="folder_info" label="📁 Folder Information">
+
+- Click on the **three vertical dots** for the **Folder** you want to view information about.
+- Click on **Folder Information**.
+
+<DocImage
+  src="/media/marketing/component/asset/folder-info.png"
+  caption="Folder Information"
+/>
+
+</TabItem>
+
+<TabItem value="file_info" label="📄 File Information">
+
+- Click on the **three vertical dots** for the **File** you want to view information about.
+- Click on **File Information**.
+
+<DocImage
+  src="/media/marketing/component/asset/file-info.png"
+  caption="File Information"
+/>
+
+</TabItem>
+
+
+</Tabs>
+
+---
+
+
 ## 🗑️ Deleting Asset
 
-1. Select the checkbox(es) for the assets you want to delete.
-2. Click the **Delete** icon .
-3. Click on **Yes** from the confirmation pop-up if you want to delete.
+1. Go to **Trash** section.
+2. Select the checkbox(es) for the assets you want to delete.
+3. Click the **Delete** icon .
+4. Click on **Yes** from the confirmation pop-up if you want to delete.
 
 <DocImage
   src="/media/marketing/component/asset/asset-delete.png"
@@ -93,36 +296,65 @@ You can filter assets by:
 ## ✏️Add or Edit Asset
 
 **To add an asset:**
+- Asset categories in two types: **Folder** and **File**. 
 
-1. ➡️ Click ** Add Asset**
-2. Enter details (**Type, Category, Assigned To, Description, Title, File/Link**)
-3. Click ** Save**.
+<Tabs>
+
+<TabItem value="add_folder" label="📁 Add Folder">
+
+1. ➡️ Click **Create or Upload**
+2. Select **Create Folder**.
+2. Enter details (**Name, Tag , Description, Folder Color**).
+3. Click ** Create**.
 
 <DocImage
-  src="/media/marketing/component/asset/asset-add.png"
-  caption="Adding a New Asset"
+  src="/media/marketing/component/asset/add-folder.png"
+  caption="Add Folder"
 />
+
+</TabItem>
+
+<TabItem value="add_file" label="📄 Add File">
+
+1. ➡️ Click **Create or Upload**
+2. Select **Upload File**
+3. Enter details (**Name, Tag,Type, Description**)
+4. Upload / Choose the **File** from your system as required.
+5. Click **Upload**.
+
+<DocImage
+  src="/media/marketing/component/asset/upload-file.png"
+  caption="Upload File"
+/>
+
+</TabItem>
+
+</Tabs>
+
+:::note
+
+- For adding a tag : Click on tag dropdown , enter text in the search field and click on create.
+
+:::
+
+
 
 **To edit an asset:**
 
-1.  ➡️ Click the ** Edit (pencil)** icon
-2.  Make necessary changes
-3.  Click ** Update**
+1.  ➡️ Click the ** Edit (pencil)** icon for **File** or **Folder** you want to update.
+2.  Make necessary changes.
+3.  Click on ** Update** .
 
-<DocImage
-  src="/media/marketing/component/asset/asset-edit.png"
-  caption="Editing an Asset"
-/>
 
 ---
 
-## 👥Assign Asset to Group
+## 👥Share Asset to Group
 
-➡️ Select one or more assets → Click **Assign To** → Choose a group.
+➡️ Select one or more assets → Click **Share** → Choose a group.
 
 <DocImage
-  src="/media/marketing/component/asset/asset-assign.png"
-  caption="Assigning Assets to Groups"
+  src="/media/marketing/component/asset/asset-share.png"
+  caption="Sharing Assets with Groups"
 />
 
 ---

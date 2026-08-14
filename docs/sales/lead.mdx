@@ -43,6 +43,13 @@ You can **sort** columns (ascending/descending) and click the **maximize icon** 
   caption="Lead list view"
 />
 
+:::info
+
+- You cant revert the lead back from archive to active once it is archived.
+- You cant perform any action on the archived lead except download.
+
+:::
+
 ---
 
 ## 🔄 Lead Lifecycle
@@ -326,13 +333,66 @@ You can find the desired lead for script execution by filtering through campaign
 1. Select leads from the list.
 2. Click **Assign To** → choose a user → click **Assign**.
 
-<DocImage
-  src="/media/crm/lead/lead-assign.png"
+
+ ### 👤 Individual Assign 
+
+ Assign a selected lead manually to a specific user.
+
+ :::note
+ - Only one team member can be selected for individual assignment. Please select a single member. For multiple selections, choose Round Robin or Shark Tank.
+
+ :::
+
+ <DocImage
+  src="/media/crm/lead/individual-assign.png"
   alt="Assign lead to user"
-  caption="Assign"
+  caption="Individual Assign"
+/>
+ ### 🦈 Shark Tank 
+
+ Distribute leads among selected users based on the Shark Tank assignment approach.
+:::note
+
+- Shark Tank: A lead is simultaneously offered to multiple eligible users, and the first user to accept the lead becomes the assignee.
+
+:::
+ <DocImage
+  src="/media/crm/lead/shark-tank-assign.png"
+  alt="Assign lead to user"
+  caption="Shark Tank Assign"
+/>
+ ### 👥 Round Robin 
+
+ Automatically distribute leads sequentially among the selected users to ensure an even assignment.
+
+#### Round Robin Assign List
+- Select the users to whom leads will be assigned in a round-robin manner.
+
+<DocImage
+  src="/media/crm/lead/round-robin-assign-list.png"
+  alt="Assign lead to user"
+  caption="Round Robin Assign List"
 />
 
+
+#### Round Robin Assign Order
+- Set the order of users for lead assignment. The system will assign leads to users in the specified sequence.
+
+<DocImage
+  src="/media/crm/lead/round-robin-assign-order.png"
+  alt="Assign lead to user"
+  caption="Round Robin Assign Order"
+/>
+
+
+ :::note
+
+ - Round Robin: Leads are automatically distributed among eligible users in a sequential rotation to maintain a balanced workload.
+
+ :::
+
 </TabItem>
+
 
 <TabItem value="Change" label="Change Owner">
 
