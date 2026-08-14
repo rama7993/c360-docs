@@ -52,6 +52,13 @@ A **Parent Campaign** is a collection of outgoing marketing activities grouped u
 A typical **Parent Campaign Table** includes:
 
 <details>
+<summary><strong>Campaign Name</strong></summary>
+
+Name of the outgoing campaign.
+
+</details>
+
+<details>
 <summary><strong>Campaign Activities</strong></summary>
 
 List of executed marketing efforts
@@ -129,23 +136,12 @@ Click **List Report** under **Campaign Activities** to view the **Campaign Email
 />
 
 ---
-
 ### ✉️ View Outgoing Campaign Email Details
 
-Selecting an email campaign opens a **detailed performance overview**, which includes:
+<Tabs>
+<TabItem value="overview" label="📊 Overview">
 
-| **Report Summary**    | **Description**                        |
-| --------------------- | -------------------------------------- |
-| **Overall Dashboard** | Summary of campaign performance.       |
-| **Opened**            | Recipients who opened the email.       |
-| **Click-Through**     | Recipients who clicked links.          |
-| **Unsubscribed**      | Users who opted out.                   |
-| **Bounce**            | Delivery failures and bounced emails.  |
-| **Email Not Opened**  | Users who did not open the email.      |
-| **Spam**              | Emails marked as spam.                 |
-| **Assets**            | Performance of linked assets.          |
-| **Landing Pages**     | Engagement on landing pages.           |
-| **Countries**         | Geographic distribution of recipients. |
+- Summary of the campaign performance. 
 
 <DocImage
   src="/media/analytics/report/marketing/email-details.png"
@@ -153,17 +149,201 @@ Selecting an email campaign opens a **detailed performance overview**, which inc
   caption="Email Campaign Detailed Performance Report"
 />
 
+</TabItem>
+
+<TabItem value="activities" label="✈️ Activities">
+
+- overall activities of a campaign.
+
+
+<Tabs>
+
+<TabItem value="sent" label="📤 Sent">
+
+- Emails sent to total number of prospects. 
+
+<DocImage
+  src="/media/analytics/report/marketing/email-sent.png"
+  alt="Email Sent Report"
+  caption="Email Sent Report"
+/>
+
+
+</TabItem>
+
+<TabItem value="delivered" label="📬 Delivered">
+
+- Number of emails delivered to the prospects. 
+
+<DocImage
+  src="/media/analytics/report/marketing/email-delivered.png"
+  alt="Email Delivered Report"
+  caption="Email Delivered Report"
+/>
+
+</TabItem>
+
+<TabItem value="opened" label="📖 Opened">
+
+- Number of emails opened by the prospects. 
+
+<DocImage
+  src="/media/analytics/report/marketing/email-opened.png"
+  alt="Email Opened Report"
+  caption="Email Opened Report"
+/>
+
+</TabItem>
+
+<TabItem value="open(no click)" label="👁️ Open (No Click)">
+
+- Number of emails opened by the prospects but no click activity performed.  
+
+<DocImage
+  src="/media/analytics/report/marketing/email-open-no-click.png"
+  alt="Email Open (No Click) Report"
+  caption="Email Open (No Click) Report"
+/>
+
+</TabItem>
+
+<TabItem value="clicked" label="🖱️ Clicked">
+
+- Number of prospects performed the clicked activity for attached links. 
+
+
+<DocImage
+  src="/media/analytics/report/marketing/email-clicked.png"
+  alt="Email Clicked Report"
+  caption="Email Clicked Report"
+/>
+
+</TabItem>
+
+<TabItem value="unsubscribed" label="🚫 Unsubscribed">
+
+- Number of prospects who unsubscribed from the campaign. 
+
+<DocImage
+  src="/media/analytics/report/marketing/email-unsubscribed.png"
+  alt="Email Unsubscribed Report"
+  caption="Email Unsubscribed Report"
+/>
+
+</TabItem>
+
+<TabItem value="unopened" label="✉️ Unopened">
+
+- Number of prospects who did not open the email. 
+
+<DocImage
+  src="/media/analytics/report/marketing/email-unopened.png"
+  alt="Email Unopened Report"
+  caption="Email Unopened Report"
+/>
+
+</TabItem>
+
+<TabItem value="spam" label="⚠️ Spam">
+
+- Mails which were marked as spam. 
+
+<DocImage
+  src="/media/analytics/report/marketing/email-spam.png"
+  alt="Email Spam Report"
+  caption="Email Spam Report"
+/>
+
+</TabItem>
+
+<TabItem value="assets" label="🖼️ Assets">
+
+- Number of prospects who interacted with the campaign's assets. 
+
+<DocImage
+  src="/media/analytics/report/marketing/email-assets.png"
+  alt="Email Assets Report"
+  caption="Email Assets Report"
+/>
+
+</TabItem>
+
+<TabItem value="landing-pages" label="🌐 Landing Pages">
+
+- Number of prospects who interacted with the campaign's landing pages.  
+
+<DocImage
+  src="/media/analytics/report/marketing/email-landing-pages.png"
+  alt="Email Landing Pages Report"
+  caption="Email Landing Pages Report"
+/>
+
+</TabItem>
+
+<TabItem value="countries" label="🌍 Countries">
+
+- Country Wise distribution of prospects who opened the email..
+
+<DocImage
+  src="/media/analytics/report/marketing/email-countries.png"
+  alt="Email Countries Report"
+  caption="Email Countries Report"
+/>
+
+</TabItem>
+
+</Tabs>
+
+</TabItem>
+
+<TabItem value="Link Clicks" label="🔗 link clicks">
+
+- Number of prospects who clicked links in the email.
+
+<DocImage
+  src="/media/analytics/report/marketing/link-clicks.png"
+  alt="Email Link Clicks Report"
+  caption="Email Link Clicks Report"
+/>
+
+</TabItem>
+
+<TabItem value="Bounce" label="❕ Bounce">
+
+- Number of emails that have bounced for the prospects.
+
+:::info
+
+- Hard Bounce: Email address is invalid or does not exist.
+- Soft Bounce: Email address is valid but the email could not be delivered due to temporary issues (e.g., mailbox full, server down).
+
+:::
+
+
+<DocImage
+  src="/media/analytics/report/marketing/bounce.png"
+  alt="Email Bounce Report"
+  caption="Email Bounce Report"
+/>
+
+</TabItem>
+</Tabs>
+
+:::note
+
+- Total/Total Clicks = Unique Clicks + Non-Unique Clicks.
+- Unique/Unique Clicks = Clicks performed by unique prospects.
+
+:::
+
 :::tip
 
 - Reports can be downloaded from each table if data is available.
 - Country-wise data can be viewed in both **graph** and **table formats**.
   :::
+  
 
-<DocImage
-  src="/media/analytics/report/marketing/country-wise-campaign-report.png"
-  alt="Country-Wise Email Campaign Data"
-  caption="Country-Wise Campaign Report"
-/>
+
 
 **━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**
 
@@ -413,6 +593,7 @@ Displays an aggregated summary of all overarching campaigns and their constituen
 />
 
 </TabItem>
+
 </Tabs>
 
 ---
@@ -422,6 +603,7 @@ Displays an aggregated summary of all overarching campaigns and their constituen
 Provides comprehensive metrics on email outreach effectiveness, including delivery, open, and click-through rates.
 
 <Tabs>
+
 <TabItem value="chart-view" label="📊 Chart View" default>
 
 <details>
@@ -439,7 +621,7 @@ Provides comprehensive metrics on email outreach effectiveness, including delive
 
 <DocImage
   src="/media/analytics/report/marketing/campaign-dashboard/email-performance-chart-view.png"
-  alt="email-performnace"
+  alt="email-performance"
   caption="Email Performance Chart View"
 />
 
@@ -468,7 +650,7 @@ Provides comprehensive metrics on email outreach effectiveness, including delive
 
 <DocImage
   src="/media/analytics/report/marketing/campaign-dashboard/email-performance-table-view.png"
-  alt="email-performnace"
+  alt="email-performance"
   caption="Email Performance Table View"
 />
 
@@ -499,7 +681,7 @@ Analyzes the success of email marketing campaigns distributed across various par
 
 <DocImage
   src="/media/analytics/report/marketing/campaign-dashboard/email-performance-by-partner-chart-view.png"
-  alt="email-performnace-by-partner"
+  alt="email-performance-by-partner"
   caption="Email Performance By Partner Chart View"
 />
 
@@ -528,11 +710,12 @@ Analyzes the success of email marketing campaigns distributed across various par
 
 <DocImage
   src="/media/analytics/report/marketing/campaign-dashboard/email-performance-by-partner-table-view.png"
-  alt="email-performnace-by-partner"
+  alt="email-performance-by-partner"
   caption="Email Performance By Partner Table View"
 />
 
 </TabItem>
+
 </Tabs>
 
 ---
@@ -592,6 +775,7 @@ Visualizes historical email engagement trends to identify long-term patterns in 
 />
 
 </TabItem>
+
 </Tabs>
 
 **━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**
@@ -662,6 +846,7 @@ Breaks down lead generation performance to identify which specific campaigns are
 Monitors the potential value and progression of sales opportunities generated directly from marketing efforts.
 
 <Tabs>
+
 <TabItem value="chart-view" label="📊 Chart View" default>
 
 <details>
@@ -710,6 +895,7 @@ Monitors the potential value and progression of sales opportunities generated di
 />
 
 </TabItem>
+
 </Tabs>
 
 ---
@@ -719,6 +905,7 @@ Monitors the potential value and progression of sales opportunities generated di
 Provides a snapshot of lead distribution across various funnel stages to identify conversion bottlenecks.
 
 <Tabs>
+
 <TabItem value="chart-view" label="📊 Chart View" default>
 
 <details>
@@ -774,6 +961,7 @@ Provides a snapshot of lead distribution across various funnel stages to identif
 />
 
 </TabItem>
+
 </Tabs>
 
 ---
@@ -831,6 +1019,7 @@ Visualizes the concentration of opportunities within the pipeline stages to aid 
 />
 
 </TabItem>
+
 </Tabs>
 
 **━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**
@@ -903,6 +1092,7 @@ Tracks the total volume of generated leads that have successfully transitioned i
 />
 
 </TabItem>
+
 </Tabs>
 
 ---
@@ -912,6 +1102,7 @@ Tracks the total volume of generated leads that have successfully transitioned i
 Analyzes the historical trend of successful lead conversions segmented by financial quarters.
 
 <Tabs>
+
 <TabItem value="chart-view" label="📊 Chart View" default>
 
 <details>
@@ -972,6 +1163,7 @@ Analyzes the historical trend of successful lead conversions segmented by financ
 />
 
 </TabItem>
+
 </Tabs>
 
 ---
@@ -1041,6 +1233,7 @@ Monitors the real-time conversion rate of leads specifically within the current 
 />
 
 </TabItem>
+
 </Tabs>
 
 ---
@@ -1050,6 +1243,7 @@ Monitors the real-time conversion rate of leads specifically within the current 
 Measures the total volume of net new leads generated during the active financial quarter.
 
 <Tabs>
+
 <TabItem value="chart-view" label="📊 Chart View" default>
 
 <details>
@@ -1102,6 +1296,7 @@ Measures the total volume of net new leads generated during the active financial
 />
 
 </TabItem>
+
 </Tabs>
 
 ---
@@ -1111,6 +1306,7 @@ Measures the total volume of net new leads generated during the active financial
 Illustrates how individual team members or users are engaging with distributed marketing materials.
 
 <Tabs>
+
 <TabItem value="chart-view" label="📊 Chart View" default>
 
 <details>
@@ -1163,6 +1359,7 @@ Illustrates how individual team members or users are engaging with distributed m
 />
 
 </TabItem>
+
 </Tabs>
 
 ---
@@ -1172,6 +1369,7 @@ Illustrates how individual team members or users are engaging with distributed m
 Evaluates the effectiveness of marketing assets based on direct interactions and engagement from customers.
 
 <Tabs>
+
 <TabItem value="chart-view" label="📊 Chart View" default>
 
 <details>
@@ -1224,4 +1422,5 @@ Evaluates the effectiveness of marketing assets based on direct interactions and
 />
 
 </TabItem>
+
 </Tabs>
