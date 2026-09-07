@@ -34,7 +34,9 @@ The **Lead List** displays all existing leads with quick actions and key details
 
 :::tip
 
-You can **sort** columns (ascending/descending) and click the **maximize icon** beside the search bar to expand the list to fullscreen.
+- You can **sort** columns in ascending and descending order 
+- Click on the **maximize icon** beside the search bar to expand the list to fullscreen.
+- You can view upto 200 records at a time in the list view by selecting the **Number** from pagination dropdown.
 :::
 
 <DocImage
@@ -45,8 +47,8 @@ You can **sort** columns (ascending/descending) and click the **maximize icon** 
 
 :::info
 
-- You cant revert the lead back from archive to active once it is archived.
-- You cant perform any action on the archived lead except download.
+- You can't revert the lead back from archive to active once it is archived.
+- You can't perform any action on the archived lead except download.
 
 :::
 
@@ -200,6 +202,12 @@ stateDiagram-v2
   caption="Download selected leads"
 />
 
+:::info
+
+- You can download upto 1000 leads at a time.
+
+:::
+
 ---
 
 ## 👁️ Viewing Lead Details
@@ -323,9 +331,27 @@ You can find the desired lead for script execution by filtering through campaign
 
 :::
 
---
+--- 
 
-## 👥 Assigning / Changing Lead Owner
+## 👥 Custom Campaign Audience
+
+You can create a **Campaign audience List** for your campaign by filtering leads based on specific criteria. This allows you to target the right leads for your marketing efforts.
+
+- Select the "Lead" You want to add to the campaign audience.
+- Click on the "Add to Campaign Audience" icon from the action column.
+- Give the campaign audience list name and click on "Save" to create the campaign audience list.
+
+<DocImage
+  src="/media/crm/lead/custom-campaign-audience-lead-list.png"
+  alt="custom campaign audience"
+  caption="Custom Campaign Audience"
+/>
+
+---
+
+
+
+## 👥↔️ Assigning / Changing Lead Owner
 
 <Tabs>
 <TabItem value="Assign" label="Assign Lead">
@@ -361,7 +387,7 @@ You can find the desired lead for script execution by filtering through campaign
   alt="Assign lead to user"
   caption="Shark Tank Assign"
 />
- ### 👥 Round Robin 
+ ### 👤🔄 Round Robin 
 
  Automatically distribute leads sequentially among the selected users to ensure an even assignment.
 
@@ -391,6 +417,12 @@ You can find the desired lead for script execution by filtering through campaign
 
  :::
 
+ :::info
+
+- You can assign upto 500 leads at a time.
+
+:::
+
 </TabItem>
 
 
@@ -405,9 +437,58 @@ You can find the desired lead for script execution by filtering through campaign
   caption="Change Owner"
 />
 
+:::info
+
+- You can transfer ownership of upto 500 leads at a time.
+
+:::
+
 </TabItem>
 </Tabs>
 
+---
+
+##  ↩️👤 Revoke Lead assignment
+
+You can revoke the assigned lead from the user and make the lead available for reassignment.
+
+- Select the assigned lead you have assigned using individual assignment or round robin or shark tank format from the lead list.
+- Click on the **Revoke** icon from the action column. 
+- Check the staticstics of the revoked lead process and **confirm the revoke**.
+
+<DocImage
+  src="/media/crm/lead/lead-revoke-assignment-statistics.png"
+  alt="revoke lead assignment statistics"
+  caption="Revoke Lead Assignment statistics"
+/>
+
+- Check the assignement revoked from number of lead and "Confirm" the revoke process.
+
+<DocImage
+  src="/media/crm/lead/lead-revoke-assignment-confirm.png"
+  alt="confirm revoke"
+  caption="Confirm Revoke"
+/>
+
+- Check the successful revoked lead statistics and click on **Done**.
+
+<DocImage
+  src="/media/crm/lead/lead-revoke-assignment-success.png"
+  alt="successful revoke"
+  caption="Successful Revoke"
+/>
+
+:::note
+
+- Revoke assignment will work for shark tank and round robin once the shark tank and round robin assign processes will completed.
+
+:::
+
+:::info
+
+- You can revoke assignment from upto 500 leads at a time.
+
+:::
 ---
 
 ## ✏️ Add / Edit Leads
@@ -430,41 +511,5 @@ Lead can be created or added using three ways:
   caption="Add / Edit Lead"
 />
 
----
 
-## 📤 Importing Leads (Excel Upload)
 
-1. Go to **Sales → Upload List**.
-2. Upload your Excel file.
-   - Use the **Sample File** as a template.
-3. Map columns → Click **Next**.
-4. Review the summary report → Click **Import** to save.
-
-:::tip
-
-At the review step, you can import:
-
-- **All records**
-- **Only filtered** records (e.g., by deliverability %)
-- **Specific entries**  
-  :::
-
-<DocImage
-  src="/media/crm/lead/lead-import-choose data.png"
-  alt="Upload leads from Excel"
-  caption="Choose Data"
-/>
-
-<DocImage
-  src="/media/crm/lead/lead-import-map.png"
-  alt="Map Excel columns to lead fields"
-  caption="Field mapping"
-/>
-
-<DocImage
-  src="/media/crm/lead/lead-import.png"
-  alt="Summary and import confirmation"
-  caption="Confirm & Import"
-/>
-
----

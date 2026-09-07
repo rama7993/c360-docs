@@ -32,6 +32,7 @@ const sidebars: SidebarsConfig = {
       label: "Sales",
       collapsed: true,
       items: [
+        { type: "doc", id: "sales/upload-list", label: "Upload List" },
         { type: "doc", id: "sales/lead", label: "Lead" },
         { type: "doc", id: "sales/account", label: "Account" },
         { type: "doc", id: "sales/contact", label: "Contact" },

@@ -1,0 +1,252 @@
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+
+
+# 📤 Upload List
+
+Upload a list of leads, contacts, or other records into the CRM using a supported file format such as CSV or Excel.
+
+## 👤📤 Upload Leads 
+
+Upload individual lead records with name, email, job title, and more.
+
+
+- Go to **Sales → Upload List**.
+
+
+
+<DocImage
+  src="/media/crm/upload-list/lead-import-choose-data.png"
+  alt="Upload leads from Excel"
+  caption="Choose Data"
+/>
+
+<Tabs>
+ 
+<TabItem value="Insert" label="➕👤 Insert Lead">
+
+- Select **Insert New Lead** .
+- Upload your Excel file (File should be in .csv format).
+   - You can download the **Sample File** as a reference sheet.
+
+<DocImage
+  src="/media/crm/upload-list/lead-insert.png"
+  alt="insert Leads from Excel"
+  caption="Insert Leads"
+/>
+
+- Click **Next** to proceed.
+- Map your CSV columns to fields. Only mapped fields will be imported.
+- Click **Next** to proceed.
+
+<DocImage
+  src="/media/crm/upload-list/lead-import-map-fields.png"
+  alt="field mapping"
+  caption="Field Mapping"
+/>
+
+- Review the import summary below before starting the import.
+- Click **Import** to start the import process.
+
+<DocImage
+  src="/media/crm/upload-list/lead-import-summary.png"
+  alt="lead import summary"
+  caption="Import Summary"
+/>
+
+- After the import is complete, you will receive an import statistics page.
+- You can review and download the import statistics report (**Import, Duplicate, Rejected**) for your records.
+- Click on **Import New List** to import another list if needed.
+
+<DocImage
+  src="/media/crm/upload-list/lead-import-success.png"
+  alt="lead import success"
+  caption="Import Success"
+/>
+
+</TabItem>
+
+<TabItem value="Update+Insert" label="🔄👤 Update and Insert Lead">
+- Select **Update+Insert** .
+- Upload your Excel file (File should be in .csv format).
+   - You can download the **Sample File** as a reference sheet.
+- Click **Next** to proceed.
+
+<DocImage
+  src="/media/crm/upload-list/lead-update.png"
+  alt="lead update and insert"
+  caption="Update and Insert Lead"
+/>
+
+- Map your CSV columns to fields. Only mapped fields will be imported.
+- Click **Next** to proceed.
+
+<DocImage
+  src="/media/crm/upload-list/lead-update-map-fields.png"
+  alt="field mapping"
+  caption="Field Mapping"
+/>
+
+- Review the import summary below before starting the import.
+- Click **Import** to start the import process.
+
+<DocImage
+  src="/media/crm/upload-list/lead-update-summary.png"
+  alt="lead update and insert summary"
+  caption="Import Summary"
+/>
+
+- Your Update + Insert import has been completed. 
+- You can review and download the import statistics report (**Import, Duplicate, Rejected**) for your records.
+- Click on **Import New List** to import another list if needed.
+
+<DocImage
+  src="/media/crm/upload-list/lead-update-success.png"
+  alt="lead update and insert success"
+  caption="Import Success"
+/>
+
+
+</TabItem>
+
+</Tabs>
+
+
+
+:::info
+
+- The system will automatically map the columns based on the header names in your Excel file. You can manually adjust the mapping if needed.
+- Make sure to map all required fields (e.g., First Name, Last Name, Email,Company Name) to avoid import errors.
+- Make sure phone number fields are in the correct format (e.g., 678998090906) to avoid import errors.
+- Minimun 7 characters and maximum 15 characters are allowed for phone number field.
+- Empty phone number fields will be allowed during the import process as it is not a required field.
+
+:::
+
+<details>
+<summary><strong>Click to see phone number field format requirements</strong></summary>
+
+- No Hyphens (-) or spaces in the phone number.
+- No parentheses () in the phone number.
+- No slashes (/) in the phone number.
+- No letters or special characters in the phone number.
+
+
+</details>
+
+---
+
+## 👥📤 Upload Accounts And Contacts
+
+Upload CRM contact-person & company relationship data.
+
+- Go to **Sales → Upload List**.
+- Select **Account & Contact**.
+- Upload your Excel file (File should be in .csv format).
+   - You can download the **Sample File** as a reference sheet.
+- Click **Next** to proceed.
+
+<DocImage
+  src="/media/crm/upload-list/account-contact-import-choose data.png"
+  alt="Upload leads from Excel"
+  caption="Choose Data"
+/>
+
+- Map your CSV columns to fields. Only mapped fields will be imported.
+- Click **Next** to proceed.
+
+<DocImage
+  src="/media/crm/upload-list/account-contact-import-map-fields.png"
+  alt="field mapping"
+  caption="Field Mapping"
+/>
+
+- Review the import summary,  before starting the import.
+- Click **Import** to start the import process.
+
+<DocImage
+  src="/media/crm/upload-list/account-contact-import-summary.png"
+  alt="account and contact import summary"
+  caption="Import Summary"
+/>
+
+- Your Accounts & Contacts import has been completed.
+- You can review the import statistics report.
+- Click on **Import New List** to import another list if needed.
+
+<DocImage
+  src="/media/crm/upload-list/account-contact-import-success.png"
+  alt="account and contact import success"
+  caption="Import Success"
+/>
+
+:::info
+
+- The system will automatically map the columns based on the header names in your Excel file. You can manually adjust the mapping if needed.
+- Required Account Fields:
+  - Name
+  - Email
+- Required Contact Fields:
+  - First Name
+  - Last Name
+  - Email
+
+:::
+
+---
+
+## 🎯📤 Upload Campaign Audience List
+
+Upload targeting list for marketing campaigns.
+
+- Go to **Sales → Upload List**.
+- Select **Campaign Audience**.
+- Upload your Excel file (File should be in .csv format).
+   - You can download the **Sample File** as a reference sheet.
+- Click **Next** to proceed.
+
+<DocImage
+  src="/media/crm/upload-list/campaign-audience-import-choose data.png"
+  alt="Upload leads from Excel"
+  caption="Choose Data"
+/>
+
+- Map your CSV columns to fields. Only mapped fields will be imported.
+- Click **Next** to proceed.
+
+<DocImage
+  src="/media/crm/upload-list/campaign-audience-import-map-fields.png"
+  alt="field mapping"
+  caption="Field Mapping"
+/>
+
+
+- Review the import summary, before starting the import.
+- Give the **Campaign List Name**.
+- Click **Import** to start the import process.
+
+<DocImage
+  src="/media/crm/upload-list/campaign-audience-import-summary.png"
+  alt="campaign audience import summary"
+  caption="Import Summary"
+/>
+
+
+- After the import is complete, you will receive an import statistics page.
+- You can review and download the import statistics report (**Import, Duplicate, Rejected**) for your records.
+- Click on **Import New List** to import another list if needed.
+
+<DocImage
+  src="/media/crm/upload-list/campaign-audience-import-success.png"
+  alt="campaign audience import success"
+  caption="Import Success"
+/>
+
+:::info
+
+- The system will automatically map the columns based on the header names in your Excel file. You can manually adjust the mapping if needed.
+- Make sure to map all required fields (e.g., First Name, Last Name, Email,Company Name) to avoid import errors.
+- Phone number fields format follow the same rules as mentioned in the Leads section above.
+
+:::
