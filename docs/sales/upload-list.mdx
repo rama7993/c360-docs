@@ -5,7 +5,12 @@ import TabItem from "@theme/TabItem";
 
 # 📤 Upload List
 
-Upload a list of leads, contacts, or other records into the CRM using a supported file format such as CSV or Excel.
+Upload a list of **leads, contacts and accounts , campaign audience lists** into the CRM using a supported file format such as CSV or Excel.
+
+To access it:
+➡️ Go to Sales → Upload List from the left-hand menu.
+
+---
 
 ## 👤📤 Upload Leads 
 
@@ -29,6 +34,7 @@ Upload individual lead records with name, email, job title, and more.
 - Select **Insert New Lead** .
 - Upload your Excel file (File should be in .csv format).
    - You can download the **Sample File** as a reference sheet.
+- Click **Next** to proceed.
 
 <DocImage
   src="/media/crm/upload-list/lead-insert.png"
@@ -36,7 +42,6 @@ Upload individual lead records with name, email, job title, and more.
   caption="Insert Leads"
 />
 
-- Click **Next** to proceed.
 - Map your CSV columns to fields. Only mapped fields will be imported.
 - Click **Next** to proceed.
 
@@ -67,23 +72,28 @@ Upload individual lead records with name, email, job title, and more.
 
 </TabItem>
 
-<TabItem value="Update+Insert" label="🔄👤 Update and Insert Lead">
-- Select **Update+Insert** .
+<TabItem value="Update Existing Leads" label="🔄👤 Update Existing Leads">
+
+- Select **Update Existing Leads**.
 - Upload your Excel file (File should be in .csv format).
    - You can download the **Sample File** as a reference sheet.
 - Click **Next** to proceed.
 
+:::note
+- **Lead ID** is mandatory for this process.
+:::
+
 <DocImage
   src="/media/crm/upload-list/lead-update.png"
-  alt="lead update and insert"
-  caption="Update and Insert Lead"
+  alt="lead update "
+  caption="Update Existing Lead"
 />
 
 - Map your CSV columns to fields. Only mapped fields will be imported.
 - Click **Next** to proceed.
 
 <DocImage
-  src="/media/crm/upload-list/lead-update-map-fields.png"
+  src="/media/crm/upload-list/lead-update-map-field.png"
   alt="field mapping"
   caption="Field Mapping"
 />
@@ -92,7 +102,56 @@ Upload individual lead records with name, email, job title, and more.
 - Click **Import** to start the import process.
 
 <DocImage
-  src="/media/crm/upload-list/lead-update-summary.png"
+  src="/media/crm/upload-list/lead-update-confirm-import.png"
+  alt="lead update  summary"
+  caption="Import Summary"
+/>
+
+- Your Update existing lead has been completed. 
+- You can review and download the import statistics report (**Update, Duplicate, Rejected**) for your records.
+- Click on **Import New List** to import another list if needed.
+
+<DocImage
+  src="/media/crm/upload-list/lead-update-success.png"
+  alt="lead update success"
+  caption="Import Success"
+/>
+
+
+
+</TabItem>
+
+<TabItem value="Update+Insert" label="🔄👤 Update and Insert Lead">
+- Select **Update+Insert** .
+- Upload your Excel file (File should be in .csv format).
+   - You can download the **Sample File** as a reference sheet.
+- Click **Next** to proceed.
+
+:::note
+- Rows with **Lead ID** will update the leads.
+- Empty **Lead ID** columns will add the leads as new.
+:::
+
+<DocImage
+  src="/media/crm/upload-list/lead-update-insert.png"
+  alt="lead update and insert"
+  caption="Update and Insert Lead"
+/>
+
+- Map your CSV columns to fields. Only mapped fields will be imported.
+- Click **Next** to proceed.
+
+<DocImage
+  src="/media/crm/upload-list/lead-update-insert-map-fields.png"
+  alt="field mapping"
+  caption="Field Mapping"
+/>
+
+- Review the import summary below before starting the import.
+- Click **Import** to start the import process.
+
+<DocImage
+  src="/media/crm/upload-list/lead-update-insert-summary.png"
   alt="lead update and insert summary"
   caption="Import Summary"
 />
@@ -102,7 +161,7 @@ Upload individual lead records with name, email, job title, and more.
 - Click on **Import New List** to import another list if needed.
 
 <DocImage
-  src="/media/crm/upload-list/lead-update-success.png"
+  src="/media/crm/upload-list/lead-update-insert-success.png"
   alt="lead update and insert success"
   caption="Import Success"
 />
@@ -250,3 +309,4 @@ Upload targeting list for marketing campaigns.
 - Phone number fields format follow the same rules as mentioned in the Leads section above.
 
 :::
+
