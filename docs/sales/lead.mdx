@@ -1,7 +1,7 @@
 import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
 
-# Lead Management
+# 👤🎯 Lead Management
 
 The **Lead Management** module in C360 helps you track and manage potential customers from their **first interaction** until **conversion**.
 
@@ -218,7 +218,9 @@ Click a lead’s name to open the **Lead Detail** page. From here you can:
 - Convert into a **Contact** (and optionally an **Opportunity**)
 - Change the **Owner**
 - Assign to a **User or Group**
-- View related **Notes, Tasks, and Activities**
+- View related **Notes, Tasks, and Call History**
+- Can track the **Lead Activity**.
+  - Click on **See More** to view **All Activities** and can filter the activities based on activity type.
 
 <DocImage
   src="/media/crm/lead/lead-details.png"
@@ -261,7 +263,7 @@ flowchart LR
 
 ---
 
-## 📞 Call Script Wizard
+## 🧙 Call Script Wizard
 
 The **Call Script Wizard** guides sales representatives through a structured conversation with a lead. It ensures consistency and helps capture key information during calls.
 
@@ -332,6 +334,55 @@ You can find the desired lead for script execution by filtering through campaign
 :::
 
 --- 
+
+## 📞 Call Outcome Management
+
+ You can manage the call outcome for a lead by following the steps below:
+
+- Go to **Lead List** → Click on the "Call Outcome" icon for the lead you want to dial out.
+- Select the **Phone Number** and change the **Call Outcome** from the dropdown .
+- Add Notes based on call conversation and click on **Save Call Outcome** to update the call outcome for the lead.
+
+
+<DocImage
+  src="/media/crm/lead/lead-call-outcome.png"
+  alt="call outcome"
+  caption="Call Outcome"
+/>
+
+<details>
+<summary>Click To See Additional Actions For Call Outcome Management </summary>
+
+- Can view the numbers asscoiciated with the lead.
+- Can Switch to the next lead by clicking on the "Next Lead" icon from the action column for calling actiity .
+- Can copy the numbers associated with the lead.
+- Can navigate to the lead details page by clicking on the "Lead Details" link .
+
+</details>
+
+### 🕘 Calling History 
+
+ You can view the calling history for a lead by following the steps below:
+
+ - Go to **Lead Details** → Click on the "Call History" tab to view the calling history for the lead.
+ - You can view the the following calling details for that lead:
+   - Last Call Date and Time
+   - Total Call Made
+   - Latest Call Outcome
+   - Numbers Available 
+   - Call Attempts
+
+<DocImage
+  src="/media/crm/lead/lead-calling-history.png"
+  alt="calling history"
+  caption="Calling History"
+/>
+
+:::note
+- You can see only the latest call details .
+:::
+
+---
 
 ## 👥 Custom Campaign Audience
 
@@ -511,5 +562,11 @@ Lead can be created or added using three ways:
   caption="Add / Edit Lead"
 />
 
+<details>
 
+<summary>Click to see  **Lead Upload**</summary>
 
+- To upload leads, click on
+[**Lead Upload**](/docs/sales/upload-list#-upload-leads).
+
+</details>

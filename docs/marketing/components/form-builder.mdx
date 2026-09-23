@@ -6,7 +6,7 @@ import TabItem from "@theme/TabItem";
 The **Form Builder** in **C360** allows you to design, manage, and assign forms that can be integrated with campaigns, landing pages, and lead management.
 
 To access it:  
-➡️ Go to **Co-Marketing** → **Campaign Components** → **Form Builder** from the left-hand menu.
+➡️ Go to **Marketing** → **Components** → **Form Builder** from the left-hand menu.
 
 ---
 
@@ -20,10 +20,13 @@ To access it:
 <TabItem value="grid" label="🔲 Grid View" default>
 
 - **Grid View** – Shows each form as a card with quick actions like **edit**.
+- Can change the status of the form from **Draft** to **Published** and vice versa.
 
 :::tip
 
 - Hovering on **"i"** icon allows you to see the Description.
+- Hoverring on the **Form Card** and clicking the preview icon allows you to see the form preview in a new tab.
+
   :::
 
 <DocImage
@@ -36,6 +39,7 @@ To access it:
 <TabItem value="list" label="📜 List View">
 
 - **List View** – Shows Forms in a table with columns like **Name, Status, Created By, Modified By, Preview and Edit**.
+- Can change the status of the form from **Draft** to **Published** and vice versa.
 
 <DocImage
   src="/media/marketing/component/form builder/form-list.png"
@@ -83,84 +87,50 @@ You can filter Forms by:
   caption="Filtering forms"
 />
 
----
+--- 
 
-## ✏️Add / Edit a Form
 
-### ⚙️Details Tab
+## ➕ Add Form
 
-- **Name** – Enter the form title.
-- **Successful Submit Action** – Define what happens after submission.
-- **Redirect URL** – Page where users are redirected post-submission.
-- **Category** – Assign a form category.
-- **Status** – Draft / Published.
-- **Contact Us** – Enable/Disable toggle.
-- **Description** – Provide extra information.
+- Click **Add Form** to create a new form.
+- Fill in the **Form Name**, **Category**, and **Description**.
+- Click **Save** to create the form.
+- After saving, you will be redirected to the **Form Builder** page where you can add fields and actions.
+- Costumize the form by adding fields and defining actions.
+- Click on **Save as Draft** to save the form as a draft or **Save as Publish** to make it live.
+
+<details>
+<summary><strong>Click to see additional actions in builder page</strong></summary>
+
+- Can edit the form name.
+- Can preview the form by clicking on the **Preview** button.
+- Can **Edit,Copy,Delete and Drag** the form fields.
+- On edit field, you can change the **Field Label, Field Type, Placeholder, Required Field, Default Value, Options**.
+- Can **Cancel** the form creation process by clicking on **Cancel** button.
+- Can search the left panel elements by typing the field name in the search bar.
+
+</details>
+
+:::note 
+
+- On Submit button you can add a **Custom Message** or **Redirect to URL** as submit action.
+- On Submit button you can also add ** CRM Submit Actions** like **Modify Campaign Segments, Download an Asset, Send Email to Lead, Send Email to User, Send Form Results**.
+:::
 
 <DocImage
   src="/media/marketing/component/form builder/form-add.png"
-  alt="Form Details Tab"
-  caption="Form Details Configuration"
+  caption="Adding a new form"
 />
 
 ---
 
-### 🧩Fields Tab
-
-- Add and manage different field types: **Text, Select, Date**.
-- Fields are categorized as **General Fields** and **Lead Fields with Validation**.
-- Options include:
-- **Label** – Display text for the field.
-- **Default Value** – Pre-filled data.
-- **Placeholder** – Example text.
-- For **Lead Fields**, select predefined fields and add validations.
-
-##### Text
-
-- **Text Field** is an input field to collect short or medium-length responses from users (names, email addresses, job titles, etc.).
-
-<DocImage
-  src="/media/marketing/component/form builder/form-field-text.png"
-  alt="Lead Field Validation"
-  caption="Configuring Lead Fields and Validations"
-/>
-
-#### Select Field
-
-- **Select Field** is a dropdown to provide a controlled list of options for consistency.
-- For **Select fields**, define **Label & Value** for dropdown options.
-
-<DocImage
-  src="/media/marketing/component/form builder/form-field-select.png"
-  alt="Dropdown Field Example"
-  caption="Adding Dropdown Options in a Form"
-/>
-
-- Fields can be **dragged and reordered**.
-
-<DocImage
-  src="/media/marketing/component/form builder/form-field-reorder.png"
-  alt="Drag and Drop Fields"
-  caption="↔ Reordering Fields with Drag and Drop"
-/>
-
-#### Date
-
-- **Date Field** is an input type that allows users to capture a specific date (and optionally time) in a consistent format.
-
-<DocImage
-  src="/media/marketing/component/form builder/form-field-date.png"
-  alt="Date Fields"
-  caption="↔ Date Field"
-/>
-
----
-
-### ⚡Actions Tab
+### ⚡ CRM Submit Actions Defination and Usage.
 
 Define automated actions that trigger after form submission.
 
-1. 📊 **Modify Campaign Segments** – Add or remove contacts from segments.
+1. 📊 **Modify Campaign Segments** 
+
+- Add or remove contacts from segments.
 
 <DocImage
   src="/media/marketing/component/form builder/form-action-modify campaign segment.png"
@@ -168,7 +138,9 @@ Define automated actions that trigger after form submission.
   caption="Form Action – Modify Campaign Segments"
 />
 
-2. 📂 **Download an Asset** – Provide downloadable content upon form submission.
+2. 📂 **Download an Asset** 
+
+-  Provide downloadable content upon after form submission.
 
 <DocImage
   src="/media/marketing/component/form builder/form-action-download asset.png"
@@ -178,6 +150,8 @@ Define automated actions that trigger after form submission.
 
 3. 📧 **Send Email to Lead**
 
+- Send an email to the lead after form submission.
+
 <DocImage
   src="/media/marketing/component/form builder/form-action-send email to lead.png"
   caption="Form Action – Send Email to Lead"
@@ -185,19 +159,25 @@ Define automated actions that trigger after form submission.
 
 4. 👤 **Send Email to User**
 
+- Send an email to the user after form submission.
+
 <DocImage
   src="/media/marketing/component/form builder/form-action-send email to user.png"
   alt="Send Email to User"
   caption="Form Action – Send Email to User"
 />
 
-5. 📤 **Send Form Results** – Send form responses via email with options for **To, CC, BCC, Send to Owner, Send to Contact.**
+5. 📤 **Send Form Results** 
+
+-  Send form responses via email with options for **To, CC, BCC, Send to Owner, Send to Contact.**
 
 <DocImage
   src="/media/marketing/component/form builder/form-action-send form result.png"
   alt="Send Form Results Action"
   caption="Form Action – Send Form Results via Email"
 />
+
+:::info
 
 - To **edit** or **delete** individual fields/actions, use the icons beside each item.
 - Always click **Update** after changes.
@@ -208,14 +188,48 @@ Define automated actions that trigger after form submission.
   caption="Editing or Deleting Form Actions"
 />
 
+:::
+
 ---
 
-## 👥Assigning a Form to a Group
+## ✏️ Edit Form 
 
-- On the Forms list page, select one or more forms.
+- Select the form you want to edit.
+- Click the **Edit** icon.
+- Modifications can be made to the form's name, category, description if needed and click **Update**.
+- Make the necessary changes in the form builder.
+- Click **Update as Draft** to save the form as a draft or **Update as Publish** to make it live.
+
+<DocImage
+  src="/media/marketing/component/form builder/form-edit.png"
+  alt="Edit Form"
+  caption="Editing a Form"
+/>
+
+
+---
+
+## 👁️ Preview Form
+
+- Hover on the form you want to preview in grid view and click on the ***Preview*** button. 
+- Or click on the **Preview** icon in the list view.
+- A new tab will open with the form preview where you can see the form in desktop, tablet, and mobile views.
+
+<DocImage
+  src="/media/marketing/component/form builder/form-preview.png"
+  alt="Preview Form"
+  caption="Previewing a Form"
+/>
+
+---
+
+## 👥 Assigning Forms 
+
+- Select one or more forms from the list.
 - Click **Assign To** at the top.
 - Choose a group from the dropdown.
-- Assigned forms will be linked to that group.
+- Click **Assign** to confirm.
+
 
 <DocImage
   src="/media/marketing/component/form builder/form-assign.png"
@@ -238,21 +252,4 @@ Define automated actions that trigger after form submission.
 
 ---
 
-## 🌐Form Integration with Landing Page
 
-- Go to **Landing Page** under Campaign Components.
-- Edit the landing page and click on a text element.
-- Select the form from the dropdown to embed it.
-- To preview, click the **Eye icon**.
-
-<DocImage
-  src="/media/marketing/component/form builder/form-track.png"
-  alt="Embed Form in Landing Page"
-  caption="Adding Forms into a Landing Page"
-/>
-
-<DocImage
-  src="/media/marketing/component/form builder/form-preview.png"
-  alt="Preview Form in Landing Page"
-  caption="Previewing a Form on the Landing Page"
-/>
