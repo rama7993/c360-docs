@@ -1,41 +1,72 @@
-# Website
+# Satisfic C360 Documentation
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Official documentation for **Satisfic C360** — Partner Marketing Concierge Solution for OEMs, Distributors, and Partners.
 
-## Installation
+Built with [Docusaurus](https://docusaurus.io/).
 
-```bash
-yarn
-```
+---
 
-## Local Development
+## 🚀 Getting Started
 
-```bash
-yarn start
-```
+### Prerequisites
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+- [Node.js](https://nodejs.org/) `>= 18.0.0`
+- `npm` or `yarn`
 
-## Build
+### Installation
 
-```bash
-yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-Using SSH:
+Clone the repository and install dependencies:
 
 ```bash
-USE_SSH=true yarn deploy
+git clone https://github.com/Satisfic-Pte/C360-docs.git
+cd C360-docs
+npm install
 ```
 
-Not using SSH:
+_(or `yarn install`)_
+
+---
+
+## 💻 Local Development
+
+Start the development server:
 
 ```bash
-GIT_USER=<Your GitHub username> yarn deploy
+npm start
+# or yarn start
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+The site will be available locally at `http://localhost:3000`. Changes in `docs/` and `src/` are hot-reloaded automatically.
+
+---
+
+## 📦 Build & Test Production Bundle
+
+Generate a static production build into the `build/` directory:
+
+```bash
+npm run build
+# or yarn build
+```
+
+Preview the production build locally:
+
+```bash
+npm run serve
+# or yarn serve
+```
+
+## 📁 Project Structure
+
+```text
+├── docs/                 # Documentation Markdown / MDX files
+│   ├── intro.md
+│   └── ...
+├── src/                  # React components, pages, and custom styles
+│   ├── css/custom.css    # Custom CSS styles
+│   └── pages/            # Custom landing page and components
+├── static/               # Static assets (images, icons, etc.)
+├── docusaurus.config.ts  # Main site and Docusaurus configuration
+├── sidebars.ts           # Documentation sidebar navigation hierarchy
+└── package.json          # Dependencies and scripts
+```

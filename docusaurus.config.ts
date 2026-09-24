@@ -16,12 +16,12 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: "https://c360-docs.vercel.app",
+  url: process.env.SITE_URL || "https://c360-docs.satisfic.com",
   baseUrl: "/",
 
   // GitHub pages deployment config.
-  organizationName: "rama7993",
-  projectName: "c360-docs",
+  organizationName: "Satisfic-Pte",
+  projectName: "C360-docs",
 
   onBrokenLinks: "throw",
 
@@ -39,7 +39,7 @@ const config: Config = {
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
           sidebarPath: "./sidebars.ts",
-          editUrl: "https://github.com/rama7993/c360-docs/tree/main/",
+          editUrl: "https://github.com/Satisfic-Pte/C360-docs/tree/main/",
         },
         blog: {
           showReadingTime: true,
@@ -47,7 +47,7 @@ const config: Config = {
             type: ["rss", "atom"],
             xslt: true,
           },
-          editUrl: "https://github.com/rama7993/c360-docs/tree/main/",
+          editUrl: "https://github.com/Satisfic-Pte/C360-docs/tree/main/",
           onInlineTags: "warn",
           onInlineAuthors: "warn",
           onUntruncatedBlogPosts: "warn",
