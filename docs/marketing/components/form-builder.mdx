@@ -1,7 +1,7 @@
 import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
 
-# **📝 Form Builder**
+# 📝 Form Builder
 
 The **Form Builder** in **C360** allows you to design, manage, and assign forms that can be integrated with campaigns, landing pages, and lead management.
 
@@ -52,7 +52,7 @@ To access it:
 
 ---
 
-## 🔍Searching for a Form
+## 🔍 Searching for a Form
 
 - Enter a keyword or form name in the **Search bar**.
 - Matching results will appear instantly.
@@ -65,7 +65,7 @@ To access it:
 
 ---
 
-## 🎛️Filtering Forms
+## 🎛️ Filtering Forms
 
 You can filter Forms by:
 
@@ -93,30 +93,28 @@ You can filter Forms by:
 ## ➕ Add Form
 
 - Click **Add Form** to create a new form.
+- Select **Create From Scratch**.
 - Fill in the **Form Name**, **Category**, and **Description**.
 - Select the **Form Type** from the dropdown. 
 - Form has classified into two types: **Classic Form** and **Survey Form**.
 
-### **Classic Form**
+<DocImage
+  src="/media/marketing/component/form builder/create-form.png"
+  alt="Create Form"
+  caption="Create a New Form"
+/>
+
+<DocImage
+  src="/media/marketing/component/form builder/form-details.png"
+  alt="Form Details"
+  caption="Fill in the Form Details"
+/>
+
+###  📝 Classic Form
 
 Classic Form is used to collect information from the users. It can be used for **Lead Generation, Contact Us, Newsletter Subscription** etc.
 
----
-
-### **Survey Form**
-  Survey Form is used to collect feedback from the users. It can be used for **Customer Satisfaction Survey, Employee Engagement Survey, Product Feedback Survey** etc.
-- Survey Form has classified into three types: **Simple Survey, Score Survey, and If/Else survey**.
-
-<Tabs>
-<TabItem value="simple survey" label="Simple Survey">
-</TabItem>
-<TabItem value="score survey" label="Score Survey">
-</TabItem>
-<TabItem value="if/else survey" label="If/Else Survey">
-</TabItem>
-</Tabs>
-
-- Click **Save** to create the form.
+- Select type as **Classic** and click **Save** to create the form.
 - After saving, you will be redirected to the **Form Builder** page where you can add fields and actions.
 - Costumize the form by adding fields and defining actions.
 - Click on **Save as Draft** to save the form as a draft or **Save as Publish** to make it live.
@@ -140,13 +138,13 @@ Classic Form is used to collect information from the users. It can be used for *
 :::
 
 <DocImage
-  src="/media/marketing/component/form builder/form-add.png"
-  caption="Adding a new form"
+  src="/media/marketing/component/form builder/classic-form-builder.png"
+  caption="Classic Form Builder"
 />
 
----
+--- 
 
-### ⚡ CRM Submit Actions Defination and Usage.
+#### ⚡ CRM Submit Actions Defination and Usage.
 
 Define automated actions that trigger after form submission.
 
@@ -212,7 +210,153 @@ Define automated actions that trigger after form submission.
 
 :::
 
+
+
 ---
+
+### 📋 Survey Form
+
+  Survey Form is used to collect feedback from the users. It can be used for **Customer Satisfaction Survey, Employee Engagement Survey, Product Feedback Survey** etc.
+
+- Select type as **Survey**.
+- Survey Form has classified into three types: **Simple Survey, Score Survey, and If/Else survey**.
+
+<DocImage
+  src="/media/marketing/component/form builder/create-survey-form.png"
+  alt="Create Survey Form"
+  caption="Create a New Survey Form"
+/>
+
+<Tabs>
+<TabItem value="simple survey" label="☑️ Simple Survey">
+
+You can set up sequential multi-step questions without scoring or branching.
+
+- Select type as **Simple Survey** and click **Save** to create the simple survey form.
+- After saving, you will be redirected to the **Form Builder** page where you can add fields and actions.
+- Click on **Add Page** to add a new page to the survey form.
+- Set up the survey form by adding questions and defining actions.
+- Click on **Add Ending** to add a new ending to the survey form. 
+- Click on **Save as Draft** to save the form as a draft or **Save as Publish** to make it live.
+
+<DocImage
+  src="/media/marketing/component/form builder/simple-survey.png"
+  alt="Simple Survey"
+  caption="Create a Simple Survey"
+/>
+
+:::note
+- You can add only one ending to the simple survey form.
+- Endings can be used to route respondents to different results or thank you pages.
+:::
+
+</TabItem>
+
+<TabItem value="scoring logic survey" label="⭐ ScorIng Logic Survey">
+
+Assign points for responses and calculate a final score.
+
+- Select type as **Scoring Logic** and click **Save** to create the scoring logic survey form.
+- After saving, you will be redirected to the **Form Builder** page where you can add fields and actions under **Workflow** tab.
+
+#### Workflow Tab
+
+- Click on **Add Page** to add a new page to the survey form.
+- Set up the survey form by adding questions and defining actions.
+- Set the the **Score** for each options of the questions in the scoring survey form.
+- Click on **Add Ending** to add  endings to the survey form which you show based on the score. 
+- Click on **Condition** tab to set the conditions for the endings based on the score.
+
+<DocImage
+  src="/media/marketing/component/form builder/scoring-survey-workflow.png"
+  alt="Scoring Survey Workflow"
+  caption="Create a Scoring Logic Survey"
+/>
+
+:::note
+- You can add multiple pages to the scoring survey form.
+- You can add multiple endings to the scoring survey form.
+- Endings can be used to route respondents to different results or thank you pages.
+:::
+
+#### Condition Tab
+
+- Click on **Add Score Rule** to Calculate respondent scores from question choices and route respondents to different endings.
+- Set up the Score routing rules.
+- Click on **Save as Draft** to save the form as a draft or **Save as Publish** to make it live.
+
+<DocImage
+  src="/media/marketing/component/form builder/scoring-survey-conditions.png"
+  alt="Scoring Survey Conditions"
+  caption="Set Conditions for the Scoring Logic Survey"
+/>
+
+:::note
+- **Endings** are mandatory to set the conditions for the scoring survey form.
+- Also you should have set the **Score** for each options of the questions in the scoring survey form before setting the conditions.
+- You can add multiple score rules to the scoring survey form.
+:::
+
+</TabItem>
+
+<TabItem value="if/else logic survey" label="🔀 If/Else Logic Survey">
+
+
+Add Score Rule
+Configure hierarchical IF/Else rules to route users to different steps based on their answers. If scoring is enabled, option scores are tallied and evaluated.
+
+- Select type as **If/Else Logic** and click **Save** to create the if/else logic survey form.
+- After saving, you will be redirected to the **Form Builder** page where you can add fields and actions under **Workflow** tab.
+
+#### Workflow Tab
+
+- Click on **Add Step/Page** to add a new page to the survey form.
+- Set up the survey form by adding questions and defining actions.
+- Set the the **Score** for each options of the questions in the scoring survey form.
+- Click on **Add Ending** to add  endings to the survey form which you show based on the score. 
+- Click on **Condition** tab to set the conditions for the endings based on the score.
+
+<DocImage
+  src="/media/marketing/component/form builder/if-else-survey-workflow.png"
+  alt="If/Else Survey Workflow"
+  caption="Create an If/Else Logic Survey"
+/>
+
+:::note
+- You can add multiple steps/pages to the if/else logic survey form.
+- You can add multiple endings to the if/else logic survey form.
+- Endings can be used to route respondents to different results or thank you pages.
+:::
+
+#### Condition Tab
+
+- Click on ** Add Question Rule** to route users based on their selections with hierarchical question branches.
+- Set up the Question routing rules. 
+- Additionally you can enable the **Scoring** which is an optional feature and set up the Score routing rules.
+- Click on **Save as Draft** to save the form as a draft or **Save as Publish** to make it live.
+
+<DocImage
+  src="/media/marketing/component/form builder/if-else-survey-conditions.png"
+  alt="If/Else Survey Conditions"
+  caption="Set Conditions for the If/Else Logic Survey"
+/>
+
+:::note
+- Must have multiple questions added in the each steps/pages.
+:::
+
+</TabItem>
+
+</Tabs>
+
+:::info
+- For **Endings** you can enable **CTA(call to action)** Button.
+- You can set the CTA button label text and URL to redirect the respondents to a specific page.
+- You can also design and align  CTA button .
+:::
+
+---
+
 
 ## ✏️ Edit Form 
 
@@ -236,6 +380,7 @@ Define automated actions that trigger after form submission.
 - Hover on the form you want to preview in grid view and click on the ***Preview*** button. 
 - Or click on the **Preview** icon in the list view.
 - A new tab will open with the form preview where you can see the form in desktop, tablet, and mobile views.
+- You can also **Preview** the form during the form creation process by clicking on the **Preview** button in the form builder.
 
 <DocImage
   src="/media/marketing/component/form builder/form-preview.png"
@@ -260,9 +405,24 @@ Define automated actions that trigger after form submission.
 
 ---
 
-## Copy Form Link
+## 🔗 Copy Form Link
 
-- 
+- Click on the three dots in the  **Grid view** and select **Copy Link**.
+- Or click on the **Copy Link** icon in the **List view**.
+- You can share the copied link with the respondents to fill the form 
+- Or use it inside **Email Template** or **Landing Page** for the elements as **href** links.
+
+<DocImage
+  src="/media/marketing/component/form builder/form-copy-link.png"
+  alt="Copy Form Link"
+  caption="Copying a Form Link"
+/>
+
+:::info
+- Can copy the link with UTM parameters (Optional).
+- The copied link can be shared with the respondents to fill the form will consider as **Stand Alone or External Form**.
+- The copied link can be used in the **Email Campaign** or **Landing Page** to redirect the respondents to fill the form is not consider as **Stand Alone or External Form**.
+:::
 ---
 ## 👥 Assigning Forms 
 
